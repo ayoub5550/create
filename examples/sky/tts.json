@@ -1,0 +1,682 @@
+{
+ "s1": {
+  "file": "assets/voice/s1.mp3",
+  "dur": 3.787755,
+  "words": [
+   {
+    "text": "هل",
+    "timestamp": [
+     0.0,
+     0.24
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "سألتَ",
+    "timestamp": [
+     0.4,
+     0.64
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "نفسَك",
+    "timestamp": [
+     0.76,
+     1.12
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "يوماً:",
+    "timestamp": [
+     1.28,
+     1.84
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "لماذا",
+    "timestamp": [
+     2.08,
+     2.48
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "السماءُ",
+    "timestamp": [
+     2.52,
+     3.04
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "زرقاء؟",
+    "timestamp": [
+     3.16,
+     3.76
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s2": {
+  "file": "assets/voice/s2.mp3",
+  "dur": 5.720816,
+  "words": [
+   {
+    "text": "ضوءُ",
+    "timestamp": [
+     0.0,
+     0.32
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الشمسِ",
+    "timestamp": [
+     0.4,
+     0.8
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "يبدو",
+    "timestamp": [
+     0.88,
+     1.2
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "أبيض،",
+    "timestamp": [
+     1.28,
+     2.08
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "لكنّه",
+    "timestamp": [
+     2.16,
+     2.72
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "في",
+    "timestamp": [
+     2.76,
+     2.8
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الحقيقة",
+    "timestamp": [
+     2.84,
+     3.6
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "خليطٌ",
+    "timestamp": [
+     3.68,
+     4.16
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "من",
+    "timestamp": [
+     4.28,
+     4.4
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "كلِّ",
+    "timestamp": [
+     4.48,
+     4.64
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الألوان.",
+    "timestamp": [
+     4.76,
+     5.76
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s3": {
+  "file": "assets/voice/s3.mp3",
+  "dur": 6.844082,
+  "words": [
+   {
+    "text": "وعندما",
+    "timestamp": [
+     0.0,
+     0.56
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "يدخلُ",
+    "timestamp": [
+     0.68,
+     1.04
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "هذا",
+    "timestamp": [
+     1.12,
+     1.28
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الضوءُ",
+    "timestamp": [
+     1.36,
+     1.76
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "غلافَنا",
+    "timestamp": [
+     1.84,
+     2.24
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الجوّي،",
+    "timestamp": [
+     2.32,
+     3.04
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "يصطدمُ",
+    "timestamp": [
+     3.12,
+     3.76
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "بجزيئاتِ",
+    "timestamp": [
+     3.84,
+     4.56
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "هواءٍ",
+    "timestamp": [
+     4.68,
+     5.2
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "صغيرةٍ",
+    "timestamp": [
+     5.28,
+     5.84
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "جدّاً.",
+    "timestamp": [
+     5.96,
+     6.8
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s4": {
+  "file": "assets/voice/s4.mp3",
+  "dur": 7.000816,
+  "words": [
+   {
+    "text": "هذه",
+    "timestamp": [
+     0.0,
+     0.32
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الجزيئاتُ",
+    "timestamp": [
+     0.4,
+     1.28
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "تُشتِّتُ",
+    "timestamp": [
+     1.32,
+     1.84
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الضوءَ",
+    "timestamp": [
+     1.92,
+     2.24
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الأزرقَ",
+    "timestamp": [
+     2.36,
+     2.96
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "أكثرَ",
+    "timestamp": [
+     3.16,
+     3.4
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "بكثيرٍ",
+    "timestamp": [
+     3.44,
+     4.0
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "من",
+    "timestamp": [
+     4.08,
+     4.16
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الأحمر،",
+    "timestamp": [
+     4.24,
+     5.08
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "لأنّ",
+    "timestamp": [
+     5.12,
+     5.44
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "موجتَه",
+    "timestamp": [
+     5.48,
+     6.16
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "أقصر.",
+    "timestamp": [
+     6.24,
+     7.04
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s5": {
+  "file": "assets/voice/s5.mp3",
+  "dur": 6.034286,
+  "words": [
+   {
+    "text": "فينتشرُ",
+    "timestamp": [
+     0.0,
+     0.72
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الأزرقُ",
+    "timestamp": [
+     0.84,
+     1.36
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "في",
+    "timestamp": [
+     1.44,
+     1.52
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "كلِّ",
+    "timestamp": [
+     1.6,
+     1.84
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "اتّجاه،",
+    "timestamp": [
+     1.88,
+     2.72
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ويصلُ",
+    "timestamp": [
+     2.8,
+     3.36
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "إلى",
+    "timestamp": [
+     3.4,
+     3.6
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "عينيك",
+    "timestamp": [
+     3.76,
+     4.16
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "من",
+    "timestamp": [
+     4.28,
+     4.4
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "كلِّ",
+    "timestamp": [
+     4.48,
+     4.64
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "أنحاءِ",
+    "timestamp": [
+     4.72,
+     5.093
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "السماء.",
+    "timestamp": [
+     5.147,
+     6.08
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s6": {
+  "file": "assets/voice/s6.mp3",
+  "dur": 7.706122,
+  "words": [
+   {
+    "text": "أمّا",
+    "timestamp": [
+     0.0,
+     0.32
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "عند",
+    "timestamp": [
+     0.36,
+     0.56
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الغروب،",
+    "timestamp": [
+     0.64,
+     1.36
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "فيقطعُ",
+    "timestamp": [
+     1.48,
+     1.92
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الضوءُ",
+    "timestamp": [
+     1.96,
+     2.32
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "مسافةً",
+    "timestamp": [
+     2.44,
+     3.04
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "أطول،",
+    "timestamp": [
+     3.12,
+     3.76
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "فيضيعُ",
+    "timestamp": [
+     3.84,
+     4.4
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الأزرق،",
+    "timestamp": [
+     4.48,
+     5.2
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ويبقى",
+    "timestamp": [
+     5.28,
+     5.68
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "البرتقاليُّ",
+    "timestamp": [
+     5.72,
+     6.56
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "والأحمر.",
+    "timestamp": [
+     6.6,
+     7.68
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s7": {
+  "file": "assets/voice/s7.mp3",
+  "dur": 3.474286,
+  "words": [
+   {
+    "text": "هذه",
+    "timestamp": [
+     0.0,
+     0.32
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الظاهرةُ",
+    "timestamp": [
+     0.4,
+     1.04
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "اسمُها:",
+    "timestamp": [
+     1.16,
+     1.76
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "تشتُّتُ",
+    "timestamp": [
+     1.92,
+     2.4
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "رايلي.",
+    "timestamp": [
+     2.48,
+     3.44
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s8": {
+  "file": "assets/voice/s8.mp3",
+  "dur": 4.91102,
+  "words": [
+   {
+    "text": "ولهذا",
+    "timestamp": [
+     0.0,
+     0.64
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "نرى",
+    "timestamp": [
+     0.72,
+     0.88
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "السماءَ",
+    "timestamp": [
+     0.96,
+     1.48
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "زرقاءَ",
+    "timestamp": [
+     1.52,
+     2.08
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "في",
+    "timestamp": [
+     2.12,
+     2.16
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "النهار،",
+    "timestamp": [
+     2.24,
+     3.04
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "وحمراءَ",
+    "timestamp": [
+     3.12,
+     3.84
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "عند",
+    "timestamp": [
+     3.88,
+     4.08
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الغروب.",
+    "timestamp": [
+     4.16,
+     4.96
+    ],
+    "speaker_id": null
+   }
+  ]
+ }
+}

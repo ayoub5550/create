@@ -1,3 +1,39 @@
-# create
+# create — مصنع فيديو بالكود لوكلاء الذكاء الاصطناعي
 
-Video factory for AI agents. See AGENTS.md.
+**افتح هذا المستودع بأيّ وكيل برمجة (Claude Code، Codex، Cursor، Gemini CLI، Viktor…) وقل له: «اصنع فيديو عن …».**
+سيقرأ [`AGENTS.md`](AGENTS.md) ويصير منتج فيديو كاملاً: يكتب القصة، ويسجّل الصوت العربي، ويحرّك الشخصيات بحركة
+ممثّلين حقيقيين، ويرسم بيد على لوح أبيض، ويؤلّف الموسيقى بالمقامات، وينتقد عمله، ثم يسلّم MP4.
+كل ذلك **بالكود فقط**: بلا نماذج فيديو مدفوعة، والمفاتيح كلها اختيارية.
+
+| | | | |
+|---|---|---|---|
+| [![البذرة](gallery/albidhra.jpg)](gallery/albidhra.mp4) | [![السماء](gallery/sky.jpg)](gallery/sky.mp4) | [![سرعة الضوء](gallery/light-speed.jpg)](gallery/light-speed.mp4) | [![النجمة](gallery/star-v1.jpg)](gallery/star-v1.mp4) |
+| **«البذرة»**: ستيكمان بموكاب حقيقي، 60 ث | **«لماذا السماء زرقاء؟»**: لوح أبيض، 63 ث | **«سرعة الضوء»**: موشن 9:16، 28 ث | «النجمة»: النسخة الأولى من المصنع |
+
+## ثلاثة أشكال جاهزة
+- **ستيكمان سينمائي**: حركات من قاعدة CMU (أكثر من 2600 لقطة حقيقية) تُسقط على شخصية مرسومة بالحبر، ومعها
+  دمج سلس بين الحركات، وطبقات تمثيل (برد، فرح، نظر)، ووجه بتعابير، وأدوات تمسكها اليد، وليل ومطر ونموّ شجرة، وكاميرا.
+- **لوح أبيض**: يد حقيقية ترسم الأفكار على كلماتها، وعناوين بخط الرقعة تُكتب من اليمين، وجدارية تكشفها الكاميرا.
+- **موشن تايبوغرافي**: كل كلمة تظهر لحظة نطقها، والأرقام تعدّ، بصيغة 9:16 لـ Shorts و Reels و TikTok.
+
+## ابدأ
+```bash
+bash tools/doctor.sh && pip install -r requirements.txt && playwright install chromium
+bash examples/albidhra/build.sh                                         # يبني مثالاً
+python tools/render/snap.py examples/albidhra/proj sheet.png --every 5  # معاينة سريعة
+bash tools/render/render.sh examples/albidhra/proj out/albidhra.mp4      # MP4 (HyperFrames)
+python tools/new_film.py my-film --from albidhra                       # فيلمك الأول ← films/my-film
+```
+
+## ما في الصندوق
+| المجلد | المحتوى |
+|---|---|
+| `AGENTS.md` | دليل الوكيل: الدور، والقواعد الذهبية، واختيار الشكل، وخطّ الإنتاج، وبوّابة الجودة، والتسليم |
+| `docs/recipe/` | الوصفة: القصة، والصوت، والستيكمان، واللوح الأبيض، والموشن، والموسيقى، والناقد، والتصدير |
+| `docs/tools-landscape.md` | أدوات العالم المفتوحة (HY-Motion، Kimodo، Code2Video، Stable Audio 3…) وخارطة التطوير |
+| `docs/lessons.md` | مطبّات حقيقية وحلولها |
+| `engine/` | `stickfilm.js` و`ink.js`: المحرّك (MIT) |
+| `tools/` | الصوت، والموكاب، والموسيقى، والرسوم، والبناء، والمعاينة، والتصدير، والتحقّق |
+| `examples/` | ثلاثة أفلام كاملة قابلة لإعادة البناء |
+
+الترخيص MIT. المكوّنات الخارجية مذكورة في [`THIRD_PARTY.md`](THIRD_PARTY.md).

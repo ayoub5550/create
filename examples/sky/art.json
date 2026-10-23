@@ -1,0 +1,46 @@
+{
+ "style": "Hand-drawn whiteboard explainer illustration in the style of a professional VideoScribe doodle: confident black marker linework with natural varying line weight, light grey cross-hatching for shading, mostly black and white with a very limited accent colour used only where stated, friendly and clear educational look, detailed but uncluttered. Isolated on a pure flat white background (#FFFFFF), generous empty white margin on all sides, nothing touching the image borders, no paper texture, no shadows on the background, absolutely no text, letters, numbers or labels anywhere.",
+ "elements": {
+  "el1": {
+   "size": "1536x1024",
+   "prompt": "A curious child standing on a small grassy hill, seen from behind three-quarter view, looking up and pointing at the sky, two simple fluffy clouds above. Accent colour: soft sky blue only on a few loose hatch strokes in the sky."
+  },
+  "el2a": {
+   "size": "1024x1024",
+   "prompt": "A cheerful sun with a round face-free disc and wavy rays radiating around it. Accent colour: warm yellow-orange fill on the sun."
+  },
+  "el2b": {
+   "size": "1536x1024",
+   "prompt": "A glass triangular prism in the centre; a single white beam of light enters from the left side and exits on the right as a fanning rainbow spectrum of seven coloured bands. Accent colours: only the rainbow bands are coloured, everything else black line art."
+  },
+  "el3a": {
+   "size": "1536x1024",
+   "prompt": "A large curved arc of planet Earth seen from space at the bottom of the frame, with simple continents outline, wrapped in a thin glowing atmosphere layer, straight sunlight rays arriving from the upper left and entering the atmosphere. Accent colour: light blue only for the atmosphere band."
+  },
+  "el3b": {
+   "size": "1024x1024",
+   "prompt": "A round magnifying glass with a handle; inside the lens, a few tiny air molecules drawn as pairs of joined small circles floating in space. Black line art only."
+  },
+  "el4a": {
+   "size": "1536x1024",
+   "prompt": "A single horizontal light wave with short wavelength: a tight, fast sine wave with many close peaks, drawn as a thick marker line across the image, small arrowhead at its right end. Accent colour: the wave line is blue."
+  },
+  "el4b": {
+   "size": "1536x1024",
+   "prompt": "A single horizontal light wave with long wavelength: a slow, wide sine wave with only two gentle peaks, drawn as a thick marker line across the image, small arrowhead at its right end. Accent colour: the wave line is red."
+  },
+  "el5a": {
+   "size": "1536x1024",
+   "prompt": "A wide dome-shaped arc of sky with many tiny dots (air molecules) and short blue zigzag light rays bouncing and scattering outward from them in every direction. Accent colour: the scattered rays are blue."
+  },
+  "el5b": {
+   "size": "1536x1024",
+   "prompt": "A single large human eye drawn front view, wide open, with eyelashes and a detailed iris, looking upward. Accent colour: the iris is light blue."
+  },
+  "el6": {
+   "size": "1536x1024",
+   "prompt": "A calm sunset over the sea: half of a big sun sitting on the horizon line, long horizontal sun reflections on the water, a few distant birds and two small clouds. Accent colours: orange and red only on the sun, its reflections and soft hatching in the sky."
+  }
+ },
+ "hand": "Photorealistic photograph of a person's right hand holding a black whiteboard marker like writing, seen from directly above, the marker tip pointing to the upper-left corner of the image and touching it closely, the hand and a long forearm in a rolled-up light grey shirt sleeve extending diagonally down to the bottom-right corner and running off the image edge. Soft even studio light, realistic skin. Transparent background, no shadow."
+}

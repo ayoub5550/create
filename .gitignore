@@ -1,0 +1,10 @@
+# build outputs (rebuild with each film's build.sh)
+proj/
+out/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+mocap_cache/
+snapshots/
+*.part
