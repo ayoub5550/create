@@ -1,0 +1,496 @@
+{
+ "s1": {
+  "file": "assets/voice/s1.mp3",
+  "dur": 4.362449,
+  "words": [
+   {
+    "text": "أرضٌ",
+    "timestamp": [
+     0.0,
+     0.48
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "عطشى...",
+    "timestamp": [
+     0.56,
+     1.76
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "لا",
+    "timestamp": [
+     1.88,
+     2.0
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ماءَ",
+    "timestamp": [
+     2.08,
+     2.4
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "فيها،",
+    "timestamp": [
+     2.48,
+     3.28
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ولا",
+    "timestamp": [
+     3.44,
+     3.6
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ظِلّ.",
+    "timestamp": [
+     3.68,
+     4.32
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s2": {
+  "file": "assets/voice/s2.mp3",
+  "dur": 4.440816,
+  "words": [
+   {
+    "text": "وجاءَ",
+    "timestamp": [
+     0.0,
+     0.48
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "رجلٌ",
+    "timestamp": [
+     0.56,
+     0.96
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "متعَب،",
+    "timestamp": [
+     1.04,
+     1.92
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "يمشي",
+    "timestamp": [
+     2.0,
+     2.4
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "وحيداً",
+    "timestamp": [
+     2.48,
+     3.04
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "تحتَ",
+    "timestamp": [
+     3.12,
+     3.36
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الشمس.",
+    "timestamp": [
+     3.44,
+     4.4
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s3": {
+  "file": "assets/voice/s3.mp3",
+  "dur": 3.082449,
+  "words": [
+   {
+    "text": "فوجدَ",
+    "timestamp": [
+     0.0,
+     0.56
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "في",
+    "timestamp": [
+     0.6,
+     0.64
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "التُّرابِ",
+    "timestamp": [
+     0.76,
+     1.28
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "بذرةً",
+    "timestamp": [
+     1.4,
+     1.92
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "صغيرة.",
+    "timestamp": [
+     2.0,
+     3.04
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s4": {
+  "file": "assets/voice/s4.mp3",
+  "dur": 4.205714,
+  "words": [
+   {
+    "text": "حفرَ",
+    "timestamp": [
+     0.0,
+     0.48
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "لها،",
+    "timestamp": [
+     0.56,
+     1.12
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "وزرعَها...",
+    "timestamp": [
+     1.28,
+     2.48
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ثمَّ",
+    "timestamp": [
+     2.6,
+     2.8
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "جلسَ",
+    "timestamp": [
+     2.88,
+     3.28
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ينتظر.",
+    "timestamp": [
+     3.4,
+     4.16
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s5": {
+  "file": "assets/voice/s5.mp3",
+  "dur": 4.989388,
+  "words": [
+   {
+    "text": "مرَّ",
+    "timestamp": [
+     0.0,
+     0.32
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "النهار،",
+    "timestamp": [
+     0.4,
+     1.36
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "وجاءَ",
+    "timestamp": [
+     1.48,
+     1.84
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الليلُ",
+    "timestamp": [
+     1.92,
+     2.32
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "والبرد...",
+    "timestamp": [
+     2.44,
+     3.28
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ولم",
+    "timestamp": [
+     3.36,
+     3.6
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "يحدثْ",
+    "timestamp": [
+     3.68,
+     4.08
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "شيء.",
+    "timestamp": [
+     4.24,
+     4.96
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s6": {
+  "file": "assets/voice/s6.mp3",
+  "dur": 1.802449,
+  "words": [
+   {
+    "text": "ثمَّ",
+    "timestamp": [
+     0.0,
+     0.32
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "نزلَ",
+    "timestamp": [
+     0.4,
+     0.72
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "المطر.",
+    "timestamp": [
+     0.88,
+     1.76
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s7": {
+  "file": "assets/voice/s7.mp3",
+  "dur": 3.474286,
+  "words": [
+   {
+    "text": "وفي",
+    "timestamp": [
+     0.0,
+     0.24
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الصباح...",
+    "timestamp": [
+     0.32,
+     1.28
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ظهرتْ",
+    "timestamp": [
+     1.48,
+     1.84
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ورقةٌ",
+    "timestamp": [
+     1.96,
+     2.4
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "خضراء!",
+    "timestamp": [
+     2.48,
+     3.44
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s8": {
+  "file": "assets/voice/s8.mp3",
+  "dur": 5.799184,
+  "words": [
+   {
+    "text": "وكبرتِ",
+    "timestamp": [
+     0.0,
+     0.64
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "الشجرةُ",
+    "timestamp": [
+     0.72,
+     1.36
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "يوماً",
+    "timestamp": [
+     1.44,
+     1.92
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "بعدَ",
+    "timestamp": [
+     2.04,
+     2.24
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "يوم،",
+    "timestamp": [
+     2.32,
+     3.12
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "حتّى",
+    "timestamp": [
+     3.2,
+     3.6
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "صارتْ",
+    "timestamp": [
+     3.76,
+     4.04
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "ظِلّاً",
+    "timestamp": [
+     4.08,
+     4.56
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "وثمَراً.",
+    "timestamp": [
+     4.72,
+     5.76
+    ],
+    "speaker_id": null
+   }
+  ]
+ },
+ "s9": {
+  "file": "assets/voice/s9.mp3",
+  "dur": 3.395918,
+  "words": [
+   {
+    "text": "فما",
+    "timestamp": [
+     0.0,
+     0.32
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "تزرعُه",
+    "timestamp": [
+     0.4,
+     0.96
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "اليوم...",
+    "timestamp": [
+     1.04,
+     1.92
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "يُظلِّلُك",
+    "timestamp": [
+     1.96,
+     2.64
+    ],
+    "speaker_id": null
+   },
+   {
+    "text": "غداً.",
+    "timestamp": [
+     2.72,
+     3.36
+    ],
+    "speaker_id": null
+   }
+  ]
+ }
+}

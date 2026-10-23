@@ -1,0 +1,16 @@
+{
+  "format": "9:16",
+  "title": "سرعة الضوء",
+  "ink": "#fdf8ee",
+  "palette": [["#1d2b53", "#ffcf4a"], ["#0f3d3e", "#7ee8c2"], ["#2d2a4a", "#c6b8ff"], ["#5a1f1f", "#ffb35c"], ["#111111", "#ff6b6b"]],
+  "vo": {"s1": 0.6, "s2": 4.5, "s3": 11.0, "s4": 16.5, "s5": 21.6},
+  "cards": [
+    {"line": "s1", "style": "pop"},
+    {"line": "s2", "style": "rise", "number": {"value": 300000, "unit": "كيلومتر في الثانية", "word": 3, "dur": 1.8}},
+    {"line": "s3", "style": "drop"},
+    {"line": "s4", "style": "rise", "number": {"value": 8, "unit": "دقائق من الشمس إلى الأرض", "word": 5, "dur": 0.9}},
+    {"line": "s5", "style": "pop"}
+  ],
+  "music": "assets/mix.wav",
+  "tail": 1.4
+}

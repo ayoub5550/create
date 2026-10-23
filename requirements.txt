@@ -1,0 +1,7 @@
+numpy
+scipy
+pillow
+matplotlib
+playwright
+edge-tts
+# optional: faster-whisper   (local narration check)

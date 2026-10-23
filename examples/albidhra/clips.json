@@ -1,0 +1,13 @@
+{
+  "groundY": 262,
+  "clips": {
+    "walk":  {"take": "82_10", "note": "sad walk forward", "args": {"view": "travel", "start": 40, "keep_drift": true},
+              "range": [0, 132], "cycle": {"search": [25, 70], "len": [24, 48]}},
+    "pick":  {"take": "26_09", "note": "bend, pick up", "args": {"view": "side", "vframe": 240, "keep_drift": true},
+              "range": [20, 153], "lowHand": true},
+    "dig":   {"take": "79_04", "note": "digging", "args": {"view": "side", "keep_drift": true}, "range": [25, 92]},
+    "plant": {"take": "80_09", "note": "planting", "args": {"view": "side", "keep_drift": true}, "range": [110, 204], "lowHand": true},
+    "sit":   {"take": "13_01", "note": "sit on stool, stand up", "args": {"horiz": "z", "max_frames": 400}, "range": [100, 260]},
+    "happy": {"take": "79_69", "note": "happy", "args": {"view": "side", "keep_drift": true}, "range": [40, 142]}
+  }
+}

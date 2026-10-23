@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=%W%, height=%H%" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Aref Ruqaa"; font-weight: 700; font-display: block; src: url(fonts/ArefRuqaa-ar.woff2) format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+200C-200E, U+FB50-FDFF, U+FE70-FEFC; }
+      @font-face { font-family: "Aref Ruqaa"; font-weight: 700; font-display: block; src: url(fonts/ArefRuqaa-latin.woff2) format("woff2"); unicode-range: U+0000-00FF, U+2000-206F; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: %W%px; height: %H%px; overflow: hidden; background: %BG0%; }
+      #root { position: relative; width: %W%px; height: %H%px; overflow: hidden; background: %BG0%; font-family: "Aref Ruqaa", serif; }
+      #bg { position: absolute; inset: 0; background: %BG0%; }
+      #grain { position: absolute; inset: 0; pointer-events: none; opacity: .5;
+        background: radial-gradient(ellipse at center, rgba(255,255,255,0) 50%, rgba(0,0,0,.28) 100%); }
+      .shape { position: absolute; border-radius: 50%; opacity: 0; }
+      .card { position: absolute; left: %PAD%px; right: %PAD%px; top: 0; height: %H%px; display: flex; align-items: center;
+              justify-content: center; opacity: 0; }
+      .line { direction: rtl; text-align: center; display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline;
+              gap: 0.12em 0.32em; font-size: %FS%px; line-height: 1.5; color: %INK%; font-weight: 700; }
+      .w { display: inline-block; opacity: 0; transform-origin: 50% 70%; white-space: nowrap; position: relative; }
+      .w.key { color: var(--accent); }
+      .w.key svg { position: absolute; left: -4%; bottom: -0.08em; width: 108%; height: .34em; overflow: visible; }
+      .w.key path { fill: none; stroke: var(--accent); stroke-width: 9; stroke-linecap: round; }
+      .num { display: block; width: 100%; text-align: center; font-size: %NFS%px; line-height: 1.1; color: var(--accent);
+             direction: ltr; font-family: "Aref Ruqaa", serif; opacity: 0; }
+      .numwrap { display: flex; flex-direction: column; align-items: center; gap: 26px; width: 100%; }
+      .unit { margin-top: -10px; margin-bottom: 40px; }
+      .unit { font-size: %UFS%px; color: %INK%; opacity: 0; direction: rtl; }
+      #bar { position: absolute; left: 0; bottom: 0; height: 12px; width: %W%px; background: %ACC0%; transform-origin: 100% 50%; transform: scaleX(0); }
+      #title { position: absolute; top: %TTOP%px; width: 100%; text-align: center; direction: rtl; font-size: %TFS%px; color: %INK%; opacity: .55; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="%TOTAL%" data-width="%W%" data-height="%H%">
+      <div id="bg"></div>
+%SHAPES%
+      <div id="title">%TITLE%</div>
+%CARDS%
+      <div id="grain"></div>
+      <div id="bar"></div>
+%AUDIO%
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const TOTAL = %TOTAL%;
+      const CARDS = %CARDJS%;
+      tl.set(".card", { autoAlpha: 0 }, 0);
+      tl.to("#bar", { scaleX: 1, duration: TOTAL, ease: "none" }, 0);
+      CARDS.forEach((c, i) => {
+        const card = "#card-" + i;
+        tl.set(card, { autoAlpha: 1 }, c.t0 - 0.05);
+        tl.to("#bg", { backgroundColor: c.bg, duration: 0.6, ease: "power2.inOut" }, c.t0 - 0.35);
+        // shapes drift to a new constellation every card
+        c.shapes.forEach((s, k) => tl.to("#shape-" + k, { x: s[0], y: s[1], scale: s[2], autoAlpha: s[3], backgroundColor: c.accent,
+                                                          duration: 1.2, ease: "power3.inOut" }, c.t0 - 0.4));
+        if (c.number) {
+          const o = { v: 0 }, el = document.querySelector(card + " .num");
+          tl.fromTo(card + " .num", { autoAlpha: 0, scale: 0.6 }, { autoAlpha: 1, scale: 1, duration: 0.45, ease: "back.out(2)" }, c.number.at);
+          tl.to(o, { v: c.number.value, duration: c.number.dur, ease: "power2.out",
+                     onUpdate: () => { el.textContent = Math.round(o.v).toLocaleString("en-US") + (c.number.suffix || ""); } }, c.number.at);
+          tl.fromTo(card + " .unit", { autoAlpha: 0, y: 30 }, { autoAlpha: 1, y: 0, duration: 0.4 }, c.number.at + 0.3);
+        }
+        c.words.forEach((w, k) => {
+          const sel = card + " .w" + k;
+          const from = c.style === "drop" ? { autoAlpha: 0, y: -90, rotation: -6 } :
+                       c.style === "rise" ? { autoAlpha: 0, y: 70, filter: "blur(10px)" } :
+                       { autoAlpha: 0, scale: 0.35, y: 30 };
+          const to = { autoAlpha: 1, y: 0, scale: 1, rotation: 0, filter: "blur(0px)", duration: w.key ? 0.42 : 0.3,
+                       ease: w.key ? "back.out(2.6)" : "power3.out" };
+          tl.fromTo(sel, from, to, w.t);
+          if (w.key) {
+            const p = document.querySelector(sel + " path"), L = p.getTotalLength();
+            tl.fromTo(p, { strokeDasharray: L, strokeDashoffset: L }, { strokeDashoffset: 0, duration: 0.35, ease: "power2.out" }, w.t + 0.15);
+            tl.fromTo(sel, { scale: 1 }, { scale: 1.12, duration: 0.14, yoyo: true, repeat: 1, ease: "power1.inOut" }, w.t + 0.42);
+          }
+        });
+        // exit: the whole card lifts away just before the next one
+        if (c.t1 != null) tl.to(card, { autoAlpha: 0, y: -120, duration: 0.4, ease: "power2.in" }, c.t1 - 0.35);
+      });
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

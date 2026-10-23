@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Aref Ruqaa"; font-weight: 700; font-display: block; src: url(fonts/ArefRuqaa-ar.woff2) format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+200C-200E, U+FB50-FDFF, U+FE70-FEFC; }
+      @font-face { font-family: "Aref Ruqaa"; font-weight: 700; font-display: block; src: url(fonts/ArefRuqaa-latin.woff2) format("woff2"); unicode-range: U+0000-00FF, U+2000-206F; }
+      @font-face { font-family: "Caveat"; font-weight: 600; font-display: block; src: url(fonts/Caveat-latin.woff2) format("woff2"); }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #fbfaf6; }
+      #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #fbfaf6; }
+      #camera { position: absolute; left: 0; top: 0; width: %CAMW%px; height: %CAMH%px; transform-origin: 0 0; will-change: transform; background: #fbfaf6; }
+      .artblock { position: absolute; mix-blend-mode: multiply; }
+      .artblock svg { display: block; overflow: visible; }
+      .revealPath { fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; }
+      .lbl { position: absolute; white-space: nowrap; color: #1b1b1b; line-height: 1.35;
+             padding: 0 0.22em; transform: translateX(-50%);
+             clip-path: inset(0 0 0 calc((1 - var(--rv, 0)) * 100%)); }
+      .lbl.ar { font-family: "Aref Ruqaa", serif; font-weight: 700; direction: rtl; }
+      .lbl.en { font-family: "Caveat", cursive; font-weight: 600; direction: ltr; color: #555;
+                clip-path: inset(0 calc((1 - var(--rv, 0)) * 100%) 0 0); }
+      .blue { color: #2a74c4; } .red { color: #d23a2f; } .orange { color: #e2701d; }
+      .rainbow { background: linear-gradient(90deg, #d23a2f, #e2701d, #e3b300, #3a9d4a, #2a74c4, #6a3fb0);
+                 -webkit-background-clip: text; background-clip: text; color: transparent; }
+      #hand { position: absolute; left: 0; top: 0; width: %HANDW%px; height: %HANDH%px; pointer-events: none; will-change: transform; z-index: 50; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="%TOTAL%" data-width="1920" data-height="1080">
+      <div id="camera">
+%ART%
+%LABELS%
+        <img id="hand" src="assets/hand.png" alt="" />
+      </div>
+%AUDIO%
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const SVGNS = "http://www.w3.org/2000/svg";
+      const ARTS = {
+%ARTS%
+      };
+      /* serpentine starting at the RIGHT edge (Arabic reading direction).
+         Rows are centrelines inset by sw/2; row step <= sw. */
+      function serp(x0, y0, x1, y1, rows, sw) {
+        const ix0 = x0 + sw / 2, ix1 = x1 - sw / 2, iy0 = y0 + sw / 2, iy1 = y1 - sw / 2;
+        const step = (iy1 - iy0) / Math.max(1, rows - 1);
+        let d = `M${ix1} ${Math.round(iy0)}`;
+        for (let i = 0; i < rows; i++) {
+          d += ` H${i % 2 === 0 ? ix0 : ix1}`;
+          if (i < rows - 1) d += ` V${Math.round(iy0 + step * (i + 1))}`;
+        }
+        return d;
+      }
+      function chunk(maskId, id, rect, rows, sw) {
+        const step = (rect[3] - rect[1] - sw) / Math.max(1, rows - 1);
+        if (step > sw) console.warn(`chunk ${id}: row step ${step} > stroke ${sw}`);
+        const p = document.createElementNS(SVGNS, "path");
+        p.setAttribute("id", id); p.setAttribute("class", "revealPath");
+        p.setAttribute("stroke-width", sw);
+        p.setAttribute("d", serp(rect[0], rect[1], rect[2], rect[3], rows, sw));
+        document.getElementById(maskId).appendChild(p);
+        return p;
+      }
+%CHUNKS%
+      /* camera: locked between moves */
+      const cameraEl = document.getElementById("camera");
+      const VIEW_W = 1920, VIEW_H = 1080;
+      const cam = { scale: 1, x: 0, y: 0 };
+      function applyCamera() { cameraEl.style.transform = `translate(${cam.x}px, ${cam.y}px) scale(${cam.scale})`; }
+      function camAt(wx, wy, s) { return { scale: s, x: VIEW_W / 2 - wx * s, y: VIEW_H / 2 - wy * s }; }
+      function camTo(wx, wy, s, dur, at, ease) {
+        tl.to(cam, { ...camAt(wx, wy, s), duration: dur, ease: ease || "power2.inOut", onUpdate: applyCamera }, at);
+      }
+      Object.assign(cam, camAt(%CAM0%)); applyCamera();
+      /* hand: one photo hand; wrist tilts a few degrees on right-to-left sweeps */
+      const hand = document.getElementById("hand");
+      const NIB = { x: %NIBX%, y: %NIBY% };
+      hand.style.transformOrigin = `${NIB.x}px ${NIB.y}px`;
+      function showHand(x, y, rot) {
+        hand.style.opacity = 1; hand.style.visibility = "visible";
+        hand.style.transform = `translate(${x - NIB.x}px, ${y - NIB.y}px) rotate(${rot}deg)`;
+      }
+      function hideHand(at) { tl.set(hand, { autoAlpha: 0 }, at); }
+      function draw(pathId, artKey, dur, at, opts = {}) {
+        const path = document.getElementById(pathId);
+        const art = ARTS[artKey];
+        const len = (path.getTotalLength() || 6000) * 1.02;
+        path.style.strokeDasharray = `${len}`;
+        path.style.strokeDashoffset = `${len}`;
+        tl.to(path, { strokeDashoffset: 0, duration: dur, ease: "none" }, at);
+        const proxy = { p: 0 };
+        tl.to(proxy, { p: 1, duration: dur, ease: "none", onUpdate: () => {
+          const L = path.getTotalLength();
+          const d = Math.min(L, proxy.p * L);
+          const pt = path.getPointAtLength(d);
+          const ahead = path.getPointAtLength(Math.min(L, d + 3));
+          const back = (ahead.x - pt.x) < -0.5;
+          const jitter = Math.sin(proxy.p * 34) * 2.2 + (back ? -6 : 0);
+          showHand(art.x + pt.x * art.k, art.y + pt.y * art.k, jitter);
+        } }, at);
+        if (!opts.keep) hideHand(at + dur + 0.05);
+      }
+      /* the hand WRITES a label: clip-path reveal + nib riding the ink edge.
+         Arabic labels reveal right->left; Latin labels left->right. */
+      function drawLbl(id, at, dur, opts = {}) {
+        const el = document.querySelector(id);
+        const rtl = el.classList.contains("ar");
+        tl.set(id, { autoAlpha: 1 }, at);
+        tl.to(id, { "--rv": 1, duration: dur, ease: "none" }, at);
+        const proxy = { p: 0 };
+        tl.to(proxy, { p: 1, duration: dur, ease: "none", onUpdate: () => {
+          const w = el.offsetWidth, fh = parseFloat(getComputedStyle(el).fontSize) || 100;
+          const lx = el.offsetLeft - w / 2;
+          const pad = fh * 0.22;
+          const x = rtl ? lx + w - pad - proxy.p * (w - 2 * pad) : lx + pad + proxy.p * (w - 2 * pad);
+          const y = el.offsetTop + fh * 0.95 + Math.sin(proxy.p * 26) * fh * 0.08;
+          showHand(x, y, Math.sin(proxy.p * 40) * 1.6 + (rtl ? -6 : 0));
+        } }, at);
+        if (!opts.keep) hideHand(at + dur + 0.05);
+      }
+      /* initial state */
+      tl.set(%ALLART%, { autoAlpha: 0 }, 0);
+      tl.set(%ALLLBL%, { autoAlpha: 0, "--rv": 0 }, 0);
+      tl.set(hand, { autoAlpha: 0 }, 0);
+      /* choreography (all times derived from the TTS word map) */
+%ACTS%
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
