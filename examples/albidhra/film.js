@@ -43,7 +43,7 @@
     pose(J, { elR: ["neck", 46, 56], haR: ["neck", 4, 50], elL: ["neck", 44, 76], haL: ["neck", 2, 70] }, wc);
     J.head[0] += wc * 5; J.head[1] += wc * 4;
     var wj = ramp(t, 42.95, 43.3) * (1 - ramp(t, 45.0, 45.5));
-    pose(J, { elR: ["shR", 44, -66], haR: ["shR", 78, -136], elL: ["shL", -30, -70], haL: ["shL", -56, -138] }, wj);
+    pose(J, { elR: ["neck", 62, -52], haR: ["neck", 104, -118], elL: ["neck", -58, -52], haL: ["neck", -98, -116] }, wj);   // wide V, clear of the head
     var hop = wj * 22 * (Math.max(0, Math.sin((t - 43.3) * Math.PI / 0.42)) * (t > 43.3 && t < 44.56 ? 1 : 0));
     JN.forEach(function (j) { J[j][1] -= hop; });
     // breathing while seated / standing still, + shiver
@@ -177,7 +177,7 @@
   var EXPR = [[0, -0.7, 0.7, 1], [10.6, -0.6, 0.6, 1], [11.3, 0, 0, 1.25], [13.6, 0.65, 0, 1.1], [15.5, 0.15, -0.5, 1], [20.9, 0.3, 0, 1],
     [25.5, 0, 0.2, 1], [28.2, -0.6, 0.7, 1], [37.4, -0.45, 0.5, 1], [39.9, 0.1, -0.1, 1.45], [40.9, 0.8, 0, 1.15], [42.9, 1, 0, 1.15], [45.4, 0.9, 0, 1.05], [52, 0.75, 0, 1], [61, 0.75, 0, 1]];
   var BLINKS = [3.2, 8.1, 12.9, 19.6, 24.3, 30.9, 35.2, 44.0, 49.2, 53.8, 57.6];
-  var FIG = SF.rig(figG, { scale: S, ink: INK, paper: PAPER, filter: "url(#boil)", expr: EXPR, blinks: BLINKS });
+  var FIG = SF.rig(figG, { scale: S, ink: INK, paper: PAPER, expr: EXPR, blinks: BLINKS, backInk: "#5a5751" });   // no boil filter on the hero: displacement makes thin strokes jagged
 
   // ---------- camera ----------
   var CAM = [
