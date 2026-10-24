@@ -1,0 +1,18 @@
+{
+ "characters": {
+  "sam": {
+   "name": "Sam",
+   "voice": {"provider": "edge", "voice": "en-US-BrianNeural", "rate": "+10%", "pitch": "+2Hz"},
+   "look": {"ink": "#2b2a28", "color": "#c4453b", "scale": 0.74, "head": 46, "accessories": ["scarf", "tuft"]},
+   "personality": {"gesture": 1.25, "energy": 1.25},
+   "notes": "The «حوار» Sami, renamed for the English series. Impatient, hopeful, overconfident life-hacker who wants everything NOW. Big gestures, fast entrances, falls hard. Flaw: no patience. Heart: never gives up."
+  },
+  "layla": {
+   "name": "Layla",
+   "voice": {"provider": "edge", "voice": "en-US-AvaNeural", "rate": "-5%", "pitch": "+0Hz"},
+   "look": {"ink": "#2b2a28", "color": "#2f7f8f", "scale": 0.68, "head": 47, "accessories": ["hijab"]},
+   "personality": {"gesture": 0.8, "energy": 0.8},
+   "notes": "The «حوار» Layla. Calm, dry, deadpan; small precise gestures; the straight man who is secretly fond of Sam. She smiles only once per episode (l25)."
+  }
+ }
+}
