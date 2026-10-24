@@ -1,0 +1,232 @@
+{
+ "fps": 30,
+ "note": "P09 hand-directed edit (word-anchored). frame = [cx, cy, zoom] in world px for lying / object / custom framings.",
+ "shots": [
+  {
+   "t": 0,
+   "frame": [
+    960,
+    560,
+    1.15
+   ],
+   "move": {
+    "dx": -150,
+    "dy": 90,
+    "zoom": 1.2
+   },
+   "why": "OPEN: dawn -> day EWS push-in: the young tree, Sam asleep under the blanket, Pip on the rock"
+  },
+  {
+   "t": 1.7,
+   "frame": [
+    640,
+    745,
+    3.0
+   ],
+   "move": {
+    "zoom": 1.08
+   },
+   "why": "CU: the leaf on his face flutters with each snore, zzz, Pip peeks"
+  },
+  {
+   "t": "l1-0.2",
+   "frame": [
+    930,
+    650,
+    1.9
+   ],
+   "why": "WS: Layla walks in with two mugs and an ENORMOUS scarf; he springs up stiff as a board"
+  },
+  {
+   "t": "l2@3-0.25",
+   "size": "MCU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.12,
+   "why": "...resting my eyes (sheepish)"
+  },
+  {
+   "t": "l3-0.15",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.11,
+   "why": "deadpan: For eight hours. (offers the mug)"
+  },
+  {
+   "t": "l3.end-0.05",
+   "frame": [
+    960,
+    645,
+    2.55
+   ],
+   "why": "two-shot: the mug hand-off, clink"
+  },
+  {
+   "t": "l4-0.25",
+   "frame": [
+    925,
+    600,
+    2.0
+   ],
+   "move": {
+    "dy": -90,
+    "zoom": 1.08
+   },
+   "why": "low two-shot, slow tilt up: he looks up... and up: the tree is taller than him. Whoa. It grew..."
+  },
+  {
+   "t": "l4@3-0.2",
+   "size": "CU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.17,
+   "why": "...without me. (hurt)"
+  },
+  {
+   "t": "l5-0.1",
+   "frame": [
+    960,
+    645,
+    2.55
+   ],
+   "why": "two-shot: she teases, he sips, indignant"
+  },
+  {
+   "t": "l6-0.1",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "zoom": 0.85,
+   "top": 0.14,
+   "shake": {
+    "t": "l6@8",
+    "amp": 12,
+    "dur": 0.35
+   },
+   "why": "I want apples. NOW! (stomp)"
+  },
+  {
+   "t": "l7-0.1",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.11,
+   "why": "sly: Look! A bird! (points AWAY from the tree)",
+   "dx": 40
+  },
+  {
+   "t": "l7@3-0.2",
+   "frame": [560, 680, 5.0],
+   "why": "cutaway: Pip on the rock"
+  },
+  {
+   "t": "l8-0.3",
+   "frame": [
+    985,
+    487,
+    1.55
+   ],
+   "shake": [
+    {
+     "t": "l8.end+0.3",
+     "amp": 14,
+     "dur": 1.2
+    },
+    {
+     "t": "l8.end+2.5",
+     "amp": 6,
+     "dur": 0.25
+    }
+   ],
+   "why": "WS: Where?! he spins to the bird; behind him the tree BOOMS into a full apple tree; BONK"
+  },
+  {
+   "t": "l8.end+2.85",
+   "frame": [
+    830,
+    640,
+    2.4
+   ],
+   "why": "MS: dazed, stars, apples rain down, BONK #2"
+  },
+  {
+   "t": "l9-0.2",
+   "size": "CU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.2,
+   "why": "It... grew. (dazed, stars)"
+  },
+  {
+   "t": "l10-0.35",
+   "frame": [
+    1000,
+    520,
+    1.45
+   ],
+   "why": "WS: It grew! hops for joy under the apple tree"
+  },
+  {
+   "t": "l11-0.15",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.11,
+   "dx": 30,
+   "why": "her ONE big smile: Told you. It just needed time."
+  },
+  {
+   "t": "l11.end+0.1",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.12,
+   "why": "crunch; Next up: a whole forest! (arms wide)"
+  },
+  {
+   "t": "l13-0.25",
+   "size": "CU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.12,
+   "why": "...How long? (hopeful)"
+  },
+  {
+   "t": "l14-0.3",
+   "size": "CU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.12,
+   "why": "Years. (silence)"
+  },
+  {
+   "t": "l14.end+0.15",
+   "size": "CU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.14,
+   "why": "frozen take: burst lines, eye twitch, sweat"
+  },
+  {
+   "t": "l14.end+1.65",
+   "frame": [
+    820,
+    660,
+    2.1
+   ],
+   "why": "WS HOLD: he faints stiff as a board, THUD, dust; crickets; Pip lands on his foot"
+  }
+ ]
+}
