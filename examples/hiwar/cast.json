@@ -1,0 +1,18 @@
+{
+ "characters": {
+  "sami": {
+   "name": "سامي",
+   "voice": {"provider": "edge", "voice": "ar-SA-HamedNeural", "rate": "+10%", "pitch": "+2Hz"},
+   "look": {"ink": "#2b2a28", "color": "#c4453b", "scale": 0.74, "head": 46, "accessories": ["scarf", "tuft"]},
+   "personality": {"gesture": 1.2, "energy": 1.2},
+   "notes": "impatient and hopeful; wants the seed to grow today; flaw: no patience"
+  },
+  "layla": {
+   "name": "ليلى",
+   "voice": {"provider": "edge", "voice": "ar-SA-ZariyahNeural", "rate": "-4%", "pitch": "+0Hz"},
+   "look": {"ink": "#2b2a28", "color": "#2f7f8f", "scale": 0.68, "head": 47, "accessories": ["hijab"]},
+   "personality": {"gesture": 0.8, "energy": 0.8},
+   "notes": "calm, dry humour; knows how long trees take"
+  }
+ }
+}

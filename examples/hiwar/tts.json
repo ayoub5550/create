@@ -1,0 +1,190 @@
+{
+ "l1": {
+  "file": "assets/voice/l1.mp3",
+  "dur": 5.328,
+  "words": [
+   {
+    "text": "ليلى",
+    "timestamp": [
+     0.095,
+     0.618
+    ]
+   },
+   {
+    "text": "زرعتُ",
+    "timestamp": [
+     1.118,
+     1.652
+    ]
+   },
+   {
+    "text": "بذرةً",
+    "timestamp": [
+     1.664,
+     2.118
+    ]
+   },
+   {
+    "text": "أمس",
+    "timestamp": [
+     2.129,
+     2.766
+    ]
+   },
+   {
+    "text": "ولم",
+    "timestamp": [
+     3.266,
+     3.55
+    ]
+   },
+   {
+    "text": "تنبتْ",
+    "timestamp": [
+     3.561,
+     3.936
+    ]
+   },
+   {
+    "text": "بعد",
+    "timestamp": [
+     3.948,
+     4.436
+    ]
+   }
+  ],
+  "who": "sami",
+  "text": "ليلى! زرعتُ بذرةً أمس... ولم *تنبتْ* بعد!",
+  "hash": "5495624a323d",
+  "trimmed": 0.575
+ },
+ "l2": {
+  "file": "assets/voice/l2.mp3",
+  "dur": 5.376,
+  "words": [
+   {
+    "text": "أمس",
+    "timestamp": [
+     0.102,
+     0.662
+    ]
+   },
+   {
+    "text": "يا",
+    "timestamp": [
+     1.162,
+     1.383
+    ]
+   },
+   {
+    "text": "سامي",
+    "timestamp": [
+     1.396,
+     1.956
+    ]
+   },
+   {
+    "text": "الشجرةُ",
+    "timestamp": [
+     2.456,
+     3.198
+    ]
+   },
+   {
+    "text": "تحتاجُ",
+    "timestamp": [
+     3.211,
+     3.758
+    ]
+   },
+   {
+    "text": "وقتاً",
+    "timestamp": [
+     3.771,
+     4.383
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "أمس؟ يا سامي... الشجرةُ تحتاجُ *وقتاً*.",
+  "hash": "9c07b5cc53b2",
+  "trimmed": 0.786
+ },
+ "l3": {
+  "file": "assets/voice/l3.mp3",
+  "dur": 3.528,
+  "words": [
+   {
+    "text": "كم",
+    "timestamp": [
+     0.095,
+     0.436
+    ]
+   },
+   {
+    "text": "ساعة",
+    "timestamp": [
+     0.786,
+     1.4
+    ]
+   },
+   {
+    "text": "ساعتين",
+    "timestamp": [
+     1.75,
+     2.647
+    ]
+   }
+  ],
+  "who": "sami",
+  "text": "كم؟ ساعة؟ ساعتين؟",
+  "hash": "f9b34911d06d",
+  "trimmed": 0.864
+ },
+ "l4": {
+  "file": "assets/voice/l4.mp3",
+  "dur": 1.992,
+  "words": [
+   {
+    "text": "سنوات",
+    "timestamp": [
+     0.102,
+     1.092
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "سنوات.",
+  "hash": "23d09c4acfba"
+ },
+ "l5": {
+  "file": "assets/voice/l5.mp3",
+  "dur": 3.216,
+  "words": [
+   {
+    "text": "إذن",
+    "timestamp": [
+     0.095,
+     0.55
+    ]
+   },
+   {
+    "text": "سأنتظرُ",
+    "timestamp": [
+     1.295,
+     1.989
+    ]
+   },
+   {
+    "text": "هنا",
+    "timestamp": [
+     2.0,
+     2.398
+    ]
+   }
+  ],
+  "who": "sami",
+  "text": "إذن... سأنتظرُ هنا.",
+  "hash": "89a9c3a3a765"
+ }
+}

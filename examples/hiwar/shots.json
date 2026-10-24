@@ -1,0 +1,17 @@
+{
+ "fps": 30,
+ "note": "hand-directed edit (times anchored to the dialogue: re-voicing keeps the cuts on the right words). Regenerate an automatic coverage with: bash build.sh --shots",
+ "shots": [
+  {"t": 0, "size": "MCU", "on": ["sami"], "why": "hook: he calls her and waves — big, lip sync readable"},
+  {"t": "l1@1-0.1", "size": "WS", "on": ["sami", "mound", "layla"], "zoom": 1.45, "why": "establishing: both of them, the seed mound between them; he points down at it"},
+  {"t": "l1@4-0.1", "size": "MCU", "on": ["sami"], "why": "speaker: «ولم تنبتْ بعد!» (indignant)"},
+  {"t": "l2-0.1", "size": "MS", "on": ["layla"], "why": "speaker, clean single: palms up, head tilt on «يا سامي», nod on «وقتاً»"},
+  {"t": "l2.end-0.3", "size": "MCU", "on": ["sami"], "move": {"zoom": 1.08}, "why": "his «huh?» on her last syllable, then the rule of three with a slow push-in"},
+  {"t": "l3.end+0.25", "size": "CU", "on": ["layla"], "why": "the beat (silence, slow blink, deadpan) and the key line «سنوات.»"},
+  {"t": "l4.end-0.1", "size": "CU", "on": ["sami"], "top": 0.1, "shake": {"t": "l4.end+0.08", "amp": 9, "dur": 0.3}, "why": "the take: gasp, jolt with a shake on the hit, double blink, stubborn brow"},
+  {"t": "l5-0.2", "size": "MCU", "on": ["sami"], "why": "«إذن... سأنتظرُ هنا.» with the crossed arms in frame"},
+  {"t": "l5.end+0.2", "size": "WS", "on": ["sami", "mound", "layla"], "zoom": 1.45, "frameAt": "l5.end+4", "why": "cut on action: he plops down on the rock — held until he lands"},
+  {"t": "l5.end+1.75", "size": "MCU", "on": ["layla"], "why": "reaction: facepalm"},
+  {"t": "l5.end+3.2", "size": "WS", "on": ["sami", "mound", "layla"], "zoom": 1.45, "frameAt": "l5.end+4", "why": "button two-shot (same frame as the sit): firm nod, the sprout pops between them, both stunned, iris"}
+ ]
+}
