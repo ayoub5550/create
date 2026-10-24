@@ -70,7 +70,7 @@
    "text": "You were gone for two seconds.",
    "tts": "[deadpan, clearly] You were gone for two seconds.",
    "emotion": "deadpan",
-   "gap": 0.5
+   "gap": 1.2
   },
   {
    "id": "l8",
@@ -87,7 +87,7 @@
    "text": "Good afternoon. I am... not Sam. Just a guy. Looking at trees.",
    "tts": "[fake deep voice, very formal] Good afternoon. I am... not Sam. Just a guy. Looking at trees.",
    "emotion": "fake",
-   "gap": 3.5,
+   "gap": 4.5,
    "note": "He strolls back in wearing fake nose-glasses with a big mustache, hands behind his back, whistling."
   },
   {
