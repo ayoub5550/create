@@ -1,0 +1,28 @@
+{
+ "fps": 30,
+ "note": "P04 hand-directed edit (word-anchored). frame = [cx, cy, zoom] in world px for non-character framings.",
+ "shots": [
+  {"t": 0, "frame": [1120, 590, 1.25], "why": "OPEN: WS, Layla knits on her stool; Sam strides in with the giant magnifying glass + sunglasses"},
+  {"t": "l1@1-0.1", "frame": [930, 680, 2.3], "move": {"zoom": 1.06}, "why": "Plan F: the glass over the mound, the hot dot"},
+  {"t": "l1.end+0.1", "frame": [950, 690, 2.9], "why": "cutaway: a curl of smoke from the dot (tension)"},
+  {"t": "l2-0.08", "size": "MCU", "on": ["layla"], "top": 0.11, "why": "Something's smoking (eyes on her knitting)"},
+  {"t": "l2.end+0.12", "frame": [930, 680, 2.3], "move": {"zoom": 1.04}, "why": "That's the growing! -> the flame pops, sunglasses jump"},
+  {"t": "l4-0.08", "frame": [1060, 600, 1.5], "why": "WS: panic flapping; Layla already walking over with the bottle"},
+  {"t": "l3+3.2", "frame": [1045, 700, 2.3], "why": "CU: she pours, sizzle + steam, he freezes mid-flap"},
+  {"t": "l5-0.1", "size": "MS", "on": ["sam", "layla"], "why": "two-shot: You almost cooked it."},
+  {"t": "l6-0.1", "size": "MCU", "on": ["sam"], "top": 0.12, "why": "...Crispy tree? (hides the glass)"},
+  {"t": "l6.end+0.05", "size": "CU", "on": ["layla"], "top": 0.12, "dx": 45, "why": "her flat stare (crickets, offscreen thud)"},
+  {"t": "l7-0.2", "size": "MS", "on": ["sam"], "top": 0.1, "why": "Fine. Let's ask the internet. (phone out)"},
+  {"t": "l8-0.4", "size": "MCU", "on": ["sam"], "top": 0.12, "dx": 30, "move": {"zoom": 1.06}, "why": "typing + the phone inset"},
+  {"t": "l9-0.12", "size": "CU", "on": ["sam"], "top": 0.12, "dx": 20, "why": "be patient?! -> One star! bubble"},
+  {"t": "l10-0.1", "size": "MCU", "on": ["layla"], "top": 0.11, "why": "You're reviewing nature?"},
+  {"t": "l11-0.1", "size": "MCU", "on": ["sam"], "top": 0.2, "why": "Nature needs feedback. (finger up)"},
+  {"t": "l12-0.15", "size": "MS", "on": ["sam"], "top": 0.1, "dx": 40, "why": "Step 2 inset -> Zero stars! one star falls"},
+  {"t": "l13-0.1", "size": "MCU", "on": ["layla"], "top": 0.11, "why": "That's not a thing."},
+  {"t": "l14-0.1", "size": "MS", "on": ["sam"], "top": 0.1, "why": "It is now. (pockets the phone)"},
+  {"t": "l15-0.12", "frame": [1010, 600, 1.4], "why": "WS: he stomps to the rock and sits, arms crossed"},
+  {"t": "l15.end+0.1", "size": "MCU", "on": ["sam"], "top": 0.16, "why": "HOLD: the staring contest, a fly buzzes in"},
+  {"t": "l15.end+1.15", "size": "MCU", "on": ["layla"], "top": 0.11, "why": "Layla glances up, knits on"},
+  {"t": "l15.end+2.2", "size": "CU", "on": ["sam"], "top": 0.14, "why": "the fly lands on his nose. He does not blink."}
+ ]
+}
