@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2026-10-24 — rig v2: one connected, smooth figure
+- Owner feedback on «البذرة»: the figure looked disconnected and its edges were rough.
+- `engine/stickfilm.js` `rig()`: arms now grow from the top of the spine and legs from the hips (CMU shoulder joints sit
+  25–60 units off the spine in a side projection, so arms floated beside or above the body); the neck meets the head
+  circle edge; hands and feet stay exactly on the mocap/pose positions (props still fit) while elbows/knees shift half the
+  root offset (linear, so no pops); rounded elbows/knees/neck (`round`); optional lighter far-side limbs (`backInk`);
+  `geometricPrecision`. `connect: false` keeps the old drawing.
+- `examples/albidhra`: the hero no longer uses the displacement (boil) filter (it made strokes jagged); the jump pose
+  is anchored on the neck as a wide V so the raised arms clear the head; re-rendered `gallery/albidhra.mp4`
+  (60.0 s, 1080p, -20.2 LUFS, true peak -1.2 dBTP; HyperFrames 0.8.190 lint clean, rendered in 20.7 s).
+- Docs: `docs/recipe/03-stickman.md` §5 (+ `gallery/rig-v2-before-after.png`), `docs/lessons.md`.
+
 ## 2026-10-23 — v1: the video factory
 - `AGENTS.md`: the producer role, golden rules, format chooser, 10-step pipeline, quality gate, delivery.
 - `engine/stickfilm.js` + `engine/ink.js`: MIT stick-figure engine (mocap playback + planner, cross-fade blending,

@@ -120,28 +120,63 @@
   }
 
   // ---------------------------------------------------------------- rig (figure + face)
-  /* expr keys: [t, mouth (-1 sad .. 1 joy, > .92 opens), brow (+ worried, - determined), eye scale] */
+  /* expr keys: [t, mouth (-1 sad .. 1 joy, > .92 opens), brow (+ worried, - determined), eye scale]
+   * cfg: scale, ink, paper, stroke, head, filter, expr, blinks, face, mouthFill,
+   *      connect (default true): one connected body — arms grow from the top of the spine, legs from the hips,
+   *               the neck meets the head circle. CMU shoulder / hip joints sit 25–60 units away from the spine in a
+   *               side projection, so drawing limbs from them makes arms float beside (or above) the body.
+   *               Hands and feet stay exactly where the mocap / pose layers put them (props bound to joints still fit);
+   *               only elbows/knees move half-way with the root, which is linear in the joints -> no pops.
+   *      round (default 0.3): rounded elbows / knees / neck (fraction of the shorter bone, capped at 14*scale px)
+   *      shoulder (default 0.1): where the arms attach, as a fraction of the way from neck down to hips
+   *      backInk: colour of the far-side limbs (L) for depth, e.g. "#6b6863" (default: same ink) */
   function rig(parent, cfg) {
     cfg = cfg || {};
     var S = cfg.scale || 0.72, INK = cfg.ink || "#2b2a28", PAPER = cfg.paper || "#fbfaf6";
+    var CONNECT = cfg.connect !== false, ROUND = cfg.round == null ? 0.3 : cfg.round, SHO = cfg.shoulder == null ? 0.1 : cfg.shoulder;
     var g = u.el("g", cfg.filter ? { filter: cfg.filter } : {}, parent), SW = (cfg.stroke || 10) * S, HR = (cfg.head || 46) * S;
-    function limb() { return u.el("path", { fill: "none", stroke: INK, "stroke-width": SW, "stroke-linecap": "round", "stroke-linejoin": "round" }, g); }
-    var P = { legL: limb(), armL: limb(), spine: limb(), legR: limb(), armR: limb() };
+    g.setAttribute("shape-rendering", "geometricPrecision");
+    function limb(col) { return u.el("path", { fill: "none", stroke: col || INK, "stroke-width": SW, "stroke-linecap": "round", "stroke-linejoin": "round" }, g); }
+    var BACK = cfg.backInk || INK;
+    var P = { legL: limb(BACK), armL: limb(BACK), spine: limb(), legR: limb(), armR: limb() };
     P.head = u.el("circle", { fill: PAPER, stroke: INK, "stroke-width": SW, r: HR }, g);
     var face = cfg.face !== false, fw = 4.4 * S / 0.72;
     var eye = face && u.el("ellipse", { fill: INK }, g);
     var brow = face && u.el("path", { fill: "none", stroke: INK, "stroke-width": fw, "stroke-linecap": "round" }, g);
     var mouth = face && u.el("path", { fill: "none", stroke: INK, "stroke-width": fw, "stroke-linecap": "round", "stroke-linejoin": "round" }, g);
     var EXPR = cfg.expr || [[0, 0.3, 0, 1]], BLINKS = cfg.blinks || [], pt = u.pt;
+    function add(a, d, k) { return [a[0] + d[0] * k, a[1] + d[1] * k]; }
+    function sub(a, b) { return [a[0] - b[0], a[1] - b[1]]; }
+    /* polyline with rounded inner corners: straight bones, a short quadratic arc through each joint */
+    function smoothLine(pts) {
+      var d = "M " + pt(pts[0]);
+      for (var i = 1; i < pts.length - 1; i++) {
+        var a = pts[i - 1], b = pts[i], c = pts[i + 1], ab = sub(b, a), bc = sub(c, b);
+        var la = Math.hypot(ab[0], ab[1]) || 1e-6, lc = Math.hypot(bc[0], bc[1]) || 1e-6;
+        var r = Math.min(ROUND * Math.min(la, lc), 14 * S);
+        d += " L " + pt(add(b, ab, -r / la)) + " Q " + pt(b) + " " + pt(add(b, bc, r / lc));
+      }
+      return d + " L " + pt(pts[pts.length - 1]);
+    }
+    /* the figure actually drawn: J -> connected skeleton (pure function of J) */
+    function skeleton(J, hx, hy) {
+      var H = J.hips, N = J.neck, C = [hx, hy], nc = sub(N, C), lnc = Math.hypot(nc[0], nc[1]) || 1e-6;
+      var T = lnc > HR ? add(C, nc, HR / lnc) : [hx, hy + HR];       // neck meets the head circle, facing the neck
+      var spine = [H]; if (Math.hypot(J.chest[0] - N[0], J.chest[1] - N[1]) > 2) spine.push(J.chest);
+      spine.push(N, T);
+      if (!CONNECT) return { spine: [H, J.chest, N, [hx, hy + HR * 0.82]], armR: [J.shR, J.elR, J.haR], armL: [J.shL, J.elL, J.haL],
+        legR: [H, J.knR, J.ftR], legL: [H, J.knL, J.ftL] };
+      var A = add(N, sub(H, N), SHO);
+      function arm(sh, el, ha) { return [A, add(el, sub(A, sh), 0.5), ha]; }
+      function leg(hp, kn, ft) { return [H, add(kn, sub(H, hp), 0.5), ft]; }
+      return { spine: spine, armR: arm(J.shR, J.elR, J.haR), armL: arm(J.shL, J.elL, J.haL), legR: leg(J.hipR, J.knR, J.ftR), legL: leg(J.hipL, J.knL, J.ftL) };
+    }
     function set(J, t) {
-      var hx = J.head[0], hy = J.head[1] - HR * 0.32;
+      var hx = J.head[0], hy = J.head[1] - HR * 0.32, K = skeleton(J, hx, hy), line = CONNECT ? smoothLine : function (p) {
+        return "M " + p.map(pt).join(" L ");
+      };
       P.head.setAttribute("cx", hx.toFixed(1)); P.head.setAttribute("cy", hy.toFixed(1));
-      P.spine.setAttribute("d", "M " + pt(J.hips) + " L " + pt(J.chest) + " L " + pt(J.neck) + " L " + pt([hx, hy + HR * 0.82]));
-      P.armR.setAttribute("d", "M " + pt(J.shR) + " L " + pt(J.elR) + " L " + pt(J.haR));
-      P.armL.setAttribute("d", "M " + pt(J.shL) + " L " + pt(J.elL) + " L " + pt(J.haL));
-      // legs start at the hips joint: CMU hip joints sit ~25 units lower and leave a visible gap
-      P.legR.setAttribute("d", "M " + pt(J.hips) + " L " + pt(J.knR) + " L " + pt(J.ftR));
-      P.legL.setAttribute("d", "M " + pt(J.hips) + " L " + pt(J.knL) + " L " + pt(J.ftL));
+      ["spine", "armR", "armL", "legR", "legL"].forEach(function (k) { P[k].setAttribute("d", line(K[k])); });
       if (!face) return;
       var F = J._f || 1, E = u.keys(EXPR, t), ex = hx + F * HR * 0.42, ey = hy - HR * 0.1, blink = 1;
       BLINKS.forEach(function (b) { if (t > b && t < b + 0.13) blink = 0.12; });
@@ -158,7 +193,7 @@
         mouth.setAttribute("fill", "none");
       }
     }
-    return { g: g, set: set, parts: P };
+    return { g: g, set: set, parts: P, skeleton: skeleton };
   }
 
   // ---------------------------------------------------------------- camera
