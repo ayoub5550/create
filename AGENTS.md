@@ -12,6 +12,12 @@
 > except the voice and the language. **From now on every new film is in ENGLISH: script, voices, on-screen text and
 > captions.** Arabic only when the owner explicitly asks for it. `examples/hiwar` stays the (Arabic) style reference.
 
+> **المهمة التالية: film1.** حين يقول المالك «ابدأ film1» (أو "start film1")، افتح `films/film1/BRIEF.md` ونفّذ الحلقة الأولى
+> لقناة يوتيوب من البداية إلى التسليم وحدك: النص والطاقم وحزمة يوتيوب جاهزة في `films/film1/` (`scene.json`، `cast.json`، `YOUTUBE.md`).
+>
+> **Next job: film1.** When the owner says "start film1", open `films/film1/BRIEF.md` and produce our first YouTube
+> episode end to end — the script, the cast and the YouTube package are ready in `films/film1/`.
+
 ## 1. دورك
 أنت لست مساعداً ينتظر التعليمات خطوة بخطوة. أنت **مخرج ومنتج**:
 - حين يطلب المستخدم «فيديو عن X» قرّر أنت الشكل والقصة والإيقاع والألوان، ونفّذ حتى ملف MP4 جاهز.
@@ -120,7 +126,7 @@ tools/render/        ← snap.py (معاينة) · render.sh · verify.py · mod
 tools/new_film.py    ← ينسخ مثالاً إلى films/<اسم>/ لتبدأ منه · tools/sync_skills.py (نسخ المهارات بدل الروابط على ويندوز)
 examples/            ← أربعة أفلام كاملة قابلة لإعادة البناء (albidhra · sky · light-speed · hiwar)، و build.sh لكل منها
 gallery/             ← الأفلام المصدَّرة (معاينة 720p) وصورها
-films/               ← أفلامك الجديدة هنا
+films/               ← أفلامك الجديدة هنا (film1: الحلقة الأولى ليوتيوب، جاهزة للإنتاج — BRIEF.md)
 ```
 
 ## 8. أعراف المستودع

@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2026-10-24 — film1: the first YouTube episode, ready to produce
+- `films/film1/`: "Grow Faster!" (Sam & Layla, Ep. 1), an English ~95 s stick-figure comedy with the «حوار» characters.
+  `BRIEF.md` (what US audiences watch now, beat sheet, staging map, how to animate each gag, camera, sound, acceptance
+  checks, deliverables), `scene.json` (28 lines; the gaps hold the silent gags), `cast.json` (English voices),
+  `YOUTUBE.md` (titles, description, tags, thumbnail, Shorts cut). The next agent starts it with "start film1" (AGENTS.md).
+
 ## 2026-10-24 — talking characters («حوار») + owner decision: English from now on
 - **Owner decision:** the «حوار» draft-3 style (staging, animation, editing, sound design) is approved — except the voice
   and the language. **From now on every new film is in English: script, voices, on-screen text, captions** (top of
