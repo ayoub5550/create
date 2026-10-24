@@ -10,7 +10,7 @@
   "layla"
  ],
  "start": 3.5,
- "tail": 4.5,
+ "tail": 6.0,
  "max_pause": 0.45,
  "lines": [
   {
@@ -116,7 +116,7 @@
    "text": "Okay! Next up: a whole *forest!*",
    "tts": "[excited] Okay! Next up: a whole forest!",
    "emotion": "excited",
-   "gap": 0.4,
+   "gap": 0.9,
    "note": "Bites the apple, arms wide."
   },
   {
