@@ -1,0 +1,289 @@
+{
+ "fps": 30,
+ "note": "P06 hand-directed edit (word-anchored; \"beat\" = a film.js beat time + off, which overrides t at run time so the cut lands exactly on the gag). frame = [cx, cy, zoom] in world px.",
+ "shots": [
+  {
+   "t": 0,
+   "frame": [
+    1080,
+    600,
+    1.3
+   ],
+   "move": {
+    "zoom": 1.06
+   },
+   "why": "establishing WS: Sam beside his sign, the sprout, Layla knitting on her stool, Pip on the birdhouse"
+  },
+  {
+   "t": "l1@3-0.1",
+   "frame": [
+    572,
+    640,
+    2.65
+   ],
+   "move": {
+    "zoom": 1.05
+   },
+   "why": "MS on the sign: taps 1 LEAVE / 2 HIDE / 3 CATCH!"
+  },
+  {
+   "t": "l2@7-0.35",
+   "beat": "tTurn",
+   "off": -0.05,
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.3,
+   "why": "turns to Layla: we catch it growing! (hop)"
+  },
+  {
+   "t": "l3-0.15",
+   "why": "Step four: we wait? (looks up from her knitting)",
+   "frame": [
+    1390,
+    665,
+    3.1
+   ]
+  },
+  {
+   "t": "l4-0.1",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.14,
+   "why": "waves it off: not a real step"
+  },
+  {
+   "t": "l5-0.1",
+   "frame": [
+    960,
+    610,
+    1.7
+   ],
+   "why": "WS: Bye, tree! he marches off frame left"
+  },
+  {
+   "t": "l5.end+0.15",
+   "beat": "tStretch0",
+   "off": -0.75,
+   "frame": [
+    1065,
+    645,
+    3.4
+   ],
+   "why": "silence: the sprout stretches... his head pops in at the left edge: Ha! ...Ha?"
+  },
+  {
+   "t": "l7-0.1",
+   "why": "You were gone for two seconds.",
+   "frame": [
+    1395,
+    645,
+    3.8
+   ]
+  },
+  {
+   "t": "l8-0.1",
+   "frame": [
+    920,
+    610,
+    1.75
+   ],
+   "why": "WS: Two very long seconds. marches off again"
+  },
+  {
+   "t": "l8@3+1.85",
+   "beat": "tCutL1",
+   "why": "time cut: Layla knits on",
+   "frame": [
+    1390,
+    665,
+    3.1
+   ]
+  },
+  {
+   "t": "l8@3+2.85",
+   "beat": "tWS3",
+   "frame": [
+    920,
+    610,
+    1.75
+   ],
+   "why": "WS: he strolls back in disguised, whistling, hands behind his back"
+  },
+  {
+   "t": "l9-0.1",
+   "frame": [
+    965,
+    600,
+    4.0
+   ],
+   "why": "MCU: Good afternoon. I am... not Sam. (the disguise reads)"
+  },
+  {
+   "t": "l9@6-0.1",
+   "why": "her deadpan stare",
+   "frame": [
+    1395,
+    645,
+    3.8
+   ]
+  },
+  {
+   "t": "l9@9-0.2",
+   "frame": [
+    960,
+    655,
+    3.2
+   ],
+   "why": "Looking at trees."
+  },
+  {
+   "t": "l10-0.1",
+   "why": "Hi, Sam.",
+   "frame": [
+    1395,
+    640,
+    4.2
+   ]
+  },
+  {
+   "t": "l11-0.35",
+   "frame": [
+    960,
+    670,
+    3.0
+   ],
+   "why": "Dang it. glasses off, the mustache stays stuck, peels, drops (tick)"
+  },
+  {
+   "t": "l11.end+0.8",
+   "beat": "tCutL2",
+   "why": "Layla knits; he storms off (off screen)",
+   "frame": [
+    1390,
+    665,
+    3.1
+   ]
+  },
+  {
+   "t": "l11.end+1.8",
+   "beat": "tBushWS",
+   "frame": [
+    930,
+    600,
+    1.55
+   ],
+   "why": "WS: THE BUSH shuffles in; freeze 1 when she glances"
+  },
+  {
+   "t": "l12-3.7",
+   "beat": "tF2",
+   "off": -0.45,
+   "why": "glance 2...",
+   "frame": [
+    1395,
+    645,
+    3.8
+   ]
+  },
+  {
+   "t": "l12-3.1",
+   "beat": "tF2",
+   "off": 0.15,
+   "frame": [
+    930,
+    600,
+    1.55
+   ],
+   "why": "WS again: the bush frozen mid-step, then it sneaks on"
+  },
+  {
+   "t": "l12-0.33",
+   "beat": "tF3",
+   "off": 0.45,
+   "why": "Hi, Sam. (flat, louder)",
+   "frame": [
+    1395,
+    640,
+    4.2
+   ]
+  },
+  {
+   "t": "l12.end+0.08",
+   "frame": [
+    820,
+    640,
+    2.7
+   ],
+   "why": "MS: the leaves part: Shh! I'm a bush."
+  },
+  {
+   "t": "l14-0.1",
+   "why": "Bushes don't wear scarves.",
+   "frame": [
+    1390,
+    665,
+    3.1
+   ]
+  },
+  {
+   "t": "l14@3-0.05",
+   "why": "insert: the scarf end, yanked in",
+   "frameOf": "bush",
+   "frameDx": -150,
+   "frameY": 655,
+   "frameZ": 4.2,
+   "frame": [
+    640,
+    660,
+    4.2
+   ]
+  },
+  {
+   "t": "l14.end+0.5",
+   "beat": "tYank",
+   "off": 0.4,
+   "frame": [
+    800,
+    625,
+    3.3
+   ],
+   "why": "MCU on the bush top: Fashionable bush. scarf pokes back out; Pip pecks"
+  },
+  {
+   "t": "l16+0.1",
+   "beat": "tOw",
+   "off": -0.02,
+   "frame": [
+    790,
+    600,
+    2.4
+   ],
+   "impact": true,
+   "why": "Ow! the head bursts out of the top, Pip startled"
+  },
+  {
+   "t": "l16.end-0.6",
+   "frame": [
+    880,
+    650,
+    3.0
+   ],
+   "why": "he argues with Pip; behind him the sprout pops new leaves"
+  },
+  {
+   "t": "l16.end+1.45",
+   "beat": "tLay",
+   "off": -0.1,
+   "why": "Layla notices the new leaves (sprout in frame, left), keeps knitting",
+   "frame": [
+    1200,
+    650,
+    2.4
+   ]
+  }
+ ]
+}
