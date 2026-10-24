@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Sorry!",
+   "timestamp": [
+    0.24,
+    1.36
+   ]
+  },
+  {
+   "text": "Too",
+   "timestamp": [
+    1.44,
+    1.52
+   ]
+  },
+  {
+   "text": "much?",
+   "timestamp": [
+    1.6,
+    2.48
+   ]
+  }
+ ],
+ "tts": "[sheepish] Sorry! Too much?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

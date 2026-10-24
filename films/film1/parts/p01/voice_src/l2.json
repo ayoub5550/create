@@ -1,0 +1,57 @@
+{
+ "words": [
+  {
+   "text": "Sam...",
+   "timestamp": [
+    0.24,
+    1.12
+   ]
+  },
+  {
+   "text": "why",
+   "timestamp": [
+    1.24,
+    1.36
+   ]
+  },
+  {
+   "text": "are",
+   "timestamp": [
+    1.44,
+    1.52
+   ]
+  },
+  {
+   "text": "you",
+   "timestamp": [
+    1.6,
+    1.76
+   ]
+  },
+  {
+   "text": "yelling",
+   "timestamp": [
+    1.84,
+    2.08
+   ]
+  },
+  {
+   "text": "at",
+   "timestamp": [
+    2.2,
+    2.32
+   ]
+  },
+  {
+   "text": "dirt?",
+   "timestamp": [
+    2.36,
+    3.28
+   ]
+  }
+ ],
+ "tts": "[puzzled, flat] Sam... why are you yelling at dirt?",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

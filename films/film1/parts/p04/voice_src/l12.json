@@ -1,0 +1,57 @@
+{
+ "words": [
+  {
+   "text": "Step",
+   "timestamp": [
+    0.16,
+    0.4
+   ]
+  },
+  {
+   "text": "two:",
+   "timestamp": [
+    0.56,
+    1.28
+   ]
+  },
+  {
+   "text": "be",
+   "timestamp": [
+    1.44,
+    1.6
+   ]
+  },
+  {
+   "text": "more",
+   "timestamp": [
+    1.68,
+    1.92
+   ]
+  },
+  {
+   "text": "patient?!",
+   "timestamp": [
+    2.0,
+    2.8
+   ]
+  },
+  {
+   "text": "...Zero",
+   "timestamp": [
+    3.107,
+    3.44
+   ]
+  },
+  {
+   "text": "stars!",
+   "timestamp": [
+    3.52,
+    4.32
+   ]
+  }
+ ],
+ "tts": "[scandalised] Step two: be more patient?! [shouting] ...Zero stars!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

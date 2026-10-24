@@ -1,0 +1,57 @@
+{
+ "words": [
+  {
+   "text": "Winter?!",
+   "timestamp": [
+    0.16,
+    1.28
+   ]
+  },
+  {
+   "text": "How",
+   "timestamp": [
+    1.36,
+    1.44
+   ]
+  },
+  {
+   "text": "do",
+   "timestamp": [
+    1.52,
+    1.6
+   ]
+  },
+  {
+   "text": "you",
+   "timestamp": [
+    1.72,
+    1.84
+   ]
+  },
+  {
+   "text": "live",
+   "timestamp": [
+    1.92,
+    2.16
+   ]
+  },
+  {
+   "text": "like",
+   "timestamp": [
+    2.24,
+    2.4
+   ]
+  },
+  {
+   "text": "this?",
+   "timestamp": [
+    2.48,
+    3.36
+   ]
+  }
+ ],
+ "tts": "[horrified] Winter?! How do you live like this?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,492 @@
+{
+ "fps": 30,
+ "total": 55.32,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "layla",
+   "text": "Good morning, Sam.",
+   "start": 3.5,
+   "end": 4.911,
+   "dur": 1.411,
+   "file_dur": 1.411,
+   "emotion": "warm",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Good",
+     "t0": 3.66,
+     "t1": 3.82
+    },
+    {
+     "text": "morning,",
+     "t0": 3.98,
+     "t1": 4.38
+    },
+    {
+     "text": "Sam.",
+     "t0": 4.46,
+     "t1": 4.901
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "who": "sam",
+   "text": "I wasn't sleeping! I was... resting my eyes.",
+   "start": 5.2,
+   "end": 8.674,
+   "dur": 3.474,
+   "file_dur": 3.474,
+   "emotion": "startled",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "I",
+     "t0": 5.28,
+     "t1": 5.36
+    },
+    {
+     "text": "wasn't",
+     "t0": 5.44,
+     "t1": 5.68
+    },
+    {
+     "text": "sleeping!",
+     "t0": 5.76,
+     "t1": 6.48
+    },
+    {
+     "text": "I",
+     "t0": 6.72,
+     "t1": 6.907
+    },
+    {
+     "text": "was...",
+     "t0": 7.093,
+     "t1": 7.32
+    },
+    {
+     "text": "resting",
+     "t0": 7.36,
+     "t1": 7.68
+    },
+    {
+     "text": "my",
+     "t0": 7.76,
+     "t1": 7.84
+    },
+    {
+     "text": "eyes.",
+     "t0": 7.92,
+     "t1": 8.64
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "who": "layla",
+   "text": "For eight hours.",
+   "start": 9.167,
+   "end": 10.891,
+   "dur": 1.724,
+   "file_dur": 1.724,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "For",
+     "t0": 9.327,
+     "t1": 9.567
+    },
+    {
+     "text": "eight",
+     "t0": 9.647,
+     "t1": 9.887
+    },
+    {
+     "text": "hours.",
+     "t0": 10.047,
+     "t1": 10.847
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "Whoa. It grew... without me.",
+   "start": 12.1,
+   "end": 16.07,
+   "dur": 3.97,
+   "file_dur": 3.971,
+   "emotion": "awed",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Whoa.",
+     "t0": 12.42,
+     "t1": 13.46
+    },
+    {
+     "text": "It",
+     "t0": 13.58,
+     "t1": 13.7
+    },
+    {
+     "text": "grew...",
+     "t0": 13.78,
+     "t1": 14.66
+    },
+    {
+     "text": "without",
+     "t0": 14.9,
+     "t1": 15.14
+    },
+    {
+     "text": "me.",
+     "t0": 15.22,
+     "t1": 16.02
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "who": "layla",
+   "text": "Mostly because you were asleep.",
+   "start": 16.467,
+   "end": 19.053,
+   "dur": 2.586,
+   "file_dur": 2.586,
+   "emotion": "teasing",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Mostly",
+     "t0": 16.707,
+     "t1": 17.187
+    },
+    {
+     "text": "because",
+     "t0": 17.267,
+     "t1": 17.587
+    },
+    {
+     "text": "you",
+     "t0": 17.667,
+     "t1": 17.747
+    },
+    {
+     "text": "were",
+     "t0": 17.787,
+     "t1": 17.827
+    },
+    {
+     "text": "asleep.",
+     "t0": 17.907,
+     "t1": 19.027
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "who": "sam",
+   "text": "But where are the apples? I want apples. Now!",
+   "start": 19.467,
+   "end": 23.333,
+   "dur": 3.866,
+   "file_dur": 3.866,
+   "emotion": "impatient",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "But",
+     "t0": 19.683,
+     "t1": 19.707
+    },
+    {
+     "text": "where",
+     "t0": 19.787,
+     "t1": 19.947
+    },
+    {
+     "text": "are",
+     "t0": 19.987,
+     "t1": 20.027
+    },
+    {
+     "text": "the",
+     "t0": 20.107,
+     "t1": 20.267
+    },
+    {
+     "text": "apples?",
+     "t0": 20.427,
+     "t1": 21.067
+    },
+    {
+     "text": "I",
+     "t0": 21.227,
+     "t1": 21.267
+    },
+    {
+     "text": "want",
+     "t0": 21.307,
+     "t1": 21.547
+    },
+    {
+     "text": "apples.",
+     "t0": 21.707,
+     "t1": 22.467
+    },
+    {
+     "text": "Now!",
+     "t0": 22.507,
+     "t1": 23.323
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "who": "layla",
+   "text": "Hey, Sam. Look! A bird!",
+   "start": 24.833,
+   "end": 27.523,
+   "dur": 2.69,
+   "file_dur": 2.691,
+   "emotion": "sly",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Hey,",
+     "t0": 24.913,
+     "t1": 25.153
+    },
+    {
+     "text": "Sam.",
+     "t0": 25.233,
+     "t1": 25.873
+    },
+    {
+     "text": "Look!",
+     "t0": 25.953,
+     "t1": 26.513
+    },
+    {
+     "text": "A",
+     "t0": 26.553,
+     "t1": 26.593
+    },
+    {
+     "text": "bird!",
+     "t0": 26.673,
+     "t1": 27.473
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "Where?!",
+   "start": 27.667,
+   "end": 28.816,
+   "dur": 1.149,
+   "file_dur": 1.149,
+   "emotion": "delighted",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Where?!",
+     "t0": 27.827,
+     "t1": 28.787
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "It... grew.",
+   "start": 33.3,
+   "end": 35.338,
+   "dur": 2.038,
+   "file_dur": 2.038,
+   "emotion": "dazed",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "It...",
+     "t0": 33.38,
+     "t1": 34.1
+    },
+    {
+     "text": "grew.",
+     "t0": 34.18,
+     "t1": 35.3
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "who": "sam",
+   "text": "It grew!",
+   "start": 36.833,
+   "end": 37.904,
+   "dur": 1.071,
+   "file_dur": 1.071,
+   "emotion": "joy",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "It",
+     "t0": 37.107,
+     "t1": 37.153
+    },
+    {
+     "text": "grew!",
+     "t0": 37.233,
+     "t1": 37.873
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "who": "layla",
+   "text": "Told you. It just needed time.",
+   "start": 38.4,
+   "end": 41.091,
+   "dur": 2.691,
+   "file_dur": 2.691,
+   "emotion": "warm",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Told",
+     "t0": 38.56,
+     "t1": 38.96
+    },
+    {
+     "text": "you.",
+     "t0": 39.04,
+     "t1": 39.52
+    },
+    {
+     "text": "It",
+     "t0": 39.76,
+     "t1": 39.92
+    },
+    {
+     "text": "just",
+     "t0": 40.0,
+     "t1": 40.16
+    },
+    {
+     "text": "needed",
+     "t0": 40.24,
+     "t1": 40.56
+    },
+    {
+     "text": "time.",
+     "t0": 40.64,
+     "t1": 41.081
+    }
+   ]
+  },
+  {
+   "id": "l12",
+   "who": "sam",
+   "text": "Okay! Next up: a whole forest!",
+   "start": 42.0,
+   "end": 45.396,
+   "dur": 3.396,
+   "file_dur": 3.396,
+   "emotion": "excited",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Okay!",
+     "t0": 42.08,
+     "t1": 42.88
+    },
+    {
+     "text": "Next",
+     "t0": 42.96,
+     "t1": 43.2
+    },
+    {
+     "text": "up:",
+     "t0": 43.28,
+     "t1": 43.68
+    },
+    {
+     "text": "a",
+     "t0": 43.8,
+     "t1": 43.92
+    },
+    {
+     "text": "whole",
+     "t0": 44.12,
+     "t1": 44.32
+    },
+    {
+     "text": "forest!",
+     "t0": 44.4,
+     "t1": 45.36
+    }
+   ]
+  },
+  {
+   "id": "l13",
+   "who": "sam",
+   "text": "...How long?",
+   "start": 46.2,
+   "end": 47.036,
+   "dur": 0.836,
+   "file_dur": 0.836,
+   "emotion": "hopeful",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "...How",
+     "t0": 46.28,
+     "t1": 46.52
+    },
+    {
+     "text": "long?",
+     "t0": 46.6,
+     "t1": 47.026
+    }
+   ]
+  },
+  {
+   "id": "l14",
+   "who": "layla",
+   "text": "Years.",
+   "start": 48.233,
+   "end": 49.323,
+   "dur": 1.09,
+   "file_dur": 1.228,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Years.",
+     "t0": 48.553,
+     "t1": 49.273
+    }
+   ]
+  }
+ ]
+}

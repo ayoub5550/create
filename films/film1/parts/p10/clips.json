@@ -1,0 +1,10 @@
+{
+  "groundY": 262,
+  "clips": {
+    "walk":   {"take": "82_10", "note": "sad walk forward", "args": {"view": "travel", "start": 40, "keep_drift": true},
+               "range": [0, 132], "cycle": {"search": [25, 70], "len": [24, 48]}},
+    "stroll": {"take": "82_11", "note": "normal walk forward (old Sam walks away, content)", "args": {"view": "travel", "start": 40, "keep_drift": true},
+               "range": [0, 140], "cycle": {"search": [25, 80], "len": [24, 48]}},
+    "sit":    {"take": "13_01", "note": "sit on a stool (the rock), stand up", "args": {"horiz": "z", "max_frames": 400}, "range": [100, 260]}
+  }
+}

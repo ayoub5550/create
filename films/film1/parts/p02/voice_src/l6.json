@@ -1,0 +1,22 @@
+{
+ "words": [
+  {
+   "text": "A",
+   "timestamp": [
+    0.133,
+    0.16
+   ]
+  },
+  {
+   "text": "scarf.",
+   "timestamp": [
+    0.36,
+    1.04
+   ]
+  }
+ ],
+ "tts": "[calm] A scarf.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

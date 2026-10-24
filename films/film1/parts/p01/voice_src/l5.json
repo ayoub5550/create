@@ -1,0 +1,71 @@
+{
+ "words": [
+  {
+   "text": "Right",
+   "timestamp": [
+    0.16,
+    0.4
+   ]
+  },
+  {
+   "text": "there!",
+   "timestamp": [
+    0.48,
+    0.96
+   ]
+  },
+  {
+   "text": "Under",
+   "timestamp": [
+    1.12,
+    1.36
+   ]
+  },
+  {
+   "text": "the",
+   "timestamp": [
+    1.44,
+    1.52
+   ]
+  },
+  {
+   "text": "dirt.",
+   "timestamp": [
+    1.733,
+    2.2
+   ]
+  },
+  {
+   "text": "Probably",
+   "timestamp": [
+    2.24,
+    2.72
+   ]
+  },
+  {
+   "text": "huge",
+   "timestamp": [
+    2.88,
+    3.2
+   ]
+  },
+  {
+   "text": "by",
+   "timestamp": [
+    3.28,
+    3.44
+   ]
+  },
+  {
+   "text": "now.",
+   "timestamp": [
+    3.52,
+    4.16
+   ]
+  }
+ ],
+ "tts": "[excited] Right there! Under the dirt. Probably huge by now.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

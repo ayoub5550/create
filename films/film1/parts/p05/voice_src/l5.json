@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Maybe",
+   "timestamp": [
+    0.56,
+    0.88
+   ]
+  },
+  {
+   "text": "it's",
+   "timestamp": [
+    0.96,
+    1.2
+   ]
+  },
+  {
+   "text": "shy.",
+   "timestamp": [
+    1.36,
+    2.32
+   ]
+  }
+ ],
+ "tts": "[dry, hiding a smile] Maybe it's shy.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

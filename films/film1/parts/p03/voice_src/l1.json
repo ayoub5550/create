@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Plan",
+   "timestamp": [
+    0.08,
+    0.4
+   ]
+  },
+  {
+   "text": "D.",
+   "timestamp": [
+    0.64,
+    1.04
+   ]
+  },
+  {
+   "text": "Plant",
+   "timestamp": [
+    1.36,
+    1.68
+   ]
+  },
+  {
+   "text": "food!",
+   "timestamp": [
+    1.76,
+    2.24
+   ]
+  }
+ ],
+ "tts": "[excited] Plan D. Plant food!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

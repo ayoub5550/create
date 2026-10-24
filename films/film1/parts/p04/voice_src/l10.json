@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "You're",
+   "timestamp": [
+    0.16,
+    0.32
+   ]
+  },
+  {
+   "text": "reviewing",
+   "timestamp": [
+    0.52,
+    0.8
+   ]
+  },
+  {
+   "text": "nature?",
+   "timestamp": [
+    0.88,
+    1.92
+   ]
+  }
+ ],
+ "tts": "[deadpan] You're reviewing nature?",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

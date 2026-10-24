@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Huh.",
+   "timestamp": [
+    0.24,
+    1.28
+   ]
+  },
+  {
+   "text": "I'm",
+   "timestamp": [
+    1.36,
+    1.44
+   ]
+  },
+  {
+   "text": "in",
+   "timestamp": [
+    1.6,
+    1.76
+   ]
+  },
+  {
+   "text": "every",
+   "timestamp": [
+    1.84,
+    2.24
+   ]
+  },
+  {
+   "text": "shot.",
+   "timestamp": [
+    2.32,
+    3.28
+   ]
+  }
+ ],
+ "tts": "[puzzled, slowly realising] Huh. I'm in every shot.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

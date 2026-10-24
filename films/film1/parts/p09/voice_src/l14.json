@@ -1,0 +1,15 @@
+{
+ "words": [
+  {
+   "text": "Years.",
+   "timestamp": [
+    0.32,
+    1.04
+   ]
+  }
+ ],
+ "tts": "[deadpan] Years.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

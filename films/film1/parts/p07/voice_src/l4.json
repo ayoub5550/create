@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Trees",
+   "timestamp": [
+    0.08,
+    0.4
+   ]
+  },
+  {
+   "text": "can't",
+   "timestamp": [
+    0.48,
+    0.64
+   ]
+  },
+  {
+   "text": "hide",
+   "timestamp": [
+    0.8,
+    1.04
+   ]
+  },
+  {
+   "text": "from",
+   "timestamp": [
+    1.12,
+    1.2
+   ]
+  },
+  {
+   "text": "technology.",
+   "timestamp": [
+    1.28,
+    2.24
+   ]
+  }
+ ],
+ "tts": "[smug] Trees can't hide from technology.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,68 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P10: Tag: years later + end card",
+ "part": "p10",
+ "time": "seasons -> spring",
+ "set_look": "yard-seasons",
+ "summary": "Seasons pass; Layla's scarf is done by winter; an orchard. Sam plants a seed and walks away without looking back.",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 17.0,
+ "tail": 18.0,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "layla",
+   "text": "Done by winter.",
+   "tts": "[pleased, matter-of-fact] Done by winter.",
+   "emotion": "pleased",
+   "gap": 9.0,
+   "note": "The gap before it: 'Years later...' card, autumn (leaves fall from the apple tree, Sam rakes them impatiently), then WINTER: snow, Sam on the rock beside a row of saplings, wrapped head to toe in Layla's giant FINISHED scarf."
+  },
+  {
+   "id": "l2",
+   "who": "sam",
+   "text": "Show-off.",
+   "tts": "[muffled through a thick scarf, fond] Show-off.",
+   "emotion": "fond",
+   "gap": 0.5,
+   "note": "Muffled through the scarf; she sits beside him."
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "Grow.",
+   "tts": "[softly, warmly, clearly] Grow.",
+   "emotion": "calm",
+   "gap": 10.0,
+   "note": "The gap: spring blossoms, Pip's nest with eggs, an orchard behind the house. Sam (grey tuft) kneels by a NEW mound and says it softly."
+  },
+  {
+   "id": "l4",
+   "who": "layla",
+   "text": "No yelling?",
+   "tts": "[surprised, amused] No yelling?",
+   "emotion": "surprised",
+   "gap": 1.2,
+   "note": "He stands, pats the mound."
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Nah. It knows what to do.",
+   "tts": "[calm, content] Nah. It knows what to do.",
+   "emotion": "content",
+   "gap": 0.4,
+   "note": "He walks away WITHOUT looking back. Behind him the sprout pops; Pip chirps. Iris out on the sprout; sting."
+  }
+ ],
+ "tail_note": "Iris (3 s) + END CARD (8 s): 'SAM & LAYLA' / 'New episode soon!' with empty zones for YouTube end-screen elements.",
+ "beats": [
+  "OPEN (0-17 s): 'Years later...' card; SUMMER: the apple tree, Sam picks an apple; AUTUMN: leaves fall, Sam rakes a pile — a gust scatters it (he glares); WINTER: snow, Sam on the rock beside a row of saplings, wrapped head to toe in Layla's giant finished scarf.",
+  "l3 gap (10 s): SPRING: blossoms, Pip's nest with eggs hatching (three tiny chicks chirp), an orchard behind the house; Sam (grey tuft) kneels by a NEW mound.",
+  "HOLD (16 s): he walks away without looking back, the sprout pops, Pip chirps; iris out (3 s); END CARD (10 s): 'SAM & LAYLA' / 'New episode soon!' with clear zones for YouTube end-screen elements."
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "words": [
+  {
+   "text": "Three",
+   "timestamp": [
+    0.16,
+    0.48
+   ]
+  },
+  {
+   "text": "minutes?!",
+   "timestamp": [
+    0.72,
+    1.4
+   ]
+  },
+  {
+   "text": "Who",
+   "timestamp": [
+    1.6,
+    1.68
+   ]
+  },
+  {
+   "text": "has",
+   "timestamp": [
+    1.76,
+    1.92
+   ]
+  },
+  {
+   "text": "that",
+   "timestamp": [
+    2.0,
+    2.08
+   ]
+  },
+  {
+   "text": "kind",
+   "timestamp": [
+    2.16,
+    2.24
+   ]
+  },
+  {
+   "text": "of",
+   "timestamp": [
+    2.32,
+    2.4
+   ]
+  },
+  {
+   "text": "time?",
+   "timestamp": [
+    2.64,
+    2.96
+   ]
+  }
+ ],
+ "tts": "[outraged] Three minutes?! Who has that kind of time?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

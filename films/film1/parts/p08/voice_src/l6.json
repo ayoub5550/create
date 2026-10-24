@@ -1,0 +1,22 @@
+{
+ "words": [
+  {
+   "text": "Goodnight,",
+   "timestamp": [
+    0.16,
+    0.68
+   ]
+  },
+  {
+   "text": "Sam.",
+   "timestamp": [
+    0.72,
+    1.217755
+   ]
+  }
+ ],
+ "tts": "[whispering tenderly] Goodnight, Sam.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

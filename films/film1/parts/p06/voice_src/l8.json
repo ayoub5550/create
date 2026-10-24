@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Two",
+   "timestamp": [
+    0.333,
+    0.4
+   ]
+  },
+  {
+   "text": "very",
+   "timestamp": [
+    0.48,
+    0.8
+   ]
+  },
+  {
+   "text": "long",
+   "timestamp": [
+    0.96,
+    1.28
+   ]
+  },
+  {
+   "text": "seconds.",
+   "timestamp": [
+    1.44,
+    2.0
+   ]
+  }
+ ],
+ "tts": "[defensive] Two very long seconds.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

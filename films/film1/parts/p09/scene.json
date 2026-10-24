@@ -1,0 +1,146 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P09: The payoff",
+ "part": "p09",
+ "time": "morning",
+ "set_look": "yard-day",
+ "summary": "Morning. The tree grew while he slept. 'Look! A bird!' BOOM, apples, BONK. 'Years.' Faint.",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 3.5,
+ "tail": 6.0,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "layla",
+   "text": "Good morning, Sam.",
+   "tts": "[cheerful, gentle] Good morning, Sam.",
+   "emotion": "warm",
+   "note": "Layla walks in with two mugs (steam). Her scarf is enormous."
+  },
+  {
+   "id": "l2",
+   "who": "sam",
+   "text": "I wasn't sleeping! I was... resting my eyes.",
+   "tts": "[startled awake, defensive] I wasn't sleeping! I was... resting my eyes.",
+   "emotion": "startled",
+   "gap": 0.3,
+   "note": "He jolts up, leaf falls off his face."
+  },
+  {
+   "id": "l3",
+   "who": "layla",
+   "text": "For eight hours.",
+   "tts": "[deadpan] For eight hours.",
+   "emotion": "deadpan",
+   "gap": 0.5,
+   "note": "Hands him a mug."
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "Whoa. It grew... without me.",
+   "tts": "[awed, a little hurt] Whoa. It grew... without me.",
+   "emotion": "awed",
+   "gap": 1.2,
+   "note": "He looks up and up: the young tree is taller than him."
+  },
+  {
+   "id": "l5",
+   "who": "layla",
+   "text": "Mostly *because* you were asleep.",
+   "tts": "[gently teasing] Mostly because you were asleep.",
+   "emotion": "teasing",
+   "gap": 0.4
+  },
+  {
+   "id": "l6",
+   "who": "sam",
+   "text": "But where are the apples? I want apples. *Now!*",
+   "tts": "[impatient, whining] But where are the apples? I want apples. Now!",
+   "emotion": "impatient",
+   "gap": 0.4,
+   "note": "Stomps; stares at the tree."
+  },
+  {
+   "id": "l7",
+   "who": "layla",
+   "text": "Hey, Sam. Look! A bird!",
+   "tts": "[sly, pointing] Hey, Sam. Look! A bird!",
+   "emotion": "sly",
+   "gap": 1.5,
+   "note": "MCU Layla points AWAY from the tree (at Pip on the fence): she is helping the tree."
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "Where?!",
+   "tts": "[delighted] Where?!",
+   "emotion": "delighted",
+   "gap": 0.15,
+   "note": "WS: he looks away; behind him the tree BOOMS into a full apple tree (~1.2 s, rumble); an apple drops and BONKS his head."
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "It... grew.",
+   "tts": "[dazed] It... grew.",
+   "emotion": "dazed",
+   "gap": 4.5,
+   "note": "MS: dazed, holding the apple, little stars orbit his head."
+  },
+  {
+   "id": "l10",
+   "who": "sam",
+   "text": "It *grew!*",
+   "tts": "[overjoyed] It grew!",
+   "emotion": "joy",
+   "gap": 1.5,
+   "note": "Jumps for joy."
+  },
+  {
+   "id": "l11",
+   "who": "layla",
+   "text": "Told you. It just needed time.",
+   "tts": "[warmly, smiling] Told you. It just needed time.",
+   "emotion": "warm",
+   "gap": 0.5,
+   "note": "MCU Layla: her first smile."
+  },
+  {
+   "id": "l12",
+   "who": "sam",
+   "text": "Okay! Next up: a whole *forest!*",
+   "tts": "[excited] Okay! Next up: a whole forest!",
+   "emotion": "excited",
+   "gap": 0.9,
+   "note": "Bites the apple, arms wide."
+  },
+  {
+   "id": "l13",
+   "who": "sam",
+   "text": "...How long?",
+   "tts": "[hopeful, mouth full] ...How long?",
+   "emotion": "hopeful",
+   "gap": 0.8,
+   "note": "CU, hopeful smile."
+  },
+  {
+   "id": "l14",
+   "who": "layla",
+   "text": "Years.",
+   "tts": "[deadpan] Years.",
+   "emotion": "deadpan",
+   "gap": 1.2,
+   "note": "Callback. WS: Sam faints backwards stiff as a board, THUD + dust; Pip lands on his foot."
+  }
+ ],
+ "beats": [
+  "OPEN (0-3.5 s): morning; birdsong; the young tree; Sam asleep under Layla's blanket, a leaf on his face fluttering with each snore.",
+  "l9 gap: the BOOM: full apple tree, apples rain down, one BONKS him, stars orbit his head.",
+  "HOLD: Sam faints stiff as a board (THUD + dust), Pip lands on his foot and chirps."
+ ]
+}

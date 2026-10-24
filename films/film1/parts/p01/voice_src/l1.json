@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Grow.",
+   "timestamp": [
+    0.161,
+    0.881
+   ]
+  },
+  {
+   "text": "Grow...",
+   "timestamp": [
+    1.121,
+    1.801
+   ]
+  },
+  {
+   "text": "grow!",
+   "timestamp": [
+    2.001,
+    2.5761220000000002
+   ]
+  }
+ ],
+ "tts": "[intense, building to a shout] Grow. Grow... grow!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

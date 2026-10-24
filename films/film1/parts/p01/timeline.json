@@ -1,0 +1,434 @@
+{
+ "fps": 30,
+ "total": 50.41,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Grow. Grow... grow!",
+   "start": 5.0,
+   "end": 7.586,
+   "dur": 2.586,
+   "file_dur": 2.586,
+   "emotion": "intense",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Grow.",
+     "t0": 5.161,
+     "t1": 5.881
+    },
+    {
+     "text": "Grow...",
+     "t0": 6.121,
+     "t1": 6.801
+    },
+    {
+     "text": "grow!",
+     "t0": 7.001,
+     "t1": 7.576
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "who": "layla",
+   "text": "Sam... why are you yelling at dirt?",
+   "start": 8.1,
+   "end": 11.418,
+   "dur": 3.318,
+   "file_dur": 3.318,
+   "emotion": "puzzled",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Sam...",
+     "t0": 8.34,
+     "t1": 9.22
+    },
+    {
+     "text": "why",
+     "t0": 9.34,
+     "t1": 9.46
+    },
+    {
+     "text": "are",
+     "t0": 9.54,
+     "t1": 9.62
+    },
+    {
+     "text": "you",
+     "t0": 9.7,
+     "t1": 9.86
+    },
+    {
+     "text": "yelling",
+     "t0": 9.94,
+     "t1": 10.18
+    },
+    {
+     "text": "at",
+     "t0": 10.3,
+     "t1": 10.42
+    },
+    {
+     "text": "dirt?",
+     "t0": 10.46,
+     "t1": 11.38
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "I'm not yelling. I'm motivating a tree.",
+   "start": 11.733,
+   "end": 15.051,
+   "dur": 3.318,
+   "file_dur": 3.318,
+   "emotion": "proud",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "I'm",
+     "t0": 11.8,
+     "t1": 11.893
+    },
+    {
+     "text": "not",
+     "t0": 12.013,
+     "t1": 12.133
+    },
+    {
+     "text": "yelling.",
+     "t0": 12.213,
+     "t1": 13.053
+    },
+    {
+     "text": "I'm",
+     "t0": 13.093,
+     "t1": 13.253
+    },
+    {
+     "text": "motivating",
+     "t0": 13.373,
+     "t1": 13.893
+    },
+    {
+     "text": "a",
+     "t0": 14.133,
+     "t1": 14.426
+    },
+    {
+     "text": "tree.",
+     "t0": 14.72,
+     "t1": 15.093
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "who": "layla",
+   "text": "A tree. Where?",
+   "start": 15.467,
+   "end": 17.818,
+   "dur": 2.351,
+   "file_dur": 2.351,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "A",
+     "t0": 15.547,
+     "t1": 15.627
+    },
+    {
+     "text": "tree.",
+     "t0": 15.787,
+     "t1": 16.747
+    },
+    {
+     "text": "Where?",
+     "t0": 16.827,
+     "t1": 17.787
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Right there! Under the dirt. Probably huge by now.",
+   "start": 18.067,
+   "end": 22.194,
+   "dur": 4.127,
+   "file_dur": 4.127,
+   "emotion": "excited",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Right",
+     "t0": 18.227,
+     "t1": 18.467
+    },
+    {
+     "text": "there!",
+     "t0": 18.547,
+     "t1": 19.027
+    },
+    {
+     "text": "Under",
+     "t0": 19.187,
+     "t1": 19.427
+    },
+    {
+     "text": "the",
+     "t0": 19.507,
+     "t1": 19.587
+    },
+    {
+     "text": "dirt.",
+     "t0": 19.8,
+     "t1": 20.267
+    },
+    {
+     "text": "Probably",
+     "t0": 20.307,
+     "t1": 20.787
+    },
+    {
+     "text": "huge",
+     "t0": 20.947,
+     "t1": 21.267
+    },
+    {
+     "text": "by",
+     "t0": 21.347,
+     "t1": 21.507
+    },
+    {
+     "text": "now.",
+     "t0": 21.587,
+     "t1": 22.227
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "who": "layla",
+   "text": "When did you plant it?",
+   "start": 22.6,
+   "end": 24.167,
+   "dur": 1.567,
+   "file_dur": 1.567,
+   "emotion": "neutral",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "When",
+     "t0": 22.6,
+     "t1": 22.76
+    },
+    {
+     "text": "did",
+     "t0": 22.84,
+     "t1": 22.92
+    },
+    {
+     "text": "you",
+     "t0": 23.0,
+     "t1": 23.08
+    },
+    {
+     "text": "plant",
+     "t0": 23.16,
+     "t1": 23.4
+    },
+    {
+     "text": "it?",
+     "t0": 23.48,
+     "t1": 24.12
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "who": "sam",
+   "text": "Yesterday!",
+   "start": 24.433,
+   "end": 25.426,
+   "dur": 0.993,
+   "file_dur": 0.993,
+   "emotion": "proud",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Yesterday!",
+     "t0": 24.593,
+     "t1": 25.393
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "who": "layla",
+   "text": "Yesterday? Sam, trees take time.",
+   "start": 25.833,
+   "end": 29.803,
+   "dur": 3.97,
+   "file_dur": 3.971,
+   "emotion": "neutral",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Yesterday?",
+     "t0": 26.073,
+     "t1": 27.033
+    },
+    {
+     "text": "Sam,",
+     "t0": 27.353,
+     "t1": 27.953
+    },
+    {
+     "text": "trees",
+     "t0": 28.073,
+     "t1": 28.393
+    },
+    {
+     "text": "take",
+     "t0": 28.473,
+     "t1": 28.713
+    },
+    {
+     "text": "time.",
+     "t0": 28.953,
+     "t1": 29.753
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "How much time? An hour? Two hours?",
+   "start": 30.067,
+   "end": 32.496,
+   "dur": 2.429,
+   "file_dur": 2.429,
+   "emotion": "hopeful",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "How",
+     "t0": 30.147,
+     "t1": 30.227
+    },
+    {
+     "text": "much",
+     "t0": 30.307,
+     "t1": 30.467
+    },
+    {
+     "text": "time?",
+     "t0": 30.547,
+     "t1": 30.947
+    },
+    {
+     "text": "An",
+     "t0": 31.107,
+     "t1": 31.187
+    },
+    {
+     "text": "hour?",
+     "t0": 31.267,
+     "t1": 31.667
+    },
+    {
+     "text": "Two",
+     "t0": 31.827,
+     "t1": 31.907
+    },
+    {
+     "text": "hours?",
+     "t0": 31.987,
+     "t1": 32.467
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "who": "layla",
+   "text": "Years.",
+   "start": 33.8,
+   "end": 35.289,
+   "dur": 1.489,
+   "file_dur": 1.489,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Years.",
+     "t0": 34.12,
+     "t1": 35.24
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "who": "sam",
+   "text": "...Years?",
+   "start": 37.7,
+   "end": 38.771,
+   "dur": 1.071,
+   "file_dur": 1.071,
+   "emotion": "shocked",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "...Years?",
+     "t0": 38.376,
+     "t1": 38.74
+    }
+   ]
+  },
+  {
+   "id": "l12",
+   "who": "sam",
+   "text": "Okay. Plan B.",
+   "start": 40.367,
+   "end": 42.405,
+   "dur": 2.038,
+   "file_dur": 2.038,
+   "emotion": "determined",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Okay.",
+     "t0": 40.447,
+     "t1": 41.167
+    },
+    {
+     "text": "Plan",
+     "t0": 41.487,
+     "t1": 41.727
+    },
+    {
+     "text": "B.",
+     "t0": 41.807,
+     "t1": 42.367
+    }
+   ]
+  }
+ ]
+}

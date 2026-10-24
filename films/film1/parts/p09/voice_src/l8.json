@@ -1,0 +1,15 @@
+{
+ "words": [
+  {
+   "text": "Where?!",
+   "timestamp": [
+    0.16,
+    1.12
+   ]
+  }
+ ],
+ "tts": "[delighted] Where?!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

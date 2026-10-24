@@ -1,0 +1,138 @@
+{
+ "l1": {
+  "file": "assets/voice/l1.mp3",
+  "dur": 1.228,
+  "words": [
+   {
+    "text": "Done",
+    "timestamp": [
+     0.24,
+     0.4
+    ]
+   },
+   {
+    "text": "by",
+    "timestamp": [
+     0.48,
+     0.64
+    ]
+   },
+   {
+    "text": "winter.",
+    "timestamp": [
+     0.72,
+     1.217755
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Done by winter.",
+  "hash": "f6b26148c8ba"
+ },
+ "l2": {
+  "file": "assets/voice/l2.mp3",
+  "dur": 1.646,
+  "words": [
+   {
+    "text": "Show-off.",
+    "timestamp": [
+     0.542,
+     1.6
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Show-off.",
+  "hash": "97f290cf4c9b"
+ },
+ "l3": {
+  "file": "assets/voice/l3.mp3",
+  "dur": 0.836,
+  "words": [
+   {
+    "text": "Grow.",
+    "timestamp": [
+     0.32,
+     0.88
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Grow.",
+  "hash": "36f6b67dd00f"
+ },
+ "l4": {
+  "file": "assets/voice/l4.mp3",
+  "dur": 1.149,
+  "words": [
+   {
+    "text": "No",
+    "timestamp": [
+     0.24,
+     0.48
+    ]
+   },
+   {
+    "text": "yelling?",
+    "timestamp": [
+     0.56,
+     1.139388
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "No yelling?",
+  "hash": "1be3c717353c"
+ },
+ "l5": {
+  "file": "assets/voice/l5.mp3",
+  "dur": 2.116,
+  "words": [
+   {
+    "text": "Nah.",
+    "timestamp": [
+     0.24,
+     0.8
+    ]
+   },
+   {
+    "text": "It",
+    "timestamp": [
+     1.04,
+     1.12
+    ]
+   },
+   {
+    "text": "knows",
+    "timestamp": [
+     1.2,
+     1.4
+    ]
+   },
+   {
+    "text": "what",
+    "timestamp": [
+     1.44,
+     1.52
+    ]
+   },
+   {
+    "text": "to",
+    "timestamp": [
+     1.6,
+     1.68
+    ]
+   },
+   {
+    "text": "do.",
+    "timestamp": [
+     1.8,
+     2.08
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Nah. It knows what to do.",
+  "hash": "08bd0b0ecc84"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "words": [
+  {
+   "text": "Wait.",
+   "timestamp": [
+    0.08,
+    0.48
+   ]
+  }
+ ],
+ "tts": "[sudden whisper] Wait.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

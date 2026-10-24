@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "This",
+   "timestamp": [
+    0.08,
+    0.4
+   ]
+  },
+  {
+   "text": "tree",
+   "timestamp": [
+    0.48,
+    0.88
+   ]
+  },
+  {
+   "text": "is",
+   "timestamp": [
+    0.96,
+    1.12
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    1.24,
+    1.36
+   ]
+  },
+  {
+   "text": "genius.",
+   "timestamp": [
+    1.44,
+    2.184286
+   ]
+  }
+ ],
+ "tts": "[awed whisper] This tree is a genius.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "Told",
+   "timestamp": [
+    0.16,
+    0.56
+   ]
+  },
+  {
+   "text": "you.",
+   "timestamp": [
+    0.64,
+    1.12
+   ]
+  },
+  {
+   "text": "It",
+   "timestamp": [
+    1.36,
+    1.52
+   ]
+  },
+  {
+   "text": "just",
+   "timestamp": [
+    1.6,
+    1.76
+   ]
+  },
+  {
+   "text": "needed",
+   "timestamp": [
+    1.84,
+    2.16
+   ]
+  },
+  {
+   "text": "time.",
+   "timestamp": [
+    2.24,
+    2.680612
+   ]
+  }
+ ],
+ "tts": "[warmly, smiling] Told you. It just needed time.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

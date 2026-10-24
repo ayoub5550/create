@@ -1,5 +1,28 @@
 # CHANGELOG
 
+## 2026-10-24 — film1 published on YouTube + the publishing recipe
+- **Ep. 1 is live:** https://youtu.be/max4KYAPTv0 ("He Tried to Speedrun a Tree 🌱 | Sam & Layla Ep. 1", 9:58, channel
+  Decreeface, public, English captions). `films/film1/youtube.json` (metadata used), `published.json`, `thumbnail.png`,
+  `film1.srt`; `films/EPISODES.md` lists every published episode.
+- `tools/publish/youtube.py` (stdlib only): `auth` (consent link / paste-back exchange via the owner's own OAuth client),
+  `whoami`, `upload` (channel guard, duplicate guard, resumable 16 MB chunks, captions, thumbnail, playlist,
+  `published.json`), `status`, `thumbnail`, `captions`, `set`. Secrets stay outside the repo (`YT_SECRETS_DIR`).
+- `docs/recipe/09-publish-youtube.md`: one-time Google Cloud setup, weekly re-auth, `youtube.json` fields, errors and fixes.
+  AGENTS.md step 11, skill `skills/youtube-publish`, README, lessons. Open: the custom thumbnail waits for the channel's phone verification.
+
+## 2026-10-24 — film1 long cut (~9:45): script, voices, shared set, sound kit, reference part
+- Owner request: a ~10-minute film with excellent English voices, better backgrounds and lots of content. `films/film1/`
+  is now ten parts (`parts/p01..p10`, 124 lines) built and rendered separately, then assembled — guide: `PRODUCTION.md`.
+- Voices: ElevenLabs v4 (Sam = Liam, Layla = Sarah) recorded with audio tags, every take checked by speech-to-text;
+  `tools/voice/dialogue.py` gains `provider: "file"` (takes in `<part>/voice_src/<id>.mp3 + .json`, cache keyed by the take).
+- `films/film1/common/`: `set.js` (layered backyard with parallax, continuous time of day + seasons, world tint at night),
+  `props.js` (mound, rock, continuously growing tree, Pip, knitting + scarf, stool, mug, apple), `kit.js` (line/word
+  helpers, face presets, IK squat, cards, cartoon emanata, Layla's tote, speech/thought bubble, Pip's birdhouse),
+  `toon.py` (code-made cartoon band, 12 named music cues on one theme, ~60 synthesized SFX, Kenney CC0 Foley loader),
+  `sfx/kenney/` (CC0), `template.html`, `build_part.sh`.
+- `parts/p01` (cold open + title, 50 s) is the reference part. `tools/render/frames.py` (full-res frames at given times)
+  and `tools/render/jsdebug.py` (page errors at a seek time).
+
 ## 2026-10-24 — film1: the first YouTube episode, ready to produce
 - `films/film1/`: "Grow Faster!" (Sam & Layla, Ep. 1), an English ~95 s stick-figure comedy with the «حوار» characters.
   `BRIEF.md` (what US audiences watch now, beat sheet, staging map, how to animate each gag, camera, sound, acceptance

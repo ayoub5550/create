@@ -1,0 +1,22 @@
+{
+ "words": [
+  {
+   "text": "Dang",
+   "timestamp": [
+    0.16,
+    0.4
+   ]
+  },
+  {
+   "text": "it.",
+   "timestamp": [
+    0.48,
+    0.747551
+   ]
+  }
+ ],
+ "tts": "[normal voice, defeated] Dang it.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

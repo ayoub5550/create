@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Slowly.",
+   "timestamp": [
+    0.624,
+    1.6
+   ]
+  },
+  {
+   "text": "Knit",
+   "timestamp": [
+    1.68,
+    1.92
+   ]
+  },
+  {
+   "text": "one,",
+   "timestamp": [
+    2.08,
+    2.8
+   ]
+  },
+  {
+   "text": "purl",
+   "timestamp": [
+    2.84,
+    3.2
+   ]
+  },
+  {
+   "text": "one.",
+   "timestamp": [
+    3.28,
+    4.48
+   ]
+  }
+ ],
+ "tts": "[serene, slowly] Slowly. Knit one, purl one.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

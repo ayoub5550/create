@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Great",
+   "timestamp": [
+    0.16,
+    0.48
+   ]
+  },
+  {
+   "text": "footage.",
+   "timestamp": [
+    0.64,
+    1.52
+   ]
+  },
+  {
+   "text": "Very...",
+   "timestamp": [
+    1.6,
+    2.72
+   ]
+  },
+  {
+   "text": "you.",
+   "timestamp": [
+    2.92,
+    3.68
+   ]
+  }
+ ],
+ "tts": "[dry] Great footage. Very... you.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

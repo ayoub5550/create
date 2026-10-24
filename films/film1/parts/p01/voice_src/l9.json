@@ -1,0 +1,57 @@
+{
+ "words": [
+  {
+   "text": "How",
+   "timestamp": [
+    0.08,
+    0.16
+   ]
+  },
+  {
+   "text": "much",
+   "timestamp": [
+    0.24,
+    0.4
+   ]
+  },
+  {
+   "text": "time?",
+   "timestamp": [
+    0.48,
+    0.88
+   ]
+  },
+  {
+   "text": "An",
+   "timestamp": [
+    1.04,
+    1.12
+   ]
+  },
+  {
+   "text": "hour?",
+   "timestamp": [
+    1.2,
+    1.6
+   ]
+  },
+  {
+   "text": "Two",
+   "timestamp": [
+    1.76,
+    1.84
+   ]
+  },
+  {
+   "text": "hours?",
+   "timestamp": [
+    1.92,
+    2.4
+   ]
+  }
+ ],
+ "tts": "[hopeful, quickly] How much time? An hour? Two hours?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

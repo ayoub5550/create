@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Shy?",
+   "timestamp": [
+    0.56,
+    1.52
+   ]
+  },
+  {
+   "text": "Trees",
+   "timestamp": [
+    1.68,
+    1.84
+   ]
+  },
+  {
+   "text": "aren't",
+   "timestamp": [
+    1.92,
+    2.16
+   ]
+  },
+  {
+   "text": "shy.",
+   "timestamp": [
+    2.24,
+    3.2
+   ]
+  }
+ ],
+ "tts": "[scoffing] Shy? Trees aren't shy.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Done",
+   "timestamp": [
+    0.24,
+    0.4
+   ]
+  },
+  {
+   "text": "by",
+   "timestamp": [
+    0.48,
+    0.64
+   ]
+  },
+  {
+   "text": "winter.",
+   "timestamp": [
+    0.72,
+    1.217755
+   ]
+  }
+ ],
+ "tts": "[pleased, matter-of-fact] Done by winter.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

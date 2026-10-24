@@ -1,0 +1,474 @@
+{
+ "l1": {
+  "file": "assets/voice/l1.mp3",
+  "dur": 2.586,
+  "words": [
+   {
+    "text": "Grow.",
+    "timestamp": [
+     0.161,
+     0.881
+    ]
+   },
+   {
+    "text": "Grow...",
+    "timestamp": [
+     1.121,
+     1.801
+    ]
+   },
+   {
+    "text": "grow!",
+    "timestamp": [
+     2.001,
+     2.5761220000000002
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Grow. Grow... *grow!*",
+  "hash": "27333ed4adc0"
+ },
+ "l2": {
+  "file": "assets/voice/l2.mp3",
+  "dur": 3.318,
+  "words": [
+   {
+    "text": "Sam...",
+    "timestamp": [
+     0.24,
+     1.12
+    ]
+   },
+   {
+    "text": "why",
+    "timestamp": [
+     1.24,
+     1.36
+    ]
+   },
+   {
+    "text": "are",
+    "timestamp": [
+     1.44,
+     1.52
+    ]
+   },
+   {
+    "text": "you",
+    "timestamp": [
+     1.6,
+     1.76
+    ]
+   },
+   {
+    "text": "yelling",
+    "timestamp": [
+     1.84,
+     2.08
+    ]
+   },
+   {
+    "text": "at",
+    "timestamp": [
+     2.2,
+     2.32
+    ]
+   },
+   {
+    "text": "dirt?",
+    "timestamp": [
+     2.36,
+     3.28
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Sam... why are you yelling at dirt?",
+  "hash": "60fbc682bd0e"
+ },
+ "l3": {
+  "file": "assets/voice/l3.mp3",
+  "dur": 3.318,
+  "words": [
+   {
+    "text": "I'm",
+    "timestamp": [
+     0.067,
+     0.16
+    ]
+   },
+   {
+    "text": "not",
+    "timestamp": [
+     0.28,
+     0.4
+    ]
+   },
+   {
+    "text": "yelling.",
+    "timestamp": [
+     0.48,
+     1.32
+    ]
+   },
+   {
+    "text": "I'm",
+    "timestamp": [
+     1.36,
+     1.52
+    ]
+   },
+   {
+    "text": "motivating",
+    "timestamp": [
+     1.64,
+     2.16
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     2.4,
+     2.693
+    ]
+   },
+   {
+    "text": "tree.",
+    "timestamp": [
+     2.987,
+     3.36
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "I'm not yelling. I'm *motivating* a tree.",
+  "hash": "cf343c2bb014"
+ },
+ "l4": {
+  "file": "assets/voice/l4.mp3",
+  "dur": 2.351,
+  "words": [
+   {
+    "text": "A",
+    "timestamp": [
+     0.08,
+     0.16
+    ]
+   },
+   {
+    "text": "tree.",
+    "timestamp": [
+     0.32,
+     1.28
+    ]
+   },
+   {
+    "text": "Where?",
+    "timestamp": [
+     1.36,
+     2.32
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "A tree. Where?",
+  "hash": "beb65d8d9bea"
+ },
+ "l5": {
+  "file": "assets/voice/l5.mp3",
+  "dur": 4.127,
+  "words": [
+   {
+    "text": "Right",
+    "timestamp": [
+     0.16,
+     0.4
+    ]
+   },
+   {
+    "text": "there!",
+    "timestamp": [
+     0.48,
+     0.96
+    ]
+   },
+   {
+    "text": "Under",
+    "timestamp": [
+     1.12,
+     1.36
+    ]
+   },
+   {
+    "text": "the",
+    "timestamp": [
+     1.44,
+     1.52
+    ]
+   },
+   {
+    "text": "dirt.",
+    "timestamp": [
+     1.733,
+     2.2
+    ]
+   },
+   {
+    "text": "Probably",
+    "timestamp": [
+     2.24,
+     2.72
+    ]
+   },
+   {
+    "text": "huge",
+    "timestamp": [
+     2.88,
+     3.2
+    ]
+   },
+   {
+    "text": "by",
+    "timestamp": [
+     3.28,
+     3.44
+    ]
+   },
+   {
+    "text": "now.",
+    "timestamp": [
+     3.52,
+     4.16
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Right there! Under the dirt. Probably huge by now.",
+  "hash": "188da8375cbe"
+ },
+ "l6": {
+  "file": "assets/voice/l6.mp3",
+  "dur": 1.567,
+  "words": [
+   {
+    "text": "When",
+    "timestamp": [
+     0.0,
+     0.16
+    ]
+   },
+   {
+    "text": "did",
+    "timestamp": [
+     0.24,
+     0.32
+    ]
+   },
+   {
+    "text": "you",
+    "timestamp": [
+     0.4,
+     0.48
+    ]
+   },
+   {
+    "text": "plant",
+    "timestamp": [
+     0.56,
+     0.8
+    ]
+   },
+   {
+    "text": "it?",
+    "timestamp": [
+     0.88,
+     1.52
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "When did you plant it?",
+  "hash": "bec3e98430e1"
+ },
+ "l7": {
+  "file": "assets/voice/l7.mp3",
+  "dur": 0.993,
+  "words": [
+   {
+    "text": "Yesterday!",
+    "timestamp": [
+     0.16,
+     0.96
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "*Yesterday!*",
+  "hash": "4908187c7aac"
+ },
+ "l8": {
+  "file": "assets/voice/l8.mp3",
+  "dur": 3.971,
+  "words": [
+   {
+    "text": "Yesterday?",
+    "timestamp": [
+     0.24,
+     1.2
+    ]
+   },
+   {
+    "text": "Sam,",
+    "timestamp": [
+     1.52,
+     2.12
+    ]
+   },
+   {
+    "text": "trees",
+    "timestamp": [
+     2.24,
+     2.56
+    ]
+   },
+   {
+    "text": "take",
+    "timestamp": [
+     2.64,
+     2.88
+    ]
+   },
+   {
+    "text": "time.",
+    "timestamp": [
+     3.12,
+     3.92
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Yesterday? Sam, trees take *time*.",
+  "hash": "ca1ab5660fca"
+ },
+ "l9": {
+  "file": "assets/voice/l9.mp3",
+  "dur": 2.429,
+  "words": [
+   {
+    "text": "How",
+    "timestamp": [
+     0.08,
+     0.16
+    ]
+   },
+   {
+    "text": "much",
+    "timestamp": [
+     0.24,
+     0.4
+    ]
+   },
+   {
+    "text": "time?",
+    "timestamp": [
+     0.48,
+     0.88
+    ]
+   },
+   {
+    "text": "An",
+    "timestamp": [
+     1.04,
+     1.12
+    ]
+   },
+   {
+    "text": "hour?",
+    "timestamp": [
+     1.2,
+     1.6
+    ]
+   },
+   {
+    "text": "Two",
+    "timestamp": [
+     1.76,
+     1.84
+    ]
+   },
+   {
+    "text": "hours?",
+    "timestamp": [
+     1.92,
+     2.4
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "How much time? An hour? Two hours?",
+  "hash": "dafcf7ec2339"
+ },
+ "l10": {
+  "file": "assets/voice/l10.mp3",
+  "dur": 1.489,
+  "words": [
+   {
+    "text": "Years.",
+    "timestamp": [
+     0.32,
+     1.44
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Years.",
+  "hash": "df9a79ce54eb"
+ },
+ "l11": {
+  "file": "assets/voice/l11.mp3",
+  "dur": 1.071,
+  "words": [
+   {
+    "text": "...Years?",
+    "timestamp": [
+     0.676,
+     1.04
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "...Years?",
+  "hash": "fb6f2f757274"
+ },
+ "l12": {
+  "file": "assets/voice/l12.mp3",
+  "dur": 2.038,
+  "words": [
+   {
+    "text": "Okay.",
+    "timestamp": [
+     0.08,
+     0.8
+    ]
+   },
+   {
+    "text": "Plan",
+    "timestamp": [
+     1.12,
+     1.36
+    ]
+   },
+   {
+    "text": "B.",
+    "timestamp": [
+     1.44,
+     2.0
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Okay. Plan B.",
+  "hash": "f1173c91c0a0"
+ }
+}

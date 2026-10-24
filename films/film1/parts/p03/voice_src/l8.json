@@ -1,0 +1,71 @@
+{
+ "words": [
+  {
+   "text": "Feel",
+   "timestamp": [
+    0.082,
+    0.322
+   ]
+  },
+  {
+   "text": "the",
+   "timestamp": [
+    0.362,
+    0.402
+   ]
+  },
+  {
+   "text": "beat,",
+   "timestamp": [
+    0.562,
+    0.842
+   ]
+  },
+  {
+   "text": "little",
+   "timestamp": [
+    0.882,
+    1.122
+   ]
+  },
+  {
+   "text": "buddy!",
+   "timestamp": [
+    1.162,
+    1.642
+   ]
+  },
+  {
+   "text": "Grow",
+   "timestamp": [
+    1.842,
+    2.082
+   ]
+  },
+  {
+   "text": "to",
+   "timestamp": [
+    2.162,
+    2.242
+   ]
+  },
+  {
+   "text": "the",
+   "timestamp": [
+    2.282,
+    2.322
+   ]
+  },
+  {
+   "text": "beat!",
+   "timestamp": [
+    2.402,
+    2.9157140000000004
+   ]
+  }
+ ],
+ "tts": "[shouting over loud music, dancing] Feel the beat, little buddy! Grow to the beat!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

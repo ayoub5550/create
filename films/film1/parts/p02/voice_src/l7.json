@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Cool.",
+   "timestamp": [
+    0.16,
+    0.68
+   ]
+  },
+  {
+   "text": "Done",
+   "timestamp": [
+    0.88,
+    1.04
+   ]
+  },
+  {
+   "text": "by",
+   "timestamp": [
+    1.12,
+    1.2
+   ]
+  },
+  {
+   "text": "lunch?",
+   "timestamp": [
+    1.24,
+    1.6
+   ]
+  }
+ ],
+ "tts": "[hopeful] Cool. Done by lunch?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

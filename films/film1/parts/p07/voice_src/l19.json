@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "I'm",
+   "timestamp": [
+    0.16,
+    0.4
+   ]
+  },
+  {
+   "text": "watching",
+   "timestamp": [
+    0.56,
+    0.88
+   ]
+  },
+  {
+   "text": "you.",
+   "timestamp": [
+    0.96,
+    1.6
+   ]
+  }
+ ],
+ "tts": "[narrowing his eyes, whisper] I'm watching you.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

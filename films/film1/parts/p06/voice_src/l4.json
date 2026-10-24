@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "Four",
+   "timestamp": [
+    0.16,
+    0.4
+   ]
+  },
+  {
+   "text": "is",
+   "timestamp": [
+    0.48,
+    0.56
+   ]
+  },
+  {
+   "text": "not",
+   "timestamp": [
+    0.64,
+    0.72
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    0.76,
+    0.8
+   ]
+  },
+  {
+   "text": "real",
+   "timestamp": [
+    0.88,
+    1.04
+   ]
+  },
+  {
+   "text": "step.",
+   "timestamp": [
+    1.2,
+    1.68
+   ]
+  }
+ ],
+ "tts": "[dismissive] Four is not a real step.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

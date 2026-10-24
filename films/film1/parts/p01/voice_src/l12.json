@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Okay.",
+   "timestamp": [
+    0.08,
+    0.8
+   ]
+  },
+  {
+   "text": "Plan",
+   "timestamp": [
+    1.12,
+    1.36
+   ]
+  },
+  {
+   "text": "B.",
+   "timestamp": [
+    1.44,
+    2.0
+   ]
+  }
+ ],
+ "tts": "[determined, recovering] Okay. Plan B.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

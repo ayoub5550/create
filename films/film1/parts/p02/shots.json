@@ -1,0 +1,217 @@
+{
+ "fps": 30,
+ "note": "P02 hand-directed edit (word-anchored). frame = [cx, cy, zoom] in world px for non-character framings.",
+ "shots": [
+  {
+   "t": 0,
+   "frame": [
+    1130,
+    590,
+    1.55
+   ],
+   "move": {
+    "dx": -20,
+    "zoom": 1.04
+   },
+   "why": "OPEN: hard cut in from the title; WS: Sam, the hose trickle, the huge bucket, Layla watching, Pip on the birdhouse"
+  },
+  {
+   "t": "l1-1.9",
+   "frame": [
+    870,
+    650,
+    2.3
+   ],
+   "why": "MS: he squeezes the nozzle -> JET, tosses the hose, heaves the bucket barely off the ground"
+  },
+  {
+   "t": "l1@3-0.15",
+   "frame": [
+    1110,
+    600,
+    1.6
+   ],
+   "why": "WS: So... wind-up, MAXIMUM heave, the arc over the mound drenches Layla"
+  },
+  {
+   "t": "l1.end+0.2",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "silent beat: Layla dripping, arms held out"
+  },
+  {
+   "t": "l2-1.4",
+   "frame": [
+    1690,
+    560,
+    4.0
+   ],
+   "why": "cutaway: Pip shakes itself dry"
+  },
+  {
+   "t": "l2-0.3",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "Wow. Very motivating."
+  },
+  {
+   "t": "l3-0.15",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.1,
+   "why": "Sorry! Too much? bucket upside down"
+  },
+  {
+   "t": "l4-0.15",
+   "frame": [
+    1390,
+    640,
+    2.3
+   ],
+   "why": "the stool: out of the tote, flicked open, tossed over her shoulder, she sits"
+  },
+  {
+   "t": "l5-0.15",
+   "frame": [
+    1110,
+    620,
+    1.75
+   ],
+   "why": "WS: geography again, she knits on her stool"
+  },
+  {
+   "t": "l6-0.1",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.14,
+   "why": "A scarf. (holds up the tiny piece)"
+  },
+  {
+   "t": "l7-0.1",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.1,
+   "why": "Done by lunch?"
+  },
+  {
+   "t": "l8-0.1",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.14,
+   "why": "Done by winter."
+  },
+  {
+   "t": "l9-0.1",
+   "size": "MCU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.15,
+   "move": {
+    "zoom": 1.06
+   },
+   "why": "Winter?! hands on his head"
+  },
+  {
+   "t": "l10-0.15",
+   "size": "MS",
+   "on": [
+    "layla"
+   ],
+   "top": 0.12,
+   "why": "Slowly. Knit one, purl one. (needles)"
+  },
+  {
+   "t": "l10.end+0.2",
+   "size": "MCU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.12,
+   "move": {
+    "zoom": 1.06
+   },
+   "why": "he stares at the slow needles; Okay. Plan C."
+  },
+  {
+   "t": "l11@3-0.15",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.16,
+   "why": "cap + whistle, TWEET, kneels like a coach"
+  },
+  {
+   "t": "l12-0.15",
+   "frame": [
+    975,
+    690,
+    3.0
+   ],
+   "move": {
+    "zoom": 1.12
+   },
+   "why": "MS low: the pep talk swells"
+  },
+  {
+   "t": "l13-0.1",
+   "frame": [
+    930,
+    600,
+    2.6
+   ],
+   "why": "You are... a TREE! fist up"
+  },
+  {
+   "t": "l13.end+0.02",
+   "frame": [
+    1130,
+    590,
+    1.55
+   ],
+   "why": "RECORD SCRATCH -> WS: nothing happened, crickets"
+  },
+  {
+   "t": "l14-1.2",
+   "frame": [
+    1690,
+    560,
+    4.0
+   ],
+   "why": "cutaway: Pip tilts its head"
+  },
+  {
+   "t": "l14-0.1",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.14,
+   "why": "I think it's taking a nap."
+  },
+  {
+   "t": "l15-0.1",
+   "frame": [
+    960,
+    650,
+    2.5
+   ],
+   "why": "No naps! whistle blast at the mound -> smash cut"
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "words": [
+  {
+   "text": "Good",
+   "timestamp": [
+    0.08,
+    0.24
+   ]
+  },
+  {
+   "text": "afternoon.",
+   "timestamp": [
+    0.32,
+    1.28
+   ]
+  },
+  {
+   "text": "I",
+   "timestamp": [
+    1.6,
+    1.76
+   ]
+  },
+  {
+   "text": "am...",
+   "timestamp": [
+    1.84,
+    2.32
+   ]
+  },
+  {
+   "text": "not",
+   "timestamp": [
+    2.56,
+    2.72
+   ]
+  },
+  {
+   "text": "Sam.",
+   "timestamp": [
+    2.8,
+    3.48
+   ]
+  },
+  {
+   "text": "Just",
+   "timestamp": [
+    3.76,
+    3.84
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    3.92,
+    3.96
+   ]
+  },
+  {
+   "text": "guy.",
+   "timestamp": [
+    4.0,
+    4.56
+   ]
+  },
+  {
+   "text": "Looking",
+   "timestamp": [
+    4.8,
+    4.96
+   ]
+  },
+  {
+   "text": "at",
+   "timestamp": [
+    5.04,
+    5.12
+   ]
+  },
+  {
+   "text": "trees.",
+   "timestamp": [
+    5.2,
+    5.632449
+   ]
+  }
+ ],
+ "tts": "[fake deep voice, very formal] Good afternoon. I am... not Sam. Just a guy. Looking at trees.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "I'm",
+   "timestamp": [
+    0.08,
+    0.24
+   ]
+  },
+  {
+   "text": "fine.",
+   "timestamp": [
+    0.32,
+    1.12
+   ]
+  },
+  {
+   "text": "I'll",
+   "timestamp": [
+    1.2,
+    1.36
+   ]
+  },
+  {
+   "text": "just...",
+   "timestamp": [
+    1.44,
+    2.24
+   ]
+  },
+  {
+   "text": "air-dry.",
+   "timestamp": [
+    2.36,
+    3.44
+   ]
+  }
+ ],
+ "tts": "[deadpan] I'm fine. I'll just... air-dry.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -7,7 +7,8 @@
 
 <film_dir>/cast.json
   {"characters": {"sami": {"name": "سامي",
-      "voice": {"provider": "edge", "voice": "en-US-AndrewNeural", "rate": "+0%", "pitch": "+0Hz"},   # or elevenlabs + voice id
+      "voice": {"provider": "edge", "voice": "en-US-AndrewNeural", "rate": "+0%", "pitch": "+0Hz"},   # or elevenlabs + voice id,
+                                                                    # or {"provider": "file"}: takes in voice_src/<id>.mp3 + .json
       "look": {"ink": "#2b2a28", "color": "#c4453b", "scale": 0.72, "head": 46, "accessories": ["scarf"]},
       "personality": {"gesture": 1.0, "energy": 1.0}}}}
 <film_dir>/scene.json
@@ -49,8 +50,21 @@ def h01(*parts):
 def clean(text): return text.replace("*", "")
 
 
+def source_take(line, ch, dst):
+    """provider "file": a take recorded elsewhere (e.g. ElevenLabs v4 with audio tags through another client):
+    <film_dir>/<dir>/<id>.mp3 + <id>.json {"words": [{"text", "timestamp": [t0, t1]}]} (dir default voice_src)"""
+    v = ch.get("voice", {}); film = os.path.dirname(os.path.dirname(os.path.dirname(dst)))
+    src = os.path.join(film, v.get("dir", "voice_src"), line["id"])
+    return src + ".mp3", src + ".json"
+
+
 def voice_line(line, ch, dst, prev, nxt):
     v = ch.get("voice", {}); prov = v.get("provider", "edge"); text = clean(line["text"])
+    if prov == "file":
+        mp3, js = source_take(line, ch, dst)
+        if not os.path.exists(mp3): sys.exit(f"{line['id']}: missing recorded take {mp3}")
+        import shutil; shutil.copy(mp3, dst)
+        return json.load(open(js, encoding="utf-8"))["words"]
     if prov == "edge":
         return asyncio.run(edge_line(text, dst, v.get("voice", "en-US-AndrewNeural"), v.get("rate", "+0%"), v.get("pitch", "+0Hz")))
     return eleven_line(text, dst, v.get("voice", "JBFqnCBsd6RMkjVDRZzb"), v.get("model", "eleven_multilingual_v2"), v.get("lang"),
@@ -87,7 +101,11 @@ def main():
     for i, ln in enumerate(L):
         ch = cast[ln["who"]]; rel = f"assets/voice/{ln['id']}.mp3"; dst = os.path.join(d, rel)
         mp = ln.get("max_pause", scene.get("max_pause"))
-        hv = hashlib.sha1(json.dumps([clean(ln["text"]), ch.get("voice", {})] + ([float(mp)] if mp else []), ensure_ascii=False,
+        take = []
+        if ch.get("voice", {}).get("provider") == "file":            # a re-recorded take invalidates the cache
+            src = source_take(ln, ch, dst)[0]
+            take = [hashlib.sha1(open(src, "rb").read()).hexdigest()[:12]] if os.path.exists(src) else ["missing"]
+        hv = hashlib.sha1(json.dumps([clean(ln["text"]), ch.get("voice", {})] + ([float(mp)] if mp else []) + take, ensure_ascii=False,
                                      sort_keys=True).encode()).hexdigest()[:12]
         cached = T.get(ln["id"], {}).get("hash") == hv and os.path.exists(dst)
         if cached and not a.force and not (a.only and ln["id"] in a.only):

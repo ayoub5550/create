@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "That's",
+   "timestamp": [
+    0.16,
+    0.48
+   ]
+  },
+  {
+   "text": "not",
+   "timestamp": [
+    0.56,
+    0.72
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    0.8,
+    0.84
+   ]
+  },
+  {
+   "text": "thing.",
+   "timestamp": [
+    0.88,
+    1.52
+   ]
+  }
+ ],
+ "tts": "[dry] That's not a thing.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

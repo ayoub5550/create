@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "How...",
+   "timestamp": [
+    0.24,
+    0.88
+   ]
+  },
+  {
+   "text": "to",
+   "timestamp": [
+    1.04,
+    1.2
+   ]
+  },
+  {
+   "text": "grow...",
+   "timestamp": [
+    1.36,
+    2.0
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    2.16,
+    2.32
+   ]
+  },
+  {
+   "text": "tree...",
+   "timestamp": [
+    2.4,
+    3.12
+   ]
+  },
+  {
+   "text": "fast.",
+   "timestamp": [
+    3.36,
+    4.0
+   ]
+  }
+ ],
+ "tts": "[reading aloud slowly while typing] How... to grow... a tree... fast.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

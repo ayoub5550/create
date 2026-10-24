@@ -1,0 +1,274 @@
+{
+ "fps": 30,
+ "total": 68.11,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Just you and me, buddy. I'm not blinking.",
+   "start": 4.0,
+   "end": 6.691,
+   "dur": 2.691,
+   "file_dur": 2.691,
+   "emotion": "determined",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Just",
+     "t0": 4.16,
+     "t1": 4.4
+    },
+    {
+     "text": "you",
+     "t0": 4.48,
+     "t1": 4.56
+    },
+    {
+     "text": "and",
+     "t0": 4.64,
+     "t1": 4.72
+    },
+    {
+     "text": "me,",
+     "t0": 4.8,
+     "t1": 4.92
+    },
+    {
+     "text": "buddy.",
+     "t0": 4.96,
+     "t1": 5.56
+    },
+    {
+     "text": "I'm",
+     "t0": 5.84,
+     "t1": 6.0
+    },
+    {
+     "text": "not",
+     "t0": 6.12,
+     "t1": 6.24
+    },
+    {
+     "text": "blinking.",
+     "t0": 6.28,
+     "t1": 6.681
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "who": "sam",
+   "text": "Not blinking... not sleeping...",
+   "start": 9.7,
+   "end": 13.018,
+   "dur": 3.318,
+   "file_dur": 3.318,
+   "emotion": "drowsy",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Not",
+     "t0": 10.071,
+     "t1": 10.1
+    },
+    {
+     "text": "blinking...",
+     "t0": 10.18,
+     "t1": 11.38
+    },
+    {
+     "text": "not",
+     "t0": 11.46,
+     "t1": 11.78
+    },
+    {
+     "text": "sleeping...",
+     "t0": 11.86,
+     "t1": 13.008
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "I'm up! I'm up.",
+   "start": 16.033,
+   "end": 17.6,
+   "dur": 1.567,
+   "file_dur": 1.567,
+   "emotion": "startled",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "I'm",
+     "t0": 16.103,
+     "t1": 16.193
+    },
+    {
+     "text": "up!",
+     "t0": 16.273,
+     "t1": 16.753
+    },
+    {
+     "text": "I'm",
+     "t0": 17.073,
+     "t1": 17.153
+    },
+    {
+     "text": "up.",
+     "t0": 17.233,
+     "t1": 17.553
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "Maybe I'll count sheep. One sheep... two sheep...",
+   "start": 20.2,
+   "end": 25.686,
+   "dur": 5.486,
+   "file_dur": 5.486,
+   "emotion": "drowsy",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Maybe",
+     "t0": 20.36,
+     "t1": 20.68
+    },
+    {
+     "text": "I'll",
+     "t0": 20.76,
+     "t1": 20.92
+    },
+    {
+     "text": "count",
+     "t0": 21.08,
+     "t1": 21.24
+    },
+    {
+     "text": "sheep.",
+     "t0": 21.32,
+     "t1": 22.2
+    },
+    {
+     "text": "One",
+     "t0": 22.6,
+     "t1": 22.84
+    },
+    {
+     "text": "sheep...",
+     "t0": 23.0,
+     "t1": 24.04
+    },
+    {
+     "text": "two",
+     "t0": 24.2,
+     "t1": 24.44
+    },
+    {
+     "text": "sheep...",
+     "t0": 24.52,
+     "t1": 25.64
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Three... tree... trees...",
+   "start": 27.2,
+   "end": 30.988,
+   "dur": 3.788,
+   "file_dur": 3.788,
+   "emotion": "asleep",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Three...",
+     "t0": 27.36,
+     "t1": 28.48
+    },
+    {
+     "text": "tree...",
+     "t0": 28.56,
+     "t1": 29.68
+    },
+    {
+     "text": "trees...",
+     "t0": 30.0,
+     "t1": 30.96
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "who": "layla",
+   "text": "Goodnight, Sam.",
+   "start": 37.0,
+   "end": 38.228,
+   "dur": 1.228,
+   "file_dur": 1.228,
+   "emotion": "tender",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Goodnight,",
+     "t0": 37.16,
+     "t1": 37.68
+    },
+    {
+     "text": "Sam.",
+     "t0": 37.72,
+     "t1": 38.218
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "who": "layla",
+   "text": "And you... take your time.",
+   "start": 38.833,
+   "end": 41.106,
+   "dur": 2.273,
+   "file_dur": 2.273,
+   "emotion": "tender",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "And",
+     "t0": 39.217,
+     "t1": 39.225
+    },
+    {
+     "text": "you...",
+     "t0": 39.233,
+     "t1": 40.033
+    },
+    {
+     "text": "take",
+     "t0": 40.113,
+     "t1": 40.273
+    },
+    {
+     "text": "your",
+     "t0": 40.353,
+     "t1": 40.433
+    },
+    {
+     "text": "time.",
+     "t0": 40.513,
+     "t1": 41.096
+    }
+   ]
+  }
+ ]
+}

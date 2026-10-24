@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "You",
+   "timestamp": [
+    0.2,
+    0.32
+   ]
+  },
+  {
+   "text": "are...",
+   "timestamp": [
+    0.4,
+    0.88
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    1.04,
+    1.2
+   ]
+  },
+  {
+   "text": "tree!",
+   "timestamp": [
+    1.48,
+    1.92
+   ]
+  }
+ ],
+ "tts": "[shouting triumphantly] You are... a tree!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

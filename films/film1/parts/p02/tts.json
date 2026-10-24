@@ -1,0 +1,655 @@
+{
+ "l1": {
+  "file": "assets/voice/l1.mp3",
+  "dur": 3.788,
+  "words": [
+   {
+    "text": "Plants",
+    "timestamp": [
+     0.137,
+     0.48
+    ]
+   },
+   {
+    "text": "love",
+    "timestamp": [
+     0.72,
+     1.04
+    ]
+   },
+   {
+    "text": "water.",
+    "timestamp": [
+     1.12,
+     1.68
+    ]
+   },
+   {
+    "text": "So...",
+    "timestamp": [
+     1.84,
+     2.28
+    ]
+   },
+   {
+    "text": "maximum",
+    "timestamp": [
+     2.56,
+     3.12
+    ]
+   },
+   {
+    "text": "water!",
+    "timestamp": [
+     3.2,
+     3.84
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Plants love water. So... *maximum* water!",
+  "hash": "14eb260a358a"
+ },
+ "l2": {
+  "file": "assets/voice/l2.mp3",
+  "dur": 2.691,
+  "words": [
+   {
+    "text": "Wow.",
+    "timestamp": [
+     0.24,
+     1.0
+    ]
+   },
+   {
+    "text": "Very",
+    "timestamp": [
+     1.28,
+     1.52
+    ]
+   },
+   {
+    "text": "motivating.",
+    "timestamp": [
+     1.6,
+     2.64
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Wow. Very motivating.",
+  "hash": "626ee00c7bc0"
+ },
+ "l3": {
+  "file": "assets/voice/l3.mp3",
+  "dur": 2.508,
+  "words": [
+   {
+    "text": "Sorry!",
+    "timestamp": [
+     0.24,
+     1.36
+    ]
+   },
+   {
+    "text": "Too",
+    "timestamp": [
+     1.44,
+     1.52
+    ]
+   },
+   {
+    "text": "much?",
+    "timestamp": [
+     1.6,
+     2.48
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Sorry! Too much?",
+  "hash": "895d7782c06c"
+ },
+ "l4": {
+  "file": "assets/voice/l4.mp3",
+  "dur": 3.474,
+  "words": [
+   {
+    "text": "I'm",
+    "timestamp": [
+     0.08,
+     0.24
+    ]
+   },
+   {
+    "text": "fine.",
+    "timestamp": [
+     0.32,
+     1.12
+    ]
+   },
+   {
+    "text": "I'll",
+    "timestamp": [
+     1.2,
+     1.36
+    ]
+   },
+   {
+    "text": "just...",
+    "timestamp": [
+     1.44,
+     2.24
+    ]
+   },
+   {
+    "text": "air-dry.",
+    "timestamp": [
+     2.36,
+     3.44
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "I'm fine. I'll just... air-dry.",
+  "hash": "f0df7d2aeda3"
+ },
+ "l5": {
+  "file": "assets/voice/l5.mp3",
+  "dur": 1.411,
+  "words": [
+   {
+    "text": "What",
+    "timestamp": [
+     0.16,
+     0.24
+    ]
+   },
+   {
+    "text": "are",
+    "timestamp": [
+     0.32,
+     0.4
+    ]
+   },
+   {
+    "text": "you",
+    "timestamp": [
+     0.44,
+     0.48
+    ]
+   },
+   {
+    "text": "making?",
+    "timestamp": [
+     0.56,
+     1.36
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "What are you making?",
+  "hash": "069d098a2d8f"
+ },
+ "l6": {
+  "file": "assets/voice/l6.mp3",
+  "dur": 1.071,
+  "words": [
+   {
+    "text": "A",
+    "timestamp": [
+     0.133,
+     0.16
+    ]
+   },
+   {
+    "text": "scarf.",
+    "timestamp": [
+     0.36,
+     1.04
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "A scarf.",
+  "hash": "b4ac3060671b"
+ },
+ "l7": {
+  "file": "assets/voice/l7.mp3",
+  "dur": 1.567,
+  "words": [
+   {
+    "text": "Cool.",
+    "timestamp": [
+     0.16,
+     0.68
+    ]
+   },
+   {
+    "text": "Done",
+    "timestamp": [
+     0.88,
+     1.04
+    ]
+   },
+   {
+    "text": "by",
+    "timestamp": [
+     1.12,
+     1.2
+    ]
+   },
+   {
+    "text": "lunch?",
+    "timestamp": [
+     1.24,
+     1.6
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Cool. Done by lunch?",
+  "hash": "80c43ba1047a"
+ },
+ "l8": {
+  "file": "assets/voice/l8.mp3",
+  "dur": 1.228,
+  "words": [
+   {
+    "text": "Done",
+    "timestamp": [
+     0.24,
+     0.4
+    ]
+   },
+   {
+    "text": "by",
+    "timestamp": [
+     0.48,
+     0.56
+    ]
+   },
+   {
+    "text": "winter.",
+    "timestamp": [
+     0.72,
+     1.217755
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Done by winter.",
+  "hash": "f6af0ac8d127"
+ },
+ "l9": {
+  "file": "assets/voice/l9.mp3",
+  "dur": 3.396,
+  "words": [
+   {
+    "text": "Winter?!",
+    "timestamp": [
+     0.16,
+     1.28
+    ]
+   },
+   {
+    "text": "How",
+    "timestamp": [
+     1.36,
+     1.44
+    ]
+   },
+   {
+    "text": "do",
+    "timestamp": [
+     1.52,
+     1.6
+    ]
+   },
+   {
+    "text": "you",
+    "timestamp": [
+     1.72,
+     1.84
+    ]
+   },
+   {
+    "text": "live",
+    "timestamp": [
+     1.92,
+     2.16
+    ]
+   },
+   {
+    "text": "like",
+    "timestamp": [
+     2.24,
+     2.4
+    ]
+   },
+   {
+    "text": "this?",
+    "timestamp": [
+     2.48,
+     3.36
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Winter?! How do you *live* like this?",
+  "hash": "af158315ae55"
+ },
+ "l10": {
+  "file": "assets/voice/l10.mp3",
+  "dur": 4.519,
+  "words": [
+   {
+    "text": "Slowly.",
+    "timestamp": [
+     0.624,
+     1.6
+    ]
+   },
+   {
+    "text": "Knit",
+    "timestamp": [
+     1.68,
+     1.92
+    ]
+   },
+   {
+    "text": "one,",
+    "timestamp": [
+     2.08,
+     2.8
+    ]
+   },
+   {
+    "text": "purl",
+    "timestamp": [
+     2.84,
+     3.2
+    ]
+   },
+   {
+    "text": "one.",
+    "timestamp": [
+     3.28,
+     4.48
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Slowly. Knit one, purl one.",
+  "hash": "0b763806d2af"
+ },
+ "l11": {
+  "file": "assets/voice/l11.mp3",
+  "dur": 4.206,
+  "words": [
+   {
+    "text": "Okay.",
+    "timestamp": [
+     0.08,
+     0.68
+    ]
+   },
+   {
+    "text": "Plan",
+    "timestamp": [
+     0.88,
+     1.12
+    ]
+   },
+   {
+    "text": "C.",
+    "timestamp": [
+     1.36,
+     2.08
+    ]
+   },
+   {
+    "text": "Every",
+    "timestamp": [
+     2.16,
+     2.4
+    ]
+   },
+   {
+    "text": "champion",
+    "timestamp": [
+     2.48,
+     2.88
+    ]
+   },
+   {
+    "text": "needs",
+    "timestamp": [
+     2.96,
+     3.12
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     3.16,
+     3.2
+    ]
+   },
+   {
+    "text": "coach.",
+    "timestamp": [
+     3.28,
+     4.16
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Okay. Plan C. Every champion needs a *coach*.",
+  "hash": "b170d835fad1"
+ },
+ "l12": {
+  "file": "assets/voice/l12.mp3",
+  "dur": 4.441,
+  "words": [
+   {
+    "text": "Listen,",
+    "timestamp": [
+     0.08,
+     0.6
+    ]
+   },
+   {
+    "text": "little",
+    "timestamp": [
+     0.72,
+     0.96
+    ]
+   },
+   {
+    "text": "buddy.",
+    "timestamp": [
+     1.067,
+     1.56
+    ]
+   },
+   {
+    "text": "You",
+    "timestamp": [
+     1.84,
+     1.92
+    ]
+   },
+   {
+    "text": "are",
+    "timestamp": [
+     2.04,
+     2.16
+    ]
+   },
+   {
+    "text": "strong.",
+    "timestamp": [
+     2.68,
+     3.24
+    ]
+   },
+   {
+    "text": "You",
+    "timestamp": [
+     3.28,
+     3.36
+    ]
+   },
+   {
+    "text": "are",
+    "timestamp": [
+     3.44,
+     3.52
+    ]
+   },
+   {
+    "text": "tall.",
+    "timestamp": [
+     3.6,
+     4.430816
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Listen, little buddy. You are strong. You are tall.",
+  "hash": "d09595d008ad"
+ },
+ "l13": {
+  "file": "assets/voice/l13.mp3",
+  "dur": 1.959,
+  "words": [
+   {
+    "text": "You",
+    "timestamp": [
+     0.2,
+     0.32
+    ]
+   },
+   {
+    "text": "are...",
+    "timestamp": [
+     0.4,
+     0.88
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     1.04,
+     1.2
+    ]
+   },
+   {
+    "text": "tree!",
+    "timestamp": [
+     1.48,
+     1.92
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "You are... a *tree!*",
+  "hash": "7af47c94e3aa"
+ },
+ "l14": {
+  "file": "assets/voice/l14.mp3",
+  "dur": 1.802,
+  "words": [
+   {
+    "text": "I",
+    "timestamp": [
+     0.128,
+     0.16
+    ]
+   },
+   {
+    "text": "think",
+    "timestamp": [
+     0.24,
+     0.4
+    ]
+   },
+   {
+    "text": "it's",
+    "timestamp": [
+     0.48,
+     0.64
+    ]
+   },
+   {
+    "text": "taking",
+    "timestamp": [
+     0.72,
+     0.96
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     1.0,
+     1.04
+    ]
+   },
+   {
+    "text": "nap.",
+    "timestamp": [
+     1.2,
+     1.76
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "I think it's taking a nap.",
+  "hash": "b8a4d36c6abe"
+ },
+ "l15": {
+  "file": "assets/voice/l15.mp3",
+  "dur": 2.769,
+  "words": [
+   {
+    "text": "No",
+    "timestamp": [
+     0.2,
+     0.32
+    ]
+   },
+   {
+    "text": "naps!",
+    "timestamp": [
+     0.48,
+     1.28
+    ]
+   },
+   {
+    "text": "Champions",
+    "timestamp": [
+     1.32,
+     1.76
+    ]
+   },
+   {
+    "text": "don't",
+    "timestamp": [
+     1.84,
+     2.08
+    ]
+   },
+   {
+    "text": "nap!",
+    "timestamp": [
+     2.16,
+     2.8
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "No naps! Champions don't *nap!*",
+  "hash": "dd9e2279ca01"
+ }
+}

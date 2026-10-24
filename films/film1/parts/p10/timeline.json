@@ -1,0 +1,141 @@
+{
+ "fps": 30,
+ "total": 54.05,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "layla",
+   "text": "Done by winter.",
+   "start": 17.0,
+   "end": 18.228,
+   "dur": 1.228,
+   "file_dur": 1.228,
+   "emotion": "pleased",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Done",
+     "t0": 17.24,
+     "t1": 17.4
+    },
+    {
+     "text": "by",
+     "t0": 17.48,
+     "t1": 17.64
+    },
+    {
+     "text": "winter.",
+     "t0": 17.72,
+     "t1": 18.218
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "who": "sam",
+   "text": "Show-off.",
+   "start": 18.733,
+   "end": 20.379,
+   "dur": 1.646,
+   "file_dur": 1.646,
+   "emotion": "fond",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Show-off.",
+     "t0": 19.275,
+     "t1": 20.333
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "Grow.",
+   "start": 30.367,
+   "end": 31.203,
+   "dur": 0.836,
+   "file_dur": 0.836,
+   "emotion": "calm",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Grow.",
+     "t0": 30.687,
+     "t1": 31.247
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "who": "layla",
+   "text": "No yelling?",
+   "start": 32.4,
+   "end": 33.549,
+   "dur": 1.149,
+   "file_dur": 1.149,
+   "emotion": "surprised",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "No",
+     "t0": 32.64,
+     "t1": 32.88
+    },
+    {
+     "text": "yelling?",
+     "t0": 32.96,
+     "t1": 33.539
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Nah. It knows what to do.",
+   "start": 33.933,
+   "end": 36.049,
+   "dur": 2.116,
+   "file_dur": 2.116,
+   "emotion": "content",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Nah.",
+     "t0": 34.173,
+     "t1": 34.733
+    },
+    {
+     "text": "It",
+     "t0": 34.973,
+     "t1": 35.053
+    },
+    {
+     "text": "knows",
+     "t0": 35.133,
+     "t1": 35.333
+    },
+    {
+     "text": "what",
+     "t0": 35.373,
+     "t1": 35.453
+    },
+    {
+     "text": "to",
+     "t0": 35.533,
+     "t1": 35.613
+    },
+    {
+     "text": "do.",
+     "t0": 35.733,
+     "t1": 36.013
+    }
+   ]
+  }
+ ]
+}

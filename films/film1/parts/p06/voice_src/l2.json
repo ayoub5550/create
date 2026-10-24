@@ -1,0 +1,78 @@
+{
+ "words": [
+  {
+   "text": "Step",
+   "timestamp": [
+    0.08,
+    0.32
+   ]
+  },
+  {
+   "text": "two:",
+   "timestamp": [
+    0.4,
+    1.04
+   ]
+  },
+  {
+   "text": "we",
+   "timestamp": [
+    1.16,
+    1.28
+   ]
+  },
+  {
+   "text": "hide.",
+   "timestamp": [
+    1.52,
+    2.08
+   ]
+  },
+  {
+   "text": "Step",
+   "timestamp": [
+    2.2,
+    2.32
+   ]
+  },
+  {
+   "text": "three:",
+   "timestamp": [
+    2.4,
+    3.04
+   ]
+  },
+  {
+   "text": "we",
+   "timestamp": [
+    3.12,
+    3.2
+   ]
+  },
+  {
+   "text": "catch",
+   "timestamp": [
+    3.32,
+    3.44
+   ]
+  },
+  {
+   "text": "it",
+   "timestamp": [
+    3.52,
+    3.6
+   ]
+  },
+  {
+   "text": "growing!",
+   "timestamp": [
+    3.68,
+    4.48
+   ]
+  }
+ ],
+ "tts": "[building excitement] Step two: we hide. Step three: we catch it growing!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

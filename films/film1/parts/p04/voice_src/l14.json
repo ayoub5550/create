@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "It",
+   "timestamp": [
+    0.08,
+    0.24
+   ]
+  },
+  {
+   "text": "is",
+   "timestamp": [
+    0.32,
+    0.48
+   ]
+  },
+  {
+   "text": "now.",
+   "timestamp": [
+    0.56,
+    1.04
+   ]
+  }
+ ],
+ "tts": "[defiant] It is now.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Goodnight,",
+   "timestamp": [
+    0.16,
+    0.52
+   ]
+  },
+  {
+   "text": "Layla.",
+   "timestamp": [
+    0.56,
+    1.28
+   ]
+  },
+  {
+   "text": "Goodnight,",
+   "timestamp": [
+    1.6,
+    2.107
+   ]
+  },
+  {
+   "text": "tree.",
+   "timestamp": [
+    2.213,
+    2.72
+   ]
+  }
+ ],
+ "tts": "[softly] Goodnight, Layla. Goodnight, tree.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

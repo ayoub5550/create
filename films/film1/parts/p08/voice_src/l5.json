@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Three...",
+   "timestamp": [
+    0.16,
+    1.28
+   ]
+  },
+  {
+   "text": "tree...",
+   "timestamp": [
+    1.36,
+    2.48
+   ]
+  },
+  {
+   "text": "trees...",
+   "timestamp": [
+    2.8,
+    3.76
+   ]
+  }
+ ],
+ "tts": "[mumbling, falling asleep] Three... tree... trees...",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

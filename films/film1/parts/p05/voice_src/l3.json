@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "...What?",
+   "timestamp": [
+    0.08,
+    1.12
+   ]
+  },
+  {
+   "text": "What's",
+   "timestamp": [
+    1.2,
+    1.36
+   ]
+  },
+  {
+   "text": "that",
+   "timestamp": [
+    1.48,
+    1.6
+   ]
+  },
+  {
+   "text": "face?",
+   "timestamp": [
+    1.68,
+    2.64
+   ]
+  }
+ ],
+ "tts": "[suspicious] ...What? What's that face?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

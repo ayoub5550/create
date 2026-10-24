@@ -1,0 +1,158 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P06: Operation Don't Look: leave / the bush",
+ "part": "p06",
+ "time": "mid-afternoon",
+ "set_look": "yard-day",
+ "summary": "Sam's 3-step plan. He pretends to leave. He disguises himself as a bush.",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 0.6,
+ "tail": 3.0,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Operation Don't Look. Step one: we pretend to *leave*.",
+   "tts": "[briefing, serious] Operation Don't Look. Step one: we pretend to leave.",
+   "emotion": "serious",
+   "note": "MS: Sam beside a cardboard sign with stick drawings (pointer stick)."
+  },
+  {
+   "id": "l2",
+   "who": "sam",
+   "text": "Step two: we hide. Step three: we catch it growing!",
+   "tts": "[building excitement] Step two: we hide. Step three: we catch it growing!",
+   "emotion": "excited",
+   "gap": 0.2,
+   "note": "Taps each drawing."
+  },
+  {
+   "id": "l3",
+   "who": "layla",
+   "text": "Step four: we wait?",
+   "tts": "[dry] Step four: we wait?",
+   "emotion": "deadpan",
+   "gap": 0.4
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "Four is not a real step.",
+   "tts": "[dismissive] Four is not a real step.",
+   "emotion": "dismissive",
+   "gap": 0.3
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Well! Bye, tree! Going *far* away! Very far!",
+   "tts": "[loud, overacting] Well! Bye, tree! Going far away! Very far!",
+   "emotion": "overacting",
+   "gap": 1.0,
+   "note": "WS: he marches off frame left, loudly. Silence. The sprout starts to stretch... Sam's head pops back in from the frame edge."
+  },
+  {
+   "id": "l6",
+   "who": "sam",
+   "text": "Ha! ...Ha?",
+   "tts": "[triumphant, then deflated] Ha! ...Ha?",
+   "emotion": "deflated",
+   "gap": 3.5,
+   "note": "The sprout is frozen mid-stretch, innocent."
+  },
+  {
+   "id": "l7",
+   "who": "layla",
+   "text": "You were gone for two seconds.",
+   "tts": "[deadpan, clearly] You were gone for two seconds.",
+   "emotion": "deadpan",
+   "gap": 1.2
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "Two very long seconds.",
+   "tts": "[defensive] Two very long seconds.",
+   "emotion": "defensive",
+   "gap": 0.3,
+   "note": "He marches off again."
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "Good afternoon. I am... not Sam. Just a guy. Looking at trees.",
+   "tts": "[fake deep voice, very formal] Good afternoon. I am... not Sam. Just a guy. Looking at trees.",
+   "emotion": "fake",
+   "gap": 4.5,
+   "note": "He strolls back in wearing fake nose-glasses with a big mustache, hands behind his back, whistling."
+  },
+  {
+   "id": "l10",
+   "who": "layla",
+   "text": "Hi, Sam.",
+   "tts": "[flat] Hi, Sam.",
+   "emotion": "deadpan",
+   "gap": 0.5
+  },
+  {
+   "id": "l11",
+   "who": "sam",
+   "text": "Dang it.",
+   "tts": "[normal voice, defeated] Dang it.",
+   "emotion": "defeated",
+   "gap": 0.3,
+   "note": "Pulls the glasses off; the mustache stays stuck for a beat, then drops."
+  },
+  {
+   "id": "l12",
+   "who": "layla",
+   "text": "Hi, Sam.",
+   "tts": "[flat, a little louder] Hi, Sam.",
+   "emotion": "deadpan",
+   "gap": 10.0,
+   "note": "The gap: a BUSH shuffles slowly across the yard toward the sprout (Sam's legs + red scarf end visible). It freezes whenever Layla glances. Pip lands on top."
+  },
+  {
+   "id": "l13",
+   "who": "sam",
+   "text": "Shh! I'm a bush.",
+   "tts": "[whispering] Shh! I'm a bush.",
+   "emotion": "whisper",
+   "gap": 0.4
+  },
+  {
+   "id": "l14",
+   "who": "layla",
+   "text": "Bushes don't wear scarves.",
+   "tts": "[deadpan] Bushes don't wear scarves.",
+   "emotion": "deadpan",
+   "gap": 0.4
+  },
+  {
+   "id": "l15",
+   "who": "sam",
+   "text": "Fashionable bush.",
+   "tts": "[offended whisper] Fashionable bush.",
+   "emotion": "offended",
+   "gap": 0.9,
+   "note": "Pip pecks the bush."
+  },
+  {
+   "id": "l16",
+   "who": "sam",
+   "text": "Ow! Rude bird!",
+   "tts": "[yelping] Ow! Rude bird!",
+   "emotion": "annoyed",
+   "gap": 0.3,
+   "note": "He argues with Pip; behind him the sprout grows a third leaf. Layla notices, keeps knitting."
+  }
+ ],
+ "beats": [
+  "l9 gap: Sam strolls back in disguised (nose-glasses + mustache), hands behind his back, whistling.",
+  "l12 gap: THE BUSH — it shuffles across the yard toward the sprout (Sam's legs + scarf end visible) to sneaky music; it freezes whenever Layla glances (x3); Pip lands on top."
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "words": [
+  {
+   "text": "Okay.",
+   "timestamp": [
+    0.08,
+    0.68
+   ]
+  },
+  {
+   "text": "Plan",
+   "timestamp": [
+    0.88,
+    1.12
+   ]
+  },
+  {
+   "text": "C.",
+   "timestamp": [
+    1.36,
+    2.08
+   ]
+  },
+  {
+   "text": "Every",
+   "timestamp": [
+    2.16,
+    2.4
+   ]
+  },
+  {
+   "text": "champion",
+   "timestamp": [
+    2.48,
+    2.88
+   ]
+  },
+  {
+   "text": "needs",
+   "timestamp": [
+    2.96,
+    3.12
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    3.16,
+    3.2
+   ]
+  },
+  {
+   "text": "coach.",
+   "timestamp": [
+    3.28,
+    4.16
+   ]
+  }
+ ],
+ "tts": "[determined] Okay. Plan C. Every champion needs a coach.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

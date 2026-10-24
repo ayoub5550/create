@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Ow!",
+   "timestamp": [
+    0.816,
+    0.864
+   ]
+  },
+  {
+   "text": "Rude",
+   "timestamp": [
+    0.88,
+    1.12
+   ]
+  },
+  {
+   "text": "bird!",
+   "timestamp": [
+    1.28,
+    2.08
+   ]
+  }
+ ],
+ "tts": "[yelping] Ow! Rude bird!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

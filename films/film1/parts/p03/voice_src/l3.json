@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "All",
+   "timestamp": [
+    0.08,
+    0.24
+   ]
+  },
+  {
+   "text": "of",
+   "timestamp": [
+    0.32,
+    0.4
+   ]
+  },
+  {
+   "text": "it.",
+   "timestamp": [
+    0.48,
+    0.8
+   ]
+  }
+ ],
+ "tts": "[confident] All of it.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

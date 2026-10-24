@@ -1,0 +1,706 @@
+{
+ "l1": {
+  "file": "assets/voice/l1.mp3",
+  "dur": 3.788,
+  "words": [
+   {
+    "text": "Operation",
+    "timestamp": [
+     0.08,
+     0.56
+    ]
+   },
+   {
+    "text": "Don't",
+    "timestamp": [
+     0.72,
+     0.88
+    ]
+   },
+   {
+    "text": "Look.",
+    "timestamp": [
+     0.96,
+     1.4
+    ]
+   },
+   {
+    "text": "Step",
+    "timestamp": [
+     1.6,
+     1.76
+    ]
+   },
+   {
+    "text": "one:",
+    "timestamp": [
+     1.92,
+     2.48
+    ]
+   },
+   {
+    "text": "we",
+    "timestamp": [
+     2.56,
+     2.64
+    ]
+   },
+   {
+    "text": "pretend",
+    "timestamp": [
+     2.76,
+     3.04
+    ]
+   },
+   {
+    "text": "to",
+    "timestamp": [
+     3.12,
+     3.2
+    ]
+   },
+   {
+    "text": "leave.",
+    "timestamp": [
+     3.4,
+     3.76
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Operation Don't Look. Step one: we pretend to *leave*.",
+  "hash": "19bf0e0b54dd"
+ },
+ "l2": {
+  "file": "assets/voice/l2.mp3",
+  "dur": 4.519,
+  "words": [
+   {
+    "text": "Step",
+    "timestamp": [
+     0.08,
+     0.32
+    ]
+   },
+   {
+    "text": "two:",
+    "timestamp": [
+     0.4,
+     1.04
+    ]
+   },
+   {
+    "text": "we",
+    "timestamp": [
+     1.16,
+     1.28
+    ]
+   },
+   {
+    "text": "hide.",
+    "timestamp": [
+     1.52,
+     2.08
+    ]
+   },
+   {
+    "text": "Step",
+    "timestamp": [
+     2.2,
+     2.32
+    ]
+   },
+   {
+    "text": "three:",
+    "timestamp": [
+     2.4,
+     3.04
+    ]
+   },
+   {
+    "text": "we",
+    "timestamp": [
+     3.12,
+     3.2
+    ]
+   },
+   {
+    "text": "catch",
+    "timestamp": [
+     3.32,
+     3.44
+    ]
+   },
+   {
+    "text": "it",
+    "timestamp": [
+     3.52,
+     3.6
+    ]
+   },
+   {
+    "text": "growing!",
+    "timestamp": [
+     3.68,
+     4.48
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Step two: we hide. Step three: we catch it growing!",
+  "hash": "a3a6ef50bc23"
+ },
+ "l3": {
+  "file": "assets/voice/l3.mp3",
+  "dur": 2.847,
+  "words": [
+   {
+    "text": "Step",
+    "timestamp": [
+     0.16,
+     0.4
+    ]
+   },
+   {
+    "text": "four:",
+    "timestamp": [
+     0.56,
+     1.52
+    ]
+   },
+   {
+    "text": "we",
+    "timestamp": [
+     1.6,
+     1.76
+    ]
+   },
+   {
+    "text": "wait?",
+    "timestamp": [
+     1.84,
+     2.8
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Step four: we wait?",
+  "hash": "12ceb9762830"
+ },
+ "l4": {
+  "file": "assets/voice/l4.mp3",
+  "dur": 1.724,
+  "words": [
+   {
+    "text": "Four",
+    "timestamp": [
+     0.16,
+     0.4
+    ]
+   },
+   {
+    "text": "is",
+    "timestamp": [
+     0.48,
+     0.56
+    ]
+   },
+   {
+    "text": "not",
+    "timestamp": [
+     0.64,
+     0.72
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     0.76,
+     0.8
+    ]
+   },
+   {
+    "text": "real",
+    "timestamp": [
+     0.88,
+     1.04
+    ]
+   },
+   {
+    "text": "step.",
+    "timestamp": [
+     1.2,
+     1.68
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Four is not a real step.",
+  "hash": "ac8e11ab1940"
+ },
+ "l5": {
+  "file": "assets/voice/l5.mp3",
+  "dur": 4.833,
+  "words": [
+   {
+    "text": "Well!",
+    "timestamp": [
+     0.16,
+     0.68
+    ]
+   },
+   {
+    "text": "Bye,",
+    "timestamp": [
+     0.88,
+     1.24
+    ]
+   },
+   {
+    "text": "tree!",
+    "timestamp": [
+     1.28,
+     1.88
+    ]
+   },
+   {
+    "text": "Going",
+    "timestamp": [
+     2.08,
+     2.4
+    ]
+   },
+   {
+    "text": "far",
+    "timestamp": [
+     2.56,
+     2.8
+    ]
+   },
+   {
+    "text": "away!",
+    "timestamp": [
+     2.88,
+     3.56
+    ]
+   },
+   {
+    "text": "Very",
+    "timestamp": [
+     3.76,
+     4.08
+    ]
+   },
+   {
+    "text": "far!",
+    "timestamp": [
+     4.16,
+     4.8
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Well! Bye, tree! Going *far* away! Very far!",
+  "hash": "812e6a915e3d"
+ },
+ "l6": {
+  "file": "assets/voice/l6.mp3",
+  "dur": 2.038,
+  "words": [
+   {
+    "text": "Ha!",
+    "timestamp": [
+     0.32,
+     0.84
+    ]
+   },
+   {
+    "text": "...Ha?",
+    "timestamp": [
+     1.12,
+     2.0
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Ha! ...Ha?",
+  "hash": "7cd957038bf0"
+ },
+ "l7": {
+  "file": "assets/voice/l7.mp3",
+  "dur": 1.959,
+  "words": [
+   {
+    "text": "You",
+    "timestamp": [
+     0.16,
+     0.24
+    ]
+   },
+   {
+    "text": "were",
+    "timestamp": [
+     0.32,
+     0.4
+    ]
+   },
+   {
+    "text": "gone",
+    "timestamp": [
+     0.52,
+     0.64
+    ]
+   },
+   {
+    "text": "for",
+    "timestamp": [
+     0.72,
+     0.96
+    ]
+   },
+   {
+    "text": "two",
+    "timestamp": [
+     1.08,
+     1.2
+    ]
+   },
+   {
+    "text": "seconds.",
+    "timestamp": [
+     1.36,
+     2.0
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "You were gone for two seconds.",
+  "hash": "e2c5ede4ae99"
+ },
+ "l8": {
+  "file": "assets/voice/l8.mp3",
+  "dur": 1.959,
+  "words": [
+   {
+    "text": "Two",
+    "timestamp": [
+     0.333,
+     0.4
+    ]
+   },
+   {
+    "text": "very",
+    "timestamp": [
+     0.48,
+     0.8
+    ]
+   },
+   {
+    "text": "long",
+    "timestamp": [
+     0.96,
+     1.28
+    ]
+   },
+   {
+    "text": "seconds.",
+    "timestamp": [
+     1.44,
+     2.0
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Two very long seconds.",
+  "hash": "b9046da6f604"
+ },
+ "l9": {
+  "file": "assets/voice/l9.mp3",
+  "dur": 5.642,
+  "words": [
+   {
+    "text": "Good",
+    "timestamp": [
+     0.08,
+     0.24
+    ]
+   },
+   {
+    "text": "afternoon.",
+    "timestamp": [
+     0.32,
+     1.28
+    ]
+   },
+   {
+    "text": "I",
+    "timestamp": [
+     1.6,
+     1.76
+    ]
+   },
+   {
+    "text": "am...",
+    "timestamp": [
+     1.84,
+     2.32
+    ]
+   },
+   {
+    "text": "not",
+    "timestamp": [
+     2.56,
+     2.72
+    ]
+   },
+   {
+    "text": "Sam.",
+    "timestamp": [
+     2.8,
+     3.48
+    ]
+   },
+   {
+    "text": "Just",
+    "timestamp": [
+     3.76,
+     3.84
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     3.92,
+     3.96
+    ]
+   },
+   {
+    "text": "guy.",
+    "timestamp": [
+     4.0,
+     4.56
+    ]
+   },
+   {
+    "text": "Looking",
+    "timestamp": [
+     4.8,
+     4.96
+    ]
+   },
+   {
+    "text": "at",
+    "timestamp": [
+     5.04,
+     5.12
+    ]
+   },
+   {
+    "text": "trees.",
+    "timestamp": [
+     5.2,
+     5.632449
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Good afternoon. I am... not Sam. Just a guy. Looking at trees.",
+  "hash": "23b38e3b4bbe"
+ },
+ "l10": {
+  "file": "assets/voice/l10.mp3",
+  "dur": 1.149,
+  "words": [
+   {
+    "text": "Hi,",
+    "timestamp": [
+     0.16,
+     0.4
+    ]
+   },
+   {
+    "text": "Sam.",
+    "timestamp": [
+     0.48,
+     1.12
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Hi, Sam.",
+  "hash": "8b5931e3fb2a"
+ },
+ "l11": {
+  "file": "assets/voice/l11.mp3",
+  "dur": 0.758,
+  "words": [
+   {
+    "text": "Dang",
+    "timestamp": [
+     0.16,
+     0.4
+    ]
+   },
+   {
+    "text": "it.",
+    "timestamp": [
+     0.48,
+     0.747551
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Dang it.",
+  "hash": "1c2c77ea6c48"
+ },
+ "l12": {
+  "file": "assets/voice/l12.mp3",
+  "dur": 0.993,
+  "words": [
+   {
+    "text": "Hi,",
+    "timestamp": [
+     0.16,
+     0.48
+    ]
+   },
+   {
+    "text": "Sam.",
+    "timestamp": [
+     0.56,
+     0.982653
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Hi, Sam.",
+  "hash": "1e4bfce75923"
+ },
+ "l13": {
+  "file": "assets/voice/l13.mp3",
+  "dur": 1.959,
+  "words": [
+   {
+    "text": "Shh!",
+    "timestamp": [
+     0.16,
+     0.72
+    ]
+   },
+   {
+    "text": "I'm",
+    "timestamp": [
+     0.88,
+     1.04
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     1.12,
+     1.28
+    ]
+   },
+   {
+    "text": "bush.",
+    "timestamp": [
+     1.32,
+     1.92
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Shh! I'm a bush.",
+  "hash": "782b9c7ce43e"
+ },
+ "l14": {
+  "file": "assets/voice/l14.mp3",
+  "dur": 2.429,
+  "words": [
+   {
+    "text": "Bushes",
+    "timestamp": [
+     0.16,
+     0.56
+    ]
+   },
+   {
+    "text": "don't",
+    "timestamp": [
+     0.64,
+     0.88
+    ]
+   },
+   {
+    "text": "wear",
+    "timestamp": [
+     1.0,
+     1.12
+    ]
+   },
+   {
+    "text": "scarves.",
+    "timestamp": [
+     1.2,
+     2.4
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Bushes don't wear scarves.",
+  "hash": "30db9e938f15"
+ },
+ "l15": {
+  "file": "assets/voice/l15.mp3",
+  "dur": 1.724,
+  "words": [
+   {
+    "text": "Fashionable",
+    "timestamp": [
+     0.24,
+     0.88
+    ]
+   },
+   {
+    "text": "bush.",
+    "timestamp": [
+     1.12,
+     1.68
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Fashionable bush.",
+  "hash": "3b3a09271240"
+ },
+ "l16": {
+  "file": "assets/voice/l16.mp3",
+  "dur": 2.038,
+  "words": [
+   {
+    "text": "Ow!",
+    "timestamp": [
+     0.816,
+     0.864
+    ]
+   },
+   {
+    "text": "Rude",
+    "timestamp": [
+     0.88,
+     1.12
+    ]
+   },
+   {
+    "text": "bird!",
+    "timestamp": [
+     1.28,
+     2.08
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Ow! Rude bird!",
+  "hash": "d8626ef214d2"
+ }
+}
