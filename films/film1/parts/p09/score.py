@@ -88,14 +88,14 @@ S.sfx_add(T.foley("impactSoft_heavy", 0), t_now, 0.45); S.sfx_add(T.sfx("bass_th
 S.sfx_add(T.sfx("small_splash"), t_now + 0.05, 0.15)                          # coffee slops
 S.sfx_add(T.sfx("whoosh"), t_point - 0.05, 0.08)                              # she points
 S.sfx_add(T.sfx("whoosh"), t_turn - 0.05, 0.22); S.sfx_add(T.boing(0.35, 360), t_turn + 0.05, 0.14)   # spins round
-S.sfx_add(T.sfx("rumble", d=1.0), t_rum0, 0.6); S.sfx_add(T.sfx("tree_creak"), t_rum0 + 0.15, 0.3)
-S.sfx_add(T.sfx("boom"), t_grow0, 0.75); S.sfx_add(T.sfx("rustle"), t_grow0 + 0.05, 0.35)
+S.sfx_add(T.sfx("rumble", d=1.0), t_rum0, 0.45); S.sfx_add(T.sfx("tree_creak"), t_rum0 + 0.15, 0.3)
+S.sfx_add(T.sfx("boom"), t_grow0, 0.55); S.sfx_add(T.sfx("rustle"), t_grow0 + 0.05, 0.35)
 S.sfx_add(T.sfx("wings"), t_grow0 + 0.2, 0.22); S.sfx_add(T.sfx("wings"), t_grow0 + 0.7, 0.14)   # Pip flees
-S.sfx_add(T.sfx("orch_hit"), t_grow1, 0.55)
+S.sfx_add(T.sfx("orch_hit"), t_grow1, 0.45)
 for k in range(7):                                                            # the apples pop out
     S.sfx_add(T.sfx("pop", f0=300 + 60 * k, f1=1200 + 120 * k), t_grow1 - 0.05 + k * 0.6 / 7 + 0.05, 0.16)
 S.sfx_add(T.sfx("pop", f0=900, f1=500), t_drop, 0.18)                        # snap
-S.sfx_add(T.sfx("bonk"), t_bonk, 0.7)
+S.sfx_add(T.sfx("bonk"), t_bonk, 0.55)
 S.sfx_add(T.foley("impactWood_light", 1), t_bonk + 0.3, 0.25); S.sfx_add(T.foley("glass", 3), t_bonk + 0.32, 0.18)   # mug drops
 S.sfx_add(T.sfx("small_splash"), t_bonk + 0.4, 0.14)                          # ...tips over, spills
 S.sfx_add(T.sfx("dizzy", d=4.0), t_bonk + 0.2, 0.22)
@@ -115,7 +115,7 @@ S.sfx_add(T.sfx("whoosh"), t_wide, 0.12)
 S.sfx_add(thud(70, 0.3), w("l14", 0)["t0"] + 0.12, 0.3)                       # "Years." hits him
 S.sfx_add(T.sfx("eye_twitch"), t_shock + 0.45, 0.18)
 S.sfx_add(T.sfx("whoosh_big"), t_faint, 0.22)                                 # faints stiff as a board
-S.sfx_add(T.foley("impactSoft_heavy", 1), t_land, 0.7); S.sfx_add(thud(55, 0.35), t_land, 0.35)
+S.sfx_add(T.foley("impactSoft_heavy", 1), t_land, 0.55); S.sfx_add(thud(55, 0.35), t_land, 0.35)
 S.sfx_add(T.sfx("crickets"), t_land + 0.4, 0.08)
 S.sfx_add(T.sfx("wings"), t_pip_in + 0.1, 0.16); S.sfx_add(T.sfx("wings"), t_pip_in + 0.6, 0.12)
 S.sfx_add(T.foley("click", 2), t_pip_land, 0.1)
