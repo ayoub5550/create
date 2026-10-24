@@ -1,0 +1,915 @@
+{
+ "l1": {
+  "file": "assets/voice/l1.mp3",
+  "dur": 2.926,
+  "words": [
+   {
+    "text": "Three",
+    "timestamp": [
+     0.16,
+     0.48
+    ]
+   },
+   {
+    "text": "minutes?!",
+    "timestamp": [
+     0.72,
+     1.4
+    ]
+   },
+   {
+    "text": "Who",
+    "timestamp": [
+     1.6,
+     1.68
+    ]
+   },
+   {
+    "text": "has",
+    "timestamp": [
+     1.76,
+     1.92
+    ]
+   },
+   {
+    "text": "that",
+    "timestamp": [
+     2.0,
+     2.08
+    ]
+   },
+   {
+    "text": "kind",
+    "timestamp": [
+     2.16,
+     2.24
+    ]
+   },
+   {
+    "text": "of",
+    "timestamp": [
+     2.32,
+     2.4
+    ]
+   },
+   {
+    "text": "time?",
+    "timestamp": [
+     2.64,
+     2.96
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Three minutes?! Who *has* that kind of time?",
+  "hash": "d0a94d8c0480"
+ },
+ "l2": {
+  "file": "assets/voice/l2.mp3",
+  "dur": 2.691,
+  "words": [
+   {
+    "text": "You",
+    "timestamp": [
+     0.24,
+     0.4
+    ]
+   },
+   {
+    "text": "could",
+    "timestamp": [
+     0.52,
+     0.64
+    ]
+   },
+   {
+    "text": "just...",
+    "timestamp": [
+     0.72,
+     1.76
+    ]
+   },
+   {
+    "text": "wait.",
+    "timestamp": [
+     2.08,
+     2.64
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "You could just... wait.",
+  "hash": "6acf64ab53a8"
+ },
+ "l3": {
+  "file": "assets/voice/l3.mp3",
+  "dur": 1.489,
+  "words": [
+   {
+    "text": "Never.",
+    "timestamp": [
+     0.88,
+     1.44
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Never.",
+  "hash": "70584a45574d"
+ },
+ "l4": {
+  "file": "assets/voice/l4.mp3",
+  "dur": 2.273,
+  "words": [
+   {
+    "text": "Trees",
+    "timestamp": [
+     0.08,
+     0.4
+    ]
+   },
+   {
+    "text": "can't",
+    "timestamp": [
+     0.48,
+     0.64
+    ]
+   },
+   {
+    "text": "hide",
+    "timestamp": [
+     0.8,
+     1.04
+    ]
+   },
+   {
+    "text": "from",
+    "timestamp": [
+     1.12,
+     1.2
+    ]
+   },
+   {
+    "text": "technology.",
+    "timestamp": [
+     1.28,
+     2.24
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Trees can't hide from *technology*.",
+  "hash": "d1bdef3b9caf"
+ },
+ "l5": {
+  "file": "assets/voice/l5.mp3",
+  "dur": 1.881,
+  "words": [
+   {
+    "text": "Okay.",
+    "timestamp": [
+     0.08,
+     0.64
+    ]
+   },
+   {
+    "text": "Let's",
+    "timestamp": [
+     0.8,
+     0.96
+    ]
+   },
+   {
+    "text": "see",
+    "timestamp": [
+     1.0,
+     1.04
+    ]
+   },
+   {
+    "text": "the",
+    "timestamp": [
+     1.12,
+     1.2
+    ]
+   },
+   {
+    "text": "footage!",
+    "timestamp": [
+     1.28,
+     1.84
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Okay. Let's see the footage!",
+  "hash": "2c3bd7f9af6e"
+ },
+ "l6": {
+  "file": "assets/voice/l6.mp3",
+  "dur": 3.866,
+  "words": [
+   {
+    "text": "Is",
+    "timestamp": [
+     0.16,
+     0.32
+    ]
+   },
+   {
+    "text": "it",
+    "timestamp": [
+     0.4,
+     0.48
+    ]
+   },
+   {
+    "text": "growing?",
+    "timestamp": [
+     0.52,
+     1.28
+    ]
+   },
+   {
+    "text": "...Now?",
+    "timestamp": [
+     1.6,
+     2.24
+    ]
+   },
+   {
+    "text": "...How",
+    "timestamp": [
+     2.56,
+     2.72
+    ]
+   },
+   {
+    "text": "about",
+    "timestamp": [
+     2.84,
+     2.96
+    ]
+   },
+   {
+    "text": "now?",
+    "timestamp": [
+     3.04,
+     3.84
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Is it growing? ...Now? ...How about now?",
+  "hash": "16042246725e"
+ },
+ "l7": {
+  "file": "assets/voice/l7.mp3",
+  "dur": 3.709,
+  "words": [
+   {
+    "text": "Great",
+    "timestamp": [
+     0.16,
+     0.48
+    ]
+   },
+   {
+    "text": "footage.",
+    "timestamp": [
+     0.64,
+     1.52
+    ]
+   },
+   {
+    "text": "Very...",
+    "timestamp": [
+     1.6,
+     2.72
+    ]
+   },
+   {
+    "text": "you.",
+    "timestamp": [
+     2.92,
+     3.68
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Great footage. Very... you.",
+  "hash": "161673eb70ef"
+ },
+ "l8": {
+  "file": "assets/voice/l8.mp3",
+  "dur": 3.318,
+  "words": [
+   {
+    "text": "Huh.",
+    "timestamp": [
+     0.24,
+     1.28
+    ]
+   },
+   {
+    "text": "I'm",
+    "timestamp": [
+     1.36,
+     1.44
+    ]
+   },
+   {
+    "text": "in",
+    "timestamp": [
+     1.6,
+     1.76
+    ]
+   },
+   {
+    "text": "every",
+    "timestamp": [
+     1.84,
+     2.24
+    ]
+   },
+   {
+    "text": "shot.",
+    "timestamp": [
+     2.32,
+     3.28
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Huh. I'm in every shot.",
+  "hash": "9d061a754ad7"
+ },
+ "l9": {
+  "file": "assets/voice/l9.mp3",
+  "dur": 4.206,
+  "words": [
+   {
+    "text": "Big",
+    "timestamp": [
+     0.24,
+     0.48
+    ]
+   },
+   {
+    "text": "brain",
+    "timestamp": [
+     0.56,
+     0.88
+    ]
+   },
+   {
+    "text": "move.",
+    "timestamp": [
+     0.96,
+     1.92
+    ]
+   },
+   {
+    "text": "I",
+    "timestamp": [
+     2.0,
+     2.08
+    ]
+   },
+   {
+    "text": "look...",
+    "timestamp": [
+     2.16,
+     2.84
+    ]
+   },
+   {
+    "text": "without",
+    "timestamp": [
+     2.88,
+     3.28
+    ]
+   },
+   {
+    "text": "looking.",
+    "timestamp": [
+     3.36,
+     4.16
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Big brain move. I look... without *looking*.",
+  "hash": "b61409907197"
+ },
+ "l10": {
+  "file": "assets/voice/l10.mp3",
+  "dur": 2.429,
+  "words": [
+   {
+    "text": "It",
+    "timestamp": [
+     0.08,
+     0.24
+    ]
+   },
+   {
+    "text": "can",
+    "timestamp": [
+     0.36,
+     0.48
+    ]
+   },
+   {
+    "text": "see",
+    "timestamp": [
+     0.56,
+     0.72
+    ]
+   },
+   {
+    "text": "the",
+    "timestamp": [
+     0.8,
+     0.96
+    ]
+   },
+   {
+    "text": "mirror,",
+    "timestamp": [
+     1.16,
+     1.44
+    ]
+   },
+   {
+    "text": "Sam.",
+    "timestamp": [
+     1.52,
+     2.4
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "It can see the mirror, Sam.",
+  "hash": "35e3e0631243"
+ },
+ "l11": {
+  "file": "assets/voice/l11.mp3",
+  "dur": 2.194,
+  "words": [
+   {
+    "text": "This",
+    "timestamp": [
+     0.08,
+     0.4
+    ]
+   },
+   {
+    "text": "tree",
+    "timestamp": [
+     0.48,
+     0.88
+    ]
+   },
+   {
+    "text": "is",
+    "timestamp": [
+     0.96,
+     1.12
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     1.24,
+     1.36
+    ]
+   },
+   {
+    "text": "genius.",
+    "timestamp": [
+     1.44,
+     2.184286
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "This tree is a *genius*.",
+  "hash": "0962bc488b52"
+ },
+ "l12": {
+  "file": "assets/voice/l12.mp3",
+  "dur": 4.049,
+  "words": [
+   {
+    "text": "New",
+    "timestamp": [
+     0.16,
+     0.32
+    ]
+   },
+   {
+    "text": "plan.",
+    "timestamp": [
+     0.4,
+     1.04
+    ]
+   },
+   {
+    "text": "If",
+    "timestamp": [
+     1.12,
+     1.2
+    ]
+   },
+   {
+    "text": "it",
+    "timestamp": [
+     1.28,
+     1.36
+    ]
+   },
+   {
+    "text": "won't",
+    "timestamp": [
+     1.44,
+     1.6
+    ]
+   },
+   {
+    "text": "grow",
+    "timestamp": [
+     1.72,
+     1.84
+    ]
+   },
+   {
+    "text": "up...",
+    "timestamp": [
+     1.92,
+     2.56
+    ]
+   },
+   {
+    "text": "I'll",
+    "timestamp": [
+     2.64,
+     2.88
+    ]
+   },
+   {
+    "text": "help",
+    "timestamp": [
+     2.96,
+     3.12
+    ]
+   },
+   {
+    "text": "it",
+    "timestamp": [
+     3.2,
+     3.28
+    ]
+   },
+   {
+    "text": "up.",
+    "timestamp": [
+     3.36,
+     4.0
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "New plan. If it won't grow up... I'll *help* it up.",
+  "hash": "9f2606a0b509"
+ },
+ "l13": {
+  "file": "assets/voice/l13.mp3",
+  "dur": 3.971,
+  "words": [
+   {
+    "text": "Sam.",
+    "timestamp": [
+     0.24,
+     1.04
+    ]
+   },
+   {
+    "text": "If",
+    "timestamp": [
+     1.12,
+     1.2
+    ]
+   },
+   {
+    "text": "you",
+    "timestamp": [
+     1.28,
+     1.44
+    ]
+   },
+   {
+    "text": "pull",
+    "timestamp": [
+     1.56,
+     1.68
+    ]
+   },
+   {
+    "text": "it...",
+    "timestamp": [
+     1.76,
+     2.4
+    ]
+   },
+   {
+    "text": "you'll",
+    "timestamp": [
+     2.44,
+     2.64
+    ]
+   },
+   {
+    "text": "pull",
+    "timestamp": [
+     2.72,
+     2.8
+    ]
+   },
+   {
+    "text": "it",
+    "timestamp": [
+     2.88,
+     2.96
+    ]
+   },
+   {
+    "text": "out.",
+    "timestamp": [
+     3.04,
+     3.92
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Sam. If you pull it... you'll pull it *out*.",
+  "hash": "714a19e99317"
+ },
+ "l14": {
+  "file": "assets/voice/l14.mp3",
+  "dur": 3.161,
+  "words": [
+   {
+    "text": "...Fine.",
+    "timestamp": [
+     0.867,
+     1.84
+    ]
+   },
+   {
+    "text": "No",
+    "timestamp": [
+     1.92,
+     2.0
+    ]
+   },
+   {
+    "text": "pulling.",
+    "timestamp": [
+     2.08,
+     3.12
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "...Fine. No pulling.",
+  "hash": "71dfde400056"
+ },
+ "l15": {
+  "file": "assets/voice/l15.mp3",
+  "dur": 3.866,
+  "words": [
+   {
+    "text": "It's",
+    "timestamp": [
+     0.133,
+     0.24
+    ]
+   },
+   {
+    "text": "getting",
+    "timestamp": [
+     0.32,
+     0.56
+    ]
+   },
+   {
+    "text": "late.",
+    "timestamp": [
+     0.64,
+     1.36
+    ]
+   },
+   {
+    "text": "Go",
+    "timestamp": [
+     1.44,
+     1.52
+    ]
+   },
+   {
+    "text": "home,",
+    "timestamp": [
+     1.6,
+     1.92
+    ]
+   },
+   {
+    "text": "Sam.",
+    "timestamp": [
+     2.12,
+     2.56
+    ]
+   },
+   {
+    "text": "Get",
+    "timestamp": [
+     2.64,
+     2.72
+    ]
+   },
+   {
+    "text": "some",
+    "timestamp": [
+     2.8,
+     2.88
+    ]
+   },
+   {
+    "text": "sleep.",
+    "timestamp": [
+     2.96,
+     3.84
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "It's getting late. Go home, Sam. Get some sleep.",
+  "hash": "28dda7403928"
+ },
+ "l16": {
+  "file": "assets/voice/l16.mp3",
+  "dur": 3.161,
+  "words": [
+   {
+    "text": "Sleep",
+    "timestamp": [
+     0.16,
+     0.48
+    ]
+   },
+   {
+    "text": "is",
+    "timestamp": [
+     0.56,
+     0.64
+    ]
+   },
+   {
+    "text": "for",
+    "timestamp": [
+     0.72,
+     0.8
+    ]
+   },
+   {
+    "text": "people",
+    "timestamp": [
+     0.96,
+     1.12
+    ]
+   },
+   {
+    "text": "who",
+    "timestamp": [
+     1.24,
+     1.36
+    ]
+   },
+   {
+    "text": "already",
+    "timestamp": [
+     1.44,
+     1.84
+    ]
+   },
+   {
+    "text": "have",
+    "timestamp": [
+     2.0,
+     2.24
+    ]
+   },
+   {
+    "text": "trees.",
+    "timestamp": [
+     2.68,
+     3.2
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Sleep is for people who already *have* trees.",
+  "hash": "74c10a36a83a"
+ },
+ "l17": {
+  "file": "assets/voice/l17.mp3",
+  "dur": 1.724,
+  "words": [
+   {
+    "text": "Goodnight,",
+    "timestamp": [
+     0.24,
+     0.8
+    ]
+   },
+   {
+    "text": "Sam.",
+    "timestamp": [
+     0.88,
+     1.68
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Goodnight, Sam.",
+  "hash": "3fb6689110ed"
+ },
+ "l18": {
+  "file": "assets/voice/l18.mp3",
+  "dur": 2.769,
+  "words": [
+   {
+    "text": "Goodnight,",
+    "timestamp": [
+     0.16,
+     0.52
+    ]
+   },
+   {
+    "text": "Layla.",
+    "timestamp": [
+     0.56,
+     1.28
+    ]
+   },
+   {
+    "text": "Goodnight,",
+    "timestamp": [
+     1.6,
+     2.107
+    ]
+   },
+   {
+    "text": "tree.",
+    "timestamp": [
+     2.213,
+     2.72
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Goodnight, Layla. Goodnight, tree.",
+  "hash": "f12b8f1b1b0a"
+ },
+ "l19": {
+  "file": "assets/voice/l19.mp3",
+  "dur": 1.646,
+  "words": [
+   {
+    "text": "I'm",
+    "timestamp": [
+     0.16,
+     0.4
+    ]
+   },
+   {
+    "text": "watching",
+    "timestamp": [
+     0.56,
+     0.88
+    ]
+   },
+   {
+    "text": "you.",
+    "timestamp": [
+     0.96,
+     1.6
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "I'm watching you.",
+  "hash": "c942b5725a30"
+ }
+}

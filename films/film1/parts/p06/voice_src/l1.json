@@ -1,0 +1,71 @@
+{
+ "words": [
+  {
+   "text": "Operation",
+   "timestamp": [
+    0.08,
+    0.56
+   ]
+  },
+  {
+   "text": "Don't",
+   "timestamp": [
+    0.72,
+    0.88
+   ]
+  },
+  {
+   "text": "Look.",
+   "timestamp": [
+    0.96,
+    1.4
+   ]
+  },
+  {
+   "text": "Step",
+   "timestamp": [
+    1.6,
+    1.76
+   ]
+  },
+  {
+   "text": "one:",
+   "timestamp": [
+    1.92,
+    2.48
+   ]
+  },
+  {
+   "text": "we",
+   "timestamp": [
+    2.56,
+    2.64
+   ]
+  },
+  {
+   "text": "pretend",
+   "timestamp": [
+    2.76,
+    3.04
+   ]
+  },
+  {
+   "text": "to",
+   "timestamp": [
+    3.12,
+    3.2
+   ]
+  },
+  {
+   "text": "leave.",
+   "timestamp": [
+    3.4,
+    3.76
+   ]
+  }
+ ],
+ "tts": "[briefing, serious] Operation Don't Look. Step one: we pretend to leave.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Then",
+   "timestamp": [
+    0.08,
+    0.24
+   ]
+  },
+  {
+   "text": "it'll",
+   "timestamp": [
+    0.28,
+    0.56
+   ]
+  },
+  {
+   "text": "feel",
+   "timestamp": [
+    0.64,
+    0.88
+   ]
+  },
+  {
+   "text": "the",
+   "timestamp": [
+    1.0,
+    1.12
+   ]
+  },
+  {
+   "text": "bass!",
+   "timestamp": [
+    1.2,
+    1.92
+   ]
+  }
+ ],
+ "tts": "[shouting] Then it'll feel the bass!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

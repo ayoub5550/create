@@ -1,0 +1,57 @@
+{
+ "words": [
+  {
+   "text": "You",
+   "timestamp": [
+    0.16,
+    0.2
+   ]
+  },
+  {
+   "text": "know...",
+   "timestamp": [
+    0.24,
+    0.84
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    1.04,
+    1.2
+   ]
+  },
+  {
+   "text": "watched",
+   "timestamp": [
+    1.36,
+    1.6
+   ]
+  },
+  {
+   "text": "pot",
+   "timestamp": [
+    1.68,
+    2.0
+   ]
+  },
+  {
+   "text": "never",
+   "timestamp": [
+    2.24,
+    2.48
+   ]
+  },
+  {
+   "text": "boils.",
+   "timestamp": [
+    2.56,
+    3.1508160000000003
+   ]
+  }
+ ],
+ "tts": "[wise, calm] You know... a watched pot never boils.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

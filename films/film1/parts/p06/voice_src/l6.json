@@ -1,0 +1,22 @@
+{
+ "words": [
+  {
+   "text": "Ha!",
+   "timestamp": [
+    0.32,
+    0.84
+   ]
+  },
+  {
+   "text": "...Ha?",
+   "timestamp": [
+    1.12,
+    2.0
+   ]
+  }
+ ],
+ "tts": "[triumphant, then deflated] Ha! ...Ha?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

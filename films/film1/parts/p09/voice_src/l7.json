@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Hey,",
+   "timestamp": [
+    0.08,
+    0.32
+   ]
+  },
+  {
+   "text": "Sam.",
+   "timestamp": [
+    0.4,
+    1.04
+   ]
+  },
+  {
+   "text": "Look!",
+   "timestamp": [
+    1.12,
+    1.68
+   ]
+  },
+  {
+   "text": "A",
+   "timestamp": [
+    1.72,
+    1.76
+   ]
+  },
+  {
+   "text": "bird!",
+   "timestamp": [
+    1.84,
+    2.64
+   ]
+  }
+ ],
+ "tts": "[sly, pointing] Hey, Sam. Look! A bird!",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

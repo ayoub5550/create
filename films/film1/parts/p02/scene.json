@@ -1,0 +1,154 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P02: Plan B: water / Layla's scarf / Plan C: pep talk",
+ "part": "p02",
+ "time": "midday",
+ "set_look": "yard-day",
+ "summary": "A giant bucket drenches Layla. She starts knitting (B-story). Sam coaches the seed.",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 4.0,
+ "tail": 1.5,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Plants love water. So... *maximum* water!",
+   "tts": "[excited] Plants love water. So... [shouting] maximum water!",
+   "emotion": "excited",
+   "gap": 0.8,
+   "note": "WS: Sam holds a bucket bigger than his torso. Anticipation lean, heave on 'maximum'; splash arcs over the mound and drenches Layla."
+  },
+  {
+   "id": "l2",
+   "who": "layla",
+   "text": "Wow. Very motivating.",
+   "tts": "[dry, unimpressed] Wow. Very motivating.",
+   "emotion": "deadpan",
+   "gap": 3.0,
+   "note": "MCU Layla dripping, darker wet colour."
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "Sorry! Too much?",
+   "tts": "[sheepish] Sorry! Too much?",
+   "emotion": "sheepish",
+   "gap": 0.4,
+   "note": "Bucket still upside down in his hands."
+  },
+  {
+   "id": "l4",
+   "who": "layla",
+   "text": "I'm fine. I'll just... air-dry.",
+   "tts": "[deadpan] I'm fine. I'll just... air-dry.",
+   "emotion": "deadpan",
+   "gap": 0.3,
+   "note": "She unfolds a little stool, sits, takes out knitting needles + a tiny bit of scarf. B-story starts."
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "What are you making?",
+   "tts": "[curious] What are you making?",
+   "emotion": "curious",
+   "gap": 0.8
+  },
+  {
+   "id": "l6",
+   "who": "layla",
+   "text": "A scarf.",
+   "tts": "[calm] A scarf.",
+   "emotion": "calm",
+   "gap": 0.3,
+   "note": "Needles click."
+  },
+  {
+   "id": "l7",
+   "who": "sam",
+   "text": "Cool. Done by lunch?",
+   "tts": "[hopeful] Cool. Done by lunch?",
+   "emotion": "hopeful",
+   "gap": 0.3
+  },
+  {
+   "id": "l8",
+   "who": "layla",
+   "text": "Done by winter.",
+   "tts": "[calm, matter-of-fact] Done by winter.",
+   "emotion": "calm",
+   "gap": 0.5
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "Winter?! How do you *live* like this?",
+   "tts": "[horrified] Winter?! How do you live like this?",
+   "emotion": "horrified",
+   "gap": 0.3,
+   "note": "CU Sam, hands on his head."
+  },
+  {
+   "id": "l10",
+   "who": "layla",
+   "text": "Slowly. Knit one, purl one.",
+   "tts": "[serene, slowly] Slowly. Knit one, purl one.",
+   "emotion": "serene",
+   "gap": 0.4,
+   "note": "MCU Layla, needles."
+  },
+  {
+   "id": "l11",
+   "who": "sam",
+   "text": "Okay. Plan C. Every champion needs a *coach*.",
+   "tts": "[determined] Okay. Plan C. Every champion needs a coach.",
+   "emotion": "determined",
+   "gap": 2.4,
+   "note": "Sam puts on a cap + whistle (tweet SFX), kneels by the mound like a coach."
+  },
+  {
+   "id": "l12",
+   "who": "sam",
+   "text": "Listen, little buddy. You are strong. You are tall.",
+   "tts": "[inspirational, building] Listen, little buddy. You are strong. You are tall.",
+   "emotion": "excited",
+   "gap": 0.3,
+   "note": "MS low angle; an inspirational swell builds under the line."
+  },
+  {
+   "id": "l13",
+   "who": "sam",
+   "text": "You are... a *tree!*",
+   "tts": "[shouting triumphantly] You are... a tree!",
+   "emotion": "triumphant",
+   "gap": 0.3,
+   "note": "Fist up. Record scratch -> WS: nothing happened; crickets; Pip tilts its head."
+  },
+  {
+   "id": "l14",
+   "who": "layla",
+   "text": "I think it's taking a nap.",
+   "tts": "[dry] I think it's taking a nap.",
+   "emotion": "deadpan",
+   "gap": 2.6
+  },
+  {
+   "id": "l15",
+   "who": "sam",
+   "text": "No naps! Champions don't *nap!*",
+   "tts": "[outraged] No naps! Champions don't nap!",
+   "emotion": "outraged",
+   "gap": 0.3,
+   "note": "He blows the whistle at the mound (tweet). Smash cut."
+  }
+ ],
+ "beats": [
+  "OPEN (0-4 s): Sam fills a bucket bigger than his torso with a garden hose; the level rises slowly; he taps his foot (impatience motif), glares at the hose.",
+  "l2 gap: the splash lands — Layla drenched, drips, a beat of silence; Pip shakes water off on the fence.",
+  "l11 gap: cap + whistle go on, he kneels like a coach.",
+  "l14 gap: record scratch, crickets, Pip tilts its head."
+ ]
+}

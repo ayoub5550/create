@@ -1,0 +1,1258 @@
+[
+[
+"p01",
+"l1",
+1.0,
+2.59,
+2.64,
+[
+"words 8/3",
+"timing>file"
+],
+"Grow. Grow. Grow!"
+],
+[
+"p01",
+"l2",
+1.0,
+3.32,
+3.28,
+[
+"words 9/7"
+],
+"Sam, why are you yelling at dirt?"
+],
+[
+"p01",
+"l3",
+1.0,
+3.32,
+3.36,
+[],
+"I'm not yelling, I'm motivating a tree."
+],
+[
+"p01",
+"l4",
+1.0,
+2.35,
+2.32,
+[],
+"A tree. Where?"
+],
+[
+"p01",
+"l5",
+1.0,
+4.13,
+4.16,
+[],
+"Right there! Under the dirt!  Probably huge by now."
+],
+[
+"p01",
+"l6",
+1.0,
+1.57,
+1.52,
+[],
+"When did you plant it?"
+],
+[
+"p01",
+"l7",
+1.0,
+0.99,
+0.96,
+[
+"words 4/1"
+],
+"YESTERDAY!"
+],
+[
+"p01",
+"l8",
+1.0,
+3.97,
+3.92,
+[
+"words 7/5"
+],
+"Yesterday? Sam, trees take time."
+],
+[
+"p01",
+"l9",
+1.0,
+2.43,
+2.4,
+[
+"words 9/7"
+],
+"How much time? An hour? Two hours?"
+],
+[
+"p01",
+"l10",
+1.0,
+1.49,
+1.44,
+[],
+"years."
+],
+[
+"p01",
+"l11",
+1.0,
+1.07,
+1.04,
+[
+"words 4/1"
+],
+"years?"
+],
+[
+"p01",
+"l12",
+1.0,
+2.04,
+2.0,
+[
+"words 5/3"
+],
+"Okay. Plan B."
+],
+[
+"p02",
+"l1",
+1.0,
+3.79,
+3.84,
+[
+"timing>file"
+],
+"Plants love water, so maximum water!"
+],
+[
+"p02",
+"l2",
+1.0,
+2.69,
+2.64,
+[
+"words 5/3"
+],
+"Wow, very motivating."
+],
+[
+"p02",
+"l3",
+1.0,
+2.51,
+2.48,
+[],
+"Sorry, too much?"
+],
+[
+"p02",
+"l4",
+1.0,
+3.47,
+3.44,
+[
+"words 5/6"
+],
+"I'm fine. I'll just air dry."
+],
+[
+"p02",
+"l5",
+1.0,
+1.41,
+1.36,
+[],
+"What are you making?"
+],
+[
+"p02",
+"l6",
+1.0,
+1.07,
+1.04,
+[],
+"A scarf."
+],
+[
+"p02",
+"l7",
+1.0,
+1.57,
+1.6,
+[],
+"Cool! Done by lunch?"
+],
+[
+"p02",
+"l8",
+1.0,
+1.23,
+1.28,
+[
+"words 5/3",
+"timing>file"
+],
+"Done by winter."
+],
+[
+"p02",
+"l9",
+1.0,
+3.4,
+3.36,
+[],
+"Winter? How do you live like this?"
+],
+[
+"p02",
+"l10",
+1.0,
+4.52,
+4.48,
+[
+"words 7/5"
+],
+"Slowly, knit one, purl one."
+],
+[
+"p02",
+"l11",
+1.0,
+4.21,
+4.16,
+[],
+"Okay, plan C. Every champion needs a coach."
+],
+[
+"p02",
+"l12",
+1.0,
+4.44,
+4.48,
+[
+"words 11/9"
+],
+"Listen, little buddy. You are strong. You are tall."
+],
+[
+"p02",
+"l13",
+1.0,
+1.96,
+1.92,
+[
+"words 6/4"
+],
+"You are a tree!"
+],
+[
+"p02",
+"l14",
+1.0,
+1.8,
+1.76,
+[],
+"I think it's taking a nap."
+],
+[
+"p02",
+"l15",
+1.0,
+2.77,
+2.8,
+[],
+"No naps! Champions don't nap!"
+],
+[
+"p03",
+"l1",
+1.0,
+2.27,
+2.24,
+[],
+"Plan D. Plant Food."
+],
+[
+"p03",
+"l2",
+1.0,
+2.27,
+2.24,
+[],
+"How much plant food?"
+],
+[
+"p03",
+"l3",
+1.0,
+0.84,
+0.8,
+[],
+"All of it."
+],
+[
+"p03",
+"l4",
+1.0,
+4.13,
+4.08,
+[],
+"Sam, that's not dinner. That's a mountain."
+],
+[
+"p03",
+"l5",
+1.0,
+2.35,
+2.32,
+[],
+"Big tree, big appetite."
+],
+[
+"p03",
+"l6",
+1.0,
+3.63,
+3.6,
+[
+"words 10/6"
+],
+"It smells like a big appetite."
+],
+[
+"p03",
+"l7",
+1.0,
+2.85,
+2.8,
+[],
+"Plan E. Plants love music."
+],
+[
+"p03",
+"l8",
+1.0,
+2.93,
+2.96,
+[
+"words 14/9"
+],
+"Feel the beat, little buddy! Grow to the beat!"
+],
+[
+"p03",
+"l9",
+1.0,
+3.47,
+3.52,
+[
+"words 15/8"
+],
+"Sam, it's a seed. It doesn't have ears."
+],
+[
+"p03",
+"l10",
+1.0,
+1.96,
+1.92,
+[],
+"Then it'll feel the bass!"
+],
+[
+"p03",
+"l11",
+1.0,
+2.35,
+2.32,
+[],
+"I think it prefers jazz."
+],
+[
+"p04",
+"l1",
+1.0,
+4.05,
+4.0,
+[],
+"Plan F. More sun. Way more sun."
+],
+[
+"p04",
+"l2",
+1.0,
+2.59,
+2.56,
+[],
+"Sam, something's smoking."
+],
+[
+"p04",
+"l3",
+1.0,
+1.31,
+1.28,
+[],
+"That's the growing!"
+],
+[
+"p04",
+"l4",
+1.0,
+1.88,
+1.84,
+[],
+"That is not the growing!"
+],
+[
+"p04",
+"l5",
+1.0,
+1.96,
+1.92,
+[],
+"You almost cooked it."
+],
+[
+"p04",
+"l6",
+1.0,
+1.57,
+1.52,
+[
+"words 4/2"
+],
+"Crispy tree?"
+],
+[
+"p04",
+"l7",
+1.0,
+2.51,
+2.48,
+[],
+"Fine, let's ask the internet."
+],
+[
+"p04",
+"l8",
+1.0,
+4.05,
+4.0,
+[
+"words 11/6"
+],
+"How to grow a tree fast."
+],
+[
+"p04",
+"l9",
+1.0,
+3.55,
+3.52,
+[],
+"Step one, be patient, one star."
+],
+[
+"p04",
+"l10",
+1.0,
+1.96,
+1.92,
+[],
+"You're reviewing nature?"
+],
+[
+"p04",
+"l11",
+1.0,
+1.8,
+1.76,
+[],
+"Nature needs feedback."
+],
+[
+"p04",
+"l12",
+0.86,
+4.36,
+4.32,
+[],
+"Step 2. Be more patient? ZERO STARS!"
+],
+[
+"p04",
+"l13",
+1.0,
+1.57,
+1.52,
+[],
+"That's not a thing."
+],
+[
+"p04",
+"l14",
+1.0,
+1.07,
+1.04,
+[],
+"It is now."
+],
+[
+"p04",
+"l15",
+1.0,
+3.4,
+3.36,
+[],
+"Fine, I'll sit right here and watch it."
+],
+[
+"p05",
+"l1",
+1.0,
+3.16,
+3.2,
+[
+"words 9/7"
+],
+"You know, a watched pot never boils."
+],
+[
+"p05",
+"l2",
+1.0,
+4.83,
+4.8,
+[],
+"That's for POTS, Layla. Trees are totally different. Trees are-"
+],
+[
+"p05",
+"l3",
+1.0,
+2.69,
+2.64,
+[],
+"What? What's that face?"
+],
+[
+"p05",
+"l4",
+1.0,
+2.43,
+2.4,
+[
+"words 6/4"
+],
+"Did it just move?"
+],
+[
+"p05",
+"l5",
+1.0,
+2.35,
+2.32,
+[
+"words 7/3"
+],
+"Maybe it's shy."
+],
+[
+"p05",
+"l6",
+1.0,
+3.24,
+3.2,
+[],
+"Shy? Trees aren't shy."
+],
+[
+"p05",
+"l7",
+1.0,
+0.52,
+0.48,
+[
+"words 3/1"
+],
+"Wait!"
+],
+[
+"p05",
+"l8",
+1.0,
+3.55,
+3.52,
+[
+"words 8/6"
+],
+"It only grows when nobody's looking."
+],
+[
+"p05",
+"l9",
+1.0,
+2.69,
+2.64,
+[],
+"Or it just needs time."
+],
+[
+"p05",
+"l10",
+1.0,
+2.93,
+2.96,
+[],
+"Layla this calls for a plan"
+],
+[
+"p06",
+"l1",
+0.89,
+3.79,
+3.76,
+[
+"words 11/9"
+],
+"Operation Don't Look. Step 1. We pretend to leave."
+],
+[
+"p06",
+"l2",
+1.0,
+4.52,
+4.48,
+[
+"words 12/10"
+],
+"Step two, we hide.  Step three, we catch it growing."
+],
+[
+"p06",
+"l3",
+0.75,
+2.85,
+2.8,
+[
+"TEXT"
+],
+"Step 4. We wait?"
+],
+[
+"p06",
+"l4",
+0.83,
+1.72,
+1.68,
+[
+"TEXT"
+],
+"4 is not a real step."
+],
+[
+"p06",
+"l5",
+0.88,
+4.83,
+4.8,
+[
+"words 10/8"
+],
+"Well, by tree, going far away, very far!"
+],
+[
+"p06",
+"l6",
+1.0,
+2.04,
+2.0,
+[
+"words 5/2"
+],
+"Ha ha"
+],
+[
+"p06",
+"l7",
+0.73,
+2.85,
+2.8,
+[
+"TEXT"
+],
+"We're gone for two seconds."
+],
+[
+"p06",
+"l8",
+1.0,
+1.96,
+2.0,
+[],
+"Two very long seconds."
+],
+[
+"p06",
+"l9",
+1.0,
+5.64,
+5.68,
+[
+"words 17/12"
+],
+"Good afternoon. I am not Sam, just a guy looking at trees."
+],
+[
+"p06",
+"l10",
+1.0,
+1.15,
+1.12,
+[],
+"Hi, Sam."
+],
+[
+"p06",
+"l11",
+1.0,
+0.76,
+0.8,
+[
+"words 5/2"
+],
+"Dang it."
+],
+[
+"p06",
+"l12",
+1.0,
+0.99,
+1.04,
+[
+"words 6/2"
+],
+"Hi, Sam!"
+],
+[
+"p06",
+"l13",
+0.75,
+1.96,
+1.92,
+[
+"TEXT"
+],
+"Shhh, I'm a bush."
+],
+[
+"p06",
+"l14",
+1.0,
+2.43,
+2.4,
+[],
+"Bushes don't wear scarves."
+],
+[
+"p06",
+"l15",
+1.0,
+1.72,
+1.68,
+[
+"words 4/2"
+],
+"Fashionable Bush."
+],
+[
+"p06",
+"l16",
+1.0,
+2.04,
+2.08,
+[],
+"Ow! Rude bird!"
+],
+[
+"p07",
+"l1",
+1.0,
+2.93,
+2.96,
+[],
+"Three minutes? Who has that kind of time?"
+],
+[
+"p07",
+"l2",
+1.0,
+2.69,
+2.64,
+[],
+"You could just... wait."
+],
+[
+"p07",
+"l3",
+1.0,
+1.49,
+1.44,
+[
+"words 5/1"
+],
+"never"
+],
+[
+"p07",
+"l4",
+1.0,
+2.27,
+2.24,
+[],
+"Trees can't hide from technology."
+],
+[
+"p07",
+"l5",
+1.0,
+1.88,
+1.84,
+[],
+"Okay, let's see the footage."
+],
+[
+"p07",
+"l6",
+1.0,
+3.87,
+3.84,
+[
+"words 14/7"
+],
+"Is it growing? Now? How about now?"
+],
+[
+"p07",
+"l7",
+1.0,
+3.71,
+3.68,
+[],
+"Great footage. Very... you."
+],
+[
+"p07",
+"l8",
+1.0,
+3.32,
+3.28,
+[
+"words 8/5"
+],
+"Huh, I'm in every shot."
+],
+[
+"p07",
+"l9",
+1.0,
+4.21,
+4.16,
+[
+"words 10/7"
+],
+"Big brain move. I look without looking."
+],
+[
+"p07",
+"l10",
+1.0,
+2.43,
+2.4,
+[],
+"It can see the mirror, Sam."
+],
+[
+"p07",
+"l11",
+1.0,
+2.19,
+2.24,
+[
+"words 7/5"
+],
+"This tree is a genius!"
+],
+[
+"p07",
+"l12",
+1.0,
+4.05,
+4.0,
+[],
+"New plan. If it won't grow up, I'll help it up."
+],
+[
+"p07",
+"l13",
+1.0,
+3.97,
+3.92,
+[
+"words 11/9"
+],
+"Sam, if you pull it, you'll pull it out."
+],
+[
+"p07",
+"l14",
+1.0,
+3.16,
+3.12,
+[
+"words 5/3"
+],
+"Fine. No pulling."
+],
+[
+"p07",
+"l15",
+1.0,
+3.87,
+3.84,
+[],
+"It's getting late. Go home, Sam. Get some sleep."
+],
+[
+"p07",
+"l16",
+1.0,
+3.16,
+3.2,
+[],
+"Sleep is for people who already have trees."
+],
+[
+"p07",
+"l17",
+0.4,
+1.72,
+1.68,
+[
+"TEXT",
+"words 4/2"
+],
+"Good night, Sam."
+],
+[
+"p07",
+"l18",
+0.4,
+2.77,
+2.72,
+[
+"TEXT"
+],
+"Good night, Layla. Good night, Tree."
+],
+[
+"p07",
+"l19",
+1.0,
+1.65,
+1.6,
+[
+"words 7/3"
+],
+"I'm watching you."
+],
+[
+"p08",
+"l1",
+1.0,
+2.69,
+2.72,
+[
+"words 10/8"
+],
+"Just you and me, buddy. I'm not blinking."
+],
+[
+"p08",
+"l2",
+1.0,
+3.32,
+3.36,
+[
+"words 7/4"
+],
+"Not blinking, not sleeping."
+],
+[
+"p08",
+"l3",
+1.0,
+1.57,
+1.52,
+[
+"words 6/4"
+],
+"I'm up.  I'm up."
+],
+[
+"p08",
+"l4",
+1.0,
+5.49,
+5.44,
+[
+"words 10/8"
+],
+"Maybe I'll count sheep.  One sheep, two sheep."
+],
+[
+"p08",
+"l5",
+1.0,
+3.79,
+3.76,
+[
+"words 6/3"
+],
+"Three.  Tree.  Trees."
+],
+[
+"p08",
+"l6",
+1.0,
+1.23,
+1.28,
+[
+"words 4/2",
+"timing>file"
+],
+"Goodnight, Sam."
+],
+[
+"p08",
+"l7",
+1.0,
+2.27,
+2.32,
+[
+"words 11/5"
+],
+"And you, take your time."
+],
+[
+"p09",
+"l1",
+1.0,
+1.41,
+1.44,
+[
+"words 5/3"
+],
+"Good morning, Sam!"
+],
+[
+"p09",
+"l2",
+1.0,
+3.47,
+3.44,
+[
+"words 11/8"
+],
+"I wasn't sleeping. I was resting my eyes."
+],
+[
+"p09",
+"l3",
+1.0,
+1.72,
+1.68,
+[],
+"for eight hours."
+],
+[
+"p09",
+"l4",
+1.0,
+3.97,
+3.92,
+[
+"words 9/5"
+],
+"Whoa, it grew without me."
+],
+[
+"p09",
+"l5",
+1.0,
+2.59,
+2.56,
+[
+"words 7/5"
+],
+"Mostly because you were asleep."
+],
+[
+"p09",
+"l6",
+1.0,
+3.87,
+3.92,
+[
+"words 11/9",
+"timing>file"
+],
+"But where are the apples? I want apples! Now!"
+],
+[
+"p09",
+"l7",
+1.0,
+2.69,
+2.64,
+[
+"words 7/5"
+],
+"Hey Sam, look! A bird!"
+],
+[
+"p09",
+"l8",
+1.0,
+1.15,
+1.12,
+[],
+"Where?"
+],
+[
+"p09",
+"l9",
+1.0,
+2.04,
+2.0,
+[],
+"It grew."
+],
+[
+"p09",
+"l10",
+1.0,
+1.07,
+1.04,
+[],
+"It grew!"
+],
+[
+"p09",
+"l11",
+1.0,
+2.69,
+2.72,
+[
+"words 8/6"
+],
+"Told you, it just needed time."
+],
+[
+"p09",
+"l12",
+1.0,
+3.4,
+3.36,
+[],
+"Okay, next up, a whole forest."
+],
+[
+"p09",
+"l13",
+1.0,
+0.84,
+0.88,
+[
+"words 5/2"
+],
+"How long?"
+],
+[
+"p09",
+"l14",
+1.0,
+1.23,
+1.04,
+[],
+"years."
+],
+[
+"p10",
+"l1",
+1.0,
+1.23,
+1.28,
+[
+"words 5/3",
+"timing>file"
+],
+"Done by winter."
+],
+[
+"p10",
+"l2",
+1.0,
+1.65,
+1.6,
+[
+"words 7/2"
+],
+"Show off."
+],
+[
+"p10",
+"l3",
+0.0,
+0.84,
+0.88,
+[
+"TEXT",
+"words 4/1"
+],
+"Crow"
+],
+[
+"p10",
+"l4",
+1.0,
+1.15,
+1.2,
+[
+"words 4/2",
+"timing>file"
+],
+"No yelling?"
+],
+[
+"p10",
+"l5",
+1.0,
+2.12,
+2.08,
+[
+"words 8/6"
+],
+"Nah, it knows what to do."
+]
+]

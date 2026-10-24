@@ -1,0 +1,15 @@
+{
+ "words": [
+  {
+   "text": "Never.",
+   "timestamp": [
+    0.88,
+    1.44
+   ]
+  }
+ ],
+ "tts": "[mouth full, crunching, defiant] Never.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

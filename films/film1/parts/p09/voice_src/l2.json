@@ -1,0 +1,64 @@
+{
+ "words": [
+  {
+   "text": "I",
+   "timestamp": [
+    0.08,
+    0.16
+   ]
+  },
+  {
+   "text": "wasn't",
+   "timestamp": [
+    0.24,
+    0.48
+   ]
+  },
+  {
+   "text": "sleeping!",
+   "timestamp": [
+    0.56,
+    1.28
+   ]
+  },
+  {
+   "text": "I",
+   "timestamp": [
+    1.52,
+    1.707
+   ]
+  },
+  {
+   "text": "was...",
+   "timestamp": [
+    1.893,
+    2.12
+   ]
+  },
+  {
+   "text": "resting",
+   "timestamp": [
+    2.16,
+    2.48
+   ]
+  },
+  {
+   "text": "my",
+   "timestamp": [
+    2.56,
+    2.64
+   ]
+  },
+  {
+   "text": "eyes.",
+   "timestamp": [
+    2.72,
+    3.44
+   ]
+  }
+ ],
+ "tts": "[startled awake, defensive] I wasn't sleeping! I was... resting my eyes.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

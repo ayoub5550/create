@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "I'm",
+   "timestamp": [
+    0.07,
+    0.16
+   ]
+  },
+  {
+   "text": "up!",
+   "timestamp": [
+    0.24,
+    0.72
+   ]
+  },
+  {
+   "text": "I'm",
+   "timestamp": [
+    1.04,
+    1.12
+   ]
+  },
+  {
+   "text": "up.",
+   "timestamp": [
+    1.2,
+    1.52
+   ]
+  }
+ ],
+ "tts": "[startled awake] I'm up! I'm up.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

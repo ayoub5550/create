@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Good",
+   "timestamp": [
+    0.16,
+    0.32
+   ]
+  },
+  {
+   "text": "morning,",
+   "timestamp": [
+    0.48,
+    0.88
+   ]
+  },
+  {
+   "text": "Sam.",
+   "timestamp": [
+    0.96,
+    1.400612
+   ]
+  }
+ ],
+ "tts": "[cheerful, gentle] Good morning, Sam.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

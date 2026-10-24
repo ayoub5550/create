@@ -1,0 +1,57 @@
+{
+ "words": [
+  {
+   "text": "Plan",
+   "timestamp": [
+    0.08,
+    0.48
+   ]
+  },
+  {
+   "text": "F.",
+   "timestamp": [
+    0.72,
+    1.12
+   ]
+  },
+  {
+   "text": "More",
+   "timestamp": [
+    1.6,
+    1.84
+   ]
+  },
+  {
+   "text": "sun.",
+   "timestamp": [
+    2.0,
+    2.6
+   ]
+  },
+  {
+   "text": "Way",
+   "timestamp": [
+    2.88,
+    3.12
+   ]
+  },
+  {
+   "text": "more",
+   "timestamp": [
+    3.2,
+    3.36
+   ]
+  },
+  {
+   "text": "sun.",
+   "timestamp": [
+    3.52,
+    4.0
+   ]
+  }
+ ],
+ "tts": "[scheming] Plan F. More sun. Way more sun.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

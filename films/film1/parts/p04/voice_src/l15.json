@@ -1,0 +1,64 @@
+{
+ "words": [
+  {
+   "text": "Fine.",
+   "timestamp": [
+    0.16,
+    0.96
+   ]
+  },
+  {
+   "text": "I'll",
+   "timestamp": [
+    1.0,
+    1.2
+   ]
+  },
+  {
+   "text": "sit",
+   "timestamp": [
+    1.32,
+    1.44
+   ]
+  },
+  {
+   "text": "right",
+   "timestamp": [
+    1.52,
+    1.76
+   ]
+  },
+  {
+   "text": "here...",
+   "timestamp": [
+    2.12,
+    2.56
+   ]
+  },
+  {
+   "text": "and",
+   "timestamp": [
+    2.64,
+    2.72
+   ]
+  },
+  {
+   "text": "watch",
+   "timestamp": [
+    2.84,
+    2.96
+   ]
+  },
+  {
+   "text": "it.",
+   "timestamp": [
+    3.04,
+    3.36
+   ]
+  }
+ ],
+ "tts": "[stubborn] Fine. I'll sit right here... and watch it.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "Plants",
+   "timestamp": [
+    0.137,
+    0.48
+   ]
+  },
+  {
+   "text": "love",
+   "timestamp": [
+    0.72,
+    1.04
+   ]
+  },
+  {
+   "text": "water.",
+   "timestamp": [
+    1.12,
+    1.68
+   ]
+  },
+  {
+   "text": "So...",
+   "timestamp": [
+    1.84,
+    2.28
+   ]
+  },
+  {
+   "text": "maximum",
+   "timestamp": [
+    2.56,
+    3.12
+   ]
+  },
+  {
+   "text": "water!",
+   "timestamp": [
+    3.2,
+    3.84
+   ]
+  }
+ ],
+ "tts": "[excited] Plants love water. So... [shouting] maximum water!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

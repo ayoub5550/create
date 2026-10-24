@@ -1,0 +1,521 @@
+{
+ "l1": {
+  "file": "assets/voice/l1.mp3",
+  "dur": 2.273,
+  "words": [
+   {
+    "text": "Plan",
+    "timestamp": [
+     0.08,
+     0.4
+    ]
+   },
+   {
+    "text": "D.",
+    "timestamp": [
+     0.64,
+     1.04
+    ]
+   },
+   {
+    "text": "Plant",
+    "timestamp": [
+     1.36,
+     1.68
+    ]
+   },
+   {
+    "text": "food!",
+    "timestamp": [
+     1.76,
+     2.24
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Plan D. Plant *food!*",
+  "hash": "5ceede4c9d54"
+ },
+ "l2": {
+  "file": "assets/voice/l2.mp3",
+  "dur": 2.273,
+  "words": [
+   {
+    "text": "How",
+    "timestamp": [
+     0.24,
+     0.4
+    ]
+   },
+   {
+    "text": "much",
+    "timestamp": [
+     0.56,
+     0.88
+    ]
+   },
+   {
+    "text": "plant",
+    "timestamp": [
+     0.96,
+     1.28
+    ]
+   },
+   {
+    "text": "food?",
+    "timestamp": [
+     1.36,
+     2.24
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "How much plant food?",
+  "hash": "8190d2561a32"
+ },
+ "l3": {
+  "file": "assets/voice/l3.mp3",
+  "dur": 0.836,
+  "words": [
+   {
+    "text": "All",
+    "timestamp": [
+     0.08,
+     0.24
+    ]
+   },
+   {
+    "text": "of",
+    "timestamp": [
+     0.32,
+     0.4
+    ]
+   },
+   {
+    "text": "it.",
+    "timestamp": [
+     0.48,
+     0.8
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "All of it.",
+  "hash": "e273c7c2c14e"
+ },
+ "l4": {
+  "file": "assets/voice/l4.mp3",
+  "dur": 4.127,
+  "words": [
+   {
+    "text": "Sam.",
+    "timestamp": [
+     0.16,
+     1.12
+    ]
+   },
+   {
+    "text": "That's",
+    "timestamp": [
+     1.2,
+     1.36
+    ]
+   },
+   {
+    "text": "not",
+    "timestamp": [
+     1.44,
+     1.68
+    ]
+   },
+   {
+    "text": "dinner.",
+    "timestamp": [
+     1.72,
+     2.48
+    ]
+   },
+   {
+    "text": "That's",
+    "timestamp": [
+     2.56,
+     2.68
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     2.72,
+     2.88
+    ]
+   },
+   {
+    "text": "mountain.",
+    "timestamp": [
+     3.04,
+     4.08
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Sam. That's not dinner. That's a mountain.",
+  "hash": "51dd433d93a7"
+ },
+ "l5": {
+  "file": "assets/voice/l5.mp3",
+  "dur": 2.351,
+  "words": [
+   {
+    "text": "Big",
+    "timestamp": [
+     0.16,
+     0.32
+    ]
+   },
+   {
+    "text": "tree.",
+    "timestamp": [
+     0.48,
+     1.08
+    ]
+   },
+   {
+    "text": "Big",
+    "timestamp": [
+     1.28,
+     1.52
+    ]
+   },
+   {
+    "text": "appetite.",
+    "timestamp": [
+     1.6,
+     2.32
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Big tree. Big appetite.",
+  "hash": "f09f0d8509da"
+ },
+ "l6": {
+  "file": "assets/voice/l6.mp3",
+  "dur": 3.631,
+  "words": [
+   {
+    "text": "It",
+    "timestamp": [
+     0.942,
+     0.96
+    ]
+   },
+   {
+    "text": "smells",
+    "timestamp": [
+     1.04,
+     1.36
+    ]
+   },
+   {
+    "text": "like",
+    "timestamp": [
+     1.44,
+     1.52
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     1.6,
+     1.84
+    ]
+   },
+   {
+    "text": "big",
+    "timestamp": [
+     2.0,
+     2.16
+    ]
+   },
+   {
+    "text": "appetite.",
+    "timestamp": [
+     2.32,
+     3.6
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "It smells like a big appetite.",
+  "hash": "795648ab3b5e"
+ },
+ "l7": {
+  "file": "assets/voice/l7.mp3",
+  "dur": 2.847,
+  "words": [
+   {
+    "text": "Plan",
+    "timestamp": [
+     0.333,
+     0.4
+    ]
+   },
+   {
+    "text": "E.",
+    "timestamp": [
+     0.56,
+     0.96
+    ]
+   },
+   {
+    "text": "Plants",
+    "timestamp": [
+     1.28,
+     1.6
+    ]
+   },
+   {
+    "text": "love",
+    "timestamp": [
+     1.84,
+     2.08
+    ]
+   },
+   {
+    "text": "music!",
+    "timestamp": [
+     2.16,
+     2.8
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Plan E. Plants love *music!*",
+  "hash": "248707e55f82"
+ },
+ "l8": {
+  "file": "assets/voice/l8.mp3",
+  "dur": 2.926,
+  "words": [
+   {
+    "text": "Feel",
+    "timestamp": [
+     0.082,
+     0.322
+    ]
+   },
+   {
+    "text": "the",
+    "timestamp": [
+     0.362,
+     0.402
+    ]
+   },
+   {
+    "text": "beat,",
+    "timestamp": [
+     0.562,
+     0.842
+    ]
+   },
+   {
+    "text": "little",
+    "timestamp": [
+     0.882,
+     1.122
+    ]
+   },
+   {
+    "text": "buddy!",
+    "timestamp": [
+     1.162,
+     1.642
+    ]
+   },
+   {
+    "text": "Grow",
+    "timestamp": [
+     1.842,
+     2.082
+    ]
+   },
+   {
+    "text": "to",
+    "timestamp": [
+     2.162,
+     2.242
+    ]
+   },
+   {
+    "text": "the",
+    "timestamp": [
+     2.282,
+     2.322
+    ]
+   },
+   {
+    "text": "beat!",
+    "timestamp": [
+     2.402,
+     2.9157140000000004
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Feel the beat, little buddy! *Grow* to the beat!",
+  "hash": "502aa7acaee9"
+ },
+ "l9": {
+  "file": "assets/voice/l9.mp3",
+  "dur": 3.474,
+  "words": [
+   {
+    "text": "Sam.",
+    "timestamp": [
+     0.16,
+     0.72
+    ]
+   },
+   {
+    "text": "It's",
+    "timestamp": [
+     0.88,
+     1.04
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     1.12,
+     1.2
+    ]
+   },
+   {
+    "text": "seed.",
+    "timestamp": [
+     1.28,
+     1.92
+    ]
+   },
+   {
+    "text": "It",
+    "timestamp": [
+     2.08,
+     2.24
+    ]
+   },
+   {
+    "text": "doesn't",
+    "timestamp": [
+     2.36,
+     2.56
+    ]
+   },
+   {
+    "text": "have",
+    "timestamp": [
+     2.64,
+     2.88
+    ]
+   },
+   {
+    "text": "ears.",
+    "timestamp": [
+     2.96,
+     3.4642860000000004
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Sam. It's a seed. It doesn't have *ears*.",
+  "hash": "fdcef90f1ab7"
+ },
+ "l10": {
+  "file": "assets/voice/l10.mp3",
+  "dur": 1.959,
+  "words": [
+   {
+    "text": "Then",
+    "timestamp": [
+     0.08,
+     0.24
+    ]
+   },
+   {
+    "text": "it'll",
+    "timestamp": [
+     0.28,
+     0.56
+    ]
+   },
+   {
+    "text": "feel",
+    "timestamp": [
+     0.64,
+     0.88
+    ]
+   },
+   {
+    "text": "the",
+    "timestamp": [
+     1.0,
+     1.12
+    ]
+   },
+   {
+    "text": "bass!",
+    "timestamp": [
+     1.2,
+     1.92
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Then it'll feel the *bass!*",
+  "hash": "5d7b0898e170"
+ },
+ "l11": {
+  "file": "assets/voice/l11.mp3",
+  "dur": 2.351,
+  "words": [
+   {
+    "text": "I",
+    "timestamp": [
+     0.08,
+     0.16
+    ]
+   },
+   {
+    "text": "think",
+    "timestamp": [
+     0.32,
+     0.48
+    ]
+   },
+   {
+    "text": "it",
+    "timestamp": [
+     0.56,
+     0.64
+    ]
+   },
+   {
+    "text": "prefers",
+    "timestamp": [
+     0.76,
+     1.12
+    ]
+   },
+   {
+    "text": "jazz.",
+    "timestamp": [
+     1.28,
+     2.32
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "I think it prefers jazz.",
+  "hash": "e3078b8be848"
+ }
+}

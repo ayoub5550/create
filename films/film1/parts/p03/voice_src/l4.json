@@ -1,0 +1,57 @@
+{
+ "words": [
+  {
+   "text": "Sam.",
+   "timestamp": [
+    0.16,
+    1.12
+   ]
+  },
+  {
+   "text": "That's",
+   "timestamp": [
+    1.2,
+    1.36
+   ]
+  },
+  {
+   "text": "not",
+   "timestamp": [
+    1.44,
+    1.68
+   ]
+  },
+  {
+   "text": "dinner.",
+   "timestamp": [
+    1.72,
+    2.48
+   ]
+  },
+  {
+   "text": "That's",
+   "timestamp": [
+    2.56,
+    2.68
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    2.72,
+    2.88
+   ]
+  },
+  {
+   "text": "mountain.",
+   "timestamp": [
+    3.04,
+    4.08
+   ]
+  }
+ ],
+ "tts": "[deadpan] Sam. That's not dinner. That's a mountain.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,620 @@
+{
+ "l1": {
+  "file": "assets/voice/l1.mp3",
+  "dur": 4.049,
+  "words": [
+   {
+    "text": "Plan",
+    "timestamp": [
+     0.08,
+     0.48
+    ]
+   },
+   {
+    "text": "F.",
+    "timestamp": [
+     0.72,
+     1.12
+    ]
+   },
+   {
+    "text": "More",
+    "timestamp": [
+     1.6,
+     1.84
+    ]
+   },
+   {
+    "text": "sun.",
+    "timestamp": [
+     2.0,
+     2.6
+    ]
+   },
+   {
+    "text": "Way",
+    "timestamp": [
+     2.88,
+     3.12
+    ]
+   },
+   {
+    "text": "more",
+    "timestamp": [
+     3.2,
+     3.36
+    ]
+   },
+   {
+    "text": "sun.",
+    "timestamp": [
+     3.52,
+     4.0
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Plan F. More sun. *Way* more sun.",
+  "hash": "f1c66415c763"
+ },
+ "l2": {
+  "file": "assets/voice/l2.mp3",
+  "dur": 2.586,
+  "words": [
+   {
+    "text": "Sam.",
+    "timestamp": [
+     0.16,
+     0.72
+    ]
+   },
+   {
+    "text": "Something's",
+    "timestamp": [
+     1.2,
+     1.68
+    ]
+   },
+   {
+    "text": "smoking.",
+    "timestamp": [
+     1.76,
+     2.56
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Sam. Something's smoking.",
+  "hash": "8ec7ea154635"
+ },
+ "l3": {
+  "file": "assets/voice/l3.mp3",
+  "dur": 1.306,
+  "words": [
+   {
+    "text": "That's",
+    "timestamp": [
+     0.16,
+     0.4
+    ]
+   },
+   {
+    "text": "the",
+    "timestamp": [
+     0.44,
+     0.48
+    ]
+   },
+   {
+    "text": "growing!",
+    "timestamp": [
+     0.56,
+     1.28
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "That's the growing!",
+  "hash": "6d80d10d8756"
+ },
+ "l4": {
+  "file": "assets/voice/l4.mp3",
+  "dur": 1.881,
+  "words": [
+   {
+    "text": "That",
+    "timestamp": [
+     0.08,
+     0.24
+    ]
+   },
+   {
+    "text": "is",
+    "timestamp": [
+     0.32,
+     0.48
+    ]
+   },
+   {
+    "text": "not",
+    "timestamp": [
+     0.56,
+     0.8
+    ]
+   },
+   {
+    "text": "the",
+    "timestamp": [
+     0.88,
+     0.96
+    ]
+   },
+   {
+    "text": "growing!",
+    "timestamp": [
+     1.04,
+     1.84
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "That is *not* the growing!",
+  "hash": "10ffae879640"
+ },
+ "l5": {
+  "file": "assets/voice/l5.mp3",
+  "dur": 1.959,
+  "words": [
+   {
+    "text": "You",
+    "timestamp": [
+     0.24,
+     0.4
+    ]
+   },
+   {
+    "text": "almost",
+    "timestamp": [
+     0.48,
+     0.88
+    ]
+   },
+   {
+    "text": "cooked",
+    "timestamp": [
+     1.04,
+     1.36
+    ]
+   },
+   {
+    "text": "it.",
+    "timestamp": [
+     1.52,
+     1.92
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "You almost cooked it.",
+  "hash": "a4039b450b90"
+ },
+ "l6": {
+  "file": "assets/voice/l6.mp3",
+  "dur": 1.567,
+  "words": [
+   {
+    "text": "...Crispy",
+    "timestamp": [
+     0.08,
+     0.72
+    ]
+   },
+   {
+    "text": "tree?",
+    "timestamp": [
+     0.8,
+     1.52
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "...Crispy tree?",
+  "hash": "f1e7a70fe86a"
+ },
+ "l7": {
+  "file": "assets/voice/l7.mp3",
+  "dur": 2.508,
+  "words": [
+   {
+    "text": "Fine.",
+    "timestamp": [
+     0.16,
+     0.88
+    ]
+   },
+   {
+    "text": "Let's",
+    "timestamp": [
+     0.96,
+     1.12
+    ]
+   },
+   {
+    "text": "ask",
+    "timestamp": [
+     1.2,
+     1.36
+    ]
+   },
+   {
+    "text": "the",
+    "timestamp": [
+     1.4,
+     1.44
+    ]
+   },
+   {
+    "text": "internet.",
+    "timestamp": [
+     1.52,
+     2.48
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Fine. Let's ask the internet.",
+  "hash": "0de33c6c0967"
+ },
+ "l8": {
+  "file": "assets/voice/l8.mp3",
+  "dur": 4.049,
+  "words": [
+   {
+    "text": "How...",
+    "timestamp": [
+     0.24,
+     0.88
+    ]
+   },
+   {
+    "text": "to",
+    "timestamp": [
+     1.04,
+     1.2
+    ]
+   },
+   {
+    "text": "grow...",
+    "timestamp": [
+     1.36,
+     2.0
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     2.16,
+     2.32
+    ]
+   },
+   {
+    "text": "tree...",
+    "timestamp": [
+     2.4,
+     3.12
+    ]
+   },
+   {
+    "text": "fast.",
+    "timestamp": [
+     3.36,
+     4.0
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "How... to grow... a tree... fast.",
+  "hash": "16d0ac7121a3"
+ },
+ "l9": {
+  "file": "assets/voice/l9.mp3",
+  "dur": 3.553,
+  "words": [
+   {
+    "text": "Step",
+    "timestamp": [
+     0.16,
+     0.4
+    ]
+   },
+   {
+    "text": "one:",
+    "timestamp": [
+     0.64,
+     1.2
+    ]
+   },
+   {
+    "text": "be",
+    "timestamp": [
+     1.32,
+     1.44
+    ]
+   },
+   {
+    "text": "patient?!",
+    "timestamp": [
+     1.52,
+     2.48
+    ]
+   },
+   {
+    "text": "...One",
+    "timestamp": [
+     2.56,
+     2.72
+    ]
+   },
+   {
+    "text": "star!",
+    "timestamp": [
+     2.8,
+     3.52
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Step one: be patient?! ...One star!",
+  "hash": "d41aef4f5c49"
+ },
+ "l10": {
+  "file": "assets/voice/l10.mp3",
+  "dur": 1.959,
+  "words": [
+   {
+    "text": "You're",
+    "timestamp": [
+     0.16,
+     0.32
+    ]
+   },
+   {
+    "text": "reviewing",
+    "timestamp": [
+     0.52,
+     0.8
+    ]
+   },
+   {
+    "text": "nature?",
+    "timestamp": [
+     0.88,
+     1.92
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "You're reviewing nature?",
+  "hash": "1a36135b03b0"
+ },
+ "l11": {
+  "file": "assets/voice/l11.mp3",
+  "dur": 1.802,
+  "words": [
+   {
+    "text": "Nature",
+    "timestamp": [
+     0.24,
+     0.56
+    ]
+   },
+   {
+    "text": "needs",
+    "timestamp": [
+     0.64,
+     0.88
+    ]
+   },
+   {
+    "text": "feedback.",
+    "timestamp": [
+     1.04,
+     1.76
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Nature needs *feedback*.",
+  "hash": "0b9287b2a3a9"
+ },
+ "l12": {
+  "file": "assets/voice/l12.mp3",
+  "dur": 4.362,
+  "words": [
+   {
+    "text": "Step",
+    "timestamp": [
+     0.16,
+     0.4
+    ]
+   },
+   {
+    "text": "two:",
+    "timestamp": [
+     0.56,
+     1.28
+    ]
+   },
+   {
+    "text": "be",
+    "timestamp": [
+     1.44,
+     1.6
+    ]
+   },
+   {
+    "text": "more",
+    "timestamp": [
+     1.68,
+     1.92
+    ]
+   },
+   {
+    "text": "patient?!",
+    "timestamp": [
+     2.0,
+     2.8
+    ]
+   },
+   {
+    "text": "...Zero",
+    "timestamp": [
+     3.107,
+     3.44
+    ]
+   },
+   {
+    "text": "stars!",
+    "timestamp": [
+     3.52,
+     4.32
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Step two: be *more* patient?! ...Zero stars!",
+  "hash": "33fd244b6adb"
+ },
+ "l13": {
+  "file": "assets/voice/l13.mp3",
+  "dur": 1.567,
+  "words": [
+   {
+    "text": "That's",
+    "timestamp": [
+     0.16,
+     0.48
+    ]
+   },
+   {
+    "text": "not",
+    "timestamp": [
+     0.56,
+     0.72
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     0.8,
+     0.84
+    ]
+   },
+   {
+    "text": "thing.",
+    "timestamp": [
+     0.88,
+     1.52
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "That's not a thing.",
+  "hash": "2d6d20db60a9"
+ },
+ "l14": {
+  "file": "assets/voice/l14.mp3",
+  "dur": 1.071,
+  "words": [
+   {
+    "text": "It",
+    "timestamp": [
+     0.08,
+     0.24
+    ]
+   },
+   {
+    "text": "is",
+    "timestamp": [
+     0.32,
+     0.48
+    ]
+   },
+   {
+    "text": "now.",
+    "timestamp": [
+     0.56,
+     1.04
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "It is now.",
+  "hash": "c9924e51b04e"
+ },
+ "l15": {
+  "file": "assets/voice/l15.mp3",
+  "dur": 3.396,
+  "words": [
+   {
+    "text": "Fine.",
+    "timestamp": [
+     0.16,
+     0.96
+    ]
+   },
+   {
+    "text": "I'll",
+    "timestamp": [
+     1.0,
+     1.2
+    ]
+   },
+   {
+    "text": "sit",
+    "timestamp": [
+     1.32,
+     1.44
+    ]
+   },
+   {
+    "text": "right",
+    "timestamp": [
+     1.52,
+     1.76
+    ]
+   },
+   {
+    "text": "here...",
+    "timestamp": [
+     2.12,
+     2.56
+    ]
+   },
+   {
+    "text": "and",
+    "timestamp": [
+     2.64,
+     2.72
+    ]
+   },
+   {
+    "text": "watch",
+    "timestamp": [
+     2.84,
+     2.96
+    ]
+   },
+   {
+    "text": "it.",
+    "timestamp": [
+     3.04,
+     3.36
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Fine. I'll sit right here... and *watch* it.",
+  "hash": "9c21599c8a94"
+ }
+}

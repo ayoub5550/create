@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Did",
+   "timestamp": [
+    0.08,
+    0.24
+   ]
+  },
+  {
+   "text": "it",
+   "timestamp": [
+    0.32,
+    0.4
+   ]
+  },
+  {
+   "text": "just...",
+   "timestamp": [
+    0.48,
+    1.28
+   ]
+  },
+  {
+   "text": "move?",
+   "timestamp": [
+    1.52,
+    2.4
+   ]
+  }
+ ],
+ "tts": "[suspicious whisper] Did it just... move?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

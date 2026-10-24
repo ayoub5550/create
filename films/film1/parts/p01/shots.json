@@ -1,0 +1,21 @@
+{
+ "fps": 30,
+ "note": "P01 hand-directed edit (word-anchored). frame = [cx, cy, zoom] in world px for non-character framings.",
+ "shots": [
+  {"t": 0, "frame": [960, 540, 1.0], "move": {"dx": -40, "dy": 70, "zoom": 1.5}, "why": "OPEN: establishing EWS, slow push-in; Pip lands on the birdhouse"},
+  {"t": "l1-0.05", "size": "MCU", "on": ["sam", "mound"], "top": 0.24, "move": {"zoom": 1.15}, "why": "cold open: crouched nose-to-dirt over the mound, pushing in on each grow"},
+  {"t": "l1.end+0.25", "size": "WS", "on": ["sam", "layla"], "frameAt": "l2.end", "zoom": 0.8, "why": "reveal: a tiny mound in a big yard; Layla walks in"},
+  {"t": "l3-0.15", "size": "MCU", "on": ["sam", "mound"], "top": 0.2, "why": "never looks away from the mound"},
+  {"t": "l4-0.1", "size": "MCU", "on": ["layla"], "top": 0.11, "why": "she looks round the empty yard"},
+  {"t": "l5-0.1", "size": "WS", "on": ["sam", "layla"], "why": "points down at the mound"},
+  {"t": "l6-0.1", "size": "MCU", "on": ["layla"], "top": 0.11, "why": "question"},
+  {"t": "l7@0-0.25", "size": "MS", "on": ["sam"], "frameAt": "l7.end", "top": 0.1, "why": "springs up, chest out"},
+  {"t": "l8-0.1", "size": "MCU", "on": ["layla"], "top": 0.11, "why": "palms up: trees take time"},
+  {"t": "l9-0.15", "size": "MS", "on": ["sam"], "top": 0.12, "move": {"zoom": 1.08}, "why": "rule of three, leaning in"},
+  {"t": "l10-0.3", "size": "CU", "on": ["layla"], "top": 0.12, "why": "Years. (in silence)"},
+  {"t": "l10.end+0.08", "size": "CU", "on": ["sam"], "top": 0.12, "why": "frozen take: burst lines, eye twitch, sweat"},
+  {"t": "l11-1.4", "frame": [1648, 566, 3.4], "why": "cutaway: Pip tilts its head, one chirp"},
+  {"t": "l11-0.4", "size": "CU", "on": ["sam"], "top": 0.12, "move": {"zoom": 1.05}, "why": "...Years? (tiny)"},
+  {"t": "l11.end+0.3", "size": "MCU", "on": ["sam"], "move": {"zoom": 1.15}, "why": "he narrows his eyes: Okay. Plan B."}
+ ]
+}

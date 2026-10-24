@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "Okay!",
+   "timestamp": [
+    0.08,
+    0.88
+   ]
+  },
+  {
+   "text": "Next",
+   "timestamp": [
+    0.96,
+    1.2
+   ]
+  },
+  {
+   "text": "up:",
+   "timestamp": [
+    1.28,
+    1.68
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    1.8,
+    1.92
+   ]
+  },
+  {
+   "text": "whole",
+   "timestamp": [
+    2.12,
+    2.32
+   ]
+  },
+  {
+   "text": "forest!",
+   "timestamp": [
+    2.4,
+    3.36
+   ]
+  }
+ ],
+ "tts": "[excited] Okay! Next up: a whole forest!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

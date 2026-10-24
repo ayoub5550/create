@@ -1,0 +1,630 @@
+{
+ "fps": 30,
+ "total": 66.5,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Operation Don't Look. Step one: we pretend to leave.",
+   "start": 0.6,
+   "end": 4.388,
+   "dur": 3.788,
+   "file_dur": 3.788,
+   "emotion": "serious",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Operation",
+     "t0": 0.68,
+     "t1": 1.16
+    },
+    {
+     "text": "Don't",
+     "t0": 1.32,
+     "t1": 1.48
+    },
+    {
+     "text": "Look.",
+     "t0": 1.56,
+     "t1": 2.0
+    },
+    {
+     "text": "Step",
+     "t0": 2.2,
+     "t1": 2.36
+    },
+    {
+     "text": "one:",
+     "t0": 2.52,
+     "t1": 3.08
+    },
+    {
+     "text": "we",
+     "t0": 3.16,
+     "t1": 3.24
+    },
+    {
+     "text": "pretend",
+     "t0": 3.36,
+     "t1": 3.64
+    },
+    {
+     "text": "to",
+     "t0": 3.72,
+     "t1": 3.8
+    },
+    {
+     "text": "leave.",
+     "t0": 4.0,
+     "t1": 4.36
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "who": "sam",
+   "text": "Step two: we hide. Step three: we catch it growing!",
+   "start": 4.6,
+   "end": 9.119,
+   "dur": 4.519,
+   "file_dur": 4.519,
+   "emotion": "excited",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Step",
+     "t0": 4.68,
+     "t1": 4.92
+    },
+    {
+     "text": "two:",
+     "t0": 5.0,
+     "t1": 5.64
+    },
+    {
+     "text": "we",
+     "t0": 5.76,
+     "t1": 5.88
+    },
+    {
+     "text": "hide.",
+     "t0": 6.12,
+     "t1": 6.68
+    },
+    {
+     "text": "Step",
+     "t0": 6.8,
+     "t1": 6.92
+    },
+    {
+     "text": "three:",
+     "t0": 7.0,
+     "t1": 7.64
+    },
+    {
+     "text": "we",
+     "t0": 7.72,
+     "t1": 7.8
+    },
+    {
+     "text": "catch",
+     "t0": 7.92,
+     "t1": 8.04
+    },
+    {
+     "text": "it",
+     "t0": 8.12,
+     "t1": 8.2
+    },
+    {
+     "text": "growing!",
+     "t0": 8.28,
+     "t1": 9.08
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "who": "layla",
+   "text": "Step four: we wait?",
+   "start": 9.533,
+   "end": 12.38,
+   "dur": 2.847,
+   "file_dur": 2.847,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Step",
+     "t0": 9.693,
+     "t1": 9.933
+    },
+    {
+     "text": "four:",
+     "t0": 10.093,
+     "t1": 11.053
+    },
+    {
+     "text": "we",
+     "t0": 11.133,
+     "t1": 11.293
+    },
+    {
+     "text": "wait?",
+     "t0": 11.373,
+     "t1": 12.333
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "Four is not a real step.",
+   "start": 12.667,
+   "end": 14.391,
+   "dur": 1.724,
+   "file_dur": 1.724,
+   "emotion": "dismissive",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Four",
+     "t0": 12.827,
+     "t1": 13.067
+    },
+    {
+     "text": "is",
+     "t0": 13.147,
+     "t1": 13.227
+    },
+    {
+     "text": "not",
+     "t0": 13.307,
+     "t1": 13.387
+    },
+    {
+     "text": "a",
+     "t0": 13.427,
+     "t1": 13.467
+    },
+    {
+     "text": "real",
+     "t0": 13.547,
+     "t1": 13.707
+    },
+    {
+     "text": "step.",
+     "t0": 13.867,
+     "t1": 14.347
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Well! Bye, tree! Going far away! Very far!",
+   "start": 15.4,
+   "end": 20.233,
+   "dur": 4.833,
+   "file_dur": 4.833,
+   "emotion": "overacting",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Well!",
+     "t0": 15.56,
+     "t1": 16.08
+    },
+    {
+     "text": "Bye,",
+     "t0": 16.28,
+     "t1": 16.64
+    },
+    {
+     "text": "tree!",
+     "t0": 16.68,
+     "t1": 17.28
+    },
+    {
+     "text": "Going",
+     "t0": 17.48,
+     "t1": 17.8
+    },
+    {
+     "text": "far",
+     "t0": 17.96,
+     "t1": 18.2
+    },
+    {
+     "text": "away!",
+     "t0": 18.28,
+     "t1": 18.96
+    },
+    {
+     "text": "Very",
+     "t0": 19.16,
+     "t1": 19.48
+    },
+    {
+     "text": "far!",
+     "t0": 19.56,
+     "t1": 20.2
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "who": "sam",
+   "text": "Ha! ...Ha?",
+   "start": 23.733,
+   "end": 25.771,
+   "dur": 2.038,
+   "file_dur": 2.038,
+   "emotion": "deflated",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Ha!",
+     "t0": 24.053,
+     "t1": 24.573
+    },
+    {
+     "text": "...Ha?",
+     "t0": 24.853,
+     "t1": 25.733
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "who": "layla",
+   "text": "You were gone for two seconds.",
+   "start": 26.267,
+   "end": 28.226,
+   "dur": 1.959,
+   "file_dur": 1.959,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "You",
+     "t0": 26.427,
+     "t1": 26.507
+    },
+    {
+     "text": "were",
+     "t0": 26.587,
+     "t1": 26.667
+    },
+    {
+     "text": "gone",
+     "t0": 26.787,
+     "t1": 26.907
+    },
+    {
+     "text": "for",
+     "t0": 26.987,
+     "t1": 27.227
+    },
+    {
+     "text": "two",
+     "t0": 27.347,
+     "t1": 27.467
+    },
+    {
+     "text": "seconds.",
+     "t0": 27.627,
+     "t1": 28.267
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "Two very long seconds.",
+   "start": 28.533,
+   "end": 30.492,
+   "dur": 1.959,
+   "file_dur": 1.959,
+   "emotion": "defensive",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Two",
+     "t0": 28.866,
+     "t1": 28.933
+    },
+    {
+     "text": "very",
+     "t0": 29.013,
+     "t1": 29.333
+    },
+    {
+     "text": "long",
+     "t0": 29.493,
+     "t1": 29.813
+    },
+    {
+     "text": "seconds.",
+     "t0": 29.973,
+     "t1": 30.533
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "Good afternoon. I am... not Sam. Just a guy. Looking at trees.",
+   "start": 34.0,
+   "end": 39.642,
+   "dur": 5.642,
+   "file_dur": 5.642,
+   "emotion": "fake",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Good",
+     "t0": 34.08,
+     "t1": 34.24
+    },
+    {
+     "text": "afternoon.",
+     "t0": 34.32,
+     "t1": 35.28
+    },
+    {
+     "text": "I",
+     "t0": 35.6,
+     "t1": 35.76
+    },
+    {
+     "text": "am...",
+     "t0": 35.84,
+     "t1": 36.32
+    },
+    {
+     "text": "not",
+     "t0": 36.56,
+     "t1": 36.72
+    },
+    {
+     "text": "Sam.",
+     "t0": 36.8,
+     "t1": 37.48
+    },
+    {
+     "text": "Just",
+     "t0": 37.76,
+     "t1": 37.84
+    },
+    {
+     "text": "a",
+     "t0": 37.92,
+     "t1": 37.96
+    },
+    {
+     "text": "guy.",
+     "t0": 38.0,
+     "t1": 38.56
+    },
+    {
+     "text": "Looking",
+     "t0": 38.8,
+     "t1": 38.96
+    },
+    {
+     "text": "at",
+     "t0": 39.04,
+     "t1": 39.12
+    },
+    {
+     "text": "trees.",
+     "t0": 39.2,
+     "t1": 39.632
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "who": "layla",
+   "text": "Hi, Sam.",
+   "start": 40.133,
+   "end": 41.282,
+   "dur": 1.149,
+   "file_dur": 1.149,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Hi,",
+     "t0": 40.293,
+     "t1": 40.533
+    },
+    {
+     "text": "Sam.",
+     "t0": 40.613,
+     "t1": 41.253
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "who": "sam",
+   "text": "Dang it.",
+   "start": 41.567,
+   "end": 42.325,
+   "dur": 0.758,
+   "file_dur": 0.758,
+   "emotion": "defeated",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Dang",
+     "t0": 41.727,
+     "t1": 41.967
+    },
+    {
+     "text": "it.",
+     "t0": 42.047,
+     "t1": 42.315
+    }
+   ]
+  },
+  {
+   "id": "l12",
+   "who": "layla",
+   "text": "Hi, Sam.",
+   "start": 52.333,
+   "end": 53.326,
+   "dur": 0.993,
+   "file_dur": 0.993,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Hi,",
+     "t0": 52.493,
+     "t1": 52.813
+    },
+    {
+     "text": "Sam.",
+     "t0": 52.893,
+     "t1": 53.316
+    }
+   ]
+  },
+  {
+   "id": "l13",
+   "who": "sam",
+   "text": "Shh! I'm a bush.",
+   "start": 53.733,
+   "end": 55.692,
+   "dur": 1.959,
+   "file_dur": 1.959,
+   "emotion": "whisper",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Shh!",
+     "t0": 53.893,
+     "t1": 54.453
+    },
+    {
+     "text": "I'm",
+     "t0": 54.613,
+     "t1": 54.773
+    },
+    {
+     "text": "a",
+     "t0": 54.853,
+     "t1": 55.013
+    },
+    {
+     "text": "bush.",
+     "t0": 55.053,
+     "t1": 55.653
+    }
+   ]
+  },
+  {
+   "id": "l14",
+   "who": "layla",
+   "text": "Bushes don't wear scarves.",
+   "start": 56.1,
+   "end": 58.529,
+   "dur": 2.429,
+   "file_dur": 2.429,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Bushes",
+     "t0": 56.26,
+     "t1": 56.66
+    },
+    {
+     "text": "don't",
+     "t0": 56.74,
+     "t1": 56.98
+    },
+    {
+     "text": "wear",
+     "t0": 57.1,
+     "t1": 57.22
+    },
+    {
+     "text": "scarves.",
+     "t0": 57.3,
+     "t1": 58.5
+    }
+   ]
+  },
+  {
+   "id": "l15",
+   "who": "sam",
+   "text": "Fashionable bush.",
+   "start": 59.433,
+   "end": 61.157,
+   "dur": 1.724,
+   "file_dur": 1.724,
+   "emotion": "offended",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Fashionable",
+     "t0": 59.673,
+     "t1": 60.313
+    },
+    {
+     "text": "bush.",
+     "t0": 60.553,
+     "t1": 61.113
+    }
+   ]
+  },
+  {
+   "id": "l16",
+   "who": "sam",
+   "text": "Ow! Rude bird!",
+   "start": 61.467,
+   "end": 63.505,
+   "dur": 2.038,
+   "file_dur": 2.038,
+   "emotion": "annoyed",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Ow!",
+     "t0": 62.283,
+     "t1": 62.331
+    },
+    {
+     "text": "Rude",
+     "t0": 62.347,
+     "t1": 62.587
+    },
+    {
+     "text": "bird!",
+     "t0": 62.747,
+     "t1": 63.547
+    }
+   ]
+  }
+ ]
+}

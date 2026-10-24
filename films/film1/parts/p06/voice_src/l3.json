@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Step",
+   "timestamp": [
+    0.16,
+    0.4
+   ]
+  },
+  {
+   "text": "four:",
+   "timestamp": [
+    0.56,
+    1.52
+   ]
+  },
+  {
+   "text": "we",
+   "timestamp": [
+    1.6,
+    1.76
+   ]
+  },
+  {
+   "text": "wait?",
+   "timestamp": [
+    1.84,
+    2.8
+   ]
+  }
+ ],
+ "tts": "[dry] Step four: we wait?",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

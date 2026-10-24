@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "I",
+   "timestamp": [
+    0.08,
+    0.16
+   ]
+  },
+  {
+   "text": "think",
+   "timestamp": [
+    0.32,
+    0.48
+   ]
+  },
+  {
+   "text": "it",
+   "timestamp": [
+    0.56,
+    0.64
+   ]
+  },
+  {
+   "text": "prefers",
+   "timestamp": [
+    0.76,
+    1.12
+   ]
+  },
+  {
+   "text": "jazz.",
+   "timestamp": [
+    1.28,
+    2.32
+   ]
+  }
+ ],
+ "tts": "[deadpan] I think it prefers jazz.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

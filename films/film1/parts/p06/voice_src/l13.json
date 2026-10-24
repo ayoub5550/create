@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Shh!",
+   "timestamp": [
+    0.16,
+    0.72
+   ]
+  },
+  {
+   "text": "I'm",
+   "timestamp": [
+    0.88,
+    1.04
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    1.12,
+    1.28
+   ]
+  },
+  {
+   "text": "bush.",
+   "timestamp": [
+    1.32,
+    1.92
+   ]
+  }
+ ],
+ "tts": "[whispering] Shh! I'm a bush.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

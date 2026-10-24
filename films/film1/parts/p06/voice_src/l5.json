@@ -1,0 +1,64 @@
+{
+ "words": [
+  {
+   "text": "Well!",
+   "timestamp": [
+    0.16,
+    0.68
+   ]
+  },
+  {
+   "text": "Bye,",
+   "timestamp": [
+    0.88,
+    1.24
+   ]
+  },
+  {
+   "text": "tree!",
+   "timestamp": [
+    1.28,
+    1.88
+   ]
+  },
+  {
+   "text": "Going",
+   "timestamp": [
+    2.08,
+    2.4
+   ]
+  },
+  {
+   "text": "far",
+   "timestamp": [
+    2.56,
+    2.8
+   ]
+  },
+  {
+   "text": "away!",
+   "timestamp": [
+    2.88,
+    3.56
+   ]
+  },
+  {
+   "text": "Very",
+   "timestamp": [
+    3.76,
+    4.08
+   ]
+  },
+  {
+   "text": "far!",
+   "timestamp": [
+    4.16,
+    4.8
+   ]
+  }
+ ],
+ "tts": "[loud, overacting] Well! Bye, tree! Going far away! Very far!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

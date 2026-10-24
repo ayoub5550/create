@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "It",
+   "timestamp": [
+    0.942,
+    0.96
+   ]
+  },
+  {
+   "text": "smells",
+   "timestamp": [
+    1.04,
+    1.36
+   ]
+  },
+  {
+   "text": "like",
+   "timestamp": [
+    1.44,
+    1.52
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    1.6,
+    1.84
+   ]
+  },
+  {
+   "text": "big",
+   "timestamp": [
+    2.0,
+    2.16
+   ]
+  },
+  {
+   "text": "appetite.",
+   "timestamp": [
+    2.32,
+    3.6
+   ]
+  }
+ ],
+ "tts": "[pinching her nose, nasal] It smells like a big appetite.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

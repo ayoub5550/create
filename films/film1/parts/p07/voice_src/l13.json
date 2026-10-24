@@ -1,0 +1,71 @@
+{
+ "words": [
+  {
+   "text": "Sam.",
+   "timestamp": [
+    0.24,
+    1.04
+   ]
+  },
+  {
+   "text": "If",
+   "timestamp": [
+    1.12,
+    1.2
+   ]
+  },
+  {
+   "text": "you",
+   "timestamp": [
+    1.28,
+    1.44
+   ]
+  },
+  {
+   "text": "pull",
+   "timestamp": [
+    1.56,
+    1.68
+   ]
+  },
+  {
+   "text": "it...",
+   "timestamp": [
+    1.76,
+    2.4
+   ]
+  },
+  {
+   "text": "you'll",
+   "timestamp": [
+    2.44,
+    2.64
+   ]
+  },
+  {
+   "text": "pull",
+   "timestamp": [
+    2.72,
+    2.8
+   ]
+  },
+  {
+   "text": "it",
+   "timestamp": [
+    2.88,
+    2.96
+   ]
+  },
+  {
+   "text": "out.",
+   "timestamp": [
+    3.04,
+    3.92
+   ]
+  }
+ ],
+ "tts": "[quiet, firm] Sam. If you pull it... you'll pull it out.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

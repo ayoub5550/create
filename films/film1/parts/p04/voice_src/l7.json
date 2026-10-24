@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Fine.",
+   "timestamp": [
+    0.16,
+    0.88
+   ]
+  },
+  {
+   "text": "Let's",
+   "timestamp": [
+    0.96,
+    1.12
+   ]
+  },
+  {
+   "text": "ask",
+   "timestamp": [
+    1.2,
+    1.36
+   ]
+  },
+  {
+   "text": "the",
+   "timestamp": [
+    1.4,
+    1.44
+   ]
+  },
+  {
+   "text": "internet.",
+   "timestamp": [
+    1.52,
+    2.48
+   ]
+  }
+ ],
+ "tts": "[determined] Fine. Let's ask the internet.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Wow.",
+   "timestamp": [
+    0.24,
+    1.0
+   ]
+  },
+  {
+   "text": "Very",
+   "timestamp": [
+    1.28,
+    1.52
+   ]
+  },
+  {
+   "text": "motivating.",
+   "timestamp": [
+    1.6,
+    2.64
+   ]
+  }
+ ],
+ "tts": "[dry, unimpressed] Wow. Very motivating.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

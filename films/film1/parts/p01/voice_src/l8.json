@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Yesterday?",
+   "timestamp": [
+    0.24,
+    1.2
+   ]
+  },
+  {
+   "text": "Sam,",
+   "timestamp": [
+    1.52,
+    2.12
+   ]
+  },
+  {
+   "text": "trees",
+   "timestamp": [
+    2.24,
+    2.56
+   ]
+  },
+  {
+   "text": "take",
+   "timestamp": [
+    2.64,
+    2.88
+   ]
+  },
+  {
+   "text": "time.",
+   "timestamp": [
+    3.12,
+    3.92
+   ]
+  }
+ ],
+ "tts": "[gently amused] Yesterday? Sam, trees take time.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

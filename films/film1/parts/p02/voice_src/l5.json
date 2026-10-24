@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "What",
+   "timestamp": [
+    0.16,
+    0.24
+   ]
+  },
+  {
+   "text": "are",
+   "timestamp": [
+    0.32,
+    0.4
+   ]
+  },
+  {
+   "text": "you",
+   "timestamp": [
+    0.44,
+    0.48
+   ]
+  },
+  {
+   "text": "making?",
+   "timestamp": [
+    0.56,
+    1.36
+   ]
+  }
+ ],
+ "tts": "[curious] What are you making?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "Sam.",
+   "timestamp": [
+    0.16,
+    0.72
+   ]
+  },
+  {
+   "text": "Something's",
+   "timestamp": [
+    1.2,
+    1.68
+   ]
+  },
+  {
+   "text": "smoking.",
+   "timestamp": [
+    1.76,
+    2.56
+   ]
+  }
+ ],
+ "tts": "[calm] Sam. Something's smoking.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

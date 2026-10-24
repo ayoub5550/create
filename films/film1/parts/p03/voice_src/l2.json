@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "How",
+   "timestamp": [
+    0.24,
+    0.4
+   ]
+  },
+  {
+   "text": "much",
+   "timestamp": [
+    0.56,
+    0.88
+   ]
+  },
+  {
+   "text": "plant",
+   "timestamp": [
+    0.96,
+    1.28
+   ]
+  },
+  {
+   "text": "food?",
+   "timestamp": [
+    1.36,
+    2.24
+   ]
+  }
+ ],
+ "tts": "[suspicious] How much plant food?",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

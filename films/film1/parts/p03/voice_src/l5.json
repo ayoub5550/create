@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Big",
+   "timestamp": [
+    0.16,
+    0.32
+   ]
+  },
+  {
+   "text": "tree.",
+   "timestamp": [
+    0.48,
+    1.08
+   ]
+  },
+  {
+   "text": "Big",
+   "timestamp": [
+    1.28,
+    1.52
+   ]
+  },
+  {
+   "text": "appetite.",
+   "timestamp": [
+    1.6,
+    2.32
+   ]
+  }
+ ],
+ "tts": "[smug] Big tree. Big appetite.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

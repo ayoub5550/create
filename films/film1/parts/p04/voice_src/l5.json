@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "You",
+   "timestamp": [
+    0.24,
+    0.4
+   ]
+  },
+  {
+   "text": "almost",
+   "timestamp": [
+    0.48,
+    0.88
+   ]
+  },
+  {
+   "text": "cooked",
+   "timestamp": [
+    1.04,
+    1.36
+   ]
+  },
+  {
+   "text": "it.",
+   "timestamp": [
+    1.52,
+    1.92
+   ]
+  }
+ ],
+ "tts": "[deadpan] You almost cooked it.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

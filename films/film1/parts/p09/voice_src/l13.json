@@ -1,0 +1,22 @@
+{
+ "words": [
+  {
+   "text": "...How",
+   "timestamp": [
+    0.08,
+    0.32
+   ]
+  },
+  {
+   "text": "long?",
+   "timestamp": [
+    0.4,
+    0.825918
+   ]
+  }
+ ],
+ "tts": "[hopeful, mouth full] ...How long?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

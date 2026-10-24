@@ -1,0 +1,36 @@
+{
+ "words": [
+  {
+   "text": "Not",
+   "timestamp": [
+    0.371,
+    0.4
+   ]
+  },
+  {
+   "text": "blinking...",
+   "timestamp": [
+    0.48,
+    1.68
+   ]
+  },
+  {
+   "text": "not",
+   "timestamp": [
+    1.76,
+    2.08
+   ]
+  },
+  {
+   "text": "sleeping...",
+   "timestamp": [
+    2.16,
+    3.307551
+   ]
+  }
+ ],
+ "tts": "[drowsy, slowing down] Not blinking... not sleeping...",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

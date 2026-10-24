@@ -1,0 +1,802 @@
+{
+ "fps": 30,
+ "total": 86.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Three minutes?! Who has that kind of time?",
+   "start": 0.6,
+   "end": 3.526,
+   "dur": 2.926,
+   "file_dur": 2.926,
+   "emotion": "outraged",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Three",
+     "t0": 0.76,
+     "t1": 1.08
+    },
+    {
+     "text": "minutes?!",
+     "t0": 1.32,
+     "t1": 2.0
+    },
+    {
+     "text": "Who",
+     "t0": 2.2,
+     "t1": 2.28
+    },
+    {
+     "text": "has",
+     "t0": 2.36,
+     "t1": 2.52
+    },
+    {
+     "text": "that",
+     "t0": 2.6,
+     "t1": 2.68
+    },
+    {
+     "text": "kind",
+     "t0": 2.76,
+     "t1": 2.84
+    },
+    {
+     "text": "of",
+     "t0": 2.92,
+     "t1": 3.0
+    },
+    {
+     "text": "time?",
+     "t0": 3.24,
+     "t1": 3.56
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "who": "layla",
+   "text": "You could just... wait.",
+   "start": 4.033,
+   "end": 6.723,
+   "dur": 2.69,
+   "file_dur": 2.691,
+   "emotion": "calm",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "You",
+     "t0": 4.273,
+     "t1": 4.433
+    },
+    {
+     "text": "could",
+     "t0": 4.553,
+     "t1": 4.673
+    },
+    {
+     "text": "just...",
+     "t0": 4.753,
+     "t1": 5.793
+    },
+    {
+     "text": "wait.",
+     "t0": 6.113,
+     "t1": 6.673
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "Never.",
+   "start": 7.733,
+   "end": 9.222,
+   "dur": 1.489,
+   "file_dur": 1.489,
+   "emotion": "defiant",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Never.",
+     "t0": 8.613,
+     "t1": 9.173
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "Trees can't hide from technology.",
+   "start": 10.433,
+   "end": 12.706,
+   "dur": 2.273,
+   "file_dur": 2.273,
+   "emotion": "smug",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Trees",
+     "t0": 10.513,
+     "t1": 10.833
+    },
+    {
+     "text": "can't",
+     "t0": 10.913,
+     "t1": 11.073
+    },
+    {
+     "text": "hide",
+     "t0": 11.233,
+     "t1": 11.473
+    },
+    {
+     "text": "from",
+     "t0": 11.553,
+     "t1": 11.633
+    },
+    {
+     "text": "technology.",
+     "t0": 11.713,
+     "t1": 12.673
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Okay. Let's see the footage!",
+   "start": 16.7,
+   "end": 18.581,
+   "dur": 1.881,
+   "file_dur": 1.881,
+   "emotion": "excited",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Okay.",
+     "t0": 16.78,
+     "t1": 17.34
+    },
+    {
+     "text": "Let's",
+     "t0": 17.5,
+     "t1": 17.66
+    },
+    {
+     "text": "see",
+     "t0": 17.7,
+     "t1": 17.74
+    },
+    {
+     "text": "the",
+     "t0": 17.82,
+     "t1": 17.9
+    },
+    {
+     "text": "footage!",
+     "t0": 17.98,
+     "t1": 18.54
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "who": "sam",
+   "text": "Is it growing? ...Now? ...How about now?",
+   "start": 19.167,
+   "end": 23.033,
+   "dur": 3.866,
+   "file_dur": 3.866,
+   "emotion": "whisper",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Is",
+     "t0": 19.327,
+     "t1": 19.487
+    },
+    {
+     "text": "it",
+     "t0": 19.567,
+     "t1": 19.647
+    },
+    {
+     "text": "growing?",
+     "t0": 19.687,
+     "t1": 20.447
+    },
+    {
+     "text": "...Now?",
+     "t0": 20.767,
+     "t1": 21.407
+    },
+    {
+     "text": "...How",
+     "t0": 21.727,
+     "t1": 21.887
+    },
+    {
+     "text": "about",
+     "t0": 22.007,
+     "t1": 22.127
+    },
+    {
+     "text": "now?",
+     "t0": 22.207,
+     "t1": 23.007
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "who": "layla",
+   "text": "Great footage. Very... you.",
+   "start": 23.833,
+   "end": 27.542,
+   "dur": 3.709,
+   "file_dur": 3.709,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Great",
+     "t0": 23.993,
+     "t1": 24.313
+    },
+    {
+     "text": "footage.",
+     "t0": 24.473,
+     "t1": 25.353
+    },
+    {
+     "text": "Very...",
+     "t0": 25.433,
+     "t1": 26.553
+    },
+    {
+     "text": "you.",
+     "t0": 26.753,
+     "t1": 27.513
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "Huh. I'm in every shot.",
+   "start": 28.533,
+   "end": 31.851,
+   "dur": 3.318,
+   "file_dur": 3.318,
+   "emotion": "puzzled",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Huh.",
+     "t0": 28.773,
+     "t1": 29.813
+    },
+    {
+     "text": "I'm",
+     "t0": 29.893,
+     "t1": 29.973
+    },
+    {
+     "text": "in",
+     "t0": 30.133,
+     "t1": 30.293
+    },
+    {
+     "text": "every",
+     "t0": 30.373,
+     "t1": 30.773
+    },
+    {
+     "text": "shot.",
+     "t0": 30.853,
+     "t1": 31.813
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "Big brain move. I look... without looking.",
+   "start": 33.067,
+   "end": 37.273,
+   "dur": 4.206,
+   "file_dur": 4.206,
+   "emotion": "sly",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Big",
+     "t0": 33.307,
+     "t1": 33.547
+    },
+    {
+     "text": "brain",
+     "t0": 33.627,
+     "t1": 33.947
+    },
+    {
+     "text": "move.",
+     "t0": 34.027,
+     "t1": 34.987
+    },
+    {
+     "text": "I",
+     "t0": 35.067,
+     "t1": 35.147
+    },
+    {
+     "text": "look...",
+     "t0": 35.227,
+     "t1": 35.907
+    },
+    {
+     "text": "without",
+     "t0": 35.947,
+     "t1": 36.347
+    },
+    {
+     "text": "looking.",
+     "t0": 36.427,
+     "t1": 37.227
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "who": "layla",
+   "text": "It can see the mirror, Sam.",
+   "start": 43.267,
+   "end": 45.696,
+   "dur": 2.429,
+   "file_dur": 2.429,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "It",
+     "t0": 43.347,
+     "t1": 43.507
+    },
+    {
+     "text": "can",
+     "t0": 43.627,
+     "t1": 43.747
+    },
+    {
+     "text": "see",
+     "t0": 43.827,
+     "t1": 43.987
+    },
+    {
+     "text": "the",
+     "t0": 44.067,
+     "t1": 44.227
+    },
+    {
+     "text": "mirror,",
+     "t0": 44.427,
+     "t1": 44.707
+    },
+    {
+     "text": "Sam.",
+     "t0": 44.787,
+     "t1": 45.667
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "who": "sam",
+   "text": "This tree is a genius.",
+   "start": 46.1,
+   "end": 48.294,
+   "dur": 2.194,
+   "file_dur": 2.194,
+   "emotion": "awed",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "This",
+     "t0": 46.18,
+     "t1": 46.5
+    },
+    {
+     "text": "tree",
+     "t0": 46.58,
+     "t1": 46.98
+    },
+    {
+     "text": "is",
+     "t0": 47.06,
+     "t1": 47.22
+    },
+    {
+     "text": "a",
+     "t0": 47.34,
+     "t1": 47.46
+    },
+    {
+     "text": "genius.",
+     "t0": 47.54,
+     "t1": 48.284
+    }
+   ]
+  },
+  {
+   "id": "l12",
+   "who": "sam",
+   "text": "New plan. If it won't grow up... I'll help it up.",
+   "start": 49.3,
+   "end": 53.349,
+   "dur": 4.049,
+   "file_dur": 4.049,
+   "emotion": "determined",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "New",
+     "t0": 49.46,
+     "t1": 49.62
+    },
+    {
+     "text": "plan.",
+     "t0": 49.7,
+     "t1": 50.34
+    },
+    {
+     "text": "If",
+     "t0": 50.42,
+     "t1": 50.5
+    },
+    {
+     "text": "it",
+     "t0": 50.58,
+     "t1": 50.66
+    },
+    {
+     "text": "won't",
+     "t0": 50.74,
+     "t1": 50.9
+    },
+    {
+     "text": "grow",
+     "t0": 51.02,
+     "t1": 51.14
+    },
+    {
+     "text": "up...",
+     "t0": 51.22,
+     "t1": 51.86
+    },
+    {
+     "text": "I'll",
+     "t0": 51.94,
+     "t1": 52.18
+    },
+    {
+     "text": "help",
+     "t0": 52.26,
+     "t1": 52.42
+    },
+    {
+     "text": "it",
+     "t0": 52.5,
+     "t1": 52.58
+    },
+    {
+     "text": "up.",
+     "t0": 52.66,
+     "t1": 53.3
+    }
+   ]
+  },
+  {
+   "id": "l13",
+   "who": "layla",
+   "text": "Sam. If you pull it... you'll pull it out.",
+   "start": 53.833,
+   "end": 57.803,
+   "dur": 3.97,
+   "file_dur": 3.971,
+   "emotion": "firm",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Sam.",
+     "t0": 54.073,
+     "t1": 54.873
+    },
+    {
+     "text": "If",
+     "t0": 54.953,
+     "t1": 55.033
+    },
+    {
+     "text": "you",
+     "t0": 55.113,
+     "t1": 55.273
+    },
+    {
+     "text": "pull",
+     "t0": 55.393,
+     "t1": 55.513
+    },
+    {
+     "text": "it...",
+     "t0": 55.593,
+     "t1": 56.233
+    },
+    {
+     "text": "you'll",
+     "t0": 56.273,
+     "t1": 56.473
+    },
+    {
+     "text": "pull",
+     "t0": 56.553,
+     "t1": 56.633
+    },
+    {
+     "text": "it",
+     "t0": 56.713,
+     "t1": 56.793
+    },
+    {
+     "text": "out.",
+     "t0": 56.873,
+     "t1": 57.753
+    }
+   ]
+  },
+  {
+   "id": "l14",
+   "who": "sam",
+   "text": "...Fine. No pulling.",
+   "start": 60.6,
+   "end": 63.761,
+   "dur": 3.161,
+   "file_dur": 3.161,
+   "emotion": "soft",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "...Fine.",
+     "t0": 61.467,
+     "t1": 62.44
+    },
+    {
+     "text": "No",
+     "t0": 62.52,
+     "t1": 62.6
+    },
+    {
+     "text": "pulling.",
+     "t0": 62.68,
+     "t1": 63.72
+    }
+   ]
+  },
+  {
+   "id": "l15",
+   "who": "layla",
+   "text": "It's getting late. Go home, Sam. Get some sleep.",
+   "start": 67.267,
+   "end": 71.133,
+   "dur": 3.866,
+   "file_dur": 3.866,
+   "emotion": "warm",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "It's",
+     "t0": 67.4,
+     "t1": 67.507
+    },
+    {
+     "text": "getting",
+     "t0": 67.587,
+     "t1": 67.827
+    },
+    {
+     "text": "late.",
+     "t0": 67.907,
+     "t1": 68.627
+    },
+    {
+     "text": "Go",
+     "t0": 68.707,
+     "t1": 68.787
+    },
+    {
+     "text": "home,",
+     "t0": 68.867,
+     "t1": 69.187
+    },
+    {
+     "text": "Sam.",
+     "t0": 69.387,
+     "t1": 69.827
+    },
+    {
+     "text": "Get",
+     "t0": 69.907,
+     "t1": 69.987
+    },
+    {
+     "text": "some",
+     "t0": 70.067,
+     "t1": 70.147
+    },
+    {
+     "text": "sleep.",
+     "t0": 70.227,
+     "t1": 71.107
+    }
+   ]
+  },
+  {
+   "id": "l16",
+   "who": "sam",
+   "text": "Sleep is for people who already have trees.",
+   "start": 71.533,
+   "end": 74.694,
+   "dur": 3.161,
+   "file_dur": 3.161,
+   "emotion": "stubborn",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Sleep",
+     "t0": 71.693,
+     "t1": 72.013
+    },
+    {
+     "text": "is",
+     "t0": 72.093,
+     "t1": 72.173
+    },
+    {
+     "text": "for",
+     "t0": 72.253,
+     "t1": 72.333
+    },
+    {
+     "text": "people",
+     "t0": 72.493,
+     "t1": 72.653
+    },
+    {
+     "text": "who",
+     "t0": 72.773,
+     "t1": 72.893
+    },
+    {
+     "text": "already",
+     "t0": 72.973,
+     "t1": 73.373
+    },
+    {
+     "text": "have",
+     "t0": 73.533,
+     "t1": 73.773
+    },
+    {
+     "text": "trees.",
+     "t0": 74.213,
+     "t1": 74.733
+    }
+   ]
+  },
+  {
+   "id": "l17",
+   "who": "layla",
+   "text": "Goodnight, Sam.",
+   "start": 75.2,
+   "end": 76.924,
+   "dur": 1.724,
+   "file_dur": 1.724,
+   "emotion": "warm",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Goodnight,",
+     "t0": 75.44,
+     "t1": 76.0
+    },
+    {
+     "text": "Sam.",
+     "t0": 76.08,
+     "t1": 76.88
+    }
+   ]
+  },
+  {
+   "id": "l18",
+   "who": "sam",
+   "text": "Goodnight, Layla. Goodnight, tree.",
+   "start": 77.533,
+   "end": 80.302,
+   "dur": 2.769,
+   "file_dur": 2.769,
+   "emotion": "soft",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Goodnight,",
+     "t0": 77.693,
+     "t1": 78.053
+    },
+    {
+     "text": "Layla.",
+     "t0": 78.093,
+     "t1": 78.813
+    },
+    {
+     "text": "Goodnight,",
+     "t0": 79.133,
+     "t1": 79.64
+    },
+    {
+     "text": "tree.",
+     "t0": 79.746,
+     "t1": 80.253
+    }
+   ]
+  },
+  {
+   "id": "l19",
+   "who": "sam",
+   "text": "I'm watching you.",
+   "start": 80.8,
+   "end": 82.446,
+   "dur": 1.646,
+   "file_dur": 1.646,
+   "emotion": "suspicious",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "I'm",
+     "t0": 80.96,
+     "t1": 81.2
+    },
+    {
+     "text": "watching",
+     "t0": 81.36,
+     "t1": 81.68
+    },
+    {
+     "text": "you.",
+     "t0": 81.76,
+     "t1": 82.4
+    }
+   ]
+  }
+ ]
+}

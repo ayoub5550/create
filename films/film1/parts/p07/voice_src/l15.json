@@ -1,0 +1,71 @@
+{
+ "words": [
+  {
+   "text": "It's",
+   "timestamp": [
+    0.133,
+    0.24
+   ]
+  },
+  {
+   "text": "getting",
+   "timestamp": [
+    0.32,
+    0.56
+   ]
+  },
+  {
+   "text": "late.",
+   "timestamp": [
+    0.64,
+    1.36
+   ]
+  },
+  {
+   "text": "Go",
+   "timestamp": [
+    1.44,
+    1.52
+   ]
+  },
+  {
+   "text": "home,",
+   "timestamp": [
+    1.6,
+    1.92
+   ]
+  },
+  {
+   "text": "Sam.",
+   "timestamp": [
+    2.12,
+    2.56
+   ]
+  },
+  {
+   "text": "Get",
+   "timestamp": [
+    2.64,
+    2.72
+   ]
+  },
+  {
+   "text": "some",
+   "timestamp": [
+    2.8,
+    2.88
+   ]
+  },
+  {
+   "text": "sleep.",
+   "timestamp": [
+    2.96,
+    3.84
+   ]
+  }
+ ],
+ "tts": "[warmly] It's getting late. Go home, Sam. Get some sleep.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,22 @@
+{
+ "words": [
+  {
+   "text": "Hi,",
+   "timestamp": [
+    0.16,
+    0.4
+   ]
+  },
+  {
+   "text": "Sam.",
+   "timestamp": [
+    0.48,
+    1.12
+   ]
+  }
+ ],
+ "tts": "[flat] Hi, Sam.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

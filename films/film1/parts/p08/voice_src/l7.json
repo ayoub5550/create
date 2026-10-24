@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "And",
+   "timestamp": [
+    0.384,
+    0.392
+   ]
+  },
+  {
+   "text": "you...",
+   "timestamp": [
+    0.4,
+    1.2
+   ]
+  },
+  {
+   "text": "take",
+   "timestamp": [
+    1.28,
+    1.44
+   ]
+  },
+  {
+   "text": "your",
+   "timestamp": [
+    1.52,
+    1.6
+   ]
+  },
+  {
+   "text": "time.",
+   "timestamp": [
+    1.68,
+    2.2626530000000002
+   ]
+  }
+ ],
+ "tts": "[whispering to the little tree, kindly] And you... take your time.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

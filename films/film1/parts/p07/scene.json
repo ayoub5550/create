@@ -1,0 +1,188 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P07: The mirror / the string / sunset goodbye",
+ "part": "p07",
+ "time": "late afternoon -> sunset",
+ "set_look": "yard-sunset",
+ "summary": "A hidden camera films only Sam. A mirror trick. Sam almost pulls the sapling up; Layla stops him. Sunset: she goes home, he stays.",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 0.6,
+ "tail": 4.0,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Three minutes?! Who *has* that kind of time?",
+   "tts": "[outraged] Three minutes?! Who has that kind of time?",
+   "emotion": "outraged",
+   "note": "LUNCH on the picnic blanket: Sam reads the cup-noodle lid; Layla unwraps a sandwich, slowly."
+  },
+  {
+   "id": "l2",
+   "who": "layla",
+   "text": "You could just... wait.",
+   "tts": "[calm] You could just... wait.",
+   "emotion": "calm",
+   "gap": 0.5,
+   "note": "Sam bites the DRY noodle brick: CRUNCH."
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "Never.",
+   "tts": "[mouth full, crunching, defiant] Never.",
+   "emotion": "defiant",
+   "gap": 1.0,
+   "note": "Crunch, crunch. Pip steals a noodle."
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "Trees can't hide from *technology*.",
+   "tts": "[smug] Trees can't hide from technology.",
+   "emotion": "smug",
+   "gap": 1.2,
+   "note": "He sets his phone on a tiny tripod facing the sprout, presses record, and tiptoes behind the rock."
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Okay. Let's see the footage!",
+   "tts": "[excited] Okay. Let's see the footage!",
+   "emotion": "excited",
+   "gap": 4.0,
+   "note": "The gap: card 'One hour later...'. Then he and Layla huddle over the phone."
+  },
+  {
+   "id": "l6",
+   "who": "sam",
+   "text": "Is it growing? ...Now? ...How about now?",
+   "tts": "[whispering, as heard on a phone recording] Is it growing? ...Now? ...How about now?",
+   "emotion": "whisper",
+   "gap": 0.6,
+   "note": "PHONE INSET: the recorded footage — every few seconds Sam's giant face pops into the frame, blocking the sprout."
+  },
+  {
+   "id": "l7",
+   "who": "layla",
+   "text": "Great footage. Very... you.",
+   "tts": "[dry] Great footage. Very... you.",
+   "emotion": "deadpan",
+   "gap": 0.8
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "Huh. I'm in every shot.",
+   "tts": "[puzzled, slowly realising] Huh. I'm in every shot.",
+   "emotion": "puzzled",
+   "gap": 1.0
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "Big brain move. I look... without *looking*.",
+   "tts": "[sly, very pleased] Big brain move. I look... without looking.",
+   "emotion": "sly",
+   "gap": 1.2,
+   "note": "He sits with his back to the sprout, holding a hand mirror over his shoulder."
+  },
+  {
+   "id": "l10",
+   "who": "layla",
+   "text": "It can see the mirror, Sam.",
+   "tts": "[deadpan] It can see the mirror, Sam.",
+   "emotion": "deadpan",
+   "gap": 6.0,
+   "note": "The gap: mirror up -> frozen; mirror down -> it grows; mirror up -> frozen (x3)."
+  },
+  {
+   "id": "l11",
+   "who": "sam",
+   "text": "This tree is a *genius*.",
+   "tts": "[awed whisper] This tree is a genius.",
+   "emotion": "awed",
+   "gap": 0.4,
+   "note": "The sapling is now knee-high."
+  },
+  {
+   "id": "l12",
+   "who": "sam",
+   "text": "New plan. If it won't grow up... I'll *help* it up.",
+   "tts": "[determined] New plan. If it won't grow up... I'll help it up.",
+   "emotion": "determined",
+   "gap": 1.0,
+   "note": "He ties a string to its top and leans back to pull."
+  },
+  {
+   "id": "l13",
+   "who": "layla",
+   "text": "Sam. If you pull it... you'll pull it *out*.",
+   "tts": "[quiet, firm] Sam. If you pull it... you'll pull it out.",
+   "emotion": "firm",
+   "gap": 0.5,
+   "note": "She stops knitting for the first time."
+  },
+  {
+   "id": "l14",
+   "who": "sam",
+   "text": "...Fine. No pulling.",
+   "tts": "[grumbling, softening] ...Fine. No pulling.",
+   "emotion": "soft",
+   "gap": 2.8,
+   "note": "Beat: he looks at the little tree, then unties the string gently. The sky starts turning gold."
+  },
+  {
+   "id": "l15",
+   "who": "layla",
+   "text": "It's getting late. Go home, Sam. Get some sleep.",
+   "tts": "[warmly] It's getting late. Go home, Sam. Get some sleep.",
+   "emotion": "warm",
+   "gap": 3.5,
+   "note": "Sunset. Long shadows. Her scarf is now very long; she packs it."
+  },
+  {
+   "id": "l16",
+   "who": "sam",
+   "text": "Sleep is for people who already *have* trees.",
+   "tts": "[stubborn] Sleep is for people who already have trees.",
+   "emotion": "stubborn",
+   "gap": 0.4
+  },
+  {
+   "id": "l17",
+   "who": "layla",
+   "text": "Goodnight, Sam.",
+   "tts": "[amused, warm] Goodnight, Sam.",
+   "emotion": "warm",
+   "gap": 0.5,
+   "note": "She walks off right."
+  },
+  {
+   "id": "l18",
+   "who": "sam",
+   "text": "Goodnight, Layla. Goodnight, tree.",
+   "tts": "[softly] Goodnight, Layla. Goodnight, tree.",
+   "emotion": "soft",
+   "gap": 0.6
+  },
+  {
+   "id": "l19",
+   "who": "sam",
+   "text": "I'm watching you.",
+   "tts": "[narrowing his eyes, whisper] I'm watching you.",
+   "emotion": "suspicious",
+   "gap": 0.5,
+   "note": "Two-finger 'I'm watching you' gesture at the tree. Dissolve to night."
+  }
+ ],
+ "beats": [
+  "l5 gap: 'One hour later...' card, then they huddle over the phone.",
+  "l10 gap: the mirror rule of three (up: frozen / down: grows) x3.",
+  "HOLD: Sam alone at sunset doing the 'I'm watching you' gesture, then a slow dissolve to dusk."
+ ]
+}

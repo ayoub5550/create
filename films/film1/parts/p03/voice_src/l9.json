@@ -1,0 +1,64 @@
+{
+ "words": [
+  {
+   "text": "Sam.",
+   "timestamp": [
+    0.16,
+    0.72
+   ]
+  },
+  {
+   "text": "It's",
+   "timestamp": [
+    0.88,
+    1.04
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    1.12,
+    1.2
+   ]
+  },
+  {
+   "text": "seed.",
+   "timestamp": [
+    1.28,
+    1.92
+   ]
+  },
+  {
+   "text": "It",
+   "timestamp": [
+    2.08,
+    2.24
+   ]
+  },
+  {
+   "text": "doesn't",
+   "timestamp": [
+    2.36,
+    2.56
+   ]
+  },
+  {
+   "text": "have",
+   "timestamp": [
+    2.64,
+    2.88
+   ]
+  },
+  {
+   "text": "ears.",
+   "timestamp": [
+    2.96,
+    3.4642860000000004
+   ]
+  }
+ ],
+ "tts": "[raising her voice over the music, dry] Sam. It's a seed. It doesn't have ears.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

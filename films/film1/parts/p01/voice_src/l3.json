@@ -1,0 +1,57 @@
+{
+ "words": [
+  {
+   "text": "I'm",
+   "timestamp": [
+    0.067,
+    0.16
+   ]
+  },
+  {
+   "text": "not",
+   "timestamp": [
+    0.28,
+    0.4
+   ]
+  },
+  {
+   "text": "yelling.",
+   "timestamp": [
+    0.48,
+    1.32
+   ]
+  },
+  {
+   "text": "I'm",
+   "timestamp": [
+    1.36,
+    1.52
+   ]
+  },
+  {
+   "text": "motivating",
+   "timestamp": [
+    1.64,
+    2.16
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    2.4,
+    2.693
+   ]
+  },
+  {
+   "text": "tree.",
+   "timestamp": [
+    2.987,
+    3.36
+   ]
+  }
+ ],
+ "tts": "[proudly] I'm not yelling. I'm motivating a tree.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,22 @@
+{
+ "words": [
+  {
+   "text": "...Crispy",
+   "timestamp": [
+    0.08,
+    0.72
+   ]
+  },
+  {
+   "text": "tree?",
+   "timestamp": [
+    0.8,
+    1.52
+   ]
+  }
+ ],
+ "tts": "[sheepish, hopeful] ...Crispy tree?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

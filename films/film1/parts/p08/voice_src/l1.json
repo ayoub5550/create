@@ -1,0 +1,64 @@
+{
+ "words": [
+  {
+   "text": "Just",
+   "timestamp": [
+    0.16,
+    0.4
+   ]
+  },
+  {
+   "text": "you",
+   "timestamp": [
+    0.48,
+    0.56
+   ]
+  },
+  {
+   "text": "and",
+   "timestamp": [
+    0.64,
+    0.72
+   ]
+  },
+  {
+   "text": "me,",
+   "timestamp": [
+    0.8,
+    0.92
+   ]
+  },
+  {
+   "text": "buddy.",
+   "timestamp": [
+    0.96,
+    1.56
+   ]
+  },
+  {
+   "text": "I'm",
+   "timestamp": [
+    1.84,
+    2.0
+   ]
+  },
+  {
+   "text": "not",
+   "timestamp": [
+    2.12,
+    2.24
+   ]
+  },
+  {
+   "text": "blinking.",
+   "timestamp": [
+    2.28,
+    2.680612
+   ]
+  }
+ ],
+ "tts": "[whispering, determined] Just you and me, buddy. I'm not blinking.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

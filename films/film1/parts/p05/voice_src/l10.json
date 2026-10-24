@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "Layla.",
+   "timestamp": [
+    0.32,
+    1.0
+   ]
+  },
+  {
+   "text": "This",
+   "timestamp": [
+    1.28,
+    1.52
+   ]
+  },
+  {
+   "text": "calls",
+   "timestamp": [
+    1.6,
+    1.84
+   ]
+  },
+  {
+   "text": "for",
+   "timestamp": [
+    1.92,
+    2.0
+   ]
+  },
+  {
+   "text": "a",
+   "timestamp": [
+    2.16,
+    2.2
+   ]
+  },
+  {
+   "text": "plan.",
+   "timestamp": [
+    2.24,
+    2.96
+   ]
+  }
+ ],
+ "tts": "[conspiratorial] Layla. This calls for a plan.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

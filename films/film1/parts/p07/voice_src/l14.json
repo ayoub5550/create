@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "...Fine.",
+   "timestamp": [
+    0.867,
+    1.84
+   ]
+  },
+  {
+   "text": "No",
+   "timestamp": [
+    1.92,
+    2.0
+   ]
+  },
+  {
+   "text": "pulling.",
+   "timestamp": [
+    2.08,
+    3.12
+   ]
+  }
+ ],
+ "tts": "[grumbling, softening] ...Fine. No pulling.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

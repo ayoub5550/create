@@ -1,0 +1,22 @@
+{
+ "words": [
+  {
+   "text": "No",
+   "timestamp": [
+    0.24,
+    0.48
+   ]
+  },
+  {
+   "text": "yelling?",
+   "timestamp": [
+    0.56,
+    1.139388
+   ]
+  }
+ ],
+ "tts": "[surprised, amused] No yelling?",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

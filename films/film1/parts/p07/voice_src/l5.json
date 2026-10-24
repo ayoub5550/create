@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Okay.",
+   "timestamp": [
+    0.08,
+    0.64
+   ]
+  },
+  {
+   "text": "Let's",
+   "timestamp": [
+    0.8,
+    0.96
+   ]
+  },
+  {
+   "text": "see",
+   "timestamp": [
+    1.0,
+    1.04
+   ]
+  },
+  {
+   "text": "the",
+   "timestamp": [
+    1.12,
+    1.2
+   ]
+  },
+  {
+   "text": "footage!",
+   "timestamp": [
+    1.28,
+    1.84
+   ]
+  }
+ ],
+ "tts": "[excited] Okay. Let's see the footage!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

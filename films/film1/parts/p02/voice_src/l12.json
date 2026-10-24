@@ -1,0 +1,71 @@
+{
+ "words": [
+  {
+   "text": "Listen,",
+   "timestamp": [
+    0.08,
+    0.6
+   ]
+  },
+  {
+   "text": "little",
+   "timestamp": [
+    0.72,
+    0.96
+   ]
+  },
+  {
+   "text": "buddy.",
+   "timestamp": [
+    1.067,
+    1.56
+   ]
+  },
+  {
+   "text": "You",
+   "timestamp": [
+    1.84,
+    1.92
+   ]
+  },
+  {
+   "text": "are",
+   "timestamp": [
+    2.04,
+    2.16
+   ]
+  },
+  {
+   "text": "strong.",
+   "timestamp": [
+    2.68,
+    3.24
+   ]
+  },
+  {
+   "text": "You",
+   "timestamp": [
+    3.28,
+    3.36
+   ]
+  },
+  {
+   "text": "are",
+   "timestamp": [
+    3.44,
+    3.52
+   ]
+  },
+  {
+   "text": "tall.",
+   "timestamp": [
+    3.6,
+    4.430816
+   ]
+  }
+ ],
+ "tts": "[inspirational, building] Listen, little buddy. You are strong. You are tall.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

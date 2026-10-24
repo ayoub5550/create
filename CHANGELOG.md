@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 2026-10-24 — film1 long cut (~9:45): script, voices, shared set, sound kit, reference part
+- Owner request: a ~10-minute film with excellent English voices, better backgrounds and lots of content. `films/film1/`
+  is now ten parts (`parts/p01..p10`, 124 lines) built and rendered separately, then assembled — guide: `PRODUCTION.md`.
+- Voices: ElevenLabs v4 (Sam = Liam, Layla = Sarah) recorded with audio tags, every take checked by speech-to-text;
+  `tools/voice/dialogue.py` gains `provider: "file"` (takes in `<part>/voice_src/<id>.mp3 + .json`, cache keyed by the take).
+- `films/film1/common/`: `set.js` (layered backyard with parallax, continuous time of day + seasons, world tint at night),
+  `props.js` (mound, rock, continuously growing tree, Pip, knitting + scarf, stool, mug, apple), `kit.js` (line/word
+  helpers, face presets, IK squat, cards, cartoon emanata, Layla's tote, speech/thought bubble, Pip's birdhouse),
+  `toon.py` (code-made cartoon band, 12 named music cues on one theme, ~60 synthesized SFX, Kenney CC0 Foley loader),
+  `sfx/kenney/` (CC0), `template.html`, `build_part.sh`.
+- `parts/p01` (cold open + title, 50 s) is the reference part. `tools/render/frames.py` (full-res frames at given times)
+  and `tools/render/jsdebug.py` (page errors at a seek time).
+
 ## 2026-10-24 — film1: the first YouTube episode, ready to produce
 - `films/film1/`: "Grow Faster!" (Sam & Layla, Ep. 1), an English ~95 s stick-figure comedy with the «حوار» characters.
   `BRIEF.md` (what US audiences watch now, beat sheet, staging map, how to animate each gag, camera, sound, acceptance

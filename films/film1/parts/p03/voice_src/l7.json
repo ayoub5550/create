@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Plan",
+   "timestamp": [
+    0.333,
+    0.4
+   ]
+  },
+  {
+   "text": "E.",
+   "timestamp": [
+    0.56,
+    0.96
+   ]
+  },
+  {
+   "text": "Plants",
+   "timestamp": [
+    1.28,
+    1.6
+   ]
+  },
+  {
+   "text": "love",
+   "timestamp": [
+    1.84,
+    2.08
+   ]
+  },
+  {
+   "text": "music!",
+   "timestamp": [
+    2.16,
+    2.8
+   ]
+  }
+ ],
+ "tts": "[excited] Plan E. Plants love music!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

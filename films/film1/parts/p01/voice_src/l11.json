@@ -1,0 +1,15 @@
+{
+ "words": [
+  {
+   "text": "...Years?",
+   "timestamp": [
+    0.676,
+    1.04
+   ]
+  }
+ ],
+ "tts": "[tiny, devastated whisper] ...Years?",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

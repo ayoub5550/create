@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "That",
+   "timestamp": [
+    0.08,
+    0.24
+   ]
+  },
+  {
+   "text": "is",
+   "timestamp": [
+    0.32,
+    0.48
+   ]
+  },
+  {
+   "text": "not",
+   "timestamp": [
+    0.56,
+    0.8
+   ]
+  },
+  {
+   "text": "the",
+   "timestamp": [
+    0.88,
+    0.96
+   ]
+  },
+  {
+   "text": "growing!",
+   "timestamp": [
+    1.04,
+    1.84
+   ]
+  }
+ ],
+ "tts": "[panicking] That is not the growing!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

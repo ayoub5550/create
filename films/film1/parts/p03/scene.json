@@ -1,0 +1,119 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P03: Plan D: plant food / Plan E: music",
+ "part": "p03",
+ "time": "early afternoon",
+ "set_look": "yard-day",
+ "summary": "A mountain of plant food. Then a boombox dance party for the seed.",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 0.6,
+ "tail": 2.5,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Plan D. Plant *food!*",
+   "tts": "[excited] Plan D. Plant food!",
+   "emotion": "excited",
+   "gap": 0.6,
+   "note": "WS: Sam rolls in a wheelbarrow with a huge sack 'PLANT FOOD XXL'."
+  },
+  {
+   "id": "l2",
+   "who": "layla",
+   "text": "How much plant food?",
+   "tts": "[suspicious] How much plant food?",
+   "emotion": "suspicious",
+   "gap": 0.3,
+   "note": "Knitting, looks up."
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "All of it.",
+   "tts": "[confident] All of it.",
+   "emotion": "confident",
+   "gap": 0.4,
+   "note": "He tips the wheelbarrow: a mountain buries the mound (dust cloud, thud). Flies buzz; Pip flees the fence."
+  },
+  {
+   "id": "l4",
+   "who": "layla",
+   "text": "Sam. That's not dinner. That's a mountain.",
+   "tts": "[deadpan] Sam. That's not dinner. That's a mountain.",
+   "emotion": "deadpan",
+   "gap": 2.8
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Big tree. Big appetite.",
+   "tts": "[smug] Big tree. Big appetite.",
+   "emotion": "smug",
+   "gap": 0.3,
+   "note": "Hands on hips."
+  },
+  {
+   "id": "l6",
+   "who": "layla",
+   "text": "It smells like a big appetite.",
+   "tts": "[pinching her nose, nasal] It smells like a big appetite.",
+   "emotion": "disgusted",
+   "gap": 0.6,
+   "note": "She pinches her nose (wavy smell lines rise). Sam sniffs... gags. Quick wipe: he has shovelled it away (silent beat)."
+  },
+  {
+   "id": "l7",
+   "who": "sam",
+   "text": "Plan E. Plants love *music!*",
+   "tts": "[excited] Plan E. Plants love music!",
+   "emotion": "excited",
+   "gap": 4.0,
+   "note": "He drags in a big boombox and slams PLAY: a funky beat. He dances (CMU dance mocap, ~6 s); Pip bobs its head; Layla's needles click in rhythm without her noticing."
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "Feel the beat, little buddy! *Grow* to the beat!",
+   "tts": "[shouting over loud music, dancing] Feel the beat, little buddy! Grow to the beat!",
+   "emotion": "excited",
+   "gap": 6.0,
+   "note": "Still dancing; the mound does nothing."
+  },
+  {
+   "id": "l9",
+   "who": "layla",
+   "text": "Sam. It's a seed. It doesn't have *ears*.",
+   "tts": "[raising her voice over the music, dry] Sam. It's a seed. It doesn't have ears.",
+   "emotion": "deadpan",
+   "gap": 0.4
+  },
+  {
+   "id": "l10",
+   "who": "sam",
+   "text": "Then it'll feel the *bass!*",
+   "tts": "[shouting] Then it'll feel the bass!",
+   "emotion": "excited",
+   "gap": 0.4,
+   "note": "He cranks the volume: the boombox shakes, the mound vibrates, Layla's hijab flutters, Pip is blown off the fence. The boombox topples over: 'bwomp', silence."
+  },
+  {
+   "id": "l11",
+   "who": "layla",
+   "text": "I think it prefers jazz.",
+   "tts": "[deadpan] I think it prefers jazz.",
+   "emotion": "deadpan",
+   "gap": 3.0,
+   "note": "Hijab still windswept."
+  }
+ ],
+ "beats": [
+  "l4 gap: flies buzz around the mountain; Pip flees the fence.",
+  "l7 gap: speed-shovelling montage (dirt flying, a wipe), then he drags the boombox in and slams PLAY.",
+  "l8 gap: the dance sequence — Sam dances (mocap), Pip head-bobs, Layla's needles click in rhythm, her foot taps."
+ ]
+}

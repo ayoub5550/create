@@ -1,0 +1,109 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P05: The watched pot (act break)",
+ "part": "p05",
+ "time": "afternoon",
+ "set_look": "yard-day",
+ "summary": "The sprout grows only when Sam isn't looking. 'It only grows when nobody's looking.'",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 5.6,
+ "tail": 2.5,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "layla",
+   "text": "You know... a watched pot never boils.",
+   "tts": "[wise, calm] You know... a watched pot never boils.",
+   "emotion": "wise",
+   "gap": 3.4,
+   "note": "The gap holds the '5 minutes later...' card (1.6 s) + CU of Sam's twitching eye (1 s)."
+  },
+  {
+   "id": "l2",
+   "who": "sam",
+   "text": "That's for pots, Layla. Trees are totally different. Trees are—",
+   "tts": "[lecturing] That's for pots, Layla. Trees are totally different. Trees are—",
+   "emotion": "lecturing",
+   "gap": 0.4,
+   "note": "WS: he turns to Layla, his BACK to the mound. Behind him the sprout POPS up on 'different'. Layla's eyes widen."
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "...What? What's that face?",
+   "tts": "[suspicious] ...What? What's that face?",
+   "emotion": "suspicious",
+   "gap": 0.6,
+   "note": "He whips round: the sprout freezes (tiny innocent wiggle). Silent rule of three in the next gap: turns away -> it grows (whoosh); whips back -> frozen."
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "Did it just... move?",
+   "tts": "[suspicious whisper] Did it just... move?",
+   "emotion": "suspicious",
+   "gap": 6.5,
+   "note": "Squints at the sprout, nose to leaf."
+  },
+  {
+   "id": "l5",
+   "who": "layla",
+   "text": "Maybe it's shy.",
+   "tts": "[dry, hiding a smile] Maybe it's shy.",
+   "emotion": "sly",
+   "gap": 0.4
+  },
+  {
+   "id": "l6",
+   "who": "sam",
+   "text": "Shy? Trees aren't *shy*.",
+   "tts": "[scoffing] Shy? Trees aren't shy.",
+   "emotion": "scoffing",
+   "gap": 0.3,
+   "note": "He turns back to Layla -> behind him a second leaf unfurls; Pip lands and chirps at it."
+  },
+  {
+   "id": "l7",
+   "who": "sam",
+   "text": "Wait.",
+   "tts": "[sudden whisper] Wait.",
+   "emotion": "suspicious",
+   "gap": 1.2,
+   "note": "Slow, slow head turn... frozen again."
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "It only grows... when nobody's *looking*.",
+   "tts": "[dramatic whisper] It only grows... when nobody's looking.",
+   "emotion": "dramatic",
+   "gap": 0.5,
+   "note": "Slow push-in CU; dramatic sting (ACT BREAK)."
+  },
+  {
+   "id": "l9",
+   "who": "layla",
+   "text": "Or... it just needs time.",
+   "tts": "[patiently] Or... it just needs time.",
+   "emotion": "calm",
+   "gap": 0.6
+  },
+  {
+   "id": "l10",
+   "who": "sam",
+   "text": "Layla. This calls for a *plan*.",
+   "tts": "[conspiratorial] Layla. This calls for a plan.",
+   "emotion": "conspiratorial",
+   "gap": 0.4,
+   "note": "CU, eyebrows down, slow nod. Whoosh to the next part."
+  }
+ ],
+ "beats": [
+  "OPEN (0-5.6 s): '5 minutes later...' card (1.6 s), then, extreme CU of Sam's eyes vs the mound (tension cue), eye twitch.",
+  "l4 gap: the peekaboo rule of three — turn away (whoosh, it grows), whip back (frozen); twice; the third time he fakes the turn and it almost gets caught."
+ ]
+}

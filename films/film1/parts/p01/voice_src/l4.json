@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "A",
+   "timestamp": [
+    0.08,
+    0.16
+   ]
+  },
+  {
+   "text": "tree.",
+   "timestamp": [
+    0.32,
+    1.28
+   ]
+  },
+  {
+   "text": "Where?",
+   "timestamp": [
+    1.36,
+    2.32
+   ]
+  }
+ ],
+ "tts": "[deadpan] A tree. Where?",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

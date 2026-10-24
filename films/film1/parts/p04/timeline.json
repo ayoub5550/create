@@ -1,0 +1,561 @@
+{
+ "fps": 30,
+ "total": 55.73,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Plan F. More sun. Way more sun.",
+   "start": 2.6,
+   "end": 6.649,
+   "dur": 4.049,
+   "file_dur": 4.049,
+   "emotion": "scheming",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Plan",
+     "t0": 2.68,
+     "t1": 3.08
+    },
+    {
+     "text": "F.",
+     "t0": 3.32,
+     "t1": 3.72
+    },
+    {
+     "text": "More",
+     "t0": 4.2,
+     "t1": 4.44
+    },
+    {
+     "text": "sun.",
+     "t0": 4.6,
+     "t1": 5.2
+    },
+    {
+     "text": "Way",
+     "t0": 5.48,
+     "t1": 5.72
+    },
+    {
+     "text": "more",
+     "t0": 5.8,
+     "t1": 5.96
+    },
+    {
+     "text": "sun.",
+     "t0": 6.12,
+     "t1": 6.6
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "who": "layla",
+   "text": "Sam. Something's smoking.",
+   "start": 7.833,
+   "end": 10.419,
+   "dur": 2.586,
+   "file_dur": 2.586,
+   "emotion": "calm",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Sam.",
+     "t0": 7.993,
+     "t1": 8.553
+    },
+    {
+     "text": "Something's",
+     "t0": 9.033,
+     "t1": 9.513
+    },
+    {
+     "text": "smoking.",
+     "t0": 9.593,
+     "t1": 10.393
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "That's the growing!",
+   "start": 12.033,
+   "end": 13.339,
+   "dur": 1.306,
+   "file_dur": 1.306,
+   "emotion": "confident",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "That's",
+     "t0": 12.193,
+     "t1": 12.433
+    },
+    {
+     "text": "the",
+     "t0": 12.473,
+     "t1": 12.513
+    },
+    {
+     "text": "growing!",
+     "t0": 12.593,
+     "t1": 13.313
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "That is not the growing!",
+   "start": 13.633,
+   "end": 15.514,
+   "dur": 1.881,
+   "file_dur": 1.881,
+   "emotion": "panic",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "That",
+     "t0": 13.713,
+     "t1": 13.873
+    },
+    {
+     "text": "is",
+     "t0": 13.953,
+     "t1": 14.113
+    },
+    {
+     "text": "not",
+     "t0": 14.193,
+     "t1": 14.433
+    },
+    {
+     "text": "the",
+     "t0": 14.513,
+     "t1": 14.593
+    },
+    {
+     "text": "growing!",
+     "t0": 14.673,
+     "t1": 15.473
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "who": "layla",
+   "text": "You almost cooked it.",
+   "start": 17.5,
+   "end": 19.459,
+   "dur": 1.959,
+   "file_dur": 1.959,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "You",
+     "t0": 17.74,
+     "t1": 17.9
+    },
+    {
+     "text": "almost",
+     "t0": 17.98,
+     "t1": 18.38
+    },
+    {
+     "text": "cooked",
+     "t0": 18.54,
+     "t1": 18.86
+    },
+    {
+     "text": "it.",
+     "t0": 19.02,
+     "t1": 19.42
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "who": "sam",
+   "text": "...Crispy tree?",
+   "start": 20.067,
+   "end": 21.634,
+   "dur": 1.567,
+   "file_dur": 1.567,
+   "emotion": "sheepish",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "...Crispy",
+     "t0": 20.147,
+     "t1": 20.787
+    },
+    {
+     "text": "tree?",
+     "t0": 20.867,
+     "t1": 21.587
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "who": "sam",
+   "text": "Fine. Let's ask the internet.",
+   "start": 23.233,
+   "end": 25.741,
+   "dur": 2.508,
+   "file_dur": 2.508,
+   "emotion": "determined",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Fine.",
+     "t0": 23.393,
+     "t1": 24.113
+    },
+    {
+     "text": "Let's",
+     "t0": 24.193,
+     "t1": 24.353
+    },
+    {
+     "text": "ask",
+     "t0": 24.433,
+     "t1": 24.593
+    },
+    {
+     "text": "the",
+     "t0": 24.633,
+     "t1": 24.673
+    },
+    {
+     "text": "internet.",
+     "t0": 24.753,
+     "t1": 25.713
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "How... to grow... a tree... fast.",
+   "start": 26.133,
+   "end": 30.182,
+   "dur": 4.049,
+   "file_dur": 4.049,
+   "emotion": "focused",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "How...",
+     "t0": 26.373,
+     "t1": 27.013
+    },
+    {
+     "text": "to",
+     "t0": 27.173,
+     "t1": 27.333
+    },
+    {
+     "text": "grow...",
+     "t0": 27.493,
+     "t1": 28.133
+    },
+    {
+     "text": "a",
+     "t0": 28.293,
+     "t1": 28.453
+    },
+    {
+     "text": "tree...",
+     "t0": 28.533,
+     "t1": 29.253
+    },
+    {
+     "text": "fast.",
+     "t0": 29.493,
+     "t1": 30.133
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "Step one: be patient?! ...One star!",
+   "start": 30.767,
+   "end": 34.32,
+   "dur": 3.553,
+   "file_dur": 3.553,
+   "emotion": "outraged",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Step",
+     "t0": 30.927,
+     "t1": 31.167
+    },
+    {
+     "text": "one:",
+     "t0": 31.407,
+     "t1": 31.967
+    },
+    {
+     "text": "be",
+     "t0": 32.087,
+     "t1": 32.207
+    },
+    {
+     "text": "patient?!",
+     "t0": 32.287,
+     "t1": 33.247
+    },
+    {
+     "text": "...One",
+     "t0": 33.327,
+     "t1": 33.487
+    },
+    {
+     "text": "star!",
+     "t0": 33.567,
+     "t1": 34.287
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "who": "layla",
+   "text": "You're reviewing nature?",
+   "start": 34.667,
+   "end": 36.626,
+   "dur": 1.959,
+   "file_dur": 1.959,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "You're",
+     "t0": 34.827,
+     "t1": 34.987
+    },
+    {
+     "text": "reviewing",
+     "t0": 35.187,
+     "t1": 35.467
+    },
+    {
+     "text": "nature?",
+     "t0": 35.547,
+     "t1": 36.587
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "who": "sam",
+   "text": "Nature needs feedback.",
+   "start": 36.933,
+   "end": 38.735,
+   "dur": 1.802,
+   "file_dur": 1.802,
+   "emotion": "smug",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Nature",
+     "t0": 37.173,
+     "t1": 37.493
+    },
+    {
+     "text": "needs",
+     "t0": 37.573,
+     "t1": 37.813
+    },
+    {
+     "text": "feedback.",
+     "t0": 37.973,
+     "t1": 38.693
+    }
+   ]
+  },
+  {
+   "id": "l12",
+   "who": "sam",
+   "text": "Step two: be more patient?! ...Zero stars!",
+   "start": 39.533,
+   "end": 43.895,
+   "dur": 4.362,
+   "file_dur": 4.362,
+   "emotion": "outraged",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Step",
+     "t0": 39.693,
+     "t1": 39.933
+    },
+    {
+     "text": "two:",
+     "t0": 40.093,
+     "t1": 40.813
+    },
+    {
+     "text": "be",
+     "t0": 40.973,
+     "t1": 41.133
+    },
+    {
+     "text": "more",
+     "t0": 41.213,
+     "t1": 41.453
+    },
+    {
+     "text": "patient?!",
+     "t0": 41.533,
+     "t1": 42.333
+    },
+    {
+     "text": "...Zero",
+     "t0": 42.64,
+     "t1": 42.973
+    },
+    {
+     "text": "stars!",
+     "t0": 43.053,
+     "t1": 43.853
+    }
+   ]
+  },
+  {
+   "id": "l13",
+   "who": "layla",
+   "text": "That's not a thing.",
+   "start": 44.2,
+   "end": 45.767,
+   "dur": 1.567,
+   "file_dur": 1.567,
+   "emotion": "deadpan",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "That's",
+     "t0": 44.36,
+     "t1": 44.68
+    },
+    {
+     "text": "not",
+     "t0": 44.76,
+     "t1": 44.92
+    },
+    {
+     "text": "a",
+     "t0": 45.0,
+     "t1": 45.04
+    },
+    {
+     "text": "thing.",
+     "t0": 45.08,
+     "t1": 45.72
+    }
+   ]
+  },
+  {
+   "id": "l14",
+   "who": "sam",
+   "text": "It is now.",
+   "start": 46.767,
+   "end": 47.838,
+   "dur": 1.071,
+   "file_dur": 1.071,
+   "emotion": "defiant",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "It",
+     "t0": 46.847,
+     "t1": 47.007
+    },
+    {
+     "text": "is",
+     "t0": 47.087,
+     "t1": 47.247
+    },
+    {
+     "text": "now.",
+     "t0": 47.327,
+     "t1": 47.807
+    }
+   ]
+  },
+  {
+   "id": "l15",
+   "who": "sam",
+   "text": "Fine. I'll sit right here... and watch it.",
+   "start": 48.333,
+   "end": 51.729,
+   "dur": 3.396,
+   "file_dur": 3.396,
+   "emotion": "determined",
+   "gesture": null,
+   "react": false,
+   "words": [
+    {
+     "text": "Fine.",
+     "t0": 48.493,
+     "t1": 49.293
+    },
+    {
+     "text": "I'll",
+     "t0": 49.333,
+     "t1": 49.533
+    },
+    {
+     "text": "sit",
+     "t0": 49.653,
+     "t1": 49.773
+    },
+    {
+     "text": "right",
+     "t0": 49.853,
+     "t1": 50.093
+    },
+    {
+     "text": "here...",
+     "t0": 50.453,
+     "t1": 50.893
+    },
+    {
+     "text": "and",
+     "t0": 50.973,
+     "t1": 51.053
+    },
+    {
+     "text": "watch",
+     "t0": 51.173,
+     "t1": 51.293
+    },
+    {
+     "text": "it.",
+     "t0": 51.373,
+     "t1": 51.693
+    }
+   ]
+  }
+ ]
+}

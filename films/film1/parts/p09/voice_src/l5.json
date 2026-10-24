@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Mostly",
+   "timestamp": [
+    0.24,
+    0.72
+   ]
+  },
+  {
+   "text": "because",
+   "timestamp": [
+    0.8,
+    1.12
+   ]
+  },
+  {
+   "text": "you",
+   "timestamp": [
+    1.2,
+    1.28
+   ]
+  },
+  {
+   "text": "were",
+   "timestamp": [
+    1.32,
+    1.36
+   ]
+  },
+  {
+   "text": "asleep.",
+   "timestamp": [
+    1.44,
+    2.56
+   ]
+  }
+ ],
+ "tts": "[gently teasing] Mostly because you were asleep.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,15 @@
+{
+ "words": [
+  {
+   "text": "Grow.",
+   "timestamp": [
+    0.32,
+    0.88
+   ]
+  }
+ ],
+ "tts": "[softly, warmly, clearly] Grow.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

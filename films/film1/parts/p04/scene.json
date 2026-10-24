@@ -1,0 +1,151 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P04: Plan F: more sun / the one-star review / 'I'll watch it'",
+ "part": "p04",
+ "time": "afternoon",
+ "set_look": "yard-day",
+ "summary": "A giant magnifying glass almost toasts the seed. Sam googles it and gives nature one star. He sits down to watch.",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 2.6,
+ "tail": 4.0,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Plan F. More sun. *Way* more sun.",
+   "tts": "[scheming] Plan F. More sun. Way more sun.",
+   "emotion": "scheming",
+   "note": "He holds a giant magnifying glass over the mound; a bright dot of light; a curl of smoke."
+  },
+  {
+   "id": "l2",
+   "who": "layla",
+   "text": "Sam. Something's smoking.",
+   "tts": "[calm] Sam. Something's smoking.",
+   "emotion": "calm",
+   "gap": 1.2
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "That's the growing!",
+   "tts": "[confident] That's the growing!",
+   "emotion": "confident",
+   "gap": 1.6,
+   "note": "A tiny flame pops up."
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "That is *not* the growing!",
+   "tts": "[panicking] That is not the growing!",
+   "emotion": "panic",
+   "gap": 0.3,
+   "note": "He flaps at it. Layla calmly pours her water bottle on it: sizzle, steam."
+  },
+  {
+   "id": "l5",
+   "who": "layla",
+   "text": "You almost cooked it.",
+   "tts": "[deadpan] You almost cooked it.",
+   "emotion": "deadpan",
+   "gap": 2.0
+  },
+  {
+   "id": "l6",
+   "who": "sam",
+   "text": "...Crispy tree?",
+   "tts": "[sheepish, hopeful] ...Crispy tree?",
+   "emotion": "sheepish",
+   "gap": 0.6,
+   "note": "Layla's flat stare. He hides the glass behind his back."
+  },
+  {
+   "id": "l7",
+   "who": "sam",
+   "text": "Fine. Let's ask the internet.",
+   "tts": "[determined] Fine. Let's ask the internet.",
+   "emotion": "determined",
+   "gap": 1.6,
+   "note": "MCU: phone in hand, screen glow on his face."
+  },
+  {
+   "id": "l8",
+   "who": "sam",
+   "text": "How... to grow... a tree... fast.",
+   "tts": "[reading aloud slowly while typing] How... to grow... a tree... fast.",
+   "emotion": "focused",
+   "gap": 0.4,
+   "note": "Taps on each word."
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "Step one: be patient?! ...One star!",
+   "tts": "[outraged] Step one: be patient?! [furious] ...One star!",
+   "emotion": "outraged",
+   "gap": 0.6,
+   "note": "Speech bubble pops with one filled star, four empty."
+  },
+  {
+   "id": "l10",
+   "who": "layla",
+   "text": "You're reviewing nature?",
+   "tts": "[deadpan] You're reviewing nature?",
+   "emotion": "deadpan",
+   "gap": 0.35
+  },
+  {
+   "id": "l11",
+   "who": "sam",
+   "text": "Nature needs *feedback*.",
+   "tts": "[smug] Nature needs feedback.",
+   "emotion": "smug",
+   "gap": 0.3,
+   "note": "CU Sam, finger up."
+  },
+  {
+   "id": "l12",
+   "who": "sam",
+   "text": "Step two: be *more* patient?! ...Zero stars!",
+   "tts": "[scandalised] Step two: be more patient?! [shouting] ...Zero stars!",
+   "emotion": "outraged",
+   "gap": 0.8,
+   "note": "Bubble: all five stars empty, one star falls off."
+  },
+  {
+   "id": "l13",
+   "who": "layla",
+   "text": "That's not a thing.",
+   "tts": "[dry] That's not a thing.",
+   "emotion": "deadpan",
+   "gap": 0.3
+  },
+  {
+   "id": "l14",
+   "who": "sam",
+   "text": "It is now.",
+   "tts": "[defiant] It is now.",
+   "emotion": "defiant",
+   "gap": 1.0,
+   "note": "Pockets the phone."
+  },
+  {
+   "id": "l15",
+   "who": "sam",
+   "text": "Fine. I'll sit right here... and *watch* it.",
+   "tts": "[stubborn] Fine. I'll sit right here... and watch it.",
+   "emotion": "determined",
+   "gap": 0.5,
+   "note": "WS: stomps to the rock, sits (CMU 13_01), arms crossed, staring at the mound."
+  }
+ ],
+ "beats": [
+  "OPEN (0-2.6 s): Sam strides in with a giant magnifying glass, sunglasses on.",
+  "HOLD: the staring contest begins — he sits on the rock, arms crossed; clock ticks; a fly lands on his nose; he doesn't blink."
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "It",
+   "timestamp": [
+    0.08,
+    0.24
+   ]
+  },
+  {
+   "text": "only",
+   "timestamp": [
+    0.4,
+    0.64
+   ]
+  },
+  {
+   "text": "grows...",
+   "timestamp": [
+    0.8,
+    1.84
+   ]
+  },
+  {
+   "text": "when",
+   "timestamp": [
+    1.92,
+    2.0
+   ]
+  },
+  {
+   "text": "nobody's",
+   "timestamp": [
+    2.08,
+    2.56
+   ]
+  },
+  {
+   "text": "looking.",
+   "timestamp": [
+    2.64,
+    3.52
+   ]
+  }
+ ],
+ "tts": "[dramatic whisper] It only grows... when nobody's looking.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

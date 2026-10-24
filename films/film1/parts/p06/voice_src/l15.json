@@ -1,0 +1,22 @@
+{
+ "words": [
+  {
+   "text": "Fashionable",
+   "timestamp": [
+    0.24,
+    0.88
+   ]
+  },
+  {
+   "text": "bush.",
+   "timestamp": [
+    1.12,
+    1.68
+   ]
+  }
+ ],
+ "tts": "[offended whisper] Fashionable bush.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

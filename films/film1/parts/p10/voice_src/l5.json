@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "Nah.",
+   "timestamp": [
+    0.24,
+    0.8
+   ]
+  },
+  {
+   "text": "It",
+   "timestamp": [
+    1.04,
+    1.12
+   ]
+  },
+  {
+   "text": "knows",
+   "timestamp": [
+    1.2,
+    1.4
+   ]
+  },
+  {
+   "text": "what",
+   "timestamp": [
+    1.44,
+    1.52
+   ]
+  },
+  {
+   "text": "to",
+   "timestamp": [
+    1.6,
+    1.68
+   ]
+  },
+  {
+   "text": "do.",
+   "timestamp": [
+    1.8,
+    2.08
+   ]
+  }
+ ],
+ "tts": "[calm, content] Nah. It knows what to do.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

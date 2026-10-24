@@ -1,0 +1,57 @@
+{
+ "words": [
+  {
+   "text": "Big",
+   "timestamp": [
+    0.24,
+    0.48
+   ]
+  },
+  {
+   "text": "brain",
+   "timestamp": [
+    0.56,
+    0.88
+   ]
+  },
+  {
+   "text": "move.",
+   "timestamp": [
+    0.96,
+    1.92
+   ]
+  },
+  {
+   "text": "I",
+   "timestamp": [
+    2.0,
+    2.08
+   ]
+  },
+  {
+   "text": "look...",
+   "timestamp": [
+    2.16,
+    2.84
+   ]
+  },
+  {
+   "text": "without",
+   "timestamp": [
+    2.88,
+    3.28
+   ]
+  },
+  {
+   "text": "looking.",
+   "timestamp": [
+    3.36,
+    4.16
+   ]
+  }
+ ],
+ "tts": "[sly, very pleased] Big brain move. I look... without looking.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

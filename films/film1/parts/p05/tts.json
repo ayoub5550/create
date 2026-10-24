@@ -1,0 +1,442 @@
+{
+ "l1": {
+  "file": "assets/voice/l1.mp3",
+  "dur": 3.161,
+  "words": [
+   {
+    "text": "You",
+    "timestamp": [
+     0.16,
+     0.2
+    ]
+   },
+   {
+    "text": "know...",
+    "timestamp": [
+     0.24,
+     0.84
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     1.04,
+     1.2
+    ]
+   },
+   {
+    "text": "watched",
+    "timestamp": [
+     1.36,
+     1.6
+    ]
+   },
+   {
+    "text": "pot",
+    "timestamp": [
+     1.68,
+     2.0
+    ]
+   },
+   {
+    "text": "never",
+    "timestamp": [
+     2.24,
+     2.48
+    ]
+   },
+   {
+    "text": "boils.",
+    "timestamp": [
+     2.56,
+     3.1508160000000003
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "You know... a watched pot never boils.",
+  "hash": "a7227df09fd2"
+ },
+ "l2": {
+  "file": "assets/voice/l2.mp3",
+  "dur": 4.833,
+  "words": [
+   {
+    "text": "That's",
+    "timestamp": [
+     0.08,
+     0.28
+    ]
+   },
+   {
+    "text": "for",
+    "timestamp": [
+     0.32,
+     0.56
+    ]
+   },
+   {
+    "text": "pots,",
+    "timestamp": [
+     0.64,
+     1.08
+    ]
+   },
+   {
+    "text": "Layla.",
+    "timestamp": [
+     1.12,
+     1.76
+    ]
+   },
+   {
+    "text": "Trees",
+    "timestamp": [
+     1.96,
+     2.16
+    ]
+   },
+   {
+    "text": "are",
+    "timestamp": [
+     2.28,
+     2.4
+    ]
+   },
+   {
+    "text": "totally",
+    "timestamp": [
+     2.56,
+     2.88
+    ]
+   },
+   {
+    "text": "different.",
+    "timestamp": [
+     2.96,
+     3.6
+    ]
+   },
+   {
+    "text": "Trees",
+    "timestamp": [
+     3.8,
+     4.0
+    ]
+   },
+   {
+    "text": "are—",
+    "timestamp": [
+     4.12,
+     4.8
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "That's for pots, Layla. Trees are totally different. Trees are—",
+  "hash": "911d3998903c"
+ },
+ "l3": {
+  "file": "assets/voice/l3.mp3",
+  "dur": 2.691,
+  "words": [
+   {
+    "text": "...What?",
+    "timestamp": [
+     0.08,
+     1.12
+    ]
+   },
+   {
+    "text": "What's",
+    "timestamp": [
+     1.2,
+     1.36
+    ]
+   },
+   {
+    "text": "that",
+    "timestamp": [
+     1.48,
+     1.6
+    ]
+   },
+   {
+    "text": "face?",
+    "timestamp": [
+     1.68,
+     2.64
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "...What? What's that face?",
+  "hash": "f9e432c60aa9"
+ },
+ "l4": {
+  "file": "assets/voice/l4.mp3",
+  "dur": 2.429,
+  "words": [
+   {
+    "text": "Did",
+    "timestamp": [
+     0.08,
+     0.24
+    ]
+   },
+   {
+    "text": "it",
+    "timestamp": [
+     0.32,
+     0.4
+    ]
+   },
+   {
+    "text": "just...",
+    "timestamp": [
+     0.48,
+     1.28
+    ]
+   },
+   {
+    "text": "move?",
+    "timestamp": [
+     1.52,
+     2.4
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Did it just... move?",
+  "hash": "5151292fac06"
+ },
+ "l5": {
+  "file": "assets/voice/l5.mp3",
+  "dur": 2.351,
+  "words": [
+   {
+    "text": "Maybe",
+    "timestamp": [
+     0.56,
+     0.88
+    ]
+   },
+   {
+    "text": "it's",
+    "timestamp": [
+     0.96,
+     1.2
+    ]
+   },
+   {
+    "text": "shy.",
+    "timestamp": [
+     1.36,
+     2.32
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Maybe it's shy.",
+  "hash": "3605c9f64e29"
+ },
+ "l6": {
+  "file": "assets/voice/l6.mp3",
+  "dur": 3.239,
+  "words": [
+   {
+    "text": "Shy?",
+    "timestamp": [
+     0.56,
+     1.52
+    ]
+   },
+   {
+    "text": "Trees",
+    "timestamp": [
+     1.68,
+     1.84
+    ]
+   },
+   {
+    "text": "aren't",
+    "timestamp": [
+     1.92,
+     2.16
+    ]
+   },
+   {
+    "text": "shy.",
+    "timestamp": [
+     2.24,
+     3.2
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Shy? Trees aren't *shy*.",
+  "hash": "329062f7ca62"
+ },
+ "l7": {
+  "file": "assets/voice/l7.mp3",
+  "dur": 0.522,
+  "words": [
+   {
+    "text": "Wait.",
+    "timestamp": [
+     0.08,
+     0.48
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Wait.",
+  "hash": "d9f165aeba8f"
+ },
+ "l8": {
+  "file": "assets/voice/l8.mp3",
+  "dur": 3.553,
+  "words": [
+   {
+    "text": "It",
+    "timestamp": [
+     0.08,
+     0.24
+    ]
+   },
+   {
+    "text": "only",
+    "timestamp": [
+     0.4,
+     0.64
+    ]
+   },
+   {
+    "text": "grows...",
+    "timestamp": [
+     0.8,
+     1.84
+    ]
+   },
+   {
+    "text": "when",
+    "timestamp": [
+     1.92,
+     2.0
+    ]
+   },
+   {
+    "text": "nobody's",
+    "timestamp": [
+     2.08,
+     2.56
+    ]
+   },
+   {
+    "text": "looking.",
+    "timestamp": [
+     2.64,
+     3.52
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "It only grows... when nobody's *looking*.",
+  "hash": "f5e6044df310"
+ },
+ "l9": {
+  "file": "assets/voice/l9.mp3",
+  "dur": 2.691,
+  "words": [
+   {
+    "text": "Or...",
+    "timestamp": [
+     0.16,
+     1.04
+    ]
+   },
+   {
+    "text": "it",
+    "timestamp": [
+     1.16,
+     1.28
+    ]
+   },
+   {
+    "text": "just",
+    "timestamp": [
+     1.36,
+     1.6
+    ]
+   },
+   {
+    "text": "needs",
+    "timestamp": [
+     1.76,
+     1.92
+    ]
+   },
+   {
+    "text": "time.",
+    "timestamp": [
+     2.16,
+     2.64
+    ]
+   }
+  ],
+  "who": "layla",
+  "text": "Or... it just needs time.",
+  "hash": "3909454699f5"
+ },
+ "l10": {
+  "file": "assets/voice/l10.mp3",
+  "dur": 2.926,
+  "words": [
+   {
+    "text": "Layla.",
+    "timestamp": [
+     0.32,
+     1.0
+    ]
+   },
+   {
+    "text": "This",
+    "timestamp": [
+     1.28,
+     1.52
+    ]
+   },
+   {
+    "text": "calls",
+    "timestamp": [
+     1.6,
+     1.84
+    ]
+   },
+   {
+    "text": "for",
+    "timestamp": [
+     1.92,
+     2.0
+    ]
+   },
+   {
+    "text": "a",
+    "timestamp": [
+     2.16,
+     2.2
+    ]
+   },
+   {
+    "text": "plan.",
+    "timestamp": [
+     2.24,
+     2.96
+    ]
+   }
+  ],
+  "who": "sam",
+  "text": "Layla. This calls for a *plan*.",
+  "hash": "5973dab8a21e"
+ }
+}

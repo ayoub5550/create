@@ -1,0 +1,29 @@
+{
+ "words": [
+  {
+   "text": "For",
+   "timestamp": [
+    0.16,
+    0.4
+   ]
+  },
+  {
+   "text": "eight",
+   "timestamp": [
+    0.48,
+    0.72
+   ]
+  },
+  {
+   "text": "hours.",
+   "timestamp": [
+    0.88,
+    1.68
+   ]
+  }
+ ],
+ "tts": "[deadpan] For eight hours.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

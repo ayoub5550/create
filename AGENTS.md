@@ -122,11 +122,11 @@ tools/mocap/         ← search.py · fetch.py · bvh2clip.py · prep_clips.py �
 tools/audio/         ← sound.py (عود بالمقامات، ناي، دفّ، مطر، رعد، خطوات… + مكسر بخفض تلقائي تحت الصوت)
 tools/art/           ← gen_art.py (رسوم اللوح الأبيض) · art_meta.py
 tools/build/         ← build.py (ستيكمان) · whiteboard.py · kinetic.py
-tools/render/        ← snap.py (معاينة) · render.sh · verify.py · model_sheet.py (ورقة نموذج الطاقم)
+tools/render/        ← snap.py (معاينة) · render.sh · verify.py · model_sheet.py (ورقة نموذج الطاقم) · frames.py (إطارات كاملة الدقّة) · jsdebug.py (أخطاء الصفحة)
 tools/new_film.py    ← ينسخ مثالاً إلى films/<اسم>/ لتبدأ منه · tools/sync_skills.py (نسخ المهارات بدل الروابط على ويندوز)
 examples/            ← أربعة أفلام كاملة قابلة لإعادة البناء (albidhra · sky · light-speed · hiwar)، و build.sh لكل منها
 gallery/             ← الأفلام المصدَّرة (معاينة 720p) وصورها
-films/               ← أفلامك الجديدة هنا (film1: الحلقة الأولى ليوتيوب، جاهزة للإنتاج — BRIEF.md)
+films/               ← أفلامك الجديدة هنا (film1: الحلقة الأولى ليوتيوب، نسخة طويلة ~9:45 من عشرة أجزاء — PRODUCTION.md)
 ```
 
 ## 8. أعراف المستودع

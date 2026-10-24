@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "Or...",
+   "timestamp": [
+    0.16,
+    1.04
+   ]
+  },
+  {
+   "text": "it",
+   "timestamp": [
+    1.16,
+    1.28
+   ]
+  },
+  {
+   "text": "just",
+   "timestamp": [
+    1.36,
+    1.6
+   ]
+  },
+  {
+   "text": "needs",
+   "timestamp": [
+    1.76,
+    1.92
+   ]
+  },
+  {
+   "text": "time.",
+   "timestamp": [
+    2.16,
+    2.64
+   ]
+  }
+ ],
+ "tts": "[patiently] Or... it just needs time.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,85 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P08: The night watch",
+ "part": "p08",
+ "time": "night -> dawn",
+ "set_look": "yard-night",
+ "summary": "Sam guards the sapling all night, fights sleep, counts sheep, falls asleep. Time-lapse: it grows. Dawn.",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 4.0,
+ "tail": 27.0,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Just you and me, buddy. I'm not blinking.",
+   "tts": "[whispering, determined] Just you and me, buddy. I'm not blinking.",
+   "emotion": "determined",
+   "gap": 2.5,
+   "note": "Night: stars, moon, lit windows, fireflies. Sam sits in a sleeping bag with a headlamp + thermos facing the sapling. Owl hoot."
+  },
+  {
+   "id": "l2",
+   "who": "sam",
+   "text": "Not blinking... not sleeping...",
+   "tts": "[drowsy, slowing down] Not blinking... not sleeping...",
+   "emotion": "drowsy",
+   "gap": 3.0,
+   "note": "Eyelids droop, head drops; the sapling grows a little; he snaps awake."
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "I'm up! I'm up.",
+   "tts": "[startled awake] I'm up! I'm up.",
+   "emotion": "startled",
+   "gap": 3.0,
+   "note": "Second droop + snap (rule of three, silent); the sapling grows again each time."
+  },
+  {
+   "id": "l4",
+   "who": "sam",
+   "text": "Maybe I'll count sheep. One sheep... two sheep...",
+   "tts": "[sleepy, slow] Maybe I'll count sheep. One sheep... two sheep...",
+   "emotion": "drowsy",
+   "gap": 0.6,
+   "note": "A thought bubble: little sheep jump over the sapling."
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Three... tree... trees...",
+   "tts": "[mumbling, falling asleep] Three... tree... trees...",
+   "emotion": "asleep",
+   "gap": 1.5,
+   "note": "The sheep in the bubble turn into trees. He falls asleep, snoring."
+  },
+  {
+   "id": "l6",
+   "who": "layla",
+   "text": "Goodnight, Sam.",
+   "tts": "[whispering tenderly] Goodnight, Sam.",
+   "emotion": "tender",
+   "gap": 6.0,
+   "note": "The gap: Layla tiptoes in from the right with a blanket and drapes it over the snoring Sam."
+  },
+  {
+   "id": "l7",
+   "who": "layla",
+   "text": "And you... take your time.",
+   "tts": "[whispering to the little tree, kindly] And you... take your time.",
+   "emotion": "tender",
+   "gap": 0.6,
+   "note": "She whispers to the sapling, smiles, tiptoes out."
+  }
+ ],
+ "tail_note": "TIME-LAPSE (~20 s): moon arcs, stars wheel, windows go dark, the sapling grows into a young tree taller than Sam (leaf pops), a leaf lands on his face and flutters with each snore, Pip sleeps on the fence. Dawn: sky goes indigo -> pink -> gold; birdsong.",
+ "beats": [
+  "OPEN (0-4 s): night establishing — moon, stars, fireflies, lit windows, an owl hoots; Sam in his sleeping bag with a headlamp, facing the sapling.",
+  "l5 gap: the sheep in the thought bubble jump over the sapling."
+ ]
+}

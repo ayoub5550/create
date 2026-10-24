@@ -1,0 +1,71 @@
+{
+ "words": [
+  {
+   "text": "But",
+   "timestamp": [
+    0.216,
+    0.24
+   ]
+  },
+  {
+   "text": "where",
+   "timestamp": [
+    0.32,
+    0.48
+   ]
+  },
+  {
+   "text": "are",
+   "timestamp": [
+    0.52,
+    0.56
+   ]
+  },
+  {
+   "text": "the",
+   "timestamp": [
+    0.64,
+    0.8
+   ]
+  },
+  {
+   "text": "apples?",
+   "timestamp": [
+    0.96,
+    1.6
+   ]
+  },
+  {
+   "text": "I",
+   "timestamp": [
+    1.76,
+    1.8
+   ]
+  },
+  {
+   "text": "want",
+   "timestamp": [
+    1.84,
+    2.08
+   ]
+  },
+  {
+   "text": "apples.",
+   "timestamp": [
+    2.24,
+    3.0
+   ]
+  },
+  {
+   "text": "Now!",
+   "timestamp": [
+    3.04,
+    3.856122
+   ]
+  }
+ ],
+ "tts": "[impatient, whining] But where are the apples? I want apples. Now!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

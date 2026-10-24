@@ -1,0 +1,43 @@
+{
+ "words": [
+  {
+   "text": "No",
+   "timestamp": [
+    0.2,
+    0.32
+   ]
+  },
+  {
+   "text": "naps!",
+   "timestamp": [
+    0.48,
+    1.28
+   ]
+  },
+  {
+   "text": "Champions",
+   "timestamp": [
+    1.32,
+    1.76
+   ]
+  },
+  {
+   "text": "don't",
+   "timestamp": [
+    1.84,
+    2.08
+   ]
+  },
+  {
+   "text": "nap!",
+   "timestamp": [
+    2.16,
+    2.8
+   ]
+  }
+ ],
+ "tts": "[outraged] No naps! Champions don't nap!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

@@ -1,0 +1,50 @@
+{
+ "words": [
+  {
+   "text": "It",
+   "timestamp": [
+    0.08,
+    0.24
+   ]
+  },
+  {
+   "text": "can",
+   "timestamp": [
+    0.36,
+    0.48
+   ]
+  },
+  {
+   "text": "see",
+   "timestamp": [
+    0.56,
+    0.72
+   ]
+  },
+  {
+   "text": "the",
+   "timestamp": [
+    0.8,
+    0.96
+   ]
+  },
+  {
+   "text": "mirror,",
+   "timestamp": [
+    1.16,
+    1.44
+   ]
+  },
+  {
+   "text": "Sam.",
+   "timestamp": [
+    1.52,
+    2.4
+   ]
+  }
+ ],
+ "tts": "[deadpan] It can see the mirror, Sam.",
+ "voice": "sarah",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

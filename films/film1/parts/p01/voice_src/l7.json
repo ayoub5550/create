@@ -1,0 +1,15 @@
+{
+ "words": [
+  {
+   "text": "Yesterday!",
+   "timestamp": [
+    0.16,
+    0.96
+   ]
+  }
+ ],
+ "tts": "[proudly, chest out] Yesterday!",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

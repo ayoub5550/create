@@ -1,0 +1,15 @@
+{
+ "words": [
+  {
+   "text": "Show-off.",
+   "timestamp": [
+    0.542,
+    1.6
+   ]
+  }
+ ],
+ "tts": "[muffled through a thick scarf, fond] Show-off.",
+ "voice": "liam",
+ "model": "eleven_v4",
+ "stability": 0.35
+}

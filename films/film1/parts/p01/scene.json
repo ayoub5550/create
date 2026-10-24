@@ -1,0 +1,128 @@
+{
+ "title": "Sam & Layla — Ep. 1 — P01: Cold open + title",
+ "part": "p01",
+ "time": "late morning",
+ "set_look": "yard-day",
+ "summary": "Sam yells at a dirt mound. Layla: trees take years. Title sting.",
+ "set": [
+  "mound",
+  "sam",
+  "layla"
+ ],
+ "start": 5.0,
+ "tail": 8.0,
+ "max_pause": 0.45,
+ "lines": [
+  {
+   "id": "l1",
+   "who": "sam",
+   "text": "Grow. Grow... *grow!*",
+   "tts": "[intense, building to a shout] Grow. Grow... grow!",
+   "emotion": "intense",
+   "note": "COLD OPEN, CU ground level: Sam crouched, nose almost in the dirt, eyes huge. Each 'grow' louder."
+  },
+  {
+   "id": "l2",
+   "who": "layla",
+   "text": "Sam... why are you yelling at dirt?",
+   "tts": "[puzzled, flat] Sam... why are you yelling at dirt?",
+   "emotion": "puzzled",
+   "gap": 0.5,
+   "note": "WS reveal: tiny mound in a big yard (house, fence, hills). Layla walks in from the right with a knitting bag."
+  },
+  {
+   "id": "l3",
+   "who": "sam",
+   "text": "I'm not yelling. I'm *motivating* a tree.",
+   "tts": "[proudly] I'm not yelling. I'm motivating a tree.",
+   "emotion": "proud",
+   "gap": 0.3,
+   "note": "He does not look away from the mound."
+  },
+  {
+   "id": "l4",
+   "who": "layla",
+   "text": "A tree. Where?",
+   "tts": "[deadpan] A tree. Where?",
+   "emotion": "deadpan",
+   "gap": 0.4,
+   "note": "She looks around the empty yard."
+  },
+  {
+   "id": "l5",
+   "who": "sam",
+   "text": "Right there! Under the dirt. Probably huge by now.",
+   "tts": "[excited] Right there! Under the dirt. Probably huge by now.",
+   "emotion": "excited",
+   "gap": 0.25,
+   "note": "He points down at the mound."
+  },
+  {
+   "id": "l6",
+   "who": "layla",
+   "text": "When did you plant it?",
+   "tts": "When did you plant it?",
+   "emotion": "neutral",
+   "gap": 0.4
+  },
+  {
+   "id": "l7",
+   "who": "sam",
+   "text": "*Yesterday!*",
+   "tts": "[proudly, chest out] Yesterday!",
+   "emotion": "proud",
+   "gap": 0.25,
+   "note": "Stands up, chest out."
+  },
+  {
+   "id": "l8",
+   "who": "layla",
+   "text": "Yesterday? Sam, trees take *time*.",
+   "tts": "[gently amused] Yesterday? Sam, trees take time.",
+   "emotion": "neutral",
+   "gap": 0.4,
+   "note": "She turns her palms up."
+  },
+  {
+   "id": "l9",
+   "who": "sam",
+   "text": "How much time? An hour? Two hours?",
+   "tts": "[hopeful, quickly] How much time? An hour? Two hours?",
+   "emotion": "hopeful",
+   "gap": 0.25,
+   "note": "Rule of three: a shrug, one hand up, both hands up, leaning in more each time."
+  },
+  {
+   "id": "l10",
+   "who": "layla",
+   "text": "Years.",
+   "tts": "[deadpan] Years.",
+   "emotion": "deadpan",
+   "gap": 1.3,
+   "note": "CU Layla, flat. Music stops."
+  },
+  {
+   "id": "l11",
+   "who": "sam",
+   "text": "...Years?",
+   "tts": "[tiny, devastated whisper] ...Years?",
+   "emotion": "shocked",
+   "gap": 2.4,
+   "note": "CU Sam frozen, eye twitch; crickets ~1.4 s; Pip the bird chirps once on the fence."
+  },
+  {
+   "id": "l12",
+   "who": "sam",
+   "text": "Okay. Plan B.",
+   "tts": "[determined, recovering] Okay. Plan B.",
+   "emotion": "determined",
+   "gap": 1.6,
+   "note": "He narrows his eyes. SMASH to TITLE STING: 'SAM & LAYLA' / 'Episode 1: Grow Faster!' (2.2 s, ink draw-on, pop + whoosh)."
+  }
+ ],
+ "beats": [
+  "OPEN (0-5 s): late-morning establishing EWS of the yard (house, fence, hills, sun, clouds drifting); Pip lands on the fence and chirps; slow push-in towards the garden where Sam crouches by the mound.",
+  "l11 gap: the longest awkward beat of the film — crickets, Sam's eye twitch (CU), Pip chirps once.",
+  "HOLD (8 s): smash to the TITLE: 'SAM & LAYLA' draws on (theme sting), 'Episode 1: Grow Faster!' pops in, Pip flutters across the card; fade out."
+ ]
+}
