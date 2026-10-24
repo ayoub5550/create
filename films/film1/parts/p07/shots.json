@@ -1,0 +1,250 @@
+{
+ "fps": 30,
+ "note": "P07 hand-directed edit (word-anchored). frame = [cx, cy, zoom] in world px for non-character framings.",
+ "shots": [
+  {
+   "t": 0,
+   "size": "WS",
+   "on": [
+    "sam",
+    "layla"
+   ],
+   "move": {
+    "zoom": 1.05
+   },
+   "why": "LUNCH establishing: picnic blanket, bucket, Layla on her stool, late afternoon"
+  },
+  {
+   "t": "l1@1-0.15",
+   "size": "MCU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.16,
+   "why": "he reads 3 MIN on the cup: outraged, rips the lid"
+  },
+  {
+   "t": "l2-0.15",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "she unwraps her sandwich, slowly: You could just... wait."
+  },
+  {
+   "t": "l2.end+0.05",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.24,
+   "why": "CRUNCH, Never., CRUNCH, Pip steals a chunk and lands on his head"
+  },
+  {
+   "t": "l4-0.15",
+   "frame": [
+    880,
+    650,
+    2.25
+   ],
+   "why": "Trees can't hide from technology: stands, phone up, plants the tripod"
+  },
+  {
+   "t": "l4.end+0.3",
+   "frame": [
+    944,
+    742,
+    3.8
+   ],
+   "why": "insert: REC beep on the tiny tripod"
+  },
+  {
+   "t": "l4.end+1.3",
+   "frame": [
+    800,
+    650,
+    2.25
+   ],
+   "why": "tiptoes backwards, hides behind the rock, peeks"
+  },
+  {
+   "t": "l5-0.5",
+   "frame": [
+    1372,
+    655,
+    3.1
+   ],
+   "why": "one hour later: the huddle at Layla's stool over the phone"
+  },
+  {
+   "t": "l6.end+0.45",
+   "why": "Great footage. Very... you. (two-shot: her deadpan, his proud grin)",
+   "frame": [
+    1345,
+    630,
+    3.4
+   ]
+  },
+  {
+   "t": "l7.end+0.1",
+   "size": "MCU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.14,
+   "why": "proud -> Huh. I'm in every shot."
+  },
+  {
+   "t": "l8.end+0.35",
+   "frame": [
+    915,
+    695,
+    2.8
+   ],
+   "why": "SMASH: back to the tree, hand mirror over the shoulder; the silent rule of three"
+  },
+  {
+   "t": "l9.end+4.4",
+   "size": "MCU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.22,
+   "why": "caught mid-stretch: his eyes narrow, eye twitch"
+  },
+  {
+   "t": "l10-0.25",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "It can see the mirror, Sam."
+  },
+  {
+   "t": "l11-0.15",
+   "size": "MCU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.22,
+   "why": "This tree is a genius. (awed, mirror still up)"
+  },
+  {
+   "t": "l11.end+0.25",
+   "frame": [
+    860,
+    650,
+    2.4
+   ],
+   "why": "New plan: ties the string, backs off, pulls"
+  },
+  {
+   "t": "l13-0.2",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "she STOPS knitting: Sam. If you pull it..."
+  },
+  {
+   "t": "l13@5-0.1",
+   "frame": [
+    975,
+    738,
+    4.0
+   ],
+   "why": "...you'll pull it OUT: the dirt cracks at the roots"
+  },
+  {
+   "t": "l13.end+0.25",
+   "why": "frozen, sweat; he lets go (string drops), it springs back",
+   "frame": [
+    850,
+    640,
+    2.6
+   ]
+  },
+  {
+   "t": "l14-0.7",
+   "frame": [
+    890,
+    660,
+    2.3
+   ],
+   "why": "...Fine. No pulling. He unties it gently, pats the soil"
+  },
+  {
+   "t": "l14.end+0.35",
+   "frame": [
+    1150,
+    560,
+    1.15
+   ],
+   "move": {
+    "zoom": 1.06
+   },
+   "why": "the sky turns gold: establishing, long shadows"
+  },
+  {
+   "t": "l15-0.1",
+   "size": "MS",
+   "on": [
+    "layla"
+   ],
+   "frameAt": "l15.end",
+   "top": 0.1,
+   "why": "Go home, Sam: she stands and packs the scarf"
+  },
+  {
+   "t": "l16-0.1",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.1,
+   "why": "Sleep is for people who already have trees. (arms crossed)"
+  },
+  {
+   "t": "l16.end+0.05",
+   "size": "WS",
+   "on": [
+    "sam",
+    "layla"
+   ],
+   "why": "she folds the stool; Goodnight, Sam.; walks off right; his wave"
+  },
+  {
+   "t": "l18@2-0.15",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.12,
+   "why": "Goodnight, tree."
+  },
+  {
+   "t": "l19-0.3",
+   "frame": [
+    925,
+    615,
+    3.0
+   ],
+   "why": "I'm watching you: two fingers at his eyes, then at the tree"
+  },
+  {
+   "t": "l19.end+0.4",
+   "frame": [
+    960,
+    610,
+    1.6
+   ],
+   "move": {
+    "zoom": 0.9
+   },
+   "why": "HOLD: alone in the sunset; he blinks, it grows a leaf; eyes snap narrow; fade to dark"
+  }
+ ]
+}
