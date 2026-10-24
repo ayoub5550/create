@@ -1,0 +1,28 @@
+{
+ "fps": 30,
+ "note": "P08 hand-directed edit (word-anchored). frame = [cx, cy, zoom] in world px; Sam sits on the ground so most framings are explicit. on/size are for the checker.",
+ "shots": [
+  {"t": 0, "size": "EWS", "on": ["sam"], "frame": [1040, 560, 1.0], "move": {"dx": -90, "dy": 50, "zoom": 1.2}, "why": "OPEN: night establishing, moon, stars, lit windows, fireflies; owl; slow push in"},
+  {"t": "l1-0.35", "size": "MS", "on": ["sam", "mound"], "frame": [850, 712, 2.5], "why": "two-shot: Sam in his sleeping bag, headlamp on the sapling"},
+  {"t": "l1@5-0.15", "size": "CU", "on": ["sam"], "frame": [778, 704, 4.3], "move": {"zoom": 1.06}, "why": "I'm not blinking: eyes wide, no blink"},
+  {"t": "l1.end+0.35", "size": "MS", "on": ["sam"], "frame": [805, 712, 3.0], "why": "the cocoa sip: ahh, eyes heavy"},
+  {"t": "l2-0.2", "size": "CU", "on": ["sam"], "frame": [778, 712, 4.0], "move": {"zoom": 1.1}, "why": "Not blinking... eyelids droop"},
+  {"t": "l2.end+0.1", "size": "MS", "on": ["sam", "mound"], "frame": [855, 712, 2.45], "why": "head drops; the sapling grows while his eyes are closed"},
+  {"t": "l3-0.25", "size": "CU", "on": ["sam"], "frame": [778, 700, 4.3], "shake": {"t": "l3-0.22", "amp": 10, "dur": 0.3}, "why": "SNAP: I'm up! I'm up."},
+  {"t": "l3.end+0.12", "size": "MS", "on": ["sam", "mound"], "frame": [855, 712, 2.45], "why": "rule of three: droop #2, it grows again, a bigger snap + head shake"},
+  {"t": "l4-0.15", "size": "MS", "on": ["sam"], "frame": [865, 622, 2.2], "why": "counting sheep: the thought bubble"},
+  {"t": "l4.end+0.35", "size": "CU", "on": ["sam"], "frame": [905, 515, 3.6], "why": "reaction"},
+  {"t": "l5@2-0.35", "size": "MS", "on": ["sam", "mound"], "frame": [865, 622, 2.2], "why": "trees...: he nods off, the bubble pops, snoring"},
+  {"t": "l5.end+0.2", "size": "WS", "on": ["sam", "layla"], "frame": [960, 655, 1.9], "why": "Layla tiptoes in with a blanket"},
+  {"t": "l5.end+1.2", "size": "MCU", "on": ["layla"], "top": 0.13, "why": "a big snore: she freezes mid-step"},
+  {"t": "l5.end+2.2", "size": "MS", "on": ["sam", "layla"], "frame": [905, 700, 2.4], "why": "she drapes the blanket, clicks his headlamp off"},
+  {"t": "l6-0.15", "size": "MCU", "on": ["layla", "sam"], "frame": [828, 645, 3.3], "why": "Goodnight, Sam."},
+  {"t": "l7-0.3", "size": "MS", "on": ["layla", "mound"], "frame": [930, 662, 3.0], "why": "And you... take your time. (to the sapling)"},
+  {"t": "l7.end+0.2", "size": "CU", "on": ["mound"], "frame": [972, 640, 3.4], "why": "reaction: a leaf pops in reply, her soft smile"},
+  {"t": "l7.end+1.7", "size": "EWS", "on": ["sam"], "frame": [1040, 560, 1.02], "move": {"zoom": 1.06}, "why": "TIME-LAPSE: she zips off, stars wheel, moon sets, windows dark, the tree grows"},
+  {"t": "l7.end+11.0", "size": "CU", "on": ["sam"], "frame": [780, 700, 3.8], "move": {"zoom": 1.05}, "why": "a leaf lands on his face, flutters with each snore"},
+  {"t": "l7.end+17.0", "size": "WS", "on": ["sam", "mound"], "frame": [1040, 545, 1.0], "move": {"zoom": 1.12, "dy": 10}, "why": "dawn: indigo -> pink -> gold, the young tree taller than Sam"},
+  {"t": "l7.end+23.1", "size": "CU", "on": ["pip"], "frame": [1632, 505, 3.4], "why": "Pip wakes up, stretches, chirps"},
+  {"t": "l7.end+25.6", "size": "EWS", "on": ["sam", "mound"], "frame": [1040, 560, 1.12], "why": "morning; fade out"}
+ ]
+}
