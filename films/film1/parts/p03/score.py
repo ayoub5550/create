@@ -57,8 +57,8 @@ for k in range(8):
     S.music_add(T.xylo(72 + [0, 2, 4, 5, 7, 9, 11, 12][k], 0.25), t_swap + k * 0.17, 0.35)
 S.music_gap(t_mont_end + 0.25, t_mus - 0.02, 0.08)
 # ---- music II: the boombox groove (small speaker) ... the BASS (full range) ... power down -> silence
-S.music_add(T.cue("groove", t_bass - t_mus + 0.1, bpm=BPM), t_mus, 0.8)
-S.music_add(T.cue("groove", t_topple - t_bass + 0.2, bpm=BPM, speaker=False), t_bass, 1.25)
+S.music_add(T.cue("groove", t_bass - t_mus + 0.1, bpm=BPM), t_mus, 1.0)
+S.music_add(T.cue("groove", t_topple - t_bass + 0.2, bpm=BPM, speaker=False), t_bass, 1.0)
 S.music_gap(t_topple + 0.05, DUR, 0.05)
 
 # ---- Foley / gags
@@ -71,7 +71,7 @@ while t < t_arr:
 S.sfx_add(T.foley("impactWood_light", 1), t_arr + 0.25, 0.25)              # sets it down
 S.sfx_add(T.foley("creak", 1), t_lift, 0.18)                                 # lifts the handles
 S.sfx_add(T.sfx("whoosh"), t_tip - 0.05, 0.2)
-S.sfx_add(T.sfx("dirt_dump"), t_dump - 0.05, 0.6)                            # THE MOUNTAIN
+S.sfx_add(T.sfx("dirt_dump"), t_dump - 0.05, 0.45)                            # THE MOUNTAIN
 S.sfx_add(thud(60, 0.4), t_dump, 0.45)
 S.sfx_add(T.chirp(4), t_flee - 0.3, 0.3); S.sfx_add(T.chirp(2), t_flee - 0.15, 0.25)     # Pip: alarm chirps + bolts
 S.sfx_add(T.sfx("wings"), t_flee, 0.28); S.sfx_add(T.sfx("whoosh", d=0.4, lo=900, hi=5000), t_flee + 0.05, 0.12)
@@ -79,7 +79,7 @@ S.sfx_add(T.sfx("flies", d=t_swap - t_dump - 0.5), t_dump + 0.5, 0.18)     # buz
 S.sfx_add(T.sfx("stink"), t_dump + 1.1, 0.22)
 S.sfx_add(T.sfx("stink"), t_pinch0 + 0.1, 0.16)
 S.sfx_add(sniff(1), t_sniff, 0.35); S.sfx_add(sniff(2), t_sniff + 0.32, 0.4)
-S.sfx_add(T.brass(46, 0.55, bend=-4, mute=0.8), t_gag, 0.35)                # "hurk"
+S.sfx_add(T.brass(46, 0.55, bend=-4, mute=0.8), t_gag, 0.16)                # "hurk"
 S.sfx_add(T.sfx("gulp"), t_gag + 0.35, 0.25)
 S.sfx_add(T.sfx("whoosh_big"), t_wipe - 0.05, 0.4)                           # the WIPE
 for k in range(NSC):                                                          # speed shovelling
@@ -104,16 +104,16 @@ S.sfx_add(T.sfx("wings"), t_pip_in + 0.2, 0.2); S.sfx_add(T.sfx("wings"), t_pip_
 S.sfx_add(T.chirp(0), t_pip_land + 0.6, 0.18); S.sfx_add(T.chirp(3), t_pip_land + 0.6 + 2 * BEAT, 0.16)
 # the BASS
 for k in range(5): S.sfx_add(T.foley("tick", k % 3), t_twist + k * 0.1, 0.25)    # the knob ratchets
-S.sfx_add(T.sfx("boom"), t_bass, 0.4)
-S.sfx_add(T.sfx("bass_thump", d=t_topple - t_bass, bpm=BPM * 2), t_bass, 0.5)
-S.sfx_add(T.sfx("wind"), t_bass + 0.05, 0.3)
-S.sfx_add(T.sfx("rumble", d=t_topple - t_bass), t_bass, 0.3)
+S.sfx_add(T.sfx("boom"), t_bass, 0.22)
+S.sfx_add(T.sfx("bass_thump", d=t_topple - t_bass, bpm=BPM * 2), t_bass, 0.35)
+S.sfx_add(T.sfx("wind"), t_bass + 0.05, 0.22)
+S.sfx_add(T.sfx("rumble", d=t_topple - t_bass), t_bass, 0.2)
 t = t_bass; k = 0
 while t < t_topple - 0.05:                                                    # the boombox hops
     S.sfx_add(T.foley("impactWood_light", k % 3), t + 60 / BPM / 2 * 0.5, 0.12); t += 60 / BPM / 2; k += 1
 S.sfx_add(T.chirp(4), t_blow, 0.3); S.sfx_add(T.sfx("slide_down"), t_blow + 0.05, 0.18)   # Pip blown away
-S.sfx_add(T.foley("impactWood_heavy", 0), t_topple + 0.28, 0.45)            # it topples...
-S.sfx_add(T.sfx("power_down"), t_topple, 0.6)                                # "bwomp"
+S.sfx_add(T.foley("impactWood_heavy", 0), t_topple + 0.28, 0.22)            # it topples...
+S.sfx_add(T.sfx("power_down"), t_topple, 0.3)                                # "bwomp"
 S.sfx_add(T.sfx("crickets"), t_topple + 1.0, 0.08)
 S.sfx_add(T.sfx("crickets"), L["l11"]["end"] - 0.5, 0.07)
 t_pip_back = L["l11"]["end"] + 0.6; t_pip_perch = t_pip_back + 1.0
