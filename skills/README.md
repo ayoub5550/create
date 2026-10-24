@@ -12,6 +12,7 @@ Craft skills for producing professional stick-figure films (Arabic bodies, Engli
 | [`film-director`](film-director/SKILL.md) | الإخراج: أحجام اللقطات، قاعدة 180، التغطية، التكوين ← `shots.json` |
 | [`film-editor`](film-editor/SKILL.md) | المونتاج: متى وكيف نقطع، J/L، الانتقالات، الإيقاع، المزج ← الفيلم النهائي |
 | [`stickman-animation`](stickman-animation/SKILL.md) | التحريك: مبادئ التحريك الاثنا عشر للستيكمان، الوضعيات، الموكاب، الطبقات الإجرائية |
+| [`youtube-publish`](youtube-publish/SKILL.md) | بعد موافقة المالك: نشر الحلقة على يوتيوب (`tools/publish/youtube.py`)، وإصلاح الصورة المصغّرة والترجمة ← `published.json` |
 
 ## الترتيب في فيلم حواري
 `cartoon-writer` ← `character-design` ← `talking-characters` (الأصوات والشفاه والتمثيل) ← `film-director` ← `stickman-animation`

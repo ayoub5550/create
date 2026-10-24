@@ -10,3 +10,7 @@ snapshots/
 *.part
 # verify.py frame tile (written to the working dir)
 check.png
+# YouTube publishing secrets (kept in ~/.config/create/youtube, never in the repo)
+client_secret*.json
+token.json
+.yt-secrets/

@@ -12,11 +12,13 @@
 > except the voice and the language. **From now on every new film is in ENGLISH: script, voices, on-screen text and
 > captions.** Arabic only when the owner explicitly asks for it. `examples/hiwar` stays the (Arabic) style reference.
 
-> **المهمة التالية: film1.** حين يقول المالك «ابدأ film1» (أو "start film1")، افتح `films/film1/BRIEF.md` ونفّذ الحلقة الأولى
-> لقناة يوتيوب من البداية إلى التسليم وحدك: النص والطاقم وحزمة يوتيوب جاهزة في `films/film1/` (`scene.json`، `cast.json`، `YOUTUBE.md`).
+> **film1 منجز ومنشور على يوتيوب:** https://youtu.be/max4KYAPTv0 (كل الحلقات: `films/EPISODES.md`).
+> للحلقة التالية انسخ بنية film1 (`films/film1/PRODUCTION.md`)، وبعد موافقة المالك على النسخة النهائية انشرها بوصفة
+> `docs/recipe/09-publish-youtube.md` (`python tools/publish/youtube.py auth` ثم `upload films/<slug>`؛ الأسرار خارج المستودع).
 >
-> **Next job: film1.** When the owner says "start film1", open `films/film1/BRIEF.md` and produce our first YouTube
-> episode end to end — the script, the cast and the YouTube package are ready in `films/film1/`.
+> **film1 is done and published:** https://youtu.be/max4KYAPTv0 (all episodes: `films/EPISODES.md`). For the next
+> episode reuse film1's structure (`PRODUCTION.md`); after the owner approves the final cut, publish it with
+> `docs/recipe/09-publish-youtube.md` (`python tools/publish/youtube.py auth` → `upload films/<slug>`).
 
 ## 1. دورك
 أنت لست مساعداً ينتظر التعليمات خطوة بخطوة. أنت **مخرج ومنتج**:
@@ -70,6 +72,7 @@ python tools/new_film.py my-film --from albidhra     # أو sky أو light-speed
 | 8 | الناقد | وكيل آخر أو مراجعة صارمة | تقييم ≥ 8/10، لا P0/P1 | `07-critic.md` |
 | 9 | التصدير | `tools/render/render.sh` (HyperFrames) | `out/film.mp4` | `08-render-deliver.md` |
 | 10 | التحقّق والتسليم | `tools/render/verify.py` + `tools/voice/captions.py` | MP4 + SRT + ملخّص | `08-render-deliver.md` |
+| 11 | النشر على يوتيوب (بعد موافقة المالك) | `tools/publish/youtube.py` | رابط يوتيوب + `published.json` + سطر في `films/EPISODES.md` | `09-publish-youtube.md` |
 
 ### الفيلم الحواري (شخصيات تتكلّم)
 | # | المرحلة | الأداة | المخرج |
@@ -91,6 +94,7 @@ python tools/new_film.py my-film --from albidhra     # أو sky أو light-speed
 | أحجام اللقطات، قاعدة 180، التغطية، التكوين | `film-director` |
 | القطع، J/L، الانتقالات، الإيقاع، المزج | `film-editor` |
 | تحريك الأجسام والوضعيات والموكاب | `stickman-animation` |
+| النشر على يوتيوب وإصلاح فيديو منشور | `youtube-publish` |
 Claude Code وCopilot يجدونها في `.claude/skills`، وCodex وGemini في `.agents/skills` (روابط إلى `skills/`).
 
 ## 5. بوّابة الجودة (إلزامية)
@@ -105,6 +109,8 @@ Claude Code وCopilot يجدونها في `.claude/skills`، وCodex وGemini ف
 ## 6. التسليم
 سلّم: ملف MP4 (1080p، 30fps، h264 + aac) + ملف SRT + رسالة قصيرة فيها: القصة في سطر، القرارات التي اتخذتها،
 الأدوات، والعيوب المعروفة بصدق، واقتراحان للنسخة التالية (مثلاً نسخة 9:16، أو قصة أخرى).
+النشر على يوتيوب لا يكون إلا بعد أن يشاهد المالك النسخة النهائية ويوافق: اتبع `docs/recipe/09-publish-youtube.md`
+(`youtube.json` ← `upload --dry-run` ← `upload`)، ثم أرسل الرابط. إعداد Audience والإفصاح عن المحتوى الاصطناعي قرار المالك.
 
 ## 7. خريطة المستودع
 ```
@@ -122,10 +128,12 @@ tools/mocap/         ← search.py · fetch.py · bvh2clip.py · prep_clips.py �
 tools/audio/         ← sound.py (عود بالمقامات، ناي، دفّ، مطر، رعد، خطوات… + مكسر بخفض تلقائي تحت الصوت)
 tools/art/           ← gen_art.py (رسوم اللوح الأبيض) · art_meta.py
 tools/build/         ← build.py (ستيكمان) · whiteboard.py · kinetic.py
+tools/publish/       ← youtube.py (النشر على يوتيوب: auth · upload · status · thumbnail · captions · set) — 09-publish-youtube.md
 tools/render/        ← snap.py (معاينة) · render.sh · verify.py · model_sheet.py (ورقة نموذج الطاقم) · frames.py (إطارات كاملة الدقّة) · jsdebug.py (أخطاء الصفحة)
 tools/new_film.py    ← ينسخ مثالاً إلى films/<اسم>/ لتبدأ منه · tools/sync_skills.py (نسخ المهارات بدل الروابط على ويندوز)
 examples/            ← أربعة أفلام كاملة قابلة لإعادة البناء (albidhra · sky · light-speed · hiwar)، و build.sh لكل منها
 gallery/             ← الأفلام المصدَّرة (معاينة 720p) وصورها
+films/EPISODES.md    ← الحلقات المنشورة على يوتيوب وروابطها
 films/               ← أفلامك الجديدة هنا (film1: الحلقة الأولى ليوتيوب، نسخة طويلة ~9:45 من عشرة أجزاء — PRODUCTION.md)
 ```
 

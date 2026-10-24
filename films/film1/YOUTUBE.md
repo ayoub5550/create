@@ -1,4 +1,10 @@
-# film1 — YouTube package (the owner uploads; the agent fills the final numbers)
+# film1 — YouTube package
+
+> **PUBLISHED 2026-10-24: https://youtu.be/max4KYAPTv0** (channel Decreeface, public, English captions).
+> The metadata actually used is `youtube.json` (long-cut description with chapters); the result is `published.json`.
+> Still open: the custom thumbnail (`thumbnail.png`) is waiting for the channel's phone verification
+> (youtube.com/verify), then `python tools/publish/youtube.py thumbnail films/film1`. How to publish:
+> `docs/recipe/09-publish-youtube.md`. The sections below are the original pre-production package.
 
 ## Title (pick one, ≤ 60 characters)
 1. **He Tried to Speedrun a Tree 🌱 | Sam & Layla Ep. 1** (recommended)

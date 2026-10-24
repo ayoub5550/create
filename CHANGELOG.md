@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2026-10-24 — film1 published on YouTube + the publishing recipe
+- **Ep. 1 is live:** https://youtu.be/max4KYAPTv0 ("He Tried to Speedrun a Tree 🌱 | Sam & Layla Ep. 1", 9:58, channel
+  Decreeface, public, English captions). `films/film1/youtube.json` (metadata used), `published.json`, `thumbnail.png`,
+  `film1.srt`; `films/EPISODES.md` lists every published episode.
+- `tools/publish/youtube.py` (stdlib only): `auth` (consent link / paste-back exchange via the owner's own OAuth client),
+  `whoami`, `upload` (channel guard, duplicate guard, resumable 16 MB chunks, captions, thumbnail, playlist,
+  `published.json`), `status`, `thumbnail`, `captions`, `set`. Secrets stay outside the repo (`YT_SECRETS_DIR`).
+- `docs/recipe/09-publish-youtube.md`: one-time Google Cloud setup, weekly re-auth, `youtube.json` fields, errors and fixes.
+  AGENTS.md step 11, skill `skills/youtube-publish`, README, lessons. Open: the custom thumbnail waits for the channel's phone verification.
+
 ## 2026-10-24 — film1 long cut (~9:45): script, voices, shared set, sound kit, reference part
 - Owner request: a ~10-minute film with excellent English voices, better backgrounds and lots of content. `films/film1/`
   is now ten parts (`parts/p01..p10`, 124 lines) built and rendered separately, then assembled — guide: `PRODUCTION.md`.
