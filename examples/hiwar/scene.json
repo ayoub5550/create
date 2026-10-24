@@ -1,0 +1,13 @@
+{
+ "title": "حوار — سامي وليلى (تتمّة «البذرة»)",
+ "set": ["mound", "sami", "layla"],
+ "start": 0.9,
+ "tail": 9.1,
+ "lines": [
+  {"id": "l1", "who": "sami", "text": "ليلى! زرعتُ بذرةً أمس... ولم *تنبتْ* بعد!", "emotion": "excited", "gesture": "explain", "max_pause": 0.5},
+  {"id": "l2", "who": "layla", "text": "أمس؟ يا سامي... الشجرةُ تحتاجُ *وقتاً*.", "gap": 0.35, "gesture": "palmsUp", "max_pause": 0.5},
+  {"id": "l3", "who": "sami", "text": "كم؟ ساعة؟ ساعتين؟", "gap": 0.25, "emotion": "hopeful", "gesture": "shrug", "max_pause": 0.35},
+  {"id": "l4", "who": "layla", "text": "سنوات.", "gap": 1.35, "emotion": "deadpan", "key": true, "react": true},
+  {"id": "l5", "who": "sami", "text": "إذن... سأنتظرُ هنا.", "gap": 1.6, "emotion": "determined", "gesture": "crossArms", "wide": true}
+ ]
+}

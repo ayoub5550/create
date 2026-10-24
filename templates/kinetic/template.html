@@ -27,7 +27,7 @@
       .numwrap { display: flex; flex-direction: column; align-items: center; gap: 26px; width: 100%; }
       .unit { margin-top: -10px; margin-bottom: 40px; }
       .unit { font-size: %UFS%px; color: %INK%; opacity: 0; direction: rtl; }
-      #bar { position: absolute; left: 0; bottom: 0; height: 12px; width: %W%px; background: %ACC0%; transform-origin: 100% 50%; transform: scaleX(0); }
+      #bar { position: absolute; left: 0; bottom: 0; height: 12px; width: %W%px; background: %ACC0%; transform-origin: 100% 50%; }
       #title { position: absolute; top: %TTOP%px; width: 100%; text-align: center; direction: rtl; font-size: %TFS%px; color: %INK%; opacity: .55; }
     </style>
   </head>
@@ -47,7 +47,8 @@
       const TOTAL = %TOTAL%;
       const CARDS = %CARDJS%;
       tl.set(".card", { autoAlpha: 0 }, 0);
-      tl.to("#bar", { scaleX: 1, duration: TOTAL, ease: "none" }, 0);
+      // fromTo: GSAP owns the whole transform (HyperFrames lint: gsap_css_transform_conflict)
+      tl.fromTo("#bar", { scaleX: 0 }, { scaleX: 1, duration: TOTAL, ease: "none" }, 0);
       CARDS.forEach((c, i) => {
         const card = "#card-" + i;
         tl.set(card, { autoAlpha: 1 }, c.t0 - 0.05);

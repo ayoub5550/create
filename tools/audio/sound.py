@@ -11,7 +11,8 @@ narration-aware mixer. numpy + scipy only, no samples, no API keys. MIT.
     S.render("proj/assets/mix.wav")                    # reverb, ducking, normalise, report levels
 
 Pitches are MIDI numbers; floats are allowed, so quarter tones work (63.5 = E half-flat, for Rast / Bayati / Saba).
-Target levels (60 s film, measured by Score.render): narration parts ≈ -22 dB RMS, music-only ≈ -27 dB, peak < -1 dB.
+Target levels (60 s film, measured by Score.render): narration parts ≈ -22 dB RMS, music-only ≈ -27 dB, peak < -1 dB;
+render(..., lufs=-15) masters the whole mix to an integrated loudness with a peak limiter (shorts, YouTube).
 """
 import subprocess, wave
 import numpy as np
@@ -139,8 +140,18 @@ def wind(dur=6.0):
 
 
 def crickets(dur=4.6):
+    """Night / awkward-silence cricket: ~4.3 kHz chirps of soft pulses (a narrow band on a spectrum is expected)."""
     n = int(SR * dur); tt = np.arange(n) / SR
-    return np.sin(2 * np.pi * 4300 * tt) * (np.sin(2 * np.pi * 28 * tt) > .3) * (np.sin(2 * np.pi * 1.6 * tt) > 0) * env(n, .8, .8, dur)
+    car = np.sin(2 * np.pi * 4300 * tt + 0.8 * np.sin(2 * np.pi * 28 * tt)) + 0.18 * np.sin(2 * np.pi * 8600 * tt)
+    pulses = np.maximum(0, np.sin(2 * np.pi * 28 * tt)) ** 2                    # smooth pulses: no clicks
+    chirps = np.clip(np.sin(2 * np.pi * 1.6 * tt) * 4, 0, 1)
+    return car * pulses * chirps * env(n, .4, .5, dur)
+
+
+def slap(dur=0.12):
+    """Palm on skin: facepalm, clap, a pat on the back — a 2-4 kHz noise crack with a soft low body."""
+    n = int(SR * dur); tt = np.arange(n) / SR
+    return noise_band(n, 1500, 5000) * np.exp(-tt / .012) + .35 * np.sin(2 * np.pi * 180 * tt) * np.exp(-tt / .025)
 
 
 def bird(k=0, dur=0.18):
@@ -179,11 +190,33 @@ def load_audio(path):
 def db(x): return 20 * np.log10(np.sqrt(np.mean(x ** 2)) + 1e-12)
 
 
+def measure_lufs(x):
+    """Integrated loudness (EBU R128) of the mix as delivered — mono duplicated to both stereo channels (dual mono, +3 dB
+    over a mono reading) — via ffmpeg's ebur128 filter; None if ffmpeg fails."""
+    import re
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "-",
+                        "-af", "ebur128=dualmono=true", "-f", "null", "-"], input=np.asarray(x, np.float32).tobytes(), capture_output=True)
+    m = re.findall(r"I:\s+(-?[\d.]+) LUFS", r.stderr.decode(errors="ignore"))
+    return float(m[-1]) if m else None
+
+
+def limit(x, ceiling=-1.5, win=0.012):
+    """Look-ahead peak limiter: the gain is the running minimum of the needed reduction, smoothed with a window of the
+    same length, so it is never above what any sample needs (no overs) and moves smoothly (no clicks)."""
+    from scipy.ndimage import minimum_filter1d
+    c = 10 ** (ceiling / 20); g = np.minimum(1.0, c / (np.abs(x) + 1e-9))
+    if g.min() >= 1.0: return x
+    L = max(3, int(SR * win) | 1); g = minimum_filter1d(g, L, mode="nearest")
+    g = np.convolve(g, np.ones(L) / L, mode="same")
+    return x * np.minimum(g, 1.0)
+
+
 # ------------------------------------------------------------------ score / mixer
 class Score:
     def __init__(self, dur):
         self.dur = dur; self.N = int(SR * dur)
         self.music = np.zeros(self.N); self.sfx = np.zeros(self.N); self.vo = np.zeros(self.N); self.vo_spans = []
+        self.gaps = []
 
     @staticmethod
     def _add(buf, sig, t0, g):
@@ -192,6 +225,11 @@ class Score:
         j = min(len(buf), i + len(sig)); buf[i:j] += g * sig[:j - i]
 
     def music_add(self, sig, t0, g=1.0): self._add(self.music, sig, t0, g)
+
+    def music_gap(self, t0, t1, fade=0.2):
+        """Silence the music (after reverb, so no tail leaks in) from t0 to t1 with short fades — comedy beats, a
+        punchline landing in dead air. Notes that would ring across the gap are simply cut."""
+        self.gaps.append((t0, t1, fade))
     def sfx_add(self, sig, t0, g=1.0): self._add(self.sfx, sig, t0, g)
 
     def phrase(self, t0, notes, bpm=72, gain=0.5, bright=0.55, instrument=None):
@@ -207,24 +245,38 @@ class Score:
         for sid, t0 in starts.items():
             a = load_audio(pattern.format(sid)); self._add(self.vo, a, t0, 1.0); self.vo_spans.append((t0, t0 + len(a) / SR))
 
-    def render(self, out, music_gain=0.3, sfx_gain=0.9, duck=0.6, fade_in=0.8, fade_out=1.8, reverb_music=0.32, reverb_sfx=0.12):
+    def render(self, out, music_gain=0.3, sfx_gain=0.9, duck=0.6, fade_in=0.8, fade_out=1.8, reverb_music=0.32, reverb_sfx=0.12,
+               lufs=None, ceiling=-1.5):
+        """lufs: master to this integrated loudness (EBU R128 of the stereo file, measured with ffmpeg) with a look-ahead peak
+        limiter at `ceiling` dBFS — -14..-16 for shorts / YouTube (platforms turn loud videos down, never quiet ones up).
+        None = only normalise peaks (the old behaviour)."""
         N = self.N; t = np.arange(N) / SR
         music = reverb(self.music, mix=reverb_music); sfx = reverb(self.sfx, 1.2, reverb_sfx)
         act = (np.abs(self.vo) > .01).astype(float); w = int(SR * .25)
         e = np.clip(np.convolve(act, np.ones(w) / w, "same") * 4, 0, 1); e = np.convolve(e, np.ones(int(SR * .3)) / int(SR * .3), "same")
         music *= (1 - duck * e) * np.minimum(1, t / fade_in) * np.clip((self.dur - t) / fade_out, 0, 1)
+        for g0, g1, gf in self.gaps:      # music_gap(): out over `gf` before g0, back in over `gf` after g1
+            music *= np.clip(np.maximum((g0 - t) / gf, (t - g1) / gf), 0, 1)
         music /= np.abs(music).max() + 1e-9
         mix = self.vo + music * music_gain + sfx * sfx_gain
         mix /= max(1.0, np.abs(mix).max() / .89)
+        if lufs is not None:
+            for _ in range(3):                                  # gain to target, limit, re-measure (limiting costs a little)
+                cur = measure_lufs(mix)
+                if cur is None or abs(cur - lufs) < 0.15: break
+                mix = limit(mix * 10 ** ((lufs - cur) / 20), ceiling)
         st = (np.stack([mix, mix], 1) * 32767).astype(np.int16)
         with wave.open(out, "wb") as f:
             f.setnchannels(2); f.setsampwidth(2); f.setframerate(SR); f.writeframes(st.tobytes())
         self.report(mix); return mix
 
     def report(self, mix):
-        print(f"wrote mix: mean {db(mix):.1f} dB RMS, peak {20 * np.log10(np.abs(mix).max() + 1e-12):.1f} dBFS")
+        L = measure_lufs(mix)
+        print(f"wrote mix: mean {db(mix):.1f} dB RMS, peak {20 * np.log10(np.abs(mix).max() + 1e-12):.1f} dBFS"
+              + (f", {L:.1f} LUFS integrated" if L is not None else ""))
         if self.vo_spans:
             vo = np.concatenate([mix[int(a * SR):int(b * SR)] for a, b in self.vo_spans])
             mask = np.ones(self.N, bool)
             for a, b in self.vo_spans: mask[int(a * SR):int(b * SR)] = False
-            print(f"  narration parts {db(vo):.1f} dB (target ≈ -22), between lines {db(mix[mask]):.1f} dB (target ≈ -27)")
+            print(f"  narration parts {db(vo):.1f} dB, between lines {db(mix[mask]):.1f} dB: voice {db(vo) - db(mix[mask]):.1f} dB "
+                  f"over the bed (target ≈ 5; unmastered levels ≈ -22 / -27)")

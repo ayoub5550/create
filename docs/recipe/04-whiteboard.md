@@ -10,7 +10,7 @@
    python tools/art/gen_art.py art.json proj/assets        # OPENAI_API_KEY، أو أيّ نموذج صور، أو SVG ترسمه أنت
    python tools/art/art_meta.py proj/assets art_meta.json  # حدود الحبر لكل صورة + سنّ القلم في اليد
    ```
-   استعمل صورة اليد الجاهزة `examples/sky/proj/assets/hand.png`.
+   استعمل صورة اليد الجاهزة `examples/sky/art/hand.png`.
    **انظر إلى كل صورة**: لا نصوص مزيّفة، ولا حواف مقطوعة، والأسلوب متّسق.
 3. **`board.json`**: المشاهد على شبكة (العربية: من العمود الأيمن)، ومواقع العناصر، والعناوين، والأفعال
    (`draw`، `label`، `cam`). الأوقات تُكتب بالكلمات: `"s2@7-0.1"` تعني 0.1 ث قبل الكلمة 7 من السطر s2.

@@ -9,11 +9,13 @@ script.json = [{"id": "s1", "text": "..."}, ...]   (one line per beat; short lin
 tts.json    = {"s1": {"file": "assets/voice/s1.mp3", "dur": 4.36, "words": [{"text": "...", "timestamp": [0.0, 0.48]}, ...]}}
 
 Providers
-  edge        free, no key, good Arabic voices: ar-SA-HamedNeural (m), ar-SA-ZariyahNeural (f), ar-EG-ShakirNeural (m),
+  edge        free, no key. English (the default since 2026-10-24): en-US-AndrewNeural (m, warm), en-US-AvaNeural (f),
+              en-US-BrianNeural, en-US-EmmaNeural, en-GB-RyanNeural, en-GB-SoniaNeural, en-US-AnaNeural (child) ...
+              Arabic on request: ar-SA-HamedNeural (m), ar-SA-ZariyahNeural (f), ar-EG-ShakirNeural (m),
               ar-EG-SalmaNeural (f), ar-AE-HamdanNeural, ar-JO-TaimNeural ...  (`edge-tts --list-voices | grep ar-`).
               Options: --rate "-8%" (storytelling is slower), --pitch "-2Hz".  pip install edge-tts
   elevenlabs  most expressive; REST /v1/text-to-speech/{voice}/with-timestamps, character alignment -> words.
-              --model eleven_multilingual_v2 (default) or eleven_v3; language "ar". Passes previous/next text for
+              --model eleven_multilingual_v2 (default) or eleven_v3; --lang en (default) / ar. Passes previous/next text for
               continuous intonation. Generate SEQUENTIALLY (parallel calls can swap files / hit rate limits).
 Always run tools/voice/stt_check.py afterwards (a TTS can skip or mangle words, especially with diacritics).
 """
@@ -24,6 +26,42 @@ def duration(path):
     out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
                          capture_output=True, text=True).stdout.strip()
     return float(out)
+
+
+def trim_pauses(path, words, max_pause, keep=0.05, floor_db=-36.0, sr=24000):
+    """Shorten the silences BETWEEN words to max_pause s (TTS pauses at «؟» «...» often run 0.8-0.9 s: fine for narration,
+    slow for comedy dialogue). Cuts only audio quieter than floor_db (re the line's loudest 20 ms) from the middle of the
+    silent run, keeping `keep` s of air on each side, so no syllable is clipped. Rewrites the file in place (mp3) and
+    returns (words with shifted timestamps, seconds removed)."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-f", "s16le", "-ac", "1", "-ar", str(sr), "-"],
+                         capture_output=True, check=True).stdout
+    x = np.frombuffer(raw, dtype=np.int16).astype(np.float32) / 32768
+    hop = int(sr * 0.01); n = max(1, len(x) // hop)
+    rms = np.sqrt(np.array([np.mean(x[i * hop:(i + 2) * hop] ** 2) for i in range(n)]) + 1e-12)
+    thr = rms.max() * 10 ** (floor_db / 20); cuts = []
+    for a, b in zip(words, words[1:]):
+        g0, g1 = a["timestamp"][1], b["timestamp"][0]
+        if g1 - g0 <= max_pause: continue
+        best, run = (0, 0), None
+        for i in range(int(g0 / 0.01), min(n, int(np.ceil(g1 / 0.01)))):
+            if rms[i] < thr:
+                run = i if run is None else run
+                if i + 1 - run > best[1] - best[0]: best = (run, i + 1)
+            else: run = None
+        s0, s1 = best[0] * 0.01 + keep, best[1] * 0.01 - keep
+        cut = min((g1 - g0) - max_pause, s1 - s0)
+        if cut >= 0.03: cuts.append(((s0 + s1) / 2 - cut / 2, cut))
+    if not cuts: return words, 0.0
+    m = np.ones(len(x), bool)
+    for c0, cd in cuts: m[int(c0 * sr):int((c0 + cd) * sr)] = False
+    tmp = path + ".tmp.mp3"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "s16le", "-ar", str(sr), "-ac", "1", "-i", "-", "-c:a", "libmp3lame", "-b:a", "64k", tmp],
+                   input=(np.clip(x[m], -1, 1) * 32767).astype(np.int16).tobytes(), check=True)
+    os.replace(tmp, path)
+    def shift(t): return t - sum(min(cd, max(0.0, t - c0)) for c0, cd in cuts)
+    return ([{"text": w["text"], "timestamp": [round(shift(w["timestamp"][0]), 3), round(shift(w["timestamp"][1]), 3)]} for w in words],
+            round(sum(cd for _, cd in cuts), 3))
 
 
 async def edge_line(text, dst, voice, rate, pitch):
@@ -64,15 +102,15 @@ def eleven_line(text, dst, voice, model, lang, prev, nxt, stability):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("script"); ap.add_argument("--provider", choices=["edge", "elevenlabs"], default="edge")
-    ap.add_argument("--voice"); ap.add_argument("--rate", default="-5%"); ap.add_argument("--pitch", default="+0Hz")
-    ap.add_argument("--model", default="eleven_multilingual_v2"); ap.add_argument("--lang", default="ar")
+    ap.add_argument("--voice"); ap.add_argument("--rate", default="+0%"); ap.add_argument("--pitch", default="+0Hz")
+    ap.add_argument("--model", default="eleven_multilingual_v2"); ap.add_argument("--lang", default="en")
     ap.add_argument("--stability", type=float, default=0.6)
     ap.add_argument("--out-dir", default="assets/voice"); ap.add_argument("--tts-json", default="tts.json")
     ap.add_argument("--only", nargs="*")
     a = ap.parse_args()
     S = json.load(open(a.script)); os.makedirs(a.out_dir, exist_ok=True)
     out = json.load(open(a.tts_json)) if os.path.exists(a.tts_json) else {}
-    voice = a.voice or ("ar-SA-HamedNeural" if a.provider == "edge" else "JBFqnCBsd6RMkjVDRZzb")  # George
+    voice = a.voice or ("en-US-AndrewNeural" if a.provider == "edge" else "JBFqnCBsd6RMkjVDRZzb")  # George
     for i, s in enumerate(S):
         if a.only and s["id"] not in a.only: continue
         dst = os.path.join(a.out_dir, f"{s['id']}.mp3")

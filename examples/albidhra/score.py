@@ -1,11 +1,11 @@
 """Score + Foley for «البذرة» (tools/audio/sound.py). Run from this folder:  python score.py
 Story arc in maqamat: dry land = Hijaz (journey, thirst) -> night & cold = Nahawand -> morning = Ajam -> tree = rising Ajam."""
-import os, sys
+import json, os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "tools", "audio"))
 from sound import *
 
 S = Score(60.0)
-VO_START = {"s1": 1.0, "s2": 6.0, "s3": 10.6, "s4a": 15.9, "s4b": 22.3, "s5": 26.2, "s6": 32.0, "s7": 38.4, "s8": 45.6, "s9": 54.6}
+VO_START = json.load(open("starts.json"))   # one place for the VO start times (score, captions): s4 is split at 2.54 s
 BPM = 72; B = 60 / BPM
 
 # I. dry land — D Hijaz (D Eb F# G A Bb C)

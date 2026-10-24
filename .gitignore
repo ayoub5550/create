@@ -8,3 +8,5 @@ node_modules/
 mocap_cache/
 snapshots/
 *.part
+# verify.py frame tile (written to the working dir)
+check.png

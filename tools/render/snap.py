@@ -3,7 +3,7 @@
 
     python tools/render/snap.py <proj_dir> out.png 1 5.5 12 20 ...      # times in seconds
     python tools/render/snap.py <proj_dir> out.png --every 2.5           # whole film, every 2.5 s
-Prints console errors (must be none). Use the sheet for self-review and for the critic (docs/recipe/08-critic.md).
+Prints console errors (must be none). Use the sheet for self-review and for the critic (docs/recipe/07-critic.md).
 Needs: pip install playwright && playwright install chromium   (or set CHROME=/path/to/chrome)
 """
 import argparse, asyncio, glob, os, re

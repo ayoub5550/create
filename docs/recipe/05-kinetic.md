@@ -4,7 +4,7 @@
 والأرقام تعدّ تصاعدياً، والخلفية تتبدّل مع كل بطاقة.
 
 ```bash
-python tools/voice/tts.py script.json            # علّم *الكلمات المفتاحية* في النص
+python tools/voice/tts.py script.json            # علّم *الكلمات المفتاحية* في النص (صوت إنجليزي افتراضياً؛ القالب ما زال RTL)
 python score.py                                  # (اختياري) بساط موسيقي + whoosh + pop على المفاتيح
 python tools/build/kinetic.py <film_dir>         # kinetic.json → proj/index.html
 ```

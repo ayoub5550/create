@@ -2,8 +2,9 @@
 """Final gate on a rendered video: format, duration, audio level and a frame tile you must LOOK at.
 
     python tools/render/verify.py out/film.mp4 [--expect 60] [--tile check.png] [--n 12]
-Checks: video + audio streams present, duration within 0.5 s of --expect, integrated loudness (EBU R128; social
-platforms normalise to about -14 LUFS, narration films usually land at -16..-20), true peak below -1 dBTP.
+Checks: video + audio streams present, duration within 0.5 s of --expect, integrated loudness (EBU R128; platforms
+normalise to about -14 LUFS and never turn quiet videos up: shorts -14..-16 via Score.render(lufs=...), long narration
+-16..-20), true peak below -1 dBTP.
 Writes a tile of --n evenly spaced frames: compare it with your preview sheets (a render can differ from the browser)."""
 import argparse, json, re, subprocess, sys
 from PIL import Image

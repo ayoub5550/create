@@ -6,7 +6,7 @@ art.json = {"style": "...", "elements": {"el1": {"size": "1536x1024", "prompt": 
 Sizes: 1536x1024 (wide), 1024x1024, 1024x1536 (tall). The hand is generated with a transparent background.
 Then: python tools/art/art_meta.py proj/assets art_meta.json  and LOOK at every image (contact sheet) before building.
 No API key? Any image model works (Flux / SDXL locally, Gemini, Ideogram...) as long as the art is isolated on pure
-white with no text — or draw the elements yourself as SVG line art and export PNG. Reuse examples/sky/proj/assets/hand.png.
+white with no text — or draw the elements yourself as SVG line art and export PNG. Reuse examples/sky/art/hand.png.
 """
 import base64, json, os, sys, urllib.request
 

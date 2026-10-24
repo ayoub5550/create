@@ -123,9 +123,11 @@
         if (!opts.keep) hideHand(at + dur + 0.05);
       }
       /* initial state */
-      tl.set(%ALLART%, { autoAlpha: 0 }, 0);
-      tl.set(%ALLLBL%, { autoAlpha: 0, "--rv": 0 }, 0);
-      tl.set(hand, { autoAlpha: 0 }, 0);
+      /* gsap.set (outside the paused timeline): a tl.set(..., 0) does not render while the playhead sits at 0
+         (HyperFrames lint: gsap_timeline_set_initial_hide) */
+      gsap.set(%ALLART%, { autoAlpha: 0 });
+      gsap.set(%ALLLBL%, { autoAlpha: 0, "--rv": 0 });
+      gsap.set(hand, { autoAlpha: 0 });
       /* choreography (all times derived from the TTS word map) */
 %ACTS%
       window.__timelines["main"] = tl;

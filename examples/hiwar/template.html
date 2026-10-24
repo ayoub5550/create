@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ar" data-resolution="landscape">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="engine/ink.js"></script>
+    <script src="engine/stickfilm.js"></script>
+    <script src="engine/talk.js"></script>
+    <script src="engine/shots.js"></script>
+    <script src="film_clips.js"></script>
+    <script src="film_data.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      @font-face { font-family: "Ruqaa"; src: url("fonts/ArefRuqaa-ar.woff2") format("woff2"); font-weight: 700; font-display: block; }
+      html, body { width: 1920px; height: 1080px; overflow: hidden; background: #fbfaf6; }
+      #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #fbfaf6; }
+      #stage, #over { position: absolute; inset: 0; width: 1920px; height: 1080px; display: block; }
+      #paper { position: absolute; inset: 0; pointer-events: none;
+        background: radial-gradient(ellipse at center, rgba(0,0,0,0) 58%, rgba(60,50,30,0.10) 100%); }
+      #title { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+        direction: rtl; color: #fbfaf6; font-family: "Ruqaa", serif; font-weight: 700; opacity: 0; pointer-events: none; }
+      #title .t1 { font-size: 240px; line-height: 1.1; }
+      #title .t2 { font-size: 68px; line-height: 1.3; color: #e9b35a; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="%DUR%" data-width="1920" data-height="1080">
+      <section id="scene" class="clip" data-start="0" data-duration="%DUR%" data-track-index="1">
+        <svg id="stage" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="sunGlow">
+              <stop offset="0" stop-color="#f7b955" stop-opacity="0.5"/>
+              <stop offset="1" stop-color="#f7b955" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <g id="sky"></g>
+          <g id="cam">
+            <g id="back"></g>
+            <g id="land"></g>
+            <g id="props"></g>
+            <g id="fig"></g>
+          </g>
+        </svg>
+        <div id="paper"></div>
+        <svg id="over" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"><g id="fxg"></g></svg>
+        <div id="title"><div class="t1">حوار</div><div class="t2">سامي وليلى</div></div>
+      </section>
+      <audio id="mix" src="assets/mix.wav" data-start="0" data-duration="%DUR%" data-track-index="2" data-volume="1"></audio>
+    </div>
+    <script>
+%FILM%
+    </script>
+  </body>
+</html>

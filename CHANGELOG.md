@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## 2026-10-24 — talking characters («حوار») + owner decision: English from now on
+- **Owner decision:** the «حوار» draft-3 style (staging, animation, editing, sound design) is approved — except the voice
+  and the language. **From now on every new film is in English: script, voices, on-screen text, captions** (top of
+  `AGENTS.md`, golden rule 6, `CLAUDE.md`, `GEMINI.md`, `README.md`). Arabic only when the owner asks for it.
+- English by default: `tools/new_film.py --lang en` (default) recasts `cast.json` with distinct English edge-tts voices;
+  `tts.py` / `dialogue.py` default to `en-US-AndrewNeural`; `lipsync.py` gives English lines to Rhubarb's English recogniser
+  with the transcript (`rhubarb-en`); `stt_check.py` auto-detects the language; `skills/talking-characters/references/voices-en.md`
+  (28 English voices, checked live). Known gap: the kinetic and whiteboard templates are still RTL/Arabic-tuned.
+- Dialogue films: `engine/talk.js` (named gestures incl. `pointDown`, beats, nods, accents, idle, `fromLines`, `easeOut`),
+  `engine/shots.js` (word-anchored hard cuts; per-shot `zoom` that keeps the feet line / head top, `top`, `frameAt`,
+  anchored `shake`; `fx`: fades, dip, flash, iris with hold), `engine/stickfilm.js` talking rig (Rhubarb mouths A–H/X,
+  accessories, `[t, dur]` blinks, the near forearm drawn over the head, an open stick hand for `palm` gestures, hijab
+  outline that covers the head), `tools/voice/dialogue.py` (cast + scene -> voices, timeline, lip sync, acting tracks;
+  `max_pause` trims TTS pauses), `tools/voice/lipsync.py`, `tools/direct/shotlist.py` (auto coverage + editing linter),
+  `tools/render/model_sheet.py`, `tools/sync_skills.py`; `tools/audio/sound.py`: `music_gap`, `slap`, smoother `crickets`,
+  `render(lufs=...)` mastering with a look-ahead peak limiter (dual-mono measurement).
+- `examples/hiwar` (28.7 s): independent critics scored draft 1 5.5/10 and draft 2 6/10; draft 3 restaged the button (the
+  mound between the characters, one close two-shot), fixed every arm-through-face pose, the hijab crescent, the stern
+  "hope" brows, the WS framing and the mix, added a sting and a title card — and was approved by the owner.
+- Six craft skills in `skills/` (`.claude/skills`, `.agents/skills` links); `docs/lessons.md` updated with what the critics found.
+- Fixes: kinetic `#bar` lint error, whiteboard initial hides, `captions.py` ms rounding, «البذرة» s4a/s4b + `starts.json`,
+  the iris mask folding inwards.
+
+### Test status (2026-10-24)
+- `examples/hiwar`: `hyperframes lint` 0 errors (1 nested-structure warning), snap without console errors, render 28.74 s
+  1080p30 in 13.3 s, -15.8 LUFS integrated, true peak -1.5 dBTP, 5 SRT cues; `gallery/hiwar.mp4` (720p) + `hiwar.jpg`.
+- `albidhra` / `sky` / `light-speed` rebuilt: lint 0 errors; `new_film.py --from hiwar` (English recast) smoke-tested.
+- English pipeline: 3 English lines -> Andrew / Ava voices, `max_pause`, `rhubarb-en` lip sync, `stt_check` 0.95–1.00.
+- Not exercised (no keys here): the ElevenLabs paths.
+
 ## 2026-10-24 — rig v2: one connected, smooth figure
 - Owner feedback on «البذرة»: the figure looked disconnected and its edges were rough.
 - `engine/stickfilm.js` `rig()`: arms now grow from the top of the spine and legs from the hips (CMU shoulder joints sit
