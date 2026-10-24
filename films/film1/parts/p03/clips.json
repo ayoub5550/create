@@ -1,0 +1,10 @@
+{
+  "groundY": 262,
+  "clips": {
+    "walk":  {"take": "82_10", "note": "sad walk forward", "args": {"view": "travel", "start": 40, "keep_drift": true},
+              "range": [0, 132], "cycle": {"search": [25, 70], "len": [24, 48]}},
+    "sit":   {"take": "13_01", "note": "sit on a stool, stand up", "args": {"horiz": "z", "max_frames": 400}, "range": [100, 260]},
+    "dance": {"take": "120_05", "note": "Mickey dance (Various Style Walks) - Plan E boombox dance", "args": {"view": "side", "vframe": 60}, "range": [0, 339]},
+    "charl": {"take": "93_03", "note": "charleston_01", "args": {"view": "side", "vframe": 60}, "range": [0, 111]}
+  }
+}

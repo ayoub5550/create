@@ -1,0 +1,198 @@
+{
+ "fps": 30,
+ "note": "P03 hand-directed edit (word-anchored). frame = [cx, cy, zoom] in world px for non-character framings.",
+ "shots": [
+  {
+   "t": 0,
+   "frame": [
+    880,
+    600,
+    1.3
+   ],
+   "why": "WS: Sam rolls in the squeaky wheelbarrow with the PLANT FOOD XXL sack; Layla knits on her stool"
+  },
+  {
+   "t": "l2-0.15",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "she looks up: how much?"
+  },
+  {
+   "t": "l3-0.2",
+   "frame": [
+    800,
+    640,
+    1.45
+   ],
+   "shake": {
+    "t": "l3@2+0.25",
+    "amp": 16,
+    "dur": 0.5
+   },
+   "why": "All of it. He tips it: the mountain buries the mound"
+  },
+  {
+   "t": "l3@2+0.52",
+   "frame": [
+    1660,
+    590,
+    2.6
+   ],
+   "why": "cutaway: Pip bolts from the birdhouse"
+  },
+  {
+   "t": "l3@2+1.55",
+   "frame": [
+    930,
+    660,
+    1.9
+   ],
+   "why": "flies circle the mountain; Sam proud"
+  },
+  {
+   "t": "l4-0.1",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "That's a mountain."
+  },
+  {
+   "t": "l5-0.1",
+   "size": "MS",
+   "on": [
+    "sam"
+   ],
+   "top": 0.1,
+   "why": "Big tree. Big appetite. Hands on hips, the pile in his lead room"
+  },
+  {
+   "t": "l6-0.35",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "she pinches her nose, smell lines"
+  },
+  {
+   "t": "l6.end+0.1",
+   "size": "MCU",
+   "on": [
+    "sam"
+   ],
+   "top": 0.14,
+   "why": "he sniffs... gags (the wipe hides the cut)"
+  },
+  {
+   "t": "l6.end+2.25",
+   "frame": [
+    900,
+    600,
+    1.4
+   ],
+   "why": "after the wipe: speed-shovel montage, zip out, zip in dragging the boombox"
+  },
+  {
+   "t": "l7-0.1",
+   "size": "MS",
+   "on": [
+    "sam",
+    "boombox"
+   ],
+   "zoom": 0.92,
+   "why": "Plan E. Plants love music! -> slams PLAY"
+  },
+  {
+   "t": "l7.end+0.7",
+   "frame": [
+    1060,
+    590,
+    1.12
+   ],
+   "why": "THE DANCE in the whole yard"
+  },
+  {
+   "t": "l7.end+2.2",
+   "frame": [
+    1660,
+    590,
+    2.6
+   ],
+   "why": "Pip returns, head-bobs on the birdhouse"
+  },
+  {
+   "t": "l7.end+3.6",
+   "size": "MS",
+   "on": [
+    "layla"
+   ],
+   "top": 0.12,
+   "why": "needles clicking on the beat, foot tapping, she has no idea"
+  },
+  {
+   "t": "l8-0.1",
+   "why": "Feel the beat, little buddy! (still dancing)",
+   "frame": [
+    840,
+    600,
+    1.65
+   ]
+  },
+  {
+   "t": "l9-0.1",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "It doesn't have ears."
+  },
+  {
+   "t": "l10-0.3",
+   "size": "MS",
+   "on": [
+    "sam",
+    "boombox"
+   ],
+   "zoom": 0.92,
+   "why": "Then it'll feel the bass! He cranks the knob"
+  },
+  {
+   "t": "l10@4e-0.1",
+   "frame": [
+    1190,
+    610,
+    1.5
+   ],
+   "shake": {
+    "t": "l10@4e-0.05",
+    "amp": 12,
+    "dur": 1.5
+   },
+   "why": "the BASS: boombox hops, wind, Pip blown off, topples: bwomp"
+  },
+  {
+   "t": "l10@4e+2.1",
+   "size": "MCU",
+   "on": [
+    "layla"
+   ],
+   "top": 0.13,
+   "why": "windswept deadpan: I think it prefers jazz. (crickets)"
+  },
+  {
+   "t": "l11.end+0.45",
+   "frame": [
+    840,
+    640,
+    1.7
+   ],
+   "why": "button: Sam deflated by the fallen boombox; Pip flutters down onto it, one chirp (crickets)"
+  }
+ ]
+}
